@@ -3,6 +3,10 @@
 Put your custom CSS in this file.
 ===============================================================================================================================
 */
+@font-face {
+    font-family: "Spartan";
+    src: url("fonts/Spartan-VariableFont_wght.ttf");
+}
 
 #sidebar {
     background-color: #465176; /* secondary color */
@@ -37,4 +41,13 @@ Put your custom CSS in this file.
 #sidebar #header .searchbox input::placeholder {
     color: rgba(0, 0, 0, 0.8);
     opacity: 1; /* Firefox */
-  }
+}
+
+#sidebar #header .logo-container h5 {
+    font-family: Spartan, sans-serif;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+    position: relative;
+    line-height: 2;
+    display: inline-block;
+}
