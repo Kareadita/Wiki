@@ -38,10 +38,22 @@
         padding: 0 1rem;
     }
 
+    .logo-container {
+        margin: 2em 0 0;
+
+        .logo {
+            display: inline-block;
+            max-width: 45px;
+            vertical-align: bottom;
+        }
+    }
     h5 {
+        font-family: $font-family-kavita;
+        font-weight: 700;
         margin: 2rem 0 0;
         position: relative;
         line-height: 2;
+        display: inline-block;
 
         a {
             display: block;
