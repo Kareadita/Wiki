@@ -5,7 +5,7 @@ Put your custom CSS in this file.
 */
 @font-face {
     font-family: "Spartan";
-    src: url("fonts/Spartan-VariableFont_wght.ttf");
+    src: url("/user/themes/learn2-git-sync/fonts/Spartan-VariableFont_wght.ttf");
 }
 
 #sidebar {
