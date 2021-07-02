@@ -22,7 +22,7 @@ Put your custom CSS in this file.
 #sidebar #header .logo-container .logo {
     display: inline-block;
     max-width: 45px;
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 #sidebar #header .searchbox {
