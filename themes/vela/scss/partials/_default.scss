@@ -1,0 +1,56 @@
+.flex-container {
+    display: flex;        
+}  
+
+.header-hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);  
+}
+
+.page-title { 
+    margin-bottom: 0px;
+    margin-top: 5px;
+    @include fluid-type($min_width, $max_width, 45px, 80px); 
+} 
+
+
+.content {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 1170px;
+    img, div{ 
+        max-width: 100%; 
+    } 
+    word-wrap: break-word;
+    overflow:hidden;
+}
+
+// Table of contents
+.toc-page {
+    >ol {
+        padding-left: 0;
+    }
+    ol {
+        @media only screen and (max-width: 800px) {
+            padding-left: 15px;
+        }
+        counter-reset: item;
+        font-weight: 500;
+        ol {
+            font-weight: 300;
+            ol {
+                font-size: 90%;
+            }
+        }
+    }
+    li {
+        display: block
+    }
+    li:before {
+        content: counters(item, ".") " ";
+        counter-increment: item
+    }
+}
+

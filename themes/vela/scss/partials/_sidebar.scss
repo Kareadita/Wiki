@@ -1,0 +1,71 @@
+
+.sidebar-nav {
+    a,
+    li,
+    ul {
+        @include fluid-type(320px, 1200px, 16px, 18px);
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background-color: $menu-bg-color;
+    }
+    .metismenu {
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        li {
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            position: relative;
+        }
+        a {
+            position: relative;
+            display: block;
+            padding: 15px 15px;
+            color: $menu-font-color;
+            outline-width: 0;
+            transition: all 0.2s ease-out;
+        }
+        ul>li {
+            padding-left: 2px;
+            border-left: 4px solid $menu-sec-color;
+            background: rgba(185, 185, 185, 0.05);
+        }
+        ul ul {
+            background: rgba(219, 219, 219, -0.05);
+        }
+        a:hover,a:focus,a:active {
+            color: $hover-active-font-color;
+            text-decoration: none;
+            background: $menu-sec-color;
+        }
+        a[aria-expanded="true"] {
+            background-color: $menu-sec-color;
+        }
+        .active-page {
+            font-weight: 400;
+            color: $hover-active-font-color;
+        }
+    }
+}
+
+.sidebar-brand {
+    display: flex;
+    color: $hover-active-font-color;
+    height: auto;
+    padding: 15px 0;
+    line-height: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &:hover {
+        color: darken($hover-active-font-color, 10%);
+    }
+}

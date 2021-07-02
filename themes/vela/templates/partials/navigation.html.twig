@@ -1,0 +1,60 @@
+{% set logo = config.theme.custom_logo %}
+{% if logo %}
+  {% set logo = (logo|first).name %}
+{% else %}
+  {% set logo = "default-logo.svg" %}
+{% endif %}
+<div class="flex-container">
+    <a href="{{ base_url == '' ? '/' : base_url }}" class="sidebar-brand">
+      {% if config.theme.use_logo %}
+        <img
+          src="{{url('theme://images')}}/{{logo}}"
+          style="object-fit: contain;
+            {% if not config.theme.size_dimension %}
+              width:{{config.theme.logo_size}}px;
+            {% else %}
+              height:{{config.theme.logo_size}}px;
+            {% endif %}
+            {% if config.theme.title_in_menu == '' %}
+              max-width: 100%;
+            {% else %}
+              max-width: 50%;
+            {% endif %}
+            "
+          alt="{{site.name}}">
+      {% endif %}          
+      {{ config.theme.title_in_menu|raw }}
+    </a>
+</div>
+
+<nav class="sidebar-nav">
+{% macro nav_loop(page, parents_routable) %}
+    {% for p in page.children.visible %}
+        {% set active_page_or_child = (p.active or p.activeChild) ? 'mm-active' : '' %}
+        {% set active_page = p.active ? 'active-page' : '' %}
+        {% set aria_expanded = (p.active or p.activeChild) ? 'aria-expanded="true"' :  'aria-expanded="false"' %}
+        {% set parent_link = (parents_routable and p.routable) ? p.url : '#' %}
+        {% if p.children.visible.count > 0 %}
+            <li class="{{ active_page_or_child }}">
+                <a href="{{ parent_link }}" class="{{ active_page_or_child }} {{ active_page }} has-arrow webkitNoSelect" {{aria_expanded}}>
+                    {{ p.menu }}
+                </a>
+                <ul class="{{(p.active or p.activeChild) ? 'mm-show' :  ''}}">
+                    {{ _self.nav_loop(p, parents_routable) }}
+                </ul>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{ p.url }}" class="{{ active_page_or_child }} {{ active_page }} webkitNoSelect" aria-expanded="false">
+                    {{ p.menu }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
+
+{% set parents_routable = config.theme.parents_routable %}
+<ul class="metismenu"  id="metismenu">
+    {{ _self.nav_loop(pages, parents_routable) }}
+</ul>
+</nav>

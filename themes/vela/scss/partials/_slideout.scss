@@ -1,0 +1,40 @@
+// prevent flashing
+.main-nav {
+    display: none;
+}
+
+.slideout-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    min-height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 0;
+    display: none;
+}
+
+.slideout-open .slideout-menu {
+    display: block;
+}
+
+.slideout-menu-left {
+    left: 0;
+}
+
+.slideout-panel {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    /* A background-color is required */
+    background-color: $default-bg-color;
+    min-height: 100vh;
+    color: $font-color;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+}

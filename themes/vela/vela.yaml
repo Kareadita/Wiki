@@ -1,0 +1,14 @@
+enabled: true
+title_in_menu: '<div style=''font-size: 30px''>Vela<sub style=''font-size: 15px;padding-top:7px;''>v1.2.3</sub></div><span ></span>'
+use_logo: true
+logo_size: 55
+size_dimension: 0
+hamburger_animation: hamburger--spin
+parents_routable: '0'
+desktop_mode: '1'
+desktop_min_width: 1200
+notice:
+    yellow: Info
+    red: Warning
+    blue: Note
+    green: Tip

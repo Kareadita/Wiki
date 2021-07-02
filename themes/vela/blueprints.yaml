@@ -1,0 +1,118 @@
+name: Vela
+version: 1.2.3
+description: A simple app-like mobile first and content-focused Grav Theme
+icon: rebel
+author:
+  name: Matthias Danzinger
+  email: matthias.danzinger@gmail.com
+homepage: https://github.com/danzinger/grav-theme-vela
+demo: http://demo.matthiasdanzinger.eu/vela
+keywords: grav, theme, vela, app, mobile-first, slideoutjs
+bugs: https://github.com/danzinger/grav-theme-vela/issues
+readme: https://github.com/danzinger/grav-theme-vela/blob/master/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+    sec1:
+      type: section
+      title: Basic Settings
+      underline: true
+      fields:
+        title_in_menu:
+          type: text
+          label: Title in menu
+          help:  If you do not worry about styling, just enter a short title. But you can also provide a HTML string with inline styles here to easily style the title in the menu.
+        use_logo:
+          label: Use logo
+          help: Specify if you like to have a logo at the top of the menu
+          type: toggle
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED     
+        custom_logo:
+          type: file
+          label: Upload your logo
+          help: It will be displayed in the sidebar
+          description: Will be used instead of default logo `theme://images/logo.svg`
+          destination: 'theme@:/images'
+          accept:
+            - image/*           
+        columns:
+          type: columns
+          fields:
+            column1:
+              type: column
+              fields:
+                spacer:
+                  type: spacer
+                  text: ''
+            column2:
+              type: column
+              fields:
+                logo_size:
+                  type: number
+                  label: Logo size in pixels
+                  help:  Set the Logo size in pixels
+            column3:
+              type: column
+              fields:
+                size_dimension:
+                  label: Dimension to resize
+                  type: toggle
+                  default: 0
+                  options:
+                    0: "width"
+                    1: "height"
+        hamburger_animation:
+          type: text
+          label: Specify the hamburger animation. <a href="https://jonsuh.com/hamburgers/">Reference</a>
+    sec2:
+      type: section
+      title: Markdown Notices Settings
+      text:  "<strong>Note: </strong> These settings are only applicable, if markdown notices plugin is used and if built-in css of markdown notices plugin is disabled. You can disable the usage of the built-in-css in the settings of the markdown notices plugin. The Vela theme will then automatically use its own styles for the notices. These include a small text. You can specify here, which text appears above the respective notice."
+      underline: true
+      fields:
+        notice.yellow:
+            type: text
+            label: Yellow markown notice text
+        notice.red:
+            type: text
+            label: Red markown notice text
+        notice.blue:
+            type: text
+            label: Blue markown notice text
+        notice.green:
+            type: text
+            label: Green markown notice text
+    sec3:
+      type: section
+      title: Responsive settings
+      text:  Read the <a href="https://github.com/danzinger/grav-theme-vela">documentation</a> for infomation on these settings.
+      underline: true
+      fields:
+        desktop_mode:
+            type: toggle
+            label: Desktop Mode.
+            help:  Off-canvas-menu is always open if screen is wider than value given below.
+            highlight: 1
+            default: 0
+            options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+        desktop_min_width:
+            type: number
+            label: Desktop min width (pixels)
+            help:  Applies only in desktop mode. If the screen width is wider than the given amount of pixels, the off-canvas menu is always open.
+            default: 1200
+        parents_routable:
+            type: toggle
+            label: Parent pages routable in menu. Careful, read documentation!
+            help: If you have (routable) pages with subpages (parents) and you want these parents to be routable from the menu, use this option. Be careful! The menu closes each time you click a parent if you do not use dektop mode, which makes browsing your website hard since the menu closes each time you click a routable parent.
+            highlight: 1
+            default: 0
+            options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED

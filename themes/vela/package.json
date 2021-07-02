@@ -1,0 +1,27 @@
+{
+  "name": "GravThemeDevelopment",
+  "version": "1.0.0",
+  "homepage": "https://matthiasdanzinger.eu",
+  "author": "Matthias Danzinger <matthias.danzinger@gmail.com>",
+  "description": "Package for GRAV Theme development",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10",
+    "not dead"
+  ],
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "latest",
+    "gulp-wait": "latest"
+  }
+}
