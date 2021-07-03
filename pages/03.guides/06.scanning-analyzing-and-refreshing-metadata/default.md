@@ -55,7 +55,9 @@ Look for the **Action Menu** icon of three vertical dots.
 
 ! **Note**: Depending on the size of your Library, analysis may take a while.
 
+## Automatic Library Refresh
 
+Kavita is set by default to Scan all Libraries Daily (this can be changed under the General Tab in Admin Settings), and to perform a Database Backup Weekly.
 
 ## Refresh Metadata
 
