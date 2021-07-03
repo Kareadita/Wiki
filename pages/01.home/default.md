@@ -7,9 +7,9 @@ body_classes: 'title-center title-h1h2'
 ### What is Kavita?   
 
 
-Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga collection with your friends and family.
+Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga, comics, and ebook collection with your friends and family.
 
-### And More...
+### And so much more...
 
 
 *     Zip, CBZ, RAR, CBR, EPUB Support
@@ -17,8 +17,8 @@ Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source 
 *     Grouping of volumes/chapters by a parsed Series name, not just grouping by folder
 *     Cross Platform with no dependencies - Everything in the box
 *     Responsive and Fast!
-*     Full text search to quickly find your manga
-*     Break up your Manga collection into Libraries each with user access rules
+*     Full text search to quickly find your manga, comics, and ebooks
+*     Break up your manga, comics, and ebooks into Libraries each with user access rules
 *     Create users and share your collection with your friends
 *     Rate and review your Manga right in app
 *     Comic support
