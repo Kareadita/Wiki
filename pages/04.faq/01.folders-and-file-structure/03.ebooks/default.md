@@ -6,9 +6,9 @@ title: eBooks
 
 eBooks are also parsed by filename and not by folder structure.
 
-Kavita scans ebooks in a 2 pass process. First we try to parse from filename. If we can parse out **volume** and **series** name, then we treat it like a manga or comic.
-If not enough information is present, then we use the internal epub metadata. Within that, we also look for certain tags to see if we can group them into a collection, like "Expanse".
-Calibre eBook Managment software can be used to edit epub data to include Series, Volume, and Title so that books series parse correctly into the same series. [Calibre](https://calibre-ebook.com/)
+Kavita scans ebooks in a 2 pass process. First pass tries to parse from filename. If **volume** and **series** name can be parsed, then it is treated like a manga or comic.
+If not enough information is present, the internal epub metadata is used. Within the metadata, certain tags are used to group them into a collection, like "Expanse".
+Calibre eBook Managment software can be used to edit epub metadata to include Series, Volume, and Title so that books series parse correctly into the same series. [Calibre](https://calibre-ebook.com/)
 
 ```
 If the following tags exist in an epub:
