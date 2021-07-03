@@ -50,7 +50,7 @@ You can analyze content in multiple ways: for a book, for a series, or even for 
 
 Look for the **Action Menu** icon of three vertical dots.
 
-![LibraryActions](LibraryActions.jpg?Resize=300,300 "LibraryActions") ![MangaActions](MangaActions.jpg?Resize=300,300 "MangaActions")![BooksActions](BooksActions.jpg?Resize=300,300 "BooksActions")
+![LibraryActions](LibraryActions.jpg?resize=300,300 "LibraryActions") ![MangaActions](MangaActions.jpg?resize=300,300 "MangaActions")![BooksActions](BooksActions.jpg?resize=300,300 "BooksActions")
 
 
 ! **Note**: Depending on the size of your Library, analysis may take a while.
