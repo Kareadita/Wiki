@@ -10,6 +10,7 @@ Kavita scans ebooks in a 2 pass process. First pass tries to parse from filename
 If not enough information is present, the internal epub metadata is used. Within the metadata, certain tags are used to group them into a collection, like "Expanse".
 Calibre eBook Managment software can be used to edit epub metadata to include Series, Volume, and Title so that books series parse correctly into the same series. [Calibre](https://calibre-ebook.com/)
 
+Any EPUB can use:
 ```
 If the following tags exist in an epub:
 calibre:series_index
