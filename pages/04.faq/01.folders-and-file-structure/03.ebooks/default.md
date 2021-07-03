@@ -31,3 +31,15 @@ calibre:series = Dark Tower
 calibre:title_sort = The Gunslinger, The Drawing Of The Three (respectively)
 calibre:series_index = 1, 2 (respectively)
 ```
+As of version 0.4.2, Kavita now supports EPUB version 3.2 "belongs-to-collection" tag as well.
+```
+<metadata>
+    …
+    <meta property="belongs-to-collection" id="c01">
+        The Lord of the Rings
+    </meta>
+    <meta refines="#c01" property="collection-type">set</meta>
+    <meta refines="#c01" property="group-position">2</meta>
+    …
+</metadata>
+```
