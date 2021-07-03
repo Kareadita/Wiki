@@ -22,4 +22,4 @@ Download the latest Linux archive with the following link and execute it. [Relea
 
 Browse to http://localhost:5000 to start using Kavita.
 
-**Note**: Please contact us if you wish to port Kavita for any other distro.
+! **Note**: Please contact us if you wish to port Kavita for any other distro.
