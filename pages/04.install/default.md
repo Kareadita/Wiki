@@ -10,3 +10,4 @@ Installations supported:
 * Linux
 * Docker
 * macOS
+* Various NAS devices like OpenMediaVault
