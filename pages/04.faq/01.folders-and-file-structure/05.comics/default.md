@@ -2,3 +2,4 @@
 title: Comics
 ---
 
+### Comic Structure
