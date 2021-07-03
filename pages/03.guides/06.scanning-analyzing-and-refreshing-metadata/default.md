@@ -53,7 +53,7 @@ Look for the **Action Menu** icon of three vertical dots.
 ![LibraryActions](LibraryActions.jpg "LibraryActions") ![MangaActions](MangaActions.jpg "MangaActions")![BooksActions](BooksActions.jpg "BooksActions")
 
 
-**Note**: Depending on the size of your Library, analysis may take a while.
+! **Note**: Depending on the size of your Library, analysis may take a while.
 
 
 
