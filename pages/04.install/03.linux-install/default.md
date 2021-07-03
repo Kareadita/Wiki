@@ -13,7 +13,7 @@ Download the latest Linux archive with the following link and execute it. [Relea
 #### 2. Open INSTALL
 
 1. Unzip the archive to a directory that is writable.
-2. Use `chmod1 and 1chown` commands so Kavita can write to the directory you placed it in.
+2. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 3. Run Kavita executable. Usually `./Kavita`
 4. Open localhost:5000 and setup your account and libraries in the UI.
 
