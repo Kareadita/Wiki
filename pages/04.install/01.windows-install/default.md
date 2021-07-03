@@ -11,7 +11,6 @@ Download the Windows Installer with the following link and execute it. Download 
 
 ### 2. Open INSTALL
 
-Read the instructions in the INSTALL document.
 
 ### 3. View Kavita
 
