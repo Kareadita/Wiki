@@ -11,3 +11,7 @@ Frequently Asked Questions
 
 * Q. **Kavita doesn't seem to run on my computer?**
 * A. Kavita will not run on any processor (CPU) that does not support AVX flag/options. Generally, Core i3/i5/i7/i9 support them, whereas Pentium and Celeron CPUs do not. 2011 and after CPUs should support AVX.
+
+FAQ Pages TOC:
+
+[Folder and File Structure](https://wiki.kavitareader.com/faq/folders-and-file-structure)
