@@ -4,11 +4,11 @@ title: 'Docker Install'
 
 ### Introduction
 
-The Kavita team does not offer an official Docker image. However, third parties have created and maintain their own.
+The Kavita team does offer an official Docker image which is automatically updated based on changes to [GitHub](https://github.com/Kareadita/Kavita).
 
 #### 1. Kavita on Docker Hub
 
-[Kizaing/KavitaDocker](https://github.com/Kareadita/Kavita)
+[Kizaing/KavitaDocker](https://hub.docker.com/r/kizaing/kavita)
 
 #### 2. Docker Install
 
