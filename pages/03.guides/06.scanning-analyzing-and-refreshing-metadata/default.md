@@ -83,4 +83,6 @@ This will import the following fields from the .opf file for the Series info int
 
 - The `Series` and `Volume` tags will be used to overwrite the title of the Series, in the form `<Series> (<Volume>)`, or just `<Series>` if the `Volume` tag is not present or if the `Volume` is `1`. If multiple values are present, the most frequent value from all books will be used.
 
+### For information regarding best file Naming practices see our FAQ Section
 
+Folders and File Structures FAQ starts [here](https://wiki.kavitareader.com/faq/folders-and-file-structure).
