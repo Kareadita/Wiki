@@ -11,3 +11,4 @@ Installations supported:
 * [Docker](https://wiki.kavitareader.com/install/docker-install)
 * [macOS](https://wiki.kavitareader.com/install/macos)
 * Various NAS devices like OpenMediaVault
+* [Reverse Proxy Examples](https://wiki.kavitareader.com/install/reverse-proxy)
