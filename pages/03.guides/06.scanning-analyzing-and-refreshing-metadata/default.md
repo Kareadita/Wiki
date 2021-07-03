@@ -71,14 +71,13 @@ Metadata is gathered from the following sources:
 
 The metadata refresh is dependent of the type of Library created.
 
-#### Book metadata
+#### Book Metadata
 
 This will import the following fields from the filename into Kavita:
-- `Year`, `Month`, and `Day` to form the _Release Date_
-- `Writer`, `Penciller`, `Inker`, `Colorist`, `Letterer`, `CoverArtist`, and `Editor` as _Authors_ with the according role.  A value with multiple names separated by a `,` will be split in different authors.
+
 - `Title`, `Summary`, `Number` as their Kavita equivalent
 
-#### Series metadata
+#### Series Metadata
 
 This will import the following fields from the .opf file for the Series info into Kavita.
 
