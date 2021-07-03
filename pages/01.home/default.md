@@ -3,8 +3,9 @@ title: 'Welcome to Kavita'
 body_classes: 'title-center title-h1h2'
 ---
 
-# What is Kavita?   
 ![kavita-logo3](kavita-logo3.png "kavita-logo3")
+# What is Kavita?   
+
 
 Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga collection with your friends and family.
 
