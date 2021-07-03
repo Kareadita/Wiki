@@ -2,7 +2,7 @@
 title: Comics
 ---
 
-### Comic Structure
+### Comics Structure
 
 Kavita parses Comics just like it does Manga.
 
