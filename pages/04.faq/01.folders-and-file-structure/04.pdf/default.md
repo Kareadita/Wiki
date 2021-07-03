@@ -2,4 +2,4 @@
 title: PDF
 ---
 
-### PDF is not supported.... Yet. It is on the roadmap for a future release.
+### PDF is not supported.... yet. It is on the roadmap for a future release.
