@@ -4,16 +4,16 @@ admin:
     children_display_order: collection
 ---
 
-#### 1. Install Kavita
+#### 1. Download Kavita
 
 Download the latest Linux archive with the following link and execute it. [Releases](https://github.com/Kareadita/Kavita/releases)
 
-#### 2. Open INSTALL
+#### 2. Install Kavita
 
 1. Unzip the archive to a directory that is writable.
 2. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 3. Run Kavita executable. Usually `./Kavita`
-4. Open localhost:5000 and setup your account and libraries in the UI.
+4. Open http://localhost:5000 and setup your user accounts and libraries in the UI.
 
 
 #### 3. View Kavita
