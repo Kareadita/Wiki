@@ -2,9 +2,6 @@
 title: 'Windows Install'
 ---
 
-*  Kavita is supported natively on Windows.
-*  Kavita supports Windows 10 **only**!
-
 ### 1. Download Kavita
 
 Download the Windows Installer with the following link and execute it. Download [here](https://github.com/Kareadita/Kavita/releases).
