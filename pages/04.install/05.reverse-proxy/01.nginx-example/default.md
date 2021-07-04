@@ -33,14 +33,13 @@ server{
 server {
     if ($host = kavita.example.com) {
         return 301 https://$host$request_uri;
-    } # managed by Certbot
+     } # managed by Certbot
 
-        listen 80;
-        listen [::]:80;
+       listen 80;
+       listen [::]:80;
 
-        server_name kavita.example.com;
+       server_name kavita.example.com;
     return 404; # managed by Certbot
-
-     
+  
  }
  ```
