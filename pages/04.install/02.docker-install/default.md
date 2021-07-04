@@ -34,7 +34,7 @@ services:
             - "5000:5000"
         restart: unless-stopped
 ```
-!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The :latest tag will be the latest stable release. There is also the `:alpine` tag if you want a smaller image, but it is only available for x64 systems.
+!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release. There is also the `:alpine` tag if you want a smaller image, but it is only available for x64 systems.
 
 ### 3. Setup Kavita
 Open http://localhost:5000 and setup your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [Libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
