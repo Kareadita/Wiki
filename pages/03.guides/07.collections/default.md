@@ -11,6 +11,7 @@ By selecting the Edit option in the Action Menu a Collections tag can be created
 ![KavitaCollectionsHomepage](KavitaCollectionsHomepage.jpg "KavitaCollectionsHomepage")
 When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
-To "Promote" a Collection to other Kavita users' homepage, select the Action Button on the Collection and select Edit.
+To "Promote" a Collection to other Kavita users' homepage, select the Action Button on the Collection and select Edit. And then the Promote button.
 ![KavitaCollectionActionSelect](KavitaCollectionActionSelect.jpg "KavitaCollectionActionSelect")
+! **Note**: Although a Promoted Collection can be seen by others, they may not have access to the items due to user access restrictions on what Libraries they can see. 
 ![KavitaCollectionPromotion](KavitaCollectionPromotion.jpg "KavitaCollectionPromotion")
