@@ -18,6 +18,6 @@ Volumes 3 though 6 have the Green Flag which can mean that the item is either ne
 Inside the Manga with the Progress bar, clicking on the current image will bring up the on screen display which will also show your reading progress and allow you to change options or skip forwards or backwards.
 ![KavitaReadingProgressManga](KavitaReadingProgressManga.jpg "KavitaReadingProgressManga")
 
-If you open a Volume, make any progress, and close it again the Green Flag will also disappear. However, you can always mark an item as Unread using the Action Menu.
+If you open a Volume, make any progress, and close it again the Green Flag will also disappear. However, you can always mark an item as Unread using the Action Menu. This will remove all progress from that item.
 
 ![KavitaReadingProgressMangaMarkUnread](KavitaReadingProgressMangaMarkUnread.jpg "KavitaReadingProgressMangaMarkUnread")
