@@ -9,8 +9,8 @@ If something is missing, please let us know.
 Guides TOC:
 * [User Management](https://wiki.kavitareader.com/guides/user-management)
 * [Adding a Library](https://wiki.kavitareader.com/guides/adding-a-library) and [Editing a Library](https://wiki.kavitareader.com/guides/adding-a-library/editing-a-library)
+* [Collections](https://wiki.kavitareader.com/guides/collections)
 * [Read Progress](https://wiki.kavitareader.com/guides/read-progress)
 * [WebReader](https://wiki.kavitareader.com/guides/webreader)
 * [BookReader](https://wiki.kavitareader.com/guides/bookreader)
 * [Scanning, Analyzing, Refreshing Metadata](https://wiki.kavitareader.com/guides/scanning-analyzing-and-refreshing-metadata)
-* [Collections](https://wiki.kavitareader.com/guides/collections)
