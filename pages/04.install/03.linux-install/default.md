@@ -4,8 +4,6 @@ admin:
     children_display_order: collection
 ---
 
-### Linux Install
-
 #### 1. Install Kavita
 
 Download the latest Linux archive with the following link and execute it. [Releases](https://github.com/Kareadita/Kavita/releases)
