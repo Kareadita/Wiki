@@ -12,7 +12,7 @@ Download the latest macOS version at the following link. [Releases](https://gith
 #### 2. Install App
 
 Open the archive and unzip to a folder
-**Note**: Kavita v0.8+ is not compatible with OSX versions < 10.13 due to netcore compatibility.
+! **Note**: Kavita v0.8+ is not compatible with OSX versions < 10.13 due to netcore compatibility.
 
 #### 3. Start Kavita
 
