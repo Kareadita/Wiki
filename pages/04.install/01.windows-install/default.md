@@ -18,7 +18,7 @@ Alternate methods to run Kavita upon Windows startup are available instead of ru
 
 ### 3. View Kavita
 
-Browse to http://localhost:5000 to start using Kavita from any device inside your network. 
+Browse to http://localhost:5000 to start using Kavita from any device inside your network. (A Windows Firewall rule allowing Incoming access to Port 5000 may be required.)
 
 ! "localhost" can be replaced with the IP address of the machine that is running Kavita when accessing from inside your network from a different device like a phone or tablet.
 For more instructions on how to make Kavita accessible from outside your home network... see the [Reverse Proxy](https://wiki.kavitareader.com/install/reverse-proxy) page.
