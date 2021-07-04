@@ -11,6 +11,6 @@ media_order: 'KavitaReadingProgressMain.jpg,KavitaReadingProgressVolumes.jpg,Kav
 
 ![KavitaReadingProgressRead](KavitaReadingProgressRead.jpg "KavitaReadingProgressRead")
 
-![KavitaReadingProgressNewUntouched](KavitaReadingProgressNewUntouched.jpg "KavitaReadingProgressNewUntouched")
-
 ![KavitaReadingProgessCurrent](KavitaReadingProgessCurrent.jpg "KavitaReadingProgessCurrent")
+
+![KavitaReadingProgressNewUntouched](KavitaReadingProgressNewUntouched.jpg "KavitaReadingProgressNewUntouched")
