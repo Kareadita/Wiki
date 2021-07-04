@@ -1,6 +1,6 @@
 ---
 title: 'Read Progress'
-media_order: 'KavitaReadingProgressMain.jpg,KavitaReadingProgressVolumes.jpg,KavitaReadingProgressRead.jpg,KavitaReadingProgressNewUntouched.jpg,KavitaReadingProgessCurrent.jpg,KavitaReadingProgressManga.jpg'
+media_order: 'KavitaReadingProgressMain.jpg,KavitaReadingProgressVolumes.jpg,KavitaReadingProgressRead.jpg,KavitaReadingProgressNewUntouched.jpg,KavitaReadingProgessCurrent.jpg,KavitaReadingProgressManga.jpg,KavitaReadingProgressMangaMarkUnread.jpg'
 ---
 
 ### Manga Reading Progress
@@ -13,7 +13,11 @@ In this example we can quickly see that Volume 1 has been opened as there is no 
 ![KavitaReadingProgressRead](KavitaReadingProgressRead.jpg "KavitaReadingProgressRead")
 
 ![KavitaReadingProgessCurrent](KavitaReadingProgessCurrent.jpg "KavitaReadingProgessCurrent")
-Volumes 3 though 6 have the Green Flag which can mean that the item is either newly added or untouched. If you open a Volume and close it again the Green Flag will disappear.
+Volumes 3 though 6 have the Green Flag which can mean that the item is either newly added or untouched. 
 ![KavitaReadingProgressNewUntouched](KavitaReadingProgressNewUntouched.jpg "KavitaReadingProgressNewUntouched")
 Inside the Manga with the Progress bar, clicking on the current image will bring up the on screen display which will also show your reading progress and allow you to change options or skip forwards or backwards.
 ![KavitaReadingProgressManga](KavitaReadingProgressManga.jpg "KavitaReadingProgressManga")
+
+If you open a Volume, make any progress, and close it again the Green Flag will also disappear. However, you can always mark an item as Unread using the Action Menu.
+
+![KavitaReadingProgressMangaMarkUnread](KavitaReadingProgressMangaMarkUnread.jpg "KavitaReadingProgressMangaMarkUnread")
