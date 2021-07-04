@@ -12,5 +12,5 @@ Select the Users Tab and click Add User. Create the unique Username and Password
 
 Once a User is created you must grant them access to specific Libraries using the Pencil Edit button next to Delete and Change Password. The Sharing: line displays what Libraries the user has access to.
 ![KavitaLibraryAccess](KavitaLibraryAccess.jpg "KavitaLibraryAccess")
-![KavitaAdminDashboardUsers](KavitaAdminDashboardUsers.jpg "KavitaAdminDashboardUsers")
+
 
