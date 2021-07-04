@@ -9,6 +9,7 @@ By selecting the Edit option in the Action Menu a Collections tag can be created
 
 ![Collections](Collections.jpg "Collections")
 ![KavitaCollectionsHomepage](KavitaCollectionsHomepage.jpg "KavitaCollectionsHomepage")
+When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
 ![KavitaCollectionActionSelect](KavitaCollectionActionSelect.jpg "KavitaCollectionActionSelect")
 ![KavitaCollectionPromotion](KavitaCollectionPromotion.jpg "KavitaCollectionPromotion")
