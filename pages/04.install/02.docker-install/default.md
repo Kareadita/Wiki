@@ -13,7 +13,7 @@ The Kavita team does offer an official Docker image which is automatically updat
 #### 2. Docker Install
 
 
-Running your Kavita server in docker is super easy! Barely an inconvenience. You can run the `:latest` stable version with this command:
+Running your Kavita server in docker is super easy! You can run the `:latest` stable version with bind mounts using this command:
 ```
 docker run --name kavita -p 5000:5000 \
 -v /your/manga/directory:/manga \
