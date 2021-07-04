@@ -10,7 +10,7 @@ Download the Windows Installer with the following link and execute it. Download 
 
 1. Unzip the archive to a directory that is writable. On windows, do not place in Program Files.
 2. Run Kavita executable.
-3. Open http://localhost:5000 and setup your admin password, user accounts, and libraries in the UI.
+3. Open http://localhost:5000 and setup your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [Libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
 
 Alternate methods to run Kavita upon Windows startup are available instead of running the program each time you login.
 - Add Kavita to your Startup Folder in Windows
