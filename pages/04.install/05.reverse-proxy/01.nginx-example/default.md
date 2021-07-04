@@ -30,9 +30,6 @@ title: 'NGINX Example'
          proxy_connect_timeout   1800s;
          proxy_buffering         off;
 
-         # Allow large requests to support file uploads to sessions
-         client_max_body_size 10M;
-
          # Proxy to Kavita running locally on port 5000 using ssl
          proxy_pass https://127.0.0.1:5000 ;
      }
