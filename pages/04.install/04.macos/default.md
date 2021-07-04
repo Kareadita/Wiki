@@ -8,7 +8,7 @@ The easiest way to install Kavita on macOS is to use the App archive with the st
 Download the latest macOS version at the following link. [Releases](https://github.com/Kareadita/Kavita/releases)
 
 #### 2. Install App
-Open the archive and unzip to a folder
+Open the archive and unzip to a folder.
 ! **Note**: Kavita v0.8+ is not compatible with OSX versions < 10.13 due to netcore compatibility.
 
 #### 3. Start Kavita
