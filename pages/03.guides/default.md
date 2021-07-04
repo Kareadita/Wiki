@@ -7,7 +7,6 @@ Under this Guides section you will find various How To, or How It Works informat
 If something is missing, please let us know.
 
 Guides TOC:
-* [Organization](https://wiki.kavitareader.com/guides/organization)
 * [User Management](https://wiki.kavitareader.com/guides/user-management)
 * [Adding a Library](https://wiki.kavitareader.com/guides/adding-a-library) and [Editing a Library](https://wiki.kavitareader.com/guides/adding-a-library/editing-a-library)
 * [Read Progress](https://wiki.kavitareader.com/guides/read-progress)
