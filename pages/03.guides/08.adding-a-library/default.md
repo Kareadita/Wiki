@@ -13,5 +13,7 @@ Click the Add Library button. And give the Library a name.
 ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
 Once named click on the Type Drop Down menu to select the type of media in this Library.
 ![KavitaLibraryDropdown](KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
-Next click the Plus sign icon to begin the Folder selection process.
+Next click the Plus sign icon to begin the Folder selection process. Drill down to the top level you want and click Share.
 ![KavitaDirectoryChoose](KavitaDirectoryChoose.jpg "KavitaDirectoryChoose")
+
+
