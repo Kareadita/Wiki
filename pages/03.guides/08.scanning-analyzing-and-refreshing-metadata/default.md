@@ -1,25 +1,27 @@
 ---
-title: 'Scanning, Analyzing, and Refreshing Metadata'
+title: 'Scanning and Refreshing Metadata'
 media_order: 'LibraryActions.jpg,MangaActions.jpg,BooksActions.jpg'
 ---
 
-Once a library has been created, it is processed by Kavita so that all the files are matched to series and books, and metadata is gathered. As time goes on, you’ll add and remove books to the libraries or make other changes that mean the library is no longer up-to-date. You can Scan libraries to bring them up-to-date. Scan Library, and Refresh Metadata for a library do different things.
+Once a library has been created, it is processed by Kavita so that all the files are matched to series and metadata is gathered. As time goes on, you’ll add and remove files to the libraries or make other changes that mean the library is no longer up-to-date. You can invoke the Scan libraries task from the actions menu to bring them up-to-date. Scan Library, and Refresh Metadata for a library do different things.
 
 ## Scan Library Files
 
-Scanning a library makes Kavita check its folders and sub-folders for new or removed books. If it finds new media, it then pulls it into the library. You can think of scanning as “check for new or changed content”. The Kavita Homepage and Library info, will not be updated until the scan is complete.
+Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. The Kavita Homepage and Library info, will not be updated until the scan is complete.
 
-All files that have changed after a scan will be Analyzed.
+All files that have changed after a scan will have their metadata refreshed if applicable.
 
 You should Scan Library Files if you have:
 *Added or deleted files or folders
 *Renamed a file or folder
 *Moved files or folders from one location to another
 
+Scanning a Library is an automated task that by default runs once a day at midnight. You can invoke it at any given time from the Library actions menu from the UI.
+
 
 ## What happens during a Scan?
 
-Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure.
+Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them. Books like epub, will use the metadata within the epub to perform grouping. 
 
 
 ## Analyze books
@@ -28,21 +30,11 @@ Analysis is automatically performed when content is added to your Library. In ra
 
 ### What happens during Analysis?
 
-Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, all files analyzed will also be refreshed for metadata.
-
-#### Gather media properties
-
-The primary purpose of media analysis is to gather information about that media item. All of the media you add to a Library has properties that are useful to know, such as:
-*Container: ZIP, RAR, EPUB, etc.
-*Images Format: JPEG, PNG, WEBP, etc.
-
-Why, though? What use are these media properties? Your Server, together with your apps, can use this information to help determine whether (and how) content can be played.
-
-For example: Imagine you have a CBR file with WEBP images, but you’re using Internet Explorer (which can’t read WEBP). Since the webreader knows what kind of content your browser can display and since your media analysis detected that the book has WEBP images, Kavita can convert those images to a compatible format (like JPEG) for you in order to let you read your book successfully.
+Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, all files analyzed will also be refreshed for metadata. ** This is not always true. We only recalculate metadata if it isn't set, the user requests refresh metadata manually, or the file has been modified since last scan **
 
 #### Generate default artwork
 
-During analysis, artwork will automatically be grabbed from a book file. The first page will be used for poster/thumbnail type purposes.
+During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata.
 
 ### Analyze your content
 
@@ -68,7 +60,7 @@ You should refresh a library or individual item if:
 - You’ve edited a file to change the first picture or added a cover.jpg file
 
 Metadata is gathered from the following sources:
-- A local file located inside a CBZ or CBR
+- A local file located inside an archive file (CBZ, CBR, CB7, ZIP, RAR (RAR5 not supported), 7ZIP)
 - The metadata of an EPUB file
 
 The metadata refresh is dependent of the type of Library created.
