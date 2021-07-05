@@ -13,5 +13,6 @@ When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
 To "Promote" a Collection to other Kavita users' homepage, select the Action Button on the Collection and select Edit. And then the Promote button.
 ![KavitaCollectionActionSelect](KavitaCollectionActionSelect.jpg "KavitaCollectionActionSelect")
+Collections will appear at the bottom of the Kavita homepage. (Collections do not support cover art at this time.) 
 ![KavitaCollectionPromotion2](KavitaCollectionPromotion2.jpg "KavitaCollectionPromotion2")
 ! **Note**: Although a Promoted Collection can be seen by others, they may not have access to the items due to user access restrictions on what Libraries they can see.
