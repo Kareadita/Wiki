@@ -1,6 +1,6 @@
 ---
 title: WebReader
-media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackandTitle.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderHomeMenuFirstPage.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderReadingDirectionPaginationColors.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg'
+media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackandTitle.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderReadingDirectionPaginationColors.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg'
 ---
 
 ![new-reader](new-reader.gif "new-reader")
@@ -13,7 +13,7 @@ This button brings you to the Previous Chapter or Volume.
 
 ![KavitaWebReaderHomeMenuLastPage](KavitaWebReaderHomeMenuLastPage.jpg "KavitaWebReaderHomeMenuLastPage")
 
-![KavitaWebReaderHomeMenuFirstPage](KavitaWebReaderHomeMenuFirstPage.jpg "KavitaWebReaderHomeMenuFirstPage")
+
 
 ![KavitaWebReaderHomeMenuForwardChapterVol](KavitaWebReaderHomeMenuForwardChapterVol.jpg "KavitaWebReaderHomeMenuForwardChapterVol")
 
