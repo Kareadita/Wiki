@@ -1,6 +1,6 @@
 ---
 title: WebReader
-media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg'
+media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackandTitle.jpg'
 ---
 
 ![new-reader](new-reader.gif "new-reader")
