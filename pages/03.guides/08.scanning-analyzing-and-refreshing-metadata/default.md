@@ -30,7 +30,11 @@ Analysis is automatically performed when content is added to your Library. In ra
 
 ### What happens during Analysis?
 
-Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, all files analyzed will also be refreshed for metadata. ** This is not always true. We only recalculate metadata if it isn't set, the user requests refresh metadata manually, or the file has been modified since last scan **
+Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, files analyzed will also be refreshed for metadata in the following conditions:
+- A cover image is not present on the item
+- The user requested a refresh of metadata manually from series action menu
+- The file has been modified since last scan
+
 
 #### Generate default artwork
 
