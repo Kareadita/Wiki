@@ -27,8 +27,6 @@ WebReader Settings
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
-![KavitaWebReaderSettingsFullSmall](KavitaWebReaderSettingsFullSmall.jpg "KavitaWebReaderSettingsFullSmall")
-
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
 
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.jpg "KavitaWebReaderSettingsFullSmallImageScaling")
