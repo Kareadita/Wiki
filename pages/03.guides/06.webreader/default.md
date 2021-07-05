@@ -8,23 +8,21 @@ media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMen
 When in the WebReader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
 ![KavitaWebReaderHomeMenuBackandTitle](KavitaWebReaderHomeMenuBackandTitle.jpg "KavitaWebReaderHomeMenuBackandTitle")
 
-This button brings you to the Previous Chapter or Volume.
+Previous Chapter or Volume
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.jpg "KavitaWebReaderHomeMenuBackChapterVol")
-
+First Page
 ![KavitaWebReaderHomeMenuFirstPage2](KavitaWebReaderHomeMenuFirstPage2.jpg "KavitaWebReaderHomeMenuFirstPage2")
-
+Last Page
 ![KavitaWebReaderHomeMenuLastPage](KavitaWebReaderHomeMenuLastPage.jpg "KavitaWebReaderHomeMenuLastPage")
-
-
-
+Next Chapter or Volume
 ![KavitaWebReaderHomeMenuForwardChapterVol](KavitaWebReaderHomeMenuForwardChapterVol.jpg "KavitaWebReaderHomeMenuForwardChapterVol")
-
+Reading Direction: Left to Right or Right To Left
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
-
+When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
 ![KavitaWebReaderReadingDirectionPaginationColors](KavitaWebReaderReadingDirectionPaginationColors.jpg "KavitaWebReaderReadingDirectionPaginationColors")
-
+Reading Mode: is either Side to Side or Up and Down (helpful WebToon option until development is complete) 
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
-
+Color Options: None, Dark, or Sepia 
 ![KavitaWebReaderColorOptions](KavitaWebReaderColorOptions.jpg "KavitaWebReaderColorOptions")
 
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
