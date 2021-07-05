@@ -7,7 +7,6 @@ media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMen
 
 When in the WebReader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
 ![KavitaWebReaderHomeMenuBackandTitle](KavitaWebReaderHomeMenuBackandTitle.jpg "KavitaWebReaderHomeMenuBackandTitle")
-
 Previous Chapter or Volume
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.jpg "KavitaWebReaderHomeMenuBackChapterVol")
 First Page
@@ -24,9 +23,9 @@ Reading Mode: is either Side to Side or Up and Down (helpful WebToon option unti
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
 Color Options: None, Dark, or Sepia 
 ![KavitaWebReaderColorOptions](KavitaWebReaderColorOptions.jpg "KavitaWebReaderColorOptions")
-
+WebReader Settings
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
-
+! Note: All Menu options scale with the screen size of your device display.
 ![KavitaWebReaderSettingsFullSmall](KavitaWebReaderSettingsFullSmall.jpg "KavitaWebReaderSettingsFullSmall")
 
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
