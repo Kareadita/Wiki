@@ -12,9 +12,9 @@ Scanning a library makes Kavita check its folders and sub-folders for new or rem
 All files that have changed after a scan will have their metadata refreshed if applicable.
 
 You should Scan Library Files if you have:
-*Added or deleted files or folders
-*Renamed a file or folder
-*Moved files or folders from one location to another
+- Added or deleted files or folders
+- Renamed a file or folder
+- Moved files or folders from one location to another
 
 Scanning a Library is an automated task that by default runs once a day at midnight. You can invoke it at any given time from the Library actions menu from the UI.
 
