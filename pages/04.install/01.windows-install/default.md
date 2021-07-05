@@ -8,12 +8,12 @@ Download the Windows Installer with the following link and execute it. Download 
 
 ### 2. Install Kavita
 
-1. Unzip the archive to a directory that is writable. On windows, do not place in Program Files.
+1. Unzip the archive to a directory that is writable. Do not place in Program Files/ or Program Files (x86)/
 2. Run Kavita executable.
 3. Open http://localhost:5000 and setup your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [Libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
 
 Alternate methods to run Kavita upon Windows startup are available instead of running the program each time you login.
-- Add Kavita to your Startup Folder in Windows
+- Add a shortcut to Kavita to your Startup Folder in Windows
 - Use the Non-Sucking Service Manager aka NSSM to make Kavita a Windows Service. [https://nssm.cc/](https://nssm.cc/)
 
 ### 3. View Kavita
