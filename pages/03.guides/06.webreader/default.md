@@ -27,8 +27,11 @@ WebReader Settings
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
+Image Splitting Options: Right to Left or Left to Right
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
-
+Image Scaling Options: Height, Width, and Original
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.jpg "KavitaWebReaderSettingsFullSmallImageScaling")
-
+Auto Close the Menu Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
+
+!! Warning: No settings changes are saved until exiting the menu.
