@@ -10,7 +10,7 @@ kavita.yourdomain.com {
 	tls youremail@youremail.com
 	gzip
 
-    proxy / localhost:5000 {
+    proxy / localhost:5000 192.168.0.1:5000 {
         websocket
         transparent
     }
