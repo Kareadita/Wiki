@@ -160,7 +160,6 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
     ![KavitaNewLibrary](KavitaNewLibrary.jpg?classes=flex "KavitaNewLibrary")
     ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg?classes=flex "KavitaSettingsDropdown")
 </div>
-```
 
     ![KavitaNewLibrary](KavitaNewLibrary.jpg?classes=flex "KavitaNewLibrary")
     ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg?classes=flex "KavitaSettingsDropdown")
