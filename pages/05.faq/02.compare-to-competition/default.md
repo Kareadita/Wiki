@@ -5,7 +5,7 @@ title: 'Compare to Competition'
 | | Kavita | Mango | Komga | Ubooquity | Calibre-web |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
-| Download Support |✓ | | | |
+| Download Support |✓ | | ✓|✓ | |
 | Role-based Security| | | | |
 | OPDS  | Planned | ✓ | ✓ | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
