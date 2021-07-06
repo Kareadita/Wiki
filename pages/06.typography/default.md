@@ -154,9 +154,13 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 !!!! This is a success notification
 ```
 ### Image Alignment
-```html
+```markdown
 <div class="flex-container">
-    <img title="KavitaNewLibrary" alt="KavitaNewLibrary" src="/user/pages/03.guides/03.adding-a-library/KavitaNewLibrary.jpg">
-    <img title="KavitaLibraryDropdown" alt="KavitaLibraryDropdown" src="/user/pages/03.guides/03.adding-a-library/KavitaLibraryDropdown.jpg">
+    ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
+    ![KavitaLibraryDropdown](KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
 </div>
 ```
+<div class="flex-container">
+    ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
+    ![KavitaLibraryDropdown](KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
+</div>
