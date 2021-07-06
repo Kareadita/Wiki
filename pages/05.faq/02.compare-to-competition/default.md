@@ -14,4 +14,4 @@ title: 'Compare to Competition'
 | Metadata | planned |  | |✓ | |
 | Reader| Responsive Web app | Responsive Web app | | Web app | Web only |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ |✓ |
-| Additional | | | | 
+| Additional | | | | | | 
