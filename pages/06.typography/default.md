@@ -1,6 +1,6 @@
 ---
 title: Typography
-published: false
+published: true
 media_order: 'KavitaNewLibrary.jpg,KavitaSettingsDropdown.jpg'
 ---
 
