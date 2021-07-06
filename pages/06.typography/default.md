@@ -157,11 +157,11 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 ### Image Alignment
 ```markdown
 <div class="flex-container">
-    ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
-    ![KavitaLibraryDropdown](KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
+    ![KavitaNewLibrary](KavitaNewLibrary.jpg?classes=flex "KavitaNewLibrary")
+    ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg?classes=flex "KavitaSettingsDropdown")
 </div>
 ```
 <div class="flex-container">
-    ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
-    ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg "KavitaSettingsDropdown")
+    ![KavitaNewLibrary](KavitaNewLibrary.jpg?classes=flex "KavitaNewLibrary")
+    ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg?classes=flex "KavitaSettingsDropdown")
 </div>
