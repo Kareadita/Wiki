@@ -17,5 +17,5 @@ title: 'Compare to Competition'
 | Accessibility and Screen Reader Support | ✓| | | | |
 | Additional | | | | | |
 
-** = OPDS-PS support
+* * = OPDS-PS support
 ! **Note**: No software supports RAR5 at this time.
