@@ -1,1 +1,10 @@
 <!--- Your global JavaScript code can go here -->
+<script>
+  (function() {
+    var elms = document.querySelectorAll('img.flex');
+	console.log(elms);
+	for (let e of elms) {
+		e.parentElement.classList.add("flex-container");
+	}
+  })();
+</script>
