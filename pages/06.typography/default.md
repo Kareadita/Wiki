@@ -1,6 +1,7 @@
 ---
 title: Typography
 published: false
+media_order: 'KavitaNewLibrary.jpg,KavitaSettingsDropdown.jpg'
 ---
 
 ! Details on the full capabilities of Spectre.css can be found in the [Official Spectre Documentation](https://picturepan2.github.io/spectre/elements.html)
@@ -161,6 +162,6 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 </div>
 ```
 <div class="flex-container">
-    ![KavitaNewLibrary](/user/pages/03.guides/03.adding-a-library/KavitaNewLibrary.jpg "KavitaNewLibrary")
-    ![KavitaLibraryDropdown](/user/pages/03.guides/03.adding-a-library/KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
+    ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
+    ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg "KavitaSettingsDropdown")
 </div>
