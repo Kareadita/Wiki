@@ -161,6 +161,6 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 </div>
 ```
 <div class="flex-container">
-    ![KavitaNewLibrary](/pages/images/03.guides/03.adding-a-library/KavitaNewLibrary.jpg "KavitaNewLibrary")
-    ![KavitaLibraryDropdown](/pages/images/03.guides/03.adding-a-library/KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
+    ![KavitaNewLibrary]((user://pages/images/03.guides/03.adding-a-library/KavitaNewLibrary.jpg "KavitaNewLibrary")
+    ![KavitaLibraryDropdown]((user://pages/images/03.guides/03.adding-a-library/KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
 </div>
