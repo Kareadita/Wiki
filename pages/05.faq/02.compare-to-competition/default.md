@@ -19,4 +19,5 @@ title: 'Compare to Competition'
 
 * *= OPDS-PS support
 ! **Note**: No software supports RAR5 at this time.
+
 !!! **Note**: Kavita follows [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) 2.1 to support readers with disabilities.
