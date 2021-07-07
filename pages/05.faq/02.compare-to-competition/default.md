@@ -14,7 +14,6 @@ title: 'Compare to Competition'
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | |
 | eBook text Copy | ✓** | | | | |
 | Metadata | planned |  | |✓ | |
-| Reader| Responsive Web app | Responsive Web app | | Web app | Web only |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ |✓ |
 | Accessibility and Screen Reader Support | ✓ | | ✗ | | |
 | Additional | | | | | |
