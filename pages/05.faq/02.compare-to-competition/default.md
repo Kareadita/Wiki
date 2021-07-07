@@ -10,7 +10,7 @@ title: 'Compare to Competition'
 | Role-based Security|✓ | | | |
 | OPDS  | Planned | ✓* | ✓* | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
-| Formats | cbr, cbz, cb7, zip, rar, 7zip, epub, (pdf planned) | cbz, cbr, zip, rar | cbz, cbr, pdf, epub | cbz, cbr, pdf, epub | |
+| Formats | cbr, cbz, cb7, zip, rar, 7zip, epub, (pdf planned) | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | |
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | |
 | eBook text Copy | ✓** | | | | |
 | Metadata | planned |  | |✓ | |
@@ -21,6 +21,8 @@ title: 'Compare to Competition'
 * *= OPDS-PS support
 
 * **= Kavita <v0.4.3 turn off Tap to Paginate to copy text 
+
+* ***= epub support is limited to images only 
 
 ! **Note**: No software supports RAR5 at this time.
 
