@@ -6,7 +6,7 @@ title: 'Compare to Competition'
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
 | Download |✓ | | ✓|✓ | |
-| Download all books in a Series |✓ | | | | |
+| Download all items in a Series |✓ | | | | |
 | Role-based Security|✓ | | | |
 | OPDS  | Planned | ✓* | ✓* | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
