@@ -2,7 +2,7 @@
 title: 'Compare to Competition'
 ---
 
-| | [Kavita](https://github.com/Kareadita/Kavita) | Mango | Komga | Ubooquity | Calibre-web |
+| | [Kavita](https://github.com/Kareadita/Kavita) | Mango | [Komga](https://github.com/gotson/komga) | Ubooquity | Calibre-web |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
 | Download |✓ | | ✓|✓ | |
@@ -10,7 +10,7 @@ title: 'Compare to Competition'
 | Role-based Security|✓ | | | |
 | OPDS  | Planned | ✓* | ✓* | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
-| Formats | cbr, cbz, cb7, zip, rar, 7zip, epub, (pdf planned) | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | |
+| Formats | cbr, cbz, cb7, cbt, zip, rar, tar.gz, 7zip, 7z, epub, (pdf planned) | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | |
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | |
 | eBook text Copy | ✓** | | | | |
 | Metadata | planned |  | |✓ | |
