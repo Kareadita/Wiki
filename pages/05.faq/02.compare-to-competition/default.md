@@ -2,7 +2,7 @@
 title: 'Compare to Competition'
 ---
 
-| | [Kavita](https://github.com/Kareadita/Kavita) | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | Calibre-web |
+| | [Kavita](https://github.com/Kareadita/Kavita) | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | [Calibre-web](https://github.com/janeczku/calibre-web) |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
 | Download |✓ | | ✓|✓ | |
