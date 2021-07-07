@@ -12,6 +12,7 @@ title: 'Compare to Competition'
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
 | Formats* | cbr, cbz, cb7, zip, rar, 7zip, epub, (pdf planned) | cbz, cbr, zip, rar | cbz, cbr, pdf, epub | cbz, cbr, pdf, epub | |
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | |
+| eBook text Copy** | ✓ | | | | |
 | Metadata | planned |  | |✓ | |
 | Reader| Responsive Web app | Responsive Web app | | Web app | Web only |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ |✓ |
@@ -19,6 +20,8 @@ title: 'Compare to Competition'
 | Additional | | | | | |
 
 * *= OPDS-PS support
+
+* **= Kavita <v0.4.3 turn off Tap to Paginate 
 
 ! **Note**: No software supports RAR5 at this time.
 
