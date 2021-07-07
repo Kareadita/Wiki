@@ -6,12 +6,11 @@ title: 'Compare to Competition'
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
 | Download |Individual file, volume, or entire series | | Individual files |Individual files | |
-| Role-based Security|✓ | | | |
+| Role-based Security|✓ | |✓ | |
 | OPDS  | Planned | ✓* | ✓* | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
 | Formats | cbr, cbz, cb7, cbt, zip, rar, tar.gz, 7zip, 7z, epub, (pdf planned), png, jpg, jpeg | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | |
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | |
-| eBook text Copy | ✓** | | | | |
 | Metadata | planned |  | |✓ | |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ |✓ |
 | Accessibility and Screen Reader Support | ✓ | | ✗ | | |
@@ -19,10 +18,8 @@ title: 'Compare to Competition'
 
 * *= OPDS-PS support
 
-* **= Kavita <v0.4.3 turn off Tap to Paginate to copy text 
-
 * ***= epub support is limited to images only 
 
 ! **Note**: No software supports RAR5 at this time.
 
-!! **Note**: Kavita follows [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) 2.1 to support readers with disabilities.
+!!! **Note**: Kavita follows [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG) 2.1 to support readers with disabilities.
