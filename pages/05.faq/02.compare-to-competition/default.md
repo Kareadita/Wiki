@@ -21,7 +21,7 @@ title: 'Compare to Competition'
 
 * *= OPDS-PS support
 
-* **= Kavita <v0.4.3 turn off Tap to Paginate 
+* **= Kavita <v0.4.3 turn off Tap to Paginate to copy text 
 
 ! **Note**: No software supports RAR5 at this time.
 
