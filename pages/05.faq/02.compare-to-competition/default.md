@@ -5,8 +5,7 @@ title: 'Compare to Competition'
 | | [Kavita](https://github.com/Kareadita/Kavita) | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | [Calibre-web](https://github.com/janeczku/calibre-web) |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
-| Download |✓ | | ✓|✓ | |
-| Download all items in a Series |✓ | | | | |
+| Download |Individual file, volume, or entire series | | Individual files |Individual files | |
 | Role-based Security|✓ | | | |
 | OPDS  | Planned | ✓* | ✓* | ✓ | |
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box| |
