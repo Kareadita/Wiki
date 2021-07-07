@@ -2,7 +2,7 @@
 title: 'Compare to Competition'
 ---
 
-| | Kavita | Mango | Komga | Ubooquity | Calibre-web |
+| | [Kavita](https://github.com/Kareadita/Kavita) | Mango | Komga | Ubooquity | Calibre-web |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | |
 | Download |✓ | | ✓|✓ | |
