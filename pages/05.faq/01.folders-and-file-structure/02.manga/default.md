@@ -37,3 +37,13 @@ An entity is considered a special when:
 * Beelzebub_53\[KSH].zip -> Beelzebub Chapter 53
 * Killing Bites Vol. 0001 Ch. 0001 - Galactica Scanlations (gb) -> Killing Bites Vol 1 Chapter 1
 * And many more...
+
+### Supported but not preferred (v0.4.3 or higher)
+```
+└── Manga 2
+    └── Vol. 1
+        └── Ch.1 - Ch.3
+            ├── 1.zip
+            ├── 2.zip
+            └── 3.zip
+```            
