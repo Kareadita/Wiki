@@ -29,6 +29,7 @@ System Cache is cleared automatically upon Library Scan or as an system function
 !! Warning: Manually clearing system cache while other users are enjoying Kavita will affect them.
 
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.jpg "Kavita%20new%20Admin%20page%20settings")
+Under the More Info section are links to Kavita related websites. Donations are very appreciated and directly support development and web hosting. If Kavita is missing a function please visit the Featurehub link and make a new request, or vote on one you support.  
 
 # User Settings
 To access the user settings page, which holds the all settings for the logged in user, you can use the nav bar dropdown on your username and select "User Settings". These settings apply for the logged in user and will not affect any other user.
