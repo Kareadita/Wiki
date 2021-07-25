@@ -19,7 +19,7 @@ Reading Direction: Left to Right or Right To Left
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
 When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
 ![KavitaWebReaderReadingDirectionPaginationColors](KavitaWebReaderReadingDirectionPaginationColors.jpg "KavitaWebReaderReadingDirectionPaginationColors")
-Reading Mode: is either Side to Side or Up and Down (helpful WebToon option until development is complete) 
+Reading Mode: is either Side to Side, Up and Down, or Webtoon mode
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
 Color Options: None, Dark, or Sepia 
 ![KavitaWebReaderColorOptions](KavitaWebReaderColorOptions.jpg "KavitaWebReaderColorOptions")
