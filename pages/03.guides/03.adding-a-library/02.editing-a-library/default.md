@@ -16,4 +16,4 @@ Each folder has a Share button which can be used to select all content in all su
 
 Once a folder is added or removed from a library, a scan will kickoff to update the underlying library. 
 
-!!! Note: When creating a library, by default, no users will have access. You must grant permission to a library from the User Tab. 
+!!! Note: When creating a library, by default, no users will have access. You must grant permission to access a library from the User Tab. 
