@@ -40,3 +40,11 @@ When in the WebReader click of tap in the center of the screen to bring up the M
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
 
 !! Warning: No settings changes are saved until exiting the menu.
+
+You can also use the following keyboard keys on the Manga Reader:
+
+- LEFT ARROW: Previous Page
+- RIGHT ARROW: Next Page
+- SPACE: Open Menu
+- G: Open Go To Page
+- ESCAPE: Close the reader
