@@ -7,7 +7,7 @@ media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMen
 
 When in the WebReader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
 ![KavitaWebReaderHomeMenuBackandTitle](KavitaWebReaderHomeMenuBackandTitle.jpg "KavitaWebReaderHomeMenuBackandTitle")
-Previous Chapter or Volume
+####Previous Chapter or Volume
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.jpg "KavitaWebReaderHomeMenuBackChapterVol")
 First Page
 ![KavitaWebReaderHomeMenuFirstPage2](KavitaWebReaderHomeMenuFirstPage2.jpg "KavitaWebReaderHomeMenuFirstPage2")
