@@ -28,3 +28,5 @@ rclone mount \
 FAQ Pages TOC:
 
 [Folder and File Structure](https://wiki.kavitareader.com/faq/folders-and-file-structure)
+
+[Compare to Competition](https://wiki.kavitareader.com/faq/compare-to-competition)
