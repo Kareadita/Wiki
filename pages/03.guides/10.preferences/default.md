@@ -40,8 +40,8 @@ To access the user settings page, which holds the all settings for the logged in
 In this section, the user can configure site-wide settings. For now, there is only Dark Mode. Dark Mode is the default theme (v0.4.2+).
 
 
-![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=300,300)
-![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=300,300)
+![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)
+![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=400,400)
 
 ### Reading Settings
 In the reading section, you will find all the options for the manga reader and the book reader. You can customize these as you like and they will apply on any of your devices. You can read more about each reader's setting [here (manga)](https://wiki.kavitareader.com/guides/webreader) and [here (book)](https://wiki.kavitareader.com/guides/bookreader).
