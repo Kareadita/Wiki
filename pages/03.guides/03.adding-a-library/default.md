@@ -1,7 +1,11 @@
 ---
 title: 'Adding a Library'
-media_order: 'KavitaAdminLibraries.jpg,KavitaNewLibrary.jpg,KavitaLibraryDropdown.jpg,KavitaDirectoryChoose.jpg,KavitaAddFolderToLibraryHighlighted.jpg,KavitaSettingsDropdown.jpg'
+media_order: 'KavitaAdminLibraries.jpg,KavitaNewLibrary.jpg,KavitaLibraryDropdown.jpg,KavitaDirectoryChoose.jpg,KavitaAddFolderToLibraryHighlighted.jpg,KavitaSettingsDropdown.jpg,kavita Library File Type.jpg'
 ---
+
+### General Info
+Kavita now supports mixed media libraries. For example your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
+![kavita%20Library%20File%20Type](kavita%20Library%20File%20Type.jpg "kavita%20Library%20File%20Type")
 
 ### Adding a Library to Kavita
 
