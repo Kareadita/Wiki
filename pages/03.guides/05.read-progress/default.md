@@ -5,7 +5,7 @@ media_order: 'KavitaReadingProgressMain.jpg,KavitaReadingProgressVolumes.jpg,Kav
 
 ### Manga Reading Progress
 
-When reading your progress is saved automatically so that you can resume at any time or from a different device.
+When reading your progress is saved automatically so that you can resume at any time or from a different device. Just hit the "Continue" button to jump right to your current page.
 ![KavitaReadingProgressMain](KavitaReadingProgressMain.jpg "KavitaReadingProgressMain")
 In this example we can quickly see that Volume 1 has been opened as there is no Green flag in the top right corner, and while Volume 2 is also missing the flag it has a green progress bar below the cover art.
 ![KavitaReadingProgressVolumes](KavitaReadingProgressVolumes.jpg "KavitaReadingProgressVolumes")
