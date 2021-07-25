@@ -7,36 +7,36 @@ media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMen
 
 When in the WebReader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
 ![KavitaWebReaderHomeMenuBackandTitle](KavitaWebReaderHomeMenuBackandTitle.jpg "KavitaWebReaderHomeMenuBackandTitle")
-#####Previous Chapter or Volume
+#####**Previous Chapter** or **Volume**
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.jpg "KavitaWebReaderHomeMenuBackChapterVol")
-#####First Page
+#####**First Page**
 ![KavitaWebReaderHomeMenuFirstPage2](KavitaWebReaderHomeMenuFirstPage2.jpg "KavitaWebReaderHomeMenuFirstPage2")
-#####Last Page
+#####**Last Page**
 ![KavitaWebReaderHomeMenuLastPage](KavitaWebReaderHomeMenuLastPage.jpg "KavitaWebReaderHomeMenuLastPage")
-#####Next Chapter or Volume
+#####**Next Chapter** or **Volume**
 ![KavitaWebReaderHomeMenuForwardChapterVol](KavitaWebReaderHomeMenuForwardChapterVol.jpg "KavitaWebReaderHomeMenuForwardChapterVol")
-#####Reading Direction: Left to Right or Right To Left
+#####**Reading Direction**: Left to Right or Right To Left
 
 - Reading Direction changes which side of the screen you need to press to move to the next page. By default you are reading Left to right, meaning the right side (as shown in Pagination below) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
 
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
 - When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
 ![KavitaWebReaderReadingDirectionPaginationColors](KavitaWebReaderReadingDirectionPaginationColors.jpg "KavitaWebReaderReadingDirectionPaginationColors")
-#####Reading Mode: is either Side to Side, Up and Down, or Webtoon mode
+#####**Reading Mode**: is either Side to Side, Up and Down, or Webtoon mode
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
-#####Color Options: None, Dark, or Sepia 
+#####**Color Options**: None, Dark, or Sepia 
 ![KavitaWebReaderColorOptions](KavitaWebReaderColorOptions.jpg "KavitaWebReaderColorOptions")
-#####WebReader Settings
+#####**WebReader Settings**
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
-#####Image Splitting Options: Right to Left or Left to Right
+#####**Image Splitting Options**: Right to Left or Left to Right
 - Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splits it so it feels like 2 pages. This is useful if you don't want to scroll while reading on a phone or tablet. Right to Left will split the image so the right side of the image renders first, then the left part as the second page. This is the most common.
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
-#####Image Scaling Options: Height, Width, and Original
+#####**Image Scaling Options**: Height, Width, and Original
 - Scaling Options is how the image should be mapped to your screen. Height fits the image to fill the full height of your screen. Width fits to the width (best for reading on a phone) and Original does no scaling and sends the raw image over. Note that the Automatic Scaling Option from User Preferences will choose the best option based on your screen size.
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.jpg "KavitaWebReaderSettingsFullSmallImageScaling")
-#####Auto Close the Menu Check Box
+#####**Auto Close the Menu** Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
 
 !! Warning: No settings changes are saved until exiting the menu.
