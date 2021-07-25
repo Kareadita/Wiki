@@ -26,6 +26,8 @@ Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source 
 *     Custom collection support with ability to promote collections to all users on server
 *     Frequent updates with new features
 
+### Discord 
+If you have comments or questions not addressed by this Wiki, please join our [Discord](https://discord.gg/b52wT37kt7) server.
 
 ### Installation Instructions
 
