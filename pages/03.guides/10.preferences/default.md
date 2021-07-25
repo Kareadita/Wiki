@@ -23,6 +23,11 @@ Adding Users is covered [here](https://wiki.kavitareader.com/guides/user-managem
 Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/guides/adding-a-library).
 
 ### System Tab
+Under the System Tab admins can track what version Kavita is running. Download Logs, and manually Clear Cache. 
+System Cache is cleared automatically upon Library Scan or as an system function each night.
+
+!!! Warning: Manually clearing system cache while other users are enjoying Kavita will affect them.
+
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.jpg "Kavita%20new%20Admin%20page%20settings")
 
 # User Settings
