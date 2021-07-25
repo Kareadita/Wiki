@@ -16,7 +16,8 @@ Last Page
 Next Chapter or Volume
 ![KavitaWebReaderHomeMenuForwardChapterVol](KavitaWebReaderHomeMenuForwardChapterVol.jpg "KavitaWebReaderHomeMenuForwardChapterVol")
 Reading Direction: Left to Right or Right To Left
-*Reading Direction changes which side of the screen you need to press to move to the next page. By default you are reading Left to right, meaning the right side (as shown in the picture) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
+
+- Reading Direction changes which side of the screen you need to press to move to the next page. By default you are reading Left to right, meaning the right side (as shown in the picture) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
 
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
 When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
