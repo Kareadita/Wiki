@@ -33,6 +33,7 @@ WebReader Settings
 Image Splitting Options: Right to Left or Left to Right
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
 Image Scaling Options: Height, Width, and Original
+- Scaling Options is how the image should be mapped to your screen. Height fits the image to fill the full height of your screen. Width fits to the width (best for reading on a phone) and Original does no scaling and sends the raw image over. NOTE that Automatic Scaling Option from User Preferences will choose the best option based on your screen size.
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.jpg "KavitaWebReaderSettingsFullSmallImageScaling")
 Auto Close the Menu Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
