@@ -14,3 +14,5 @@ Guides TOC:
 * [WebReader](https://wiki.kavitareader.com/guides/webreader)
 * [BookReader](https://wiki.kavitareader.com/guides/bookreader)
 * [Scanning, and Refreshing Metadata](https://wiki.kavitareader.com/guides/scanning-analyzing-and-refreshing-metadata)
+* [Ratings and Reviews](https://wiki.kavitareader.com/guides/rating-and-reviews)
+* [Settings](https://wiki.kavitareader.com/guides/preferences)
