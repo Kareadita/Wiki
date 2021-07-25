@@ -20,7 +20,7 @@ When in the WebReader click of tap in the center of the screen to bring up the M
 - Reading Direction changes which side of the screen you need to press to move to the next page. By default you are reading Left to right, meaning the right side (as shown in Pagination below) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
 
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
-When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
+- When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
 ![KavitaWebReaderReadingDirectionPaginationColors](KavitaWebReaderReadingDirectionPaginationColors.jpg "KavitaWebReaderReadingDirectionPaginationColors")
 #####Reading Mode: is either Side to Side, Up and Down, or Webtoon mode
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
