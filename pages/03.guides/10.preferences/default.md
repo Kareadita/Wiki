@@ -17,8 +17,10 @@ Allowing Anonymous Usage Collection is here, you can opt out. This setting allow
 
 Reoccurring tasks are also configurable to be changed.
 ### Users Tab
+Adding Users is covered [here](https://wiki.kavitareader.com/guides/user-management).
 
 ### Libraries Tab
+Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/guides/adding-a-library).
 
 ### System Tab
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.jpg "Kavita%20new%20Admin%20page%20settings")
