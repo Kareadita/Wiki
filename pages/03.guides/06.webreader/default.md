@@ -41,7 +41,7 @@ When in the WebReader click of tap in the center of the screen to bring up the M
 
 !! Warning: No settings changes are saved until exiting the menu.
 
-You can also use the following keyboard keys on the Manga Reader:
+You can also use the following **keyboard** keys on the Manga Reader:
 
 - LEFT ARROW: Previous Page
 - RIGHT ARROW: Next Page
