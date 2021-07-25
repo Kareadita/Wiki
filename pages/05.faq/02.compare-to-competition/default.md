@@ -14,7 +14,7 @@ title: 'Compare to Competition'
 | Metadata | planned | ✗ | | ✓ | ✓ |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Accessibility and Screen Reader Support | ✓ | | ✗ | | ✗ |
-| Webtoon/Continuous Scroll | ✓ | | | | |
+| Webtoon/Continuous Scroll | ✓ | |✓ | | |
 
 * *= OPDS-PS support
 
