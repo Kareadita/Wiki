@@ -31,6 +31,7 @@ WebReader Settings
 ! Note: All Menu options scale with the screen size of your device display.
 
 Image Splitting Options: Right to Left or Left to Right
+- Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splits it so it feels like 2 pages. This is useful if you don't want to scroll while reading on a phone or tablet. Right to Left will split the image so the right side of the image renders first, then the left part as the second page. This is the most common.
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.jpg "KavitaWebReaderSettingsFullSmallImageSplitting")
 Image Scaling Options: Height, Width, and Original
 - Scaling Options is how the image should be mapped to your screen. Height fits the image to fill the full height of your screen. Width fits to the width (best for reading on a phone) and Original does no scaling and sends the raw image over. Note that the Automatic Scaling Option from User Preferences will choose the best option based on your screen size.
