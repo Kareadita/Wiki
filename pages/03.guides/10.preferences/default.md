@@ -19,6 +19,6 @@ To access the user settings page, which holds the all settings for the logged in
 In this section, the user can configure site-wide settings. For now, there is only Dark Mode. Dark Mode is the default theme (v0.4.2+).
 
 
-![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&sizes=50vw)
-![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&sizes=50vw)
+![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=600,600)
+![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=600,600)
 
