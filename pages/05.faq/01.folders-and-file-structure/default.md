@@ -11,3 +11,4 @@ Folder and File Structure TOC:
 * [eBooks](https://wiki.kavitareader.com/faq/folders-and-file-structure/ebooks)
 * [PDF](https://wiki.kavitareader.com/faq/folders-and-file-structure/pdf)
 * [Comics](https://wiki.kavitareader.com/faq/folders-and-file-structure/comics)
+* [Raw Images](https://wiki.kavitareader.com/faq/folders-and-file-structure/raw-images)
