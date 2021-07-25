@@ -26,7 +26,7 @@ Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/gui
 Under the System Tab admins can track what version Kavita is running. Download Logs, and manually Clear Cache. 
 System Cache is cleared automatically upon Library Scan or as an system function each night.
 
-!!! Note: Manually clearing system cache while other users are enjoying Kavita will trigger another background cache event.
+!!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
 
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.jpg "Kavita%20new%20Admin%20page%20settings")
 Under the More Info section are links to Kavita related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Featurehub](https://feathub.com/Kareadita/Kavita) link and make a new request, or vote on one you support.  
