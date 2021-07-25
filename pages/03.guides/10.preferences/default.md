@@ -13,11 +13,11 @@ To access the admin dashboard, which holds the all settings for the server, you 
 # User Settings
 To access the user settings page, which holds the all settings for the logged in user, you can use the nav bar dropdown on your username and select "User Settings". These settings apply for the logged in user and will not affect any other user.
 
-![UserSettings](Default Page.PNG "UserSettings")
+![UserSettings](Default Page.PNG)
 
 ### Site Settings
 In this section, the user can configure site-wide settings. For now, there is only Dark Mode. Dark Mode is the default theme (v0.4.2+).
 
-![UserSettingsDarkModeOn](Dark Mode On.PNG?sizes=50vw "UserSettingsDarkModeOn")
-![UserSettingsDarkModeOff](Dark Mode Off.PNG?sizes=50vw "UserSettingsDarkModeOff")
+![UserSettingsDarkModeOn](Dark Mode On.PNG?sizes=50vw)
+![UserSettingsDarkModeOff](Dark Mode Off.PNG?sizes=50vw)
 
