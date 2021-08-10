@@ -10,7 +10,7 @@ Installations supported:
 * [Linux](https://wiki.kavitareader.com/install/linux-install)
 * [Docker](https://wiki.kavitareader.com/install/docker-install)
 * [macOS](https://wiki.kavitareader.com/install/macos)
-* Various NAS devices like UnRaid or OpenMediaVault
+* Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid) or OpenMediaVault
 * [Reverse Proxy Examples](https://wiki.kavitareader.com/install/reverse-proxy)
 
 ### Operating Systems supported by Kavita
