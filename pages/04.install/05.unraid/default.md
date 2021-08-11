@@ -3,7 +3,7 @@ title: Unraid
 media_order: 'Screenshot_2021-08-04_180038.png,Screenshot_2021-08-04_180256.png'
 ---
 
-Kavita is now available in the Unraid Community Applications system. Search for Kavita.
+Kavita is now available in the [Unraid](https://unraid.net/) Community Applications system. Search for Kavita.
 
 ![Screenshot_2021-08-04_180038](Screenshot_2021-08-04_180038.png "Screenshot_2021-08-04_180038")
 
