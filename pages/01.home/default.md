@@ -6,7 +6,7 @@ body_classes: 'title-center title-h1h2'
 ![kavita-logo3](kavita-logo3.png "kavita-logo3")
 ### What is Kavita?   
 
-Kavita, meaning Stories, is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga, comics, and ebook collection with your friends and family.
+Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga, comics, and ebook collection with your friends and family.
 
 ### And so much more...
 
