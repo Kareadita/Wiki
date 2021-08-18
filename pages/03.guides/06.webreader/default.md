@@ -39,7 +39,7 @@ When in the WebReader click of tap in the center of the screen to bring up the M
 #####**Auto Close the Menu** Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
 
-!! Warning: No settings changes are saved until exiting the menu.
+!! Warning: Web Reader menu settings do not persist between reading sessions. Use User Preferences to update for persistence. 
 
 You can also use the following **keyboard** keys on the Manga Reader:
 
