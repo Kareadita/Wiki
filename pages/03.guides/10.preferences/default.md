@@ -1,6 +1,6 @@
 ---
 title: Settings
-media_order: 'Admin Dashboard.PNG,Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Kavita new Admin page settings.jpg,Bookmarks.PNG'
+media_order: 'Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Kavita new Admin page settings.jpg,Bookmarks.PNG,Admin Dashboard.PNG'
 ---
 
 Kavita offers a few different settings for you as an owner and for users. 
