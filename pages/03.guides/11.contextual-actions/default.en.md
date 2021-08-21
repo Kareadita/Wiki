@@ -1,6 +1,6 @@
 ---
 title: 'Contextual Actions'
-media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG'
+media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG'
 ---
 
 In Kavita, there are many different actions you can take on different entities. This page covers the different actions you can take.
@@ -29,12 +29,23 @@ The volume info has some extra functionality. First, as you can see, we have ind
 * Mark as Unread
 * Download
 
-From this screen, you can also update the cover image for the volume if you are an admin. See the [section below]() for more information.
+From this screen, you can also update the cover image for the volume if you are an admin. See the [section below](https://wiki.kavitareader.com/en/guides/contextual-actions#overriding-cover-images) for more information.
 
 ### Series Info
 ![series%20modal](series%20modal.PNG "series%20modal")
 
 
 ## Overriding Cover Images
+As mentioned in [Scanning and Refreshing Metadata](https://wiki.kavitareader.com/en/guides/scanning-analyzing-and-refreshing-metadata#what-happens-during-analysis), Kavita handles generating cover images based on a set of rules. However, if you want total control or want a different image without having to update the actual file, you can now do that with the new cover image chooser screen. This screen can be found in the Volume Info, Series Info and Edit Collection modals.
+
+![cover%20image%20original](cover%20image%20original.PNG "cover%20image%20original")
+
+The cover image chooser allows you to upload a custom image via a URL or a png/jpg on your computer. Once you upload the file and click Save, the image will be applied and instantly reflected on the UI. On the next visit to this screen, there will be a "Reset" button that can be clicked to undo the overridden image and on the next scan Series Refresh, the image will be updated from the file, like it once was originally.
+
+![cover%20image%20after](cover%20image%20after.PNG "cover%20image%20after")
+
+!! Note: Using the URL image loader is not a sure thing. To avoid any security issues, image loading is done in browser. Some sites may reject the image load, some urls may not return. 
+
+If a custom cover image has been set, it will not be overridden by file scans. The only way to change is to manually change the image or use the reset button.
 
 
