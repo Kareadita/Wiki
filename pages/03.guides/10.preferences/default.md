@@ -49,4 +49,5 @@ In the reading section, you will find all the options for the manga reader and t
 ### Password
 The logged in user can change their password from this screen.
 
-### System Tab
+### Bookmarks
+
