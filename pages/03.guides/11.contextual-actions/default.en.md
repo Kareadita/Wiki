@@ -1,6 +1,6 @@
 ---
 title: 'Contextual Actions'
-media_order: 'downloads.PNG,bookmark modal series.PNG'
+media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG'
 ---
 
 In Kavita, there are many different actions you can take on different entities. This page covers the different actions you can take.
@@ -17,5 +17,24 @@ Downloads may take longer than expected to process. Kavita will show a spinner o
 Bookmarks are pages that you want to download after reading for a given series. While using the web reader, you can bookmark certain pages using the bookmark button on the top right. This will save a reference to that page for the given series. At any point in the future, you can use the Series detail context action to open the bookmarks modal for that series. This will give you the option to download all bookmarks in a zip file or delete all references to the bookmarks. You can also view all bookmarks for your account in your [User Settings](https://wiki.kavitareader.com/en/guides/preferences#bookmarks). 
 
 ![bookmark%20modal%20series](bookmark%20modal%20series.PNG "bookmark%20modal%20series")
+
+### Info Modal
+Kavita has grouping which sometimes can be confusing, did a file get grouped properly? How can I check? This is where the Info modal comes from. From a Volume/Chapter, use the context actions menu to select Info. From Series detail, you must be an admin and can use the Edit button.
+
+#### Volume Info
+![volume%20modal](volume%20modal.PNG "volume%20modal")
+
+The volume info has some extra functionality. First, as you can see, we have individual chapters that are grouped into one virtual volume. When reading, you can jump chapter to chapter, but what if you want to re-read chapter 2? This screen will let you by clicking the cover image, which will open the reader directly on that chapter. Likewise, what if you've already read chapters 1-4 and want to quickly mark them as read? Using the context action button next to the Chapter title, you can now: 
+* Mark as Read
+* Mark as Unread
+* Download
+
+From this screen, you can also update the cover image for the volume if you are an admin. See the [section below]() for more information.
+
+### Series Info
+![series%20modal](series%20modal.PNG "series%20modal")
+
+
+## Overriding Cover Images
 
 
