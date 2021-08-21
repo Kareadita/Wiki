@@ -1,11 +1,11 @@
 ---
-title: WebReader
+title: 'Web Reader'
 media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackandTitle.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderReadingDirectionPaginationColors.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg,KavitaWebReaderHomeMenuFirstPage2.jpg'
 ---
 
 ![new-reader](new-reader.gif "new-reader")
 
-When in the WebReader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
+When in the Web Reader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
 ![KavitaWebReaderHomeMenuBackandTitle](KavitaWebReaderHomeMenuBackandTitle.jpg "KavitaWebReaderHomeMenuBackandTitle")
 #####**Previous Chapter** or **Volume**
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.jpg "KavitaWebReaderHomeMenuBackChapterVol")
@@ -26,7 +26,7 @@ When in the WebReader click of tap in the center of the screen to bring up the M
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
 #####**Color Options**: None, Dark, or Sepia 
 ![KavitaWebReaderColorOptions](KavitaWebReaderColorOptions.jpg "KavitaWebReaderColorOptions")
-#####**WebReader Settings**
+#####**Web Reader Settings**
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.jpg "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
