@@ -1,6 +1,6 @@
 ---
 title: Settings
-media_order: 'Admin Dashboard.PNG,Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Kavita new Admin page settings.jpg'
+media_order: 'Admin Dashboard.PNG,Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Kavita new Admin page settings.jpg,Bookmarks.PNG'
 ---
 
 Kavita offers a few different settings for you as an owner and for users. 
@@ -50,4 +50,6 @@ In the reading section, you will find all the options for the manga reader and t
 The logged in user can change their password from this screen.
 
 ### Bookmarks
+Bookmarks are pages that you want to download after reading for a given series. While using the web reader, you can bookmark certain pages using the bookmark button on the top right. This will save a reference to that page for the given series. From the bookmarks tab in User settings, you can see all Series you have bookmarks on and for each series, download or clear said bookmarks. 
 
+![Bookmarks](Bookmarks.PNG "Bookmarks")
