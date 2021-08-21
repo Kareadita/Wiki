@@ -8,7 +8,7 @@ media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActi
 By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a Collections tag can be created and will be used to create a collection with that name. Other Books/Comics/Manga can have this Tag added to become part of the Collection which will be shown on the Kavita Homepage.
 
 ![Collections](Collections.jpg "Collections")
-Collections will appear at the bottom of the Kavita homepage. (Collections do not support cover art at this time.)
+Collections will appear at the bottom of the Kavita homepage. 
 ![KavitaCollectionsHomepageNew](KavitaCollectionsHomepageNew.jpg "KavitaCollectionsHomepageNew")
 When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
