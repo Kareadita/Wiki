@@ -1,6 +1,6 @@
 ---
 title: Settings
-media_order: 'Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Kavita new Admin page settings.jpg,Bookmarks.PNG,Admin Dashboard.PNG'
+media_order: 'Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Bookmarks.PNG,Kavita new Admin page settings.PNG,CheckForUpdate.PNG,Changelog.PNG'
 ---
 
 Kavita offers a few different settings for you as an owner and for users. 
@@ -23,13 +23,22 @@ Adding Users is covered [here](https://wiki.kavitareader.com/guides/user-managem
 Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/guides/adding-a-library).
 
 ### System Tab
-Under the System Tab admins can track what version Kavita is running. Download Logs, and manually Clear Cache. 
+Under the System Tab admins can track what version Kavita is running, download logs, backup the database, check for updates, and manually Clear Cache. 
 System Cache is cleared automatically upon Library Scan or as an system function each night.
 
 !!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
 
-![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.jpg "Kavita%20new%20Admin%20page%20settings")
+![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.PNG "Kavita%20new%20Admin%20page%20settings")
 Under the More Info section are links to Kavita related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Featurehub](https://feathub.com/Kareadita/Kavita) link and make a new request, or vote on one you support.  
+
+### Checking For Updates
+Kavita offers a quick way to see if a new version is available. From the System tab, click Actions -> Check for Update. A modal will appear if an update is available where you can read the new features and fixes and click Download to open the Github and download the updated version. If you are are on Docker, there is no Download button. Please pull the latest image yourself. 
+
+![CheckForUpdate](CheckForUpdate.PNG "CheckForUpdate")
+
+In addition, a new tab is available: Changelog. You guessed it, it is a log of all the versions and the changes that go along with it. You can also jump to the Github to view it on the site itself. 
+
+![Changelog](Changelog.PNG "Changelog")
 
 # User Settings
 To access the user settings page, which holds the all settings for the logged in user, you can use the nav bar dropdown on your username and select "User Settings". These settings apply for the logged in user and will not affect any other user.
