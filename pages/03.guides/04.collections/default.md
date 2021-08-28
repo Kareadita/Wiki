@@ -1,13 +1,13 @@
 ---
 title: Collections
-media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActionSelect.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg'
+media_order: 'KavitaCollectionsHomepage.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg,kavita_Collections_Details.jpg'
 ---
 
 ### Collections
 
 By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a Collections tag can be created and will be used to create a collection with that name. Other Books/Comics/Manga can have this Tag added to become part of the Collection which will be shown on the Kavita Homepage.
 
-![Collections](Collections.jpg "Collections")
+![kavita_Collections_Details](kavita_Collections_Details.jpg "kavita_Collections_Details")
 Collections will appear at the bottom of the Kavita homepage. 
 ![kavita_homepage_Collections](kavita_homepage_Collections.jpg "kavita_homepage_Collections")
 Collections can be accessed directly or they have their own select-able homepage.
