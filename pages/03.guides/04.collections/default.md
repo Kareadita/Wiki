@@ -1,6 +1,6 @@
 ---
 title: Collections
-media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActionSelect.jpg,KavitaCollectionSelected.jpg,KavitaCollectionPromotion2.jpg,KavitaCollectionsHomepageNew.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg'
+media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActionSelect.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg'
 ---
 
 ### Collections
@@ -9,7 +9,7 @@ By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Acti
 
 ![Collections](Collections.jpg "Collections")
 Collections will appear at the bottom of the Kavita homepage. 
-![KavitaCollectionsHomepageNew](KavitaCollectionsHomepageNew.jpg "KavitaCollectionsHomepageNew")
+![kavita_homepage_Collections](kavita_homepage_Collections.jpg "kavita_homepage_Collections")
 When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
 To Edit a Collection click on the Context Action button and select Edit.
