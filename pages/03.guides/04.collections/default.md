@@ -1,6 +1,6 @@
 ---
 title: Collections
-media_order: 'KavitaCollectionsHomepage.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg,kavita_Collections_Details.jpg,kavtia_Collections_Delete.jpg'
+media_order: 'KavitaCollectionsHomepage.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg,kavita_Collections_Details.jpg,kavtia_Collections_Delete.jpg,kavita_Collections_detailedView.jpg'
 ---
 
 ### Collections
@@ -14,7 +14,7 @@ Collections can be accessed directly or they have their own select-able homepage
 ![kavita_homepage_Collections_select](kavita_homepage_Collections_select.jpg "kavita_homepage_Collections_select")
 ![kavita_Collections_page](kavita_Collections_page.jpg "kavita_Collections_page")
 When selected all Series in the Collection will be available.
-![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
+![kavita_Collections_detailedView](kavita_Collections_detailedView.jpg "kavita_Collections_detailedView")
 To Edit a Collection click on the Context Action button and select Edit.
 ![kavita_Collections_Edit](kavita_Collections_Edit.jpg "kavita_Collections_Edit")
 To "Promote" a Collection to other Kavita users' homepage, click on the Promote button.
