@@ -1,6 +1,6 @@
 ---
 title: Collections
-media_order: 'KavitaCollectionsHomepage.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg,kavita_Collections_Details.jpg'
+media_order: 'KavitaCollectionsHomepage.jpg,KavitaCollectionSelected.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg,kavita_Collections_page.jpg,kavita_homepage_Collections.jpg,kavita_homepage_Collections_select.jpg,kavita_Collections_Details.jpg,kavtia_Collections_Delete.jpg'
 ---
 
 ### Collections
@@ -22,3 +22,5 @@ To "Promote" a Collection to other Kavita users' homepage, click on the Promote 
 ! **Note**: Although a Promoted Collection can be seen by others, they may not have access to the items due to user access restrictions on what Libraries they can see.
 To edit the cover image for a Collection, select the Cover Image tab and choose a method to select a new cover. The Cover can also be Reset to default on this Tab.
 ![kavita_Collections_Edit_CoverImage](kavita_Collections_Edit_CoverImage.jpg "kavita_Collections_Edit_CoverImage")
+To Delete a Collection/Tag uncheck all Series in the Collection and hit Save. A popup will warn that you are about to delete the Collection/Tag.
+![kavtia_Collections_Delete](kavtia_Collections_Delete.jpg "kavtia_Collections_Delete")
