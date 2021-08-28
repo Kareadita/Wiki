@@ -1,6 +1,6 @@
 ---
 title: Collections
-media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActionSelect.jpg,KavitaCollectionSelected.jpg,KavitaCollectionPromotion2.jpg,KavitaCollectionsHomepageNew.jpg,Kavita Context Action Menu.png'
+media_order: 'Collections.jpg,KavitaCollectionsHomepage.jpg,KavitaCollectionActionSelect.jpg,KavitaCollectionSelected.jpg,KavitaCollectionPromotion2.jpg,KavitaCollectionsHomepageNew.jpg,Kavita Context Action Menu.png,kavita_Collections_Edit_General.jpg,kavita_Collections_Edit_CoverImage.jpg,kavita_Collections_Edit.jpg'
 ---
 
 ### Collections
@@ -12,7 +12,9 @@ Collections will appear at the bottom of the Kavita homepage.
 ![KavitaCollectionsHomepageNew](KavitaCollectionsHomepageNew.jpg "KavitaCollectionsHomepageNew")
 When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
-To "Promote" a Collection to other Kavita users' homepage, select the Action Button on the Collection and select Edit. And then the Promote button.
-![KavitaCollectionActionSelect](KavitaCollectionActionSelect.jpg "KavitaCollectionActionSelect")
-![KavitaCollectionPromotion2](KavitaCollectionPromotion2.jpg "KavitaCollectionPromotion2")
+To Edit a Collection click on the Context Action button and select Edit.
+![kavita_Collections_Edit](kavita_Collections_Edit.jpg "kavita_Collections_Edit")
+To "Promote" a Collection to other Kavita users' homepage, click on the Promote button.
+![kavita_Collections_Edit_General](kavita_Collections_Edit_General.jpg "kavita_Collections_Edit_General")
+![kavita_Collections_Edit_CoverImage](kavita_Collections_Edit_CoverImage.jpg "kavita_Collections_Edit_CoverImage")
 ! **Note**: Although a Promoted Collection can be seen by others, they may not have access to the items due to user access restrictions on what Libraries they can see.
