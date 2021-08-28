@@ -49,6 +49,6 @@ The cover image chooser allows you to upload a custom image via a URL or a png/j
 If a custom cover image has been set, it will not be overridden by file scans. The only way to change is to manually change the image or use the reset button.
 
 ## Filtering
-
+Filtering allows the user to select the type of content displayed in a Library
 ![kavita_Library_Filtering](kavita_Library_Filtering.jpg "kavita_Library_Filtering")
 ![kavita_Library_Filtering2](kavita_Library_Filtering2.jpg "kavita_Library_Filtering2")
