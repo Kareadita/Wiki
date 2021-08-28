@@ -1,6 +1,6 @@
 ---
 title: 'Web Reader'
-media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderReadingDirectionPaginationColors.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg,KavitaWebReaderHomeMenuFirstPage2.jpg,kavita_WebReader_Settings.jpg'
+media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg,KavitaWebReaderHomeMenuFirstPage2.jpg,kavita_WebReader_Settings.jpg,kavita_webreader_pagination.jpg'
 ---
 
 ![new-reader](new-reader.gif "new-reader")
@@ -21,7 +21,7 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.jpg "KavitaWebReaderReadingDirection")
 - When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
-![KavitaWebReaderReadingDirectionPaginationColors](KavitaWebReaderReadingDirectionPaginationColors.jpg "KavitaWebReaderReadingDirectionPaginationColors")
+![kavita_webreader_pagination](kavita_webreader_pagination.jpg "kavita_webreader_pagination")
 #####**Reading Mode**: is either Side to Side, Up and Down, or Webtoon mode
 ![KavitaWebReaderHomeReadingMode](KavitaWebReaderHomeReadingMode.jpg "KavitaWebReaderHomeReadingMode")
 #####**Color Options**: None, Dark, or Sepia 
