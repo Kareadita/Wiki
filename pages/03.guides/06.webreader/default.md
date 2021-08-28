@@ -39,7 +39,7 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 #####**Auto Close the Menu** Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
 
-#####**Bookmark Selection** 
+#####**Bookmark Selection** at the top right of each page.
 ![kavita_WebReader_BookmarkPage2](kavita_WebReader_BookmarkPage2.jpg "kavita_WebReader_BookmarkPage2")
 
 !! Warning: Web Reader menu settings do not persist between reading sessions. Use User Preferences to update for persistence. 
