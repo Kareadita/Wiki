@@ -10,6 +10,8 @@ By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Acti
 ![Collections](Collections.jpg "Collections")
 Collections will appear at the bottom of the Kavita homepage. 
 ![kavita_homepage_Collections](kavita_homepage_Collections.jpg "kavita_homepage_Collections")
+Collections can be accessed directly or they have their own select-able homepage.
+![kavita_homepage_Collections_select](kavita_homepage_Collections_select.jpg "kavita_homepage_Collections_select")
 When selected all items in the Collection will be available.
 ![KavitaCollectionSelected](KavitaCollectionSelected.jpg "KavitaCollectionSelected")
 To Edit a Collection click on the Context Action button and select Edit.
