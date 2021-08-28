@@ -1,6 +1,6 @@
 ---
 title: 'Contextual Actions'
-media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG'
+media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG,kavita_Library_Filtering.jpg,kavita_Library_Filtering2.jpg'
 ---
 
 In Kavita, there are many different actions you can take on different entities. This page covers the different actions you can take.
@@ -51,3 +51,4 @@ If a custom cover image has been set, it will not be overridden by file scans. T
 ## Filtering
 
 ![kavita_Library_Filtering](kavita_Library_Filtering.jpg "kavita_Library_Filtering")
+![kavita_Library_Filtering2](kavita_Library_Filtering2.jpg "kavita_Library_Filtering2")
