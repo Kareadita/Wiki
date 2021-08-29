@@ -36,7 +36,7 @@ An entity is considered a special when:
 * Itoshi no Karin - c001-006x1 (v01) [Renzokusei Scans] -> Itoshi no Karin Chapters 1-6
 * Beelzebub_53\[KSH].zip -> Beelzebub Chapter 53
 * Killing Bites Vol. 0001 Ch. 0001 - Galactica Scanlations (gb) -> Killing Bites Vol 1 Chapter 1
-* And many more...
+* And [many more](https://github.com/Kareadita/Kavita/blob/develop/API.Tests/Parser/MangaParserTests.cs)...
 
 ### Supported but not preferred (v0.4.3 or higher)
 ```
