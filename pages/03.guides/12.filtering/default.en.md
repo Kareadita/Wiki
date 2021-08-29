@@ -3,7 +3,7 @@ title: Filtering
 media_order: kavita_Library_Filtering.jpg
 ---
 
-# Filtering
+## Filtering
 Filtering allows the user to select the type of content displayed in a Library
 Select the Funnel at the top right to open the Filtering options
 ![kavita_Library_Filtering](kavita_Library_Filtering.jpg "kavita_Library_Filtering")
