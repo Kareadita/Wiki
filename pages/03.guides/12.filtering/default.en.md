@@ -1,5 +1,6 @@
 ---
 title: Filtering
+media_order: kavita_Library_Filtering.jpg
 ---
 
 # Filtering
