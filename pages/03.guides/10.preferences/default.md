@@ -15,6 +15,8 @@ There are a multitude of settings that can be changed. The Port and Logging Leve
 
 Allowing Anonymous Usage Collection is here, you can opt out. This setting allows you to send Anonymous data about your install which helps the Kavita team understand it's user base to make design decisions and performance enhancements. Some information that is collected is file types within kavita, number of users, screen sizes and browser information, OS, version, if you are using docker or not. The Stat collection is within the Kavita and KavitaStats repositories.
 
+You can enable OPDS for your Server here. See this [page]() for how it works.
+
 Reoccurring tasks are also configurable to be changed.
 ### Users Tab
 Adding Users is covered [here](https://wiki.kavitareader.com/guides/user-management).
