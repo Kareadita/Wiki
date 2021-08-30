@@ -20,9 +20,9 @@ Download the latest Linux archive with the following link and execute it. [Relea
 
 Browse to http://localhost:5000 to start using Kavita.
 
-#### 4. Install Kavita as a Service
+#### 4. Install Kavita as a Service (Optional)
 
-Optionally to have Kavita start in the background at boot, you may install it as a systemd service on your operating system. Save the following to a file named kavita.service in the directory /etc/systemd/system.
+Optionally to have Kavita start in the background at boot, you may install it as a systemd service on your operating system. Save the following to a file named kavita.service in the directory `/etc/systemd/system`.
 
 ```
 [Unit]
