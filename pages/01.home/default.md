@@ -42,7 +42,7 @@ Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and 
 * Frequent updates with new features
 
 ### Discord 
-If you have comments or questions not addressed by this Wiki, please join our [Discord](https://discord.gg/b52wT37kt7) server.
+If you have comments or questions not addressed by this Wiki or want to help us improve it, please join our [Discord](https://discord.gg/b52wT37kt7) server.
 
 ### Installation Instructions
 
