@@ -6,7 +6,7 @@ body_classes: 'title-center title-h1h2'
 ![kavita-logo3](kavita-logo3.png "kavita-logo3")
 ### What is Kavita?   
 
-Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga, comics, and ebook collection with your friends and family.
+Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and book server. Built from the ground up with a focus on manga and a goal of being a full solution to your reading needs. Setup your own server and share your manga, comics, and e-book collection with your friends and family.
 
 ### And so much more...
 
@@ -38,6 +38,7 @@ Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and 
 * Mixed media Libraries - Light Novels and Manga can be right next to each other
 * Fast and efficient library scans. Don't perform I/O if the underlying file hasn't changed.
 * Accessibility first - audits for color contrast, screen reader, and keyboard only
+* OPDS Support
 * Frequent updates with new features
 
 ### Discord 
@@ -46,4 +47,7 @@ If you have comments or questions not addressed by this Wiki, please join our [D
 ### Installation Instructions
 
 If you haven't installed Kavita yet, please see the Install page [here](https://wiki.kavitareader.com/install). 
+
+### Naming convention
+After install, make sure you check out our [naming conventions](https://wiki.kavitareader.com/en/faq/folders-and-file-structure). 
 
