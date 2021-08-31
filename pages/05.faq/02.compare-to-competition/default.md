@@ -11,7 +11,7 @@ title: 'Compare to Competition'
 | Dark/light mode | ✓ | ✓ | ✓ | Not out of the box | ✗ |
 | Formats | cbr, cbz, cb7, cbt, zip, rar, tar.gz, 7zip, 7z, epub, pdf, png, jpg, jpeg | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | mobi, epub, pdf, cbz, cbr, cbt, lit, doc(x), odt, rtf, html |
 | Reading Progress | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Metadata | planned | ✗ | | ✓ | ✓ |
+| Metadata | planned | ✗ | ✗ | ✓ | ✓ |
 | Cross Platform | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Accessibility and Screen Reader Support | ✓ | | ✗ | | ✗ |
 | Webtoon/Continuous Scroll | ✓ | |✓ | | |
