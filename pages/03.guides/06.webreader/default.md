@@ -50,4 +50,5 @@ You can also use the following **keyboard** keys on the Manga Reader:
 - RIGHT ARROW: Next Page
 - SPACE: Open Menu
 - G: Open Go To Page
+- B: Bookmark Current Page
 - ESCAPE: Close the reader
