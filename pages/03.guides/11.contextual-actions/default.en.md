@@ -1,6 +1,6 @@
 ---
 title: 'Contextual Actions'
-media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG,kavita_Library_Filtering.jpg,kavita_Library_Filtering2.jpg'
+media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG,kavita_Library_Filtering.jpg,kavita_Library_Filtering2.jpg,list view.PNG'
 ---
 
 In Kavita, there are many different actions you can take on different entities. This page covers the different actions you can take.
@@ -48,3 +48,12 @@ The cover image chooser allows you to upload a custom image via a URL or a png/j
 
 If a custom cover image has been set, it will not be overridden by file scans. The only way to change is to manually change the image or use the reset button.
 
+### Incognito Reading
+Volume and chapters offer the ability to read without saving your progress. This is great for if you want to read a few pages before committing to a new series. By using "Read in Incognito", the reader will not report any progress. 
+
+### Reading List
+From any Series, Volume, or Chapter, you can add said item to a reading list. All the chapters of that entity will be added to the reading list. A reading list is an ordered list of chapters that can be of mixed media types. Admin's can promote reading lists so all users can see them, but not edit them. Otherwise, reading lists are per-user. 
+
+Users can read through in one go a reading list and the readers will transition between the different readers. For example you can have Manga -> Manga -> Book -> Manga and you can read that without closing the reader. The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically. Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
+
+![list%20view](list%20view.PNG "list%20view")
