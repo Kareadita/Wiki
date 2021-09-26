@@ -1,6 +1,6 @@
 ---
 title: 'Web Reader'
-media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg,KavitaWebReaderHomeMenuFirstPage2.jpg,kavita_WebReader_Settings.jpg,kavita_webreader_pagination.jpg,kavita_WebReader_BookmarkPage2.jpg'
+media_order: 'new-reader.gif,KavitaWebReaderHomeMenu2.jpg,KavitaWebReaderHomeMenuBackChapterVol.jpg,KavitaWebReaderHomeMenuLastPage.jpg,KavitaWebReaderHomeMenuForwardChapterVol.jpg,KavitaWebReaderReadingDirection.jpg,KavitaWebReaderHomeReadingMode.jpg,KavitaWebReaderColorOptions.jpg,KavitaWebReaderSettings.jpg,KavitaWebReaderSettingsFullSmall.jpg,KavitaWebReaderSettingsFullSmallImageSplitting.jpg,KavitaWebReaderSettingsFullSmallImageScaling.jpg,KavitaWebReaderSettingsFullSmallAutoCloseMenu.jpg,KavitaWebReaderHomeMenuFirstPage2.jpg,kavita_WebReader_Settings.jpg,kavita_webreader_pagination.jpg,kavita_WebReader_BookmarkPage2.jpg,webtoon_cont_reading.gif'
 ---
 
 ![new-reader](new-reader.gif "new-reader")
@@ -44,11 +44,17 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 
 !! Warning: Web Reader menu settings do not persist between reading sessions. Use User Preferences to update for persistence. 
 
-You can also use the following **keyboard** keys on the Manga Reader:
-
+### Keyboard Shortcuts
 - LEFT/RIGHT ARROW: Previous/Next Page (assuming left to right reading mode) (Left being Previous assumes Left to Right reading direction)
 - UP/DOWN ARROW: Previous/Next Page (assuming using up and down reading mode)
 - SPACE: Open Menu
 - G: Open Go To Page
 - B: Bookmark Current Page
 - ESCAPE: Close the reader
+
+### Continuous Reading Mode
+The reader provides a few ways to read without having to close the reader to open the next chapter. As shown above, there are Next/Previous Chapter buttons that can be manually clicked and in addition, for non-webtoon (infinite scroll) mode, you can just page like normal and within 10 pages of a chapter boundary, the server will prefetch information needed and tell the server to start caching said files. 
+
+For infinite scroll, due to the nature of the reader, there is a slightly more manual way to trigger the next/previous chapters. You can always use the buttons, however to do it without using the menu is more ideal. Now when the user scrolls to top or last page in the reader, a "spacer" is inserted at the top or bottom respectively. This spacer should show an animation to the user to scroll into it. When that is done, the next chapter is loaded. 
+
+![webtoon_cont_reading](webtoon_cont_reading.gif "webtoon_cont_reading")
