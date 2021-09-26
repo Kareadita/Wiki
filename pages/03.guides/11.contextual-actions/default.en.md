@@ -1,6 +1,6 @@
 ---
 title: 'Contextual Actions'
-media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG,kavita_Library_Filtering.jpg,kavita_Library_Filtering2.jpg,list view.PNG'
+media_order: 'downloads.PNG,bookmark modal series.PNG,series modal.PNG,volume modal.PNG,cover image original.PNG,cover image after.PNG,kavita_Library_Filtering.jpg,kavita_Library_Filtering2.jpg,list view.PNG,multi-select.gif'
 ---
 
 In Kavita, there are many different actions you can take on different entities. This page covers the different actions you can take.
@@ -57,3 +57,9 @@ From any Series, Volume, or Chapter, you can add said item to a reading list. Al
 Users can read through in one go a reading list and the readers will transition between the different readers. For example you can have Manga -> Manga -> Book -> Manga and you can read that without closing the reader. The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically. Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
 
 ![list%20view](list%20view.PNG "list%20view")
+
+
+#### Multi-Selection
+Some context actions can be triggered in bulk, like adding to a reading list or marking something read/unread. To trigger multiple items as read, you can click the checkbox on the top left of the card item. When that happens the bulk selection bar will show at the top of the screen. You can use this bar to perform said operations. On PC, you can hold shift to select multiple cards in one go. 
+
+![multi-select](multi-select.gif "multi-select")
