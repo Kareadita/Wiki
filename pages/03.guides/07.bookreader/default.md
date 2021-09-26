@@ -1,6 +1,6 @@
 ---
 title: 'Book Reader'
-media_order: 'bookreader.PNG,book-reader.gif,toc.PNG,book_goback.gif'
+media_order: 'bookreader.PNG,book-reader.gif,toc.PNG,book_goback.gif,cont_reading_button.PNG,cont_reading.PNG'
 ---
 
 ![book-reader](book-reader.gif "book-reader")
@@ -25,3 +25,10 @@ Kavita provides a dedicated section in the menu drawer for the table of contents
 Some books have links within the reader. Some external and some internal. Kavita does pre-processing before you read and determines if a link is external or not. All external links will open in a new tab. Internal links can be clicked and Kavita will remember the history of links clicked, so you can back out of your nested linking in order by pressing the back button. 
 
 ![book_goback](book_goback.gif "book_goback")
+
+## Continuous Reading
+The book reader offers a way to stay within the reader and move on to the next book (assuming your book is in a series or a reading list). Like the web reader, we now have buttons to manually click and jump between books. Likewise, when you read the first or last page of the book and there is another book, the Next button will show two arrows implying the pagination will load the next book.
+
+![cont_reading](cont_reading.PNG "cont_reading")
+
+![cont_reading_button](cont_reading_button.PNG "cont_reading_button")
