@@ -46,8 +46,8 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 
 You can also use the following **keyboard** keys on the Manga Reader:
 
-- LEFT ARROW: Previous Page
-- RIGHT ARROW: Next Page
+- LEFT/RIGHT ARROW: Previous/Next Page (assuming left to right reading mode) (Left being Previous assumes Left to Right reading direction)
+- UP/DOWN ARROW: Previous/Next Page (assuming using up and down reading mode)
 - SPACE: Open Menu
 - G: Open Go To Page
 - B: Bookmark Current Page
