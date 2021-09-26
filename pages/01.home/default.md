@@ -28,6 +28,7 @@ Kavita is a full fledged, fast, cross platform, & open-source manga, comic, and 
     * Customize your reading experience with custom Font, Font Size, Margin, Reading Direction, Dark Mode
     * Table of Content just a click away
     * Remember line position and resume where you left off, no matter the device
+    * Read across books without closing the reader
 * User Management and Sharing
     * Create users and share your libraries with them
     * Grant users permissions to view libraries or see different mixed-media collections
