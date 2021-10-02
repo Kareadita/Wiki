@@ -1,5 +1,5 @@
 ---
-title: Install
+title: 'Installation Guides'
 ---
 
 ## Installation Guides
