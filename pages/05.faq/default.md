@@ -95,7 +95,7 @@ rclone mount \
 ```
 
 * Q. **I can't read PDF files**
-* A. Kavita currently does not support PDF files on Raspberry Pi devices (ARM-based architecture) due to an issue with the libraries we use. We are investigating a solution. 
+* A. Kavita currently does support PDF files on Raspberry Pi devices (ARM-based architecture), however users may need to manually install a dependencies `libgdiplus`. We are currently investigating a way to do this for you. 
 
 FAQ Pages TOC:
 
