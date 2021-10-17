@@ -6,7 +6,12 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 
 
 ## Android
-
+* Librera
 
 
 ## iOS
+* Chunky: Supports OPDS-PS, epub not supported
+* Panels: epub not supported
+* Yomu (epub only)
+
+! We do not yet have a Tachiyomi plugin for a first class reading experience on Android. If you are interested in helping us build one, please join the discord and ping majora2007. 
