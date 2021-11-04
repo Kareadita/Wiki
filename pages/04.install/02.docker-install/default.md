@@ -19,7 +19,7 @@ docker run --name kavita -p 5000:5000 \
 -v /your/manga/directory:/manga \
 -v /kavita/data/directory:/kavita/config \
 --restart unless-stopped \
--Tz=yourtimezone-identifier \
+-e TZ=Your/Timezone \
 -d kizaing/kavita:latest
 ```
 You can also run it via the docker-compose file:
@@ -31,6 +31,8 @@ services:
         volumes:
             - ./manga:/manga
             - ./data:/kavita/config
+        environment:
+            - TZ=Your/Timezone
         ports:
             - "5000:5000"
         restart: unless-stopped
