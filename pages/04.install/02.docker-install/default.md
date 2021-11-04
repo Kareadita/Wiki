@@ -17,8 +17,9 @@ Running your Kavita server in docker is super easy! You can run the `:latest` st
 ```
 docker run --name kavita -p 5000:5000 \
 -v /your/manga/directory:/manga \
--v /kavita/data/directory:/kavita/data \
+-v /kavita/data/directory:/kavita/config \
 --restart unless-stopped \
+-Tz=yourtimezone-identifier \
 -d kizaing/kavita:latest
 ```
 You can also run it via the docker-compose file:
@@ -29,12 +30,14 @@ services:
         image: kizaing/kavita:latest
         volumes:
             - ./manga:/manga
-            - ./data:/kavita/data
+            - ./data:/kavita/config
         ports:
             - "5000:5000"
         restart: unless-stopped
 ```
-!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release. There is also the `:alpine` tag if you want a smaller image, but it is only available for x64 systems.
+You don't need to call it manga, you can name it anything that works for you. Kavita supports more than just Manga.
+
+!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
 
 ### 3. Setup Kavita
 Open http://localhost:5000 and setup your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [Libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
