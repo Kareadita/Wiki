@@ -100,6 +100,12 @@ rclone mount \
 * Q. **Is there a way to use Kavita without Authentication?**
 * A. As of v0.4.7, Kavita supports disabling Authentication. All admin accounts will still require a password, however, a user chooser will be available to login via. No password is required to be filled out. This can be undone and the password will be presented to you to for all users. 
 
+* Q. **Is there a way to see what isn't being added to Kavita during a scan?**
+* A. As of now, there is no dedicated UI page. You can instead search the logs for this:
+```
+There are multiple series that map to normalized key SERIESNAME. You can manually delete the entity via UI and rescan to fix it. This will be skipped
+```
+
 FAQ Pages TOC:
 
 [Folder and File Structure](https://wiki.kavitareader.com/faq/folders-and-file-structure)
