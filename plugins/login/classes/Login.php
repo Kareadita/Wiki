@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Plugin\Login
  *
- * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2014 - 2021 RocketTheme, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -15,7 +15,10 @@ use Grav\Common\Data\Data;
 use Grav\Common\Debugger;
 use Grav\Common\Grav;
 use Grav\Common\Language\Language;
+use Grav\Common\Language\LanguageCodes;
 use Grav\Common\Page\Interfaces\PageInterface;
+use Grav\Common\Page\Page;
+use Grav\Common\Page\Pages;
 use Grav\Common\Session;
 use Grav\Common\User\Interfaces\UserCollectionInterface;
 use Grav\Common\User\Interfaces\UserInterface;
@@ -23,6 +26,7 @@ use Grav\Common\Uri;
 use Grav\Common\Utils;
 use Grav\Plugin\Email\Utils as EmailUtils;
 use Grav\Plugin\Login\Events\UserLoginEvent;
+use Grav\Plugin\Login\Invitations\Invitation;
 use Grav\Plugin\Login\RememberMe\RememberMe;
 use Grav\Plugin\Login\RememberMe\TokenStorage;
 use Grav\Plugin\Login\TwoFactorAuth\TwoFactorAuth;
@@ -78,9 +82,9 @@ class Login
 
     /**
      * @param string $message
-     * @param array $data
+     * @param object|array $data
      */
-    public static function addDebugMessage(string $message, $data = [])
+    public static function addDebugMessage(string $message, $data = []): void
     {
         /** @var Debugger $debugger */
         $debugger = Grav::instance()['debugger'];
@@ -168,6 +172,8 @@ class Login
         $grav = Grav::instance();
 
         if ($extra instanceof UserInterface) {
+            user_error(__METHOD__ . '($options, $user) is deprecated since Login Plugin 3.5.0, use logout($options, [\'user\' => $user]) instead', E_USER_DEPRECATED);
+
             $extra = ['user' => $extra];
         } elseif (isset($extra['user'])) {
             $extra['user'] = $grav['user'];
@@ -413,6 +419,13 @@ class Login
 
                 break;
 
+            case 'language':
+                $languages = new LanguageCodes();
+                if ($value !== null && !array_key_exists($value, $languages->getList())) {
+                    throw new \RuntimeException('Language code is not valid');
+                }
+
+                break;
         }
 
         return $value;
@@ -513,7 +526,8 @@ class Login
         $user->save();
 
         $param_sep = $this->config->get('system.param_sep', ':');
-        $activation_link = $this->grav['base_url_absolute'] . $this->config->get('plugins.login.route_activate') . '/token' . $param_sep . $token . '/username' . $param_sep . $user->username;
+        $activationRoute = $this->getRoute('activate');
+        $activation_link = $this->grav['base_url_absolute'] . $activationRoute . '/token' . $param_sep . $token . '/username' . $param_sep . $user->username;
 
         $site_name = $this->config->get('site.title', 'Website');
         $author = $this->grav['config']->get('site.author.name', '');
@@ -527,6 +541,44 @@ class Login
             $author
         ]);
         $to = $user->email;
+        $sent = EmailUtils::sendEmail($subject, $content, $to);
+
+        if ($sent < 1) {
+            throw new \RuntimeException($this->language->translate('PLUGIN_LOGIN.EMAIL_SENDING_FAILURE'));
+        }
+
+        return true;
+    }
+
+    /**
+     * Handle the email to invite user.
+     *
+     * @param Invitation $invitation
+     * @param string|null $message
+     * @param UserInterface|null $user
+     * @return bool True if the action was performed.
+     * @throws \RuntimeException
+     */
+    public function sendInviteEmail(Invitation $invitation, string $message = null, UserInterface $user = null)
+    {
+        /** @var UserInterface $user */
+        $user = $user ?? $this->grav['user'];
+
+        $param_sep = $this->config->get('system.param_sep', ':');
+        $inviteRoute = $this->getRoute('register', true);
+        $invitationLink = $this->grav['base_url_absolute'] . "{$inviteRoute}/{$param_sep}{$invitation->token}";
+
+        $siteName = $this->config->get('site.title', 'Website');
+
+        $subject = $this->language->translate(['PLUGIN_LOGIN.INVITATION_EMAIL_SUBJECT', $siteName]);
+        $message = $message ?? $this->language->translate(['PLUGIN_LOGIN.INVITATION_EMAIL_MESSAGE']);
+        $content = $this->language->translate(['PLUGIN_LOGIN.INVITATION_EMAIL_BODY',
+            $siteName,
+            $message,
+            $invitationLink,
+            $user->fullname
+        ]);
+        $to = $invitation->email;
         $sent = EmailUtils::sendEmail($subject, $content, $to);
 
         if ($sent < 1) {
@@ -620,6 +672,115 @@ class Login
         }
 
         return $this->rateLimiters[$context];
+    }
+
+    /**
+     * @param string $type
+     * @param string|null $route
+     * @param PageInterface|null $page
+     * @return PageInterface|null
+     */
+    public function getPage(string $type, string $route = null, PageInterface $page = null): ?PageInterface
+    {
+        $route = $route ?? $this->getRoute($type, true);
+        if (null === $route) {
+            return null;
+        }
+
+        if ($page) {
+            $page->route($route);
+            $page->slug(basename($route));
+        } else {
+            /** @var Pages $pages */
+            $pages = $this->grav['pages'];
+            $page = $pages->find($route);
+        }
+        if (!$page instanceof PageInterface) {
+            // Only add login page if it hasn't already been defined.
+            $page = new Page();
+            $page->init(new \SplFileInfo('plugin://login/pages/' . $type . '.md'));
+            $page->route($route);
+            $page->slug(basename($route));
+        }
+
+        // Login page may not have the correct Cache-Control header set, force no-store for the proxies.
+        $cacheControl = $page->cacheControl();
+        if (!$cacheControl) {
+            $page->cacheControl('private, no-cache, must-revalidate');
+        }
+
+        return $page;
+    }
+
+    /**
+     * Add Login page.
+     *
+     * @param string $type
+     * @param string|null $route Optional route if we want to force-add the page.
+     * @param PageInterface|null $page
+     * @return PageInterface|null
+     */
+    public function addPage(string $type, string $route = null, PageInterface $page = null): ?PageInterface
+    {
+        $page = $this->getPage($type, $route, $page);
+        if (null === $page) {
+            return null;
+        }
+
+        /** @var Pages $pages */
+        $pages = $this->grav['pages'];
+        $pages->addPage($page, $route);
+
+        return $page;
+    }
+
+    /**
+     * Get route to a given login page.
+     *
+     * @param string $type Use one of: login, activate, forgot, reset, profile, unauthorized, after_login, after_logout,
+     *                     register, after_registration, after_activation
+     * @param bool|null $enabled
+     * @return string|null Returns route or null if the route has been disabled.
+     */
+    public function getRoute(string $type, bool $enabled = null): ?string
+    {
+        switch ($type) {
+            case 'login':
+                $route = $this->config->get('plugins.login.route');
+                break;
+            case 'activate':
+            case 'forgot':
+            case 'reset':
+            case 'profile':
+                $route = $this->config->get('plugins.login.route_' . $type);
+                break;
+            case 'unauthorized':
+                $route = $this->config->get('plugins.login.route_' . $type, '/');
+                break;
+            case 'after_login':
+            case 'after_logout':
+                $route = $this->config->get('plugins.login.redirect_' . $type);
+                if ($route === true) {
+                    $route = $this->config->get('plugins.login.route_' . $type);
+                }
+                break;
+            case 'register':
+                $enabled = $enabled ?? $this->config->get('plugins.login.user_registration.enabled', false);
+                $route = $enabled === true ? $this->config->get('plugins.login.route_' . $type) : null;
+                break;
+            case 'after_registration':
+            case 'after_activation':
+                $route = $this->config->get('plugins.login.redirect_' . $type);
+                break;
+            default:
+                $route = null;
+        }
+
+        if (!is_string($route) || $route === '') {
+            return null;
+        }
+
+        return $route;
     }
 
     /**

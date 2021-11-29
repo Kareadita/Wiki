@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Plugin\Login
  *
- * @copyright  Copyright (C) 2014 - 2020 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2014 - 2021 RocketTheme, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -17,9 +17,14 @@ use Grav\Common\User\Interfaces\UserCollectionInterface;
 use Grav\Common\User\Interfaces\UserInterface;
 use Grav\Common\Utils;
 use Grav\Plugin\Email\Utils as EmailUtils;
+use Grav\Plugin\Form\Form;
+use Grav\Plugin\Form\Forms;
 use Grav\Plugin\Login\Events\UserLoginEvent;
+use Grav\Plugin\Login\Invitations\Invitation;
+use Grav\Plugin\Login\Invitations\Invitations;
 use Grav\Plugin\Login\TwoFactorAuth\TwoFactorAuth;
 use Grav\Plugin\LoginPlugin;
+use RocketTheme\Toolbox\Event\Event;
 use RocketTheme\Toolbox\Session\Message;
 
 /**
@@ -132,7 +137,7 @@ class Controller
         $event = $this->login->login($form, ['rate_limit' => true, 'remember_me' => true, 'twofa' => $twofa], ['return_event' => true]);
         $user = $event->getUser();
 
-        $login_redirect = LoginPlugin::defaultRedirectAfterLogin();
+        $login_redirect = $this->login->getRoute('after_login');
 
         if ($user->authenticated) {
             if ($user->authorized) {
@@ -140,19 +145,18 @@ class Controller
 
                 $event->defRedirect(
                     $this->grav['session']->redirect_after_login ?:
-                        $login_redirect ?: $this->grav['uri']->referrer('/')
+                        $login_redirect ?: $this->grav['uri']->referrer('/', '', true)
                 );
             } else {
                 $redirect_to_login = $this->grav['config']->get('plugins.login.redirect_to_login');
-                $login_route = $this->grav['config']->get('plugins.login.route');
-                $redirect_route = $redirect_to_login && $login_route ? $login_route : false;
-                $event->defRedirect($redirect_route ?: $this->grav['uri']->referrer('/'));
+                $redirect_route = $redirect_to_login ? $this->login->getRoute('login') : null;
+                $event->defRedirect($redirect_route ?? $this->grav['uri']->referrer('/', '', true));
             }
         } else {
             if ($user->authorized) {
                 $event->defMessage('PLUGIN_LOGIN.ACCESS_DENIED', 'error');
 
-                $event->defRedirect($this->grav['config']->get('plugins.login.route_unauthorized', '/'));
+                $event->defRedirect($this->login->getRoute('unauthorized') ?? '/');
             } else {
                 $event->defMessage('PLUGIN_LOGIN.LOGIN_FAILED', 'error');
             }
@@ -215,7 +219,7 @@ class Controller
 
             if (!$event->getRedirect()) {
                 $redirect_to_login = $this->grav['config']->get('plugins.login.route_to_login');
-                $login_route = $this->grav['config']->get('plugins.login.route');
+                $login_route = $this->login->getRoute('login');
 
                 $event->setRedirect(
                     $redirect_to_login && $login_route ? $login_route : $this->getCurrentRedirect(),
@@ -235,10 +239,10 @@ class Controller
             $user->authorized = !$event->isDelayed();
 
             if (!$event->getRedirect()) {
-                $login_redirect = LoginPlugin::defaultRedirectAfterLogin();
+                $login_redirect = $this->login->getRoute('after_login');
 
                 $event->setRedirect(
-                    $this->grav['session']->redirect_after_login ?: $login_redirect ?: $this->grav['uri']->referrer('/'),
+                    $this->grav['session']->redirect_after_login ?: $login_redirect ?: $this->grav['uri']->referrer('/', '', true),
                     303
                 );
             }
@@ -290,7 +294,7 @@ class Controller
 
         if (!$event->getRedirect()) {
             $redirect_to_login = $this->grav['config']->get('plugins.login.route_to_login');
-            $login_route = $this->grav['config']->get('plugins.login.route');
+            $login_route = $this->login->getRoute('login');
 
             $event->setRedirect(
                 $redirect_to_login && $login_route ? $login_route : $this->getCurrentRedirect(),
@@ -319,7 +323,7 @@ class Controller
             $messages->add($t->translate($message), $event->getMessageType());
         }
 
-        $logout_redirect = LoginPlugin::defaultRedirectAfterLogout();
+        $logout_redirect = $this->login->getRoute('after_logout');
 
         $redirect = $event->getRedirect() ?: $logout_redirect ?: $this->getCurrentRedirect();
         if ($redirect) {
@@ -354,14 +358,14 @@ class Controller
 
         if (!isset($this->grav['Email'])) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_EMAIL_NOT_CONFIGURED'), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
 
         if (!$user || !$user->exists()) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_INSTRUCTIONS_SENT_VIA_EMAIL'), 'info');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -369,7 +373,7 @@ class Controller
         if (empty($user->email)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_EMAIL_NO_EMAIL', $email]),
                 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -377,7 +381,7 @@ class Controller
         if (empty($user->password) && empty($user->hashed_password)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_EMAIL_NO_PASSWORD', $email]),
                 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -386,7 +390,7 @@ class Controller
 
         if (empty($from)) {
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_EMAIL_NOT_CONFIGURED'), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route_forgot', '/'));
+            $this->setRedirect($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -397,7 +401,7 @@ class Controller
 
         if ($rateLimiter->isRateLimited($userKey)) {
             $messages->add($language->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_IT_IS_BLOCKED', $email, $rateLimiter->getInterval()]), 'error');
-            $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+            $this->setRedirect($this->login->getRoute('login') ?? '/');
 
             return true;
         }
@@ -417,7 +421,8 @@ class Controller
             $lang = '';
         }
 
-        $reset_link = $this->grav['base_url_absolute'] . $lang . $this->grav['config']->get('plugins.login.route_reset') . '/task' . $param_sep . 'login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
+        $resetRoute = $this->login->getRoute('reset');
+        $reset_link = $this->grav['base_url_absolute'] . $lang . $resetRoute . '/task' . $param_sep . 'login.reset/token' . $param_sep . $token . '/user' . $param_sep . $user->username . '/nonce' . $param_sep . Utils::getNonce('reset-form');
 
         $sitename = $this->grav['config']->get('site.title', 'Website');
 
@@ -434,7 +439,7 @@ class Controller
             $messages->add($language->translate('PLUGIN_LOGIN.FORGOT_INSTRUCTIONS_SENT_VIA_EMAIL'), 'info');
         }
 
-        $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+        $this->setRedirect($this->login->getRoute('login') ?? '/');
 
         return true;
     }
@@ -466,7 +471,7 @@ class Controller
                 if ($good_token === $token) {
                     if (time() > $expire) {
                         $messages->add($language->translate('PLUGIN_LOGIN.RESET_LINK_EXPIRED'), 'error');
-                        $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot', '/'));
+                        $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
                         return true;
                     }
@@ -476,14 +481,14 @@ class Controller
                     $user->save();
 
                     $messages->add($language->translate('PLUGIN_LOGIN.RESET_PASSWORD_RESET'), 'info');
-                    $this->setRedirect($this->grav['config']->get('plugins.login.route', '/'));
+                    $this->setRedirect($this->login->getRoute('login') ?? '/');
 
                     return true;
                 }
             }
 
             $messages->add($language->translate('PLUGIN_LOGIN.RESET_INVALID_LINK'), 'error');
-            $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot'));
+            $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
             return true;
 
@@ -494,7 +499,7 @@ class Controller
 
         if (!$user || !$token) {
             $messages->add($language->translate('PLUGIN_LOGIN.RESET_INVALID_LINK'), 'error');
-            $this->grav->redirectLangSafe($this->grav['config']->get('plugins.login.route_forgot'));
+            $this->grav->redirectLangSafe($this->login->getRoute('forgot') ?? '/');
 
             return true;
         }
@@ -536,6 +541,75 @@ class Controller
         header('Content-Type: application/json');
         echo json_encode($json_response);
         exit;
+    }
+
+    /**
+     * @return bool
+     */
+    public function taskInvite()
+    {
+        /** @var Forms $forms */
+        $forms = $this->grav['forms'] ?? null;
+        $form = $forms ? $forms->getActiveForm() : null;
+
+        /** @var Language $t */
+        $t = $this->grav['language'];
+
+        if (null === $form) {
+            $this->grav->fireEvent('onFormValidationError', new Event([
+                'form' => $form,
+                'message' => $t->translate("PLUGIN_LOGIN.INVALID_FORM"),
+            ]));
+            return false;
+        }
+
+        $data = $form->getData();
+        $emails = $data['emails'] ?? null;
+        $emails = array_unique(preg_split('/[\s,;]+/mu', $emails));
+        $emails = array_filter($emails, static function ($str) { return $str && filter_var($str, FILTER_VALIDATE_EMAIL); });
+        if (!$emails) {
+            $this->grav->fireEvent('onFormValidationError', new Event([
+                'form' => $form,
+                'message' => $t->translate("PLUGIN_LOGIN.INVALID_INVITE_EMAILS"),
+            ]));
+            return false;
+        }
+        $message = $data['message'] ?? null;
+
+        $defaults = [
+            'expiration' => 86400
+        ];
+        $invite = (array)($form->getBlueprint()->get('form/meta/invite')) + $defaults;
+
+        /** @var UserInterface $user */
+        $user = $this->grav['user'];
+        $issuer = $user->email;
+        $invitations = Invitations::getInstance();
+        $list = [];
+        foreach ($emails as $email) {
+            $data = [
+                'email' => $email,
+                'created_by' => $issuer,
+                'created_timestamp' => time(),
+                'expiration_timestamp' => time() + $invite['expiration'],
+                'account' => $invite['account']
+            ];
+
+            $invitation = new Invitation($invitations->generateToken(), $data);
+            $old = $invitations->getByEmail($email);
+            if ($old) {
+                $invitations->remove($old);
+            }
+            $invitations->add($invitation);
+            $list[] = $invitation;
+        }
+
+        $invitations->save();
+        foreach ($list as $invitation) {
+            $this->login->sendInviteEmail($invitation, $message, $user);
+        }
+
+        return true;
     }
 
     /**
