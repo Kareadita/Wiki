@@ -105,6 +105,8 @@ rclone mount \
 ```
 There are multiple series that map to normalized key SERIESNAME. You can manually delete the entity via UI and rescan to fix it. This will be skipped
 ```
+* Q. **Follow up, some of my epubs aren't being added, how come?**
+* A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. 
 
 FAQ Pages TOC:
 
