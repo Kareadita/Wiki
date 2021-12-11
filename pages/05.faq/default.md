@@ -16,12 +16,26 @@ Frequently Asked Questions
 * A. Yes, you can use Plexdrive or rclone. Although it is not Officially supported.
 Rclone requires some specific configuration to cache files locally, and work better with Kavita. Here is a user-provided configuration that works well:
 ```
-rclone mount \
+rclone mount [your mount name]: [local path to be mounted] \
+	--no-checksum \
+    --use-server-modtime \
+    --no-gzip-encoding \
+    --no-seek \
     --allow-other \
-    --buffer-size 256M \
-    --dir-cache-time 720h \
-    --vfs-read-ahead 512M \
-    --vfs-read-chunk-size 16M \
+    --allow-non-empty \
+    --cache-read-retries 15 \
+    --cache-db-purge \
+    --buffer-size 512M \
+    --dir-cache-time 500h \
+    --timeout 500h \
+    --vfs-cache-max-age 500h \
+    --vfs-read-ahead 1G \
+    --vfs-read-chunk-size 32M \
+    --vfs-cache-max-size 25G \
+    --cache-dir=[your folder path here] \
+    --vfs-cache-poll-interval 10s \
+    --poll-interval 10s \
+    --attr-timeout 20s \
     --vfs-cache-mode full
 ```
 
