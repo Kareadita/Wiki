@@ -122,6 +122,10 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 * Q. **Follow up, some of my epubs aren't being added, how come?**
 * A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. 
 
+* Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
+* A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privilidged. See: https://github.com/Kareadita/Kavita/issues/821
+
+
 FAQ Pages TOC:
 
 [Folder and File Structure](https://wiki.kavitareader.com/faq/folders-and-file-structure)
