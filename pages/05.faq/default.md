@@ -43,68 +43,13 @@ rclone mount [your mount name]: [local path to be mounted] \
 * A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. Here is a record from our stats database:
 ```
 {
-   "_id":{
-      "$binary":"uRYzM8KNRh+emq1wAQuq9Q==",
-      "$type":"4"
-   },
    "InstallId":"0cf3ad15",
-   "LastUpdate":{
-      "$date":"2021-08-21T00:00:11.385Z"
-   },
-   "UsageInfo":{
-      "UsersCount":5,
-      "FileTypes":[
-         ".epub",
-         ".cbz",
-         ".cbr",
-         ".zip",
-         ".jpg",
-         ".pdf"
-      ],
-      "LibraryTypesCreated":[
-         {
-            "Count":1,
-            "Type":0
-         },
-         {
-            "Count":1,
-            "Type":1
-         },
-         {
-            "Count":2,
-            "Type":2
-         }
-      ]
-   },
-   "ServerInfo":{
-      "Os":"Linux 5.4.0-80-generic #90~18.04.1-Ubuntu SMP Tue Jul 13 19:40:02 UTC 2021",
-      "Culture":"",
-      "BuildBranch":"Release",
-      "KavitaVersion":"0.4.3.39",
-      "DotNetVersion":"5.0.9",
-      "RunTimeVersion":".NET 5.0.9",
-      "IsDocker":true,
-      "NumOfCores":4
-   },
-   "ClientsInfo":[
-      {
-         "ScreenResolution":"414 x 896",
-         "KavitaUiVersion":"0.4.2",
-         "CollectedAt":{
-            "$date":"2021-08-20T02:14:25.655Z"
-         },
-         "PlatformType":"mobile",
-         "Browser":{
-            "Name":"Safari",
-            "Version":"14.1.2"
-         },
-         "Os":{
-            "Name":"iOS",
-            "Version":"14.7.1"
-         },
-         "UsingDarkTheme":true
-      }
-   ]
+   "LastUpdate":"2021-08-21T00:00:11.385Z",
+   "Os":"Linux 5.4.0-80-generic #90~18.04.1-Ubuntu SMP Tue Jul 13 19:40:02 UTC 2021",
+    "KavitaVersion":"0.4.3.39",
+     "DotNetVersion":"5.0.9",
+     "IsDocker":true,
+     "NumOfCores":4
 }
 ```
 
