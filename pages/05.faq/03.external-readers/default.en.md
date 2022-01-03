@@ -6,12 +6,14 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 
 
 ## Android
-* Librera
+* Librera: OPDS/Download
+* Moon Reader
 
 
 ## iOS
 * Chunky: Supports OPDS-PS, epub not supported
 * Panels: epub not supported
 * Yomu (epub only)
+
 
 ! A Tachiyomi plugin for a first class reading experience on Android is in testing and will release with v0.5.
