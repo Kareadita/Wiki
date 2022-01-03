@@ -14,4 +14,4 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 * Panels: epub not supported
 * Yomu (epub only)
 
-! We do not yet have a Tachiyomi plugin for a first class reading experience on Android. If you are interested in helping us build one, please join the discord and ping majora2007. 
+! A Tachiyomi plugin for a first class reading experience on Android is in testing and will release with v0.5.
