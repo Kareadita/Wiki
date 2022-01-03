@@ -7,7 +7,7 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 
 ## Android
 * Librera: OPDS/Download
-* Moon Reader
+* Moon Reader: OPDS, epub, archives
 
 
 ## iOS
