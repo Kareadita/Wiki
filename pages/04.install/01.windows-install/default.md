@@ -14,7 +14,7 @@ Download the Windows Installer with the following link and execute it. Download 
 
 Alternate methods to run Kavita upon Windows startup are available instead of running the program each time you login.
 - Add a shortcut to Kavita to your Startup Folder in Windows
-- Use the Non-Sucking Service Manager aka NSSM to make Kavita a Windows Service. [https://nssm.cc/](https://nssm.cc/)
+- Use the Non-Sucking Service Manager aka [NSSM](https://nssm.cc/) to make Kavita a Windows Service.  A user has written a nice guide on Reddit that might be beneficial. [Guide](https://www.reddit.com/r/KavitaManga/comments/s6mans/tutorial_how_to_use_nmms_to_create_a_windows/)
 
 ### 3. View Kavita
 
