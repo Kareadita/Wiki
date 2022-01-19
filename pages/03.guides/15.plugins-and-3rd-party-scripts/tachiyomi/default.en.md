@@ -8,9 +8,9 @@ title: Tachiyomi
 * Usage
 * Customization Guide
 
-# Installation
+## Installation
 
-# Setup
+## Setup
 
 To make the extension link with your Kavita instance we need the OPDS url.
 The steps to get the OPDS URL are:
@@ -28,14 +28,14 @@ Once the  OPDS URL is obtained open Tachiyomi
 8. Paste your OPDS URL (If your OPDS URL address differs from your Kavita address, change it.) tap ok
 10. Restart Tachiyomi
 
-# Usage
-## Browse your all libraries
-## Browse recently added
-## Filters
+## Usage
+### Browse your all libraries
+### Browse recently added
+### Filters
 
-# Customization
-## Change source name
-## Remove filters from filter list
+## Customization
+### Change source name
+### Remove filters from filter list
 
 
 
