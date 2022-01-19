@@ -2,4 +2,7 @@
 title: Tachiyomi
 ---
 
-TODO
+* Installation Guide
+* Setup Guide
+* Usage Guide
+* Customization Guide
