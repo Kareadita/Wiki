@@ -35,6 +35,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 ### Browse recently added
 ![browse_latest_1](browse_latest_1.png "browse_latest_1")
 ### Filters
+Filters only work when browsing all libraries.
 
 ## Customization
 ### Change source name
