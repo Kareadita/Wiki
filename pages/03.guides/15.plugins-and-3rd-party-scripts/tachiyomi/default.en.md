@@ -29,7 +29,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 10. Restart Tachiyomi
 
 ## Usage
-### Browse your all libraries
+### Browse all your libraries
 ### Browse recently added
 ### Filters
 
