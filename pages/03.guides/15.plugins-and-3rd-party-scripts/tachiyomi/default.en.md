@@ -1,5 +1,6 @@
 ---
 title: Tachiyomi
+media_order: browse_lib_1.png
 ---
 
 ### Guide Overview
@@ -30,7 +31,9 @@ Once the  OPDS URL is obtained open Tachiyomi
 
 ## Usage
 ### Browse all your libraries
+![browse_lib_1](browse_lib_1.png "browse_lib_1")
 ### Browse recently added
+
 ### Filters
 
 ## Customization
