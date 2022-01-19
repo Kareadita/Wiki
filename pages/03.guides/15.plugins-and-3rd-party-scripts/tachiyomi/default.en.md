@@ -27,3 +27,15 @@ Once the  OPDS URL is obtained open Tachiyomi
 7. Tap OPDS URL setting
 8. Paste your OPDS URL (If your OPDS URL address differs from your Kavita address, change it.) tap ok
 10. Restart Tachiyomi
+
+# Usage
+## Browse your all libraries
+## Browse recently added
+## Filters
+
+# Customization
+## Change source name
+## Remove filters from filter list
+
+
+
