@@ -33,7 +33,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 ### Browse all your libraries
 ![browse_lib_1](browse_lib_1.png "browse_lib_1")
 ### Browse recently added
-
+![browse_latest_1](browse_latest_1.png "browse_latest_1")
 ### Filters
 
 ## Customization
