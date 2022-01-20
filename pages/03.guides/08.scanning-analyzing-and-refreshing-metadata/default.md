@@ -26,6 +26,10 @@ If you only need to refresh data for a given series, you can do that by invoking
 
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them. Books like epub, will use the metadata within the epub to perform grouping. 
 
+Kavita also reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files, using the ComicInfo.xml format. If your archives contain metadata, it will override any parsed information from the file. You can read up more about metadata [here](https://wiki.kavitareader.com/en/guides/metadata).
+
+If the underlying file has not been modified between scans, Kavita will not do extra processing on the file. 
+
 
 ## Analyze books
 
