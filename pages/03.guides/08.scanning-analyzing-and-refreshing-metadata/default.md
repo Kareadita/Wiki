@@ -3,13 +3,13 @@ title: 'Scanning and Refreshing Metadata'
 media_order: 'LibraryActions.jpg,MangaActions.jpg,BooksActions.jpg'
 ---
 
-Once a library has been created, it is processed by Kavita so that all the files are matched to series and metadata is gathered. As time goes on, you’ll add and remove files to the libraries or make other changes that mean the library is no longer up-to-date. You can invoke the Scan libraries task from the actions menu to bring them up-to-date. Scan Library, and Refresh Metadata for a library do different things.
+Once a library has been created, it is processed by Kavita so that all the files are matched to series and metadata is gathered. As time goes on, you’ll add and remove files to the libraries or make other changes that mean the library is no longer up-to-date. You can invoke the Scan libraries task from the actions menu to bring them up-to-date. Scan Library, and Refresh Covers for a library do different things.
 
 ## Scan Library Files
 
-Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. The Kavita Homepage and Library info, will not be updated until the scan is complete.
+Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. The Kavita Homepage and Library info, will not be updated throughout the scan, in chunks of 50 series at a time. First scans are often slow, especially on networked storage. Be patient.
 
-All files that have changed after a scan will have their metadata refreshed if applicable.
+All files that have changed after a scan will have their covers refreshed if applicable.
 
 You should Scan Library Files if you have:
 - Added or deleted files or folders
@@ -17,6 +17,9 @@ You should Scan Library Files if you have:
 - Moved files or folders from one location to another
 
 Scanning a Library is an automated task that by default runs once a day at midnight. You can invoke it at any given time from the Library actions menu from the UI.
+
+## Scanning Just a Series
+If you only need to refresh data for a given series, you can do that by invoking the Scan Series from the Series context menu. This logic is the same as a Scan library, but only on the scale of the series and as such, is much faster. Like for a Scan Library, covers will be checked after the fact on the scan. 
 
 
 ## What happens during a Scan?
