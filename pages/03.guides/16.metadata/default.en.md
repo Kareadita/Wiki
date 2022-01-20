@@ -3,7 +3,8 @@ title: Metadata
 published: true
 date: '20-01-2022 10:56'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 ! This functionality is only available for Kavita v0.5+
