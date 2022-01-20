@@ -1,5 +1,6 @@
 ---
 title: Metadata
+published: true
 ---
 
 ! This functionality is only available for Kavita v0.5+
