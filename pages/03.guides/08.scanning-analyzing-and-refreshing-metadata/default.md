@@ -37,15 +37,15 @@ Analysis is automatically performed when content is added to your Library. In ra
 
 ### What happens during Analysis?
 
-Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, files analyzed will also be refreshed for metadata in the following conditions:
+Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, files analyzed will also be refreshed for covers in the following conditions:
 - A cover image is not present on the item
-- The user requested a refresh of metadata manually from series action menu
+- The user requested a refresh of covers manually from series/library context menu
 - The file has been modified since last scan
 
 
 #### Generate default artwork
 
-During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata.
+During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata (opf).
 
 ### Analyze your content
 
@@ -62,31 +62,13 @@ Look for the **Action Menu** icon of three vertical dots.
 
 Kavita is set by default to Scan all Libraries Daily (this can be changed under the General Tab in Admin Settings), and to perform a Database Backup Weekly.
 
-## Refresh Metadata
+## Refresh Covers
 
-Refreshing Metadata for a library, series, or individual book causes the metadata for the item to be refreshed, even if it already has metadata. You can think of refreshing as “update metadata for the requested item even if it already has some”.
+Refreshing Covers for a library, series, or individual book causes the covers for the item to be regenerated, even if it already has a cover set. You can think of refreshing as “update covers for the requested item even if it already has one”.
 
-You should refresh a library or individual item if:
-- You’ve changed options for the library
+You should refresh covers on a library or individual item if:
 - You’ve edited a file to change the first picture or added a cover.jpg file
 
-Metadata is gathered from the following sources:
-- A local file located inside an archive file (CBZ, CBR, CB7, ZIP, RAR (RAR5 not supported), 7ZIP)
-- The metadata of an EPUB file
-
-The metadata refresh is dependent of the type of Library created.
-
-#### Book Metadata
-
-This will import the following fields from the filename into Kavita:
-
-- `Title`, `Summary`, `Number` as their Kavita equivalent
-
-#### Series Metadata
-
-This will import the following fields from the .opf file for the Series info into Kavita.
-
-- The `Series` and `Volume` tags will be used to overwrite the title of the Series, in the form `<Series> (<Volume>)`, or just `<Series>` if the `Volume` tag is not present or if the `Volume` is `1`. If multiple values are present, the most frequent value from all books will be used.
 
 ### For information regarding best file Naming practices see our FAQ Section
 
