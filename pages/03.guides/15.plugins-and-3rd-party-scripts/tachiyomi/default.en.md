@@ -8,12 +8,13 @@ media_order: browse_lib_1.png
 * Setup
 * Usage
 * Customization Guide
+* Sync Progress with Kavita
 
 ## Installation
 
 ## Setup
 
-To make the extension link with your Kavita instance we need the OPDS url.
+To make the extension link with your Kavita instance we need the OPDS URL.
 The steps to get the OPDS URL are:
 
 Access your Kavita instance from your web browser and login
@@ -42,6 +43,8 @@ Filters only work when browsing all libraries.
 ## Customization
 ### Change source name
 ### Remove filters from filter list
+
+## Sync Progress with Kavita
 
 
 
