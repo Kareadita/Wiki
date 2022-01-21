@@ -1,6 +1,6 @@
 ---
 title: Tachiyomi
-media_order: browse_lib_1.png
+media_order: 'browse_lib_1.png,browse_latest_1.png,FK8NQqtWLW.png'
 ---
 
 ### Guide Overview
@@ -32,7 +32,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 11. Browse your library 
 12. If you get this error: "Expected URL scheme 'http or 'https' found but no colon was found" restart Tachiyomi once more
 A graphical tutorial:
-
+![FK8NQqtWLW](FK8NQqtWLW.png "FK8NQqtWLW")
 
 ## Usage
 ### Browse all your libraries
