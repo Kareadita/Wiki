@@ -31,6 +31,8 @@ Once the  OPDS URL is obtained open Tachiyomi
 10. Restart Tachiyomi
 11. Browse your library 
 12. If you get this error: "Expected URL scheme 'http or 'https' found but no colon was found" restart Tachiyomi once more
+A graphical tutorial:
+
 
 ## Usage
 ### Browse all your libraries
