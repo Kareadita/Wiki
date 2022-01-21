@@ -30,7 +30,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 8. Paste your OPDS URL (If your OPDS URL address differs from your Kavita address, change it.) tap ok
 10. Restart Tachiyomi
 11. Browse your library 
-12. If you get this error: "Expected URL scheme 'http or 'https' found but no colon was found" restart Tachiyomi once more
+
 A graphical tutorial:
 ![FK8NQqtWLW](FK8NQqtWLW.png "FK8NQqtWLW")
 
