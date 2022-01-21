@@ -16,4 +16,7 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 * Chunky: Supports OPDS-PS, epub not supported
 * Panels: epub not supported
 * Yomu (epub only)
+* Paperback (planned)
+
+! Have a suggestion for an app that we can connect with? Drop by the discord and suggest it.
 
