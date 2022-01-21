@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 # Local Metadata (v0.5+)
-Kavita is proud to be a member of the [Anasai Project](https://anansi-project.github.io/docs/introduction) and supports the latest draft of ComicInfo.xml (v2.1) along with EPUB metadata parsing. Local metadata can come from two sources: EPUB or ComicInfo.xml. 
+Kavita is proud to be a member of the [Anasai Project](https://anansi-project.github.io/docs/introduction) and supports the latest draft of ComicInfo.xml (v2.1) along with EPUB metadata parsing. Local metadata can come from two sources: EPUB or ComicInfo.xml. The local metadata fuels the [filtering](https://wiki.kavitareader.com/en/guides/filtering) functionality.
 
 ## ComicInfo.xml
 If a comicinfo.xml file is found within an archive, Kavita will read it and use that as the source of truth for the file. Most of the fields are straightfoward, but a few of them affect the Series. 
