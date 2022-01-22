@@ -11,7 +11,7 @@ taxonomy:
 Kavita is proud to be a member of the [Anasai Project](https://anansi-project.github.io/docs/introduction) and supports the latest draft of ComicInfo.xml (v2.1) along with EPUB metadata parsing. Local metadata can come from two sources: EPUB or ComicInfo.xml. The local metadata fuels the [filtering](https://wiki.kavitareader.com/en/guides/filtering) functionality.
 
 ## ComicInfo.xml
-If a comicinfo.xml file is found within an archive, Kavita will read it and use that as the source of truth for the file. Most of the fields are straightfoward, but a few of them affect the Series. 
+If a comicinfo.xml file is found within an archive, Kavita will read it and use that as the source of truth for the file. Most of the fields are straightforward (Number -> Chapter/Issue number, Volume -> Volume), but a few of them affect the Series. 
 
 ### Age Rating
 Age rating may vary between different files within a series. The Series will take the highest Age Rating (aka most mature) and use it from the files contained within. So for example, say you have:
