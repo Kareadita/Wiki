@@ -30,7 +30,7 @@ Access your Kavita instance from your web browser and login
 1. Access your Kavita user dashboard
 2. Switch to "3rd Party Clients" tab
 3. Copy the text under OPDS URL
-![setup_1](setup_1.png "setup_1")
+![setup_1](setup_1.pngcrop?cropResize=130,90 "setup_1")
 **Once the  OPDS URL is obtained open Tachiyomi**
 4. Go back to Tachiyomi extensions tab
 5. Tap Kavita
