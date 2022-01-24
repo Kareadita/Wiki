@@ -4,11 +4,11 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 ---
 
 ### Guide Overview
-* Installation
-* Setup
+* [Installation](#installation)
+* [Setup](#setup)
 * [Usage](#usage)
-* Customization Guide
-* Sync Progress with Kavita
+* [Customization Guide](#customization)
+* [Sync Progress with Kavita](#sync)
 
 ## Installation
 
@@ -21,7 +21,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 5. In the confirmation menu hit install again.
 ![Installation](Installation.png "Installation")
 
-## Setup
+## [Setup](setup?id=setup)
 
 To make the extension link with your Kavita instance we need the OPDS URL.
 The steps to get the OPDS URL are:
@@ -42,13 +42,13 @@ Access your Kavita instance from your web browser and login
 11. Browse your library 
 ![setup](setup.png "setup")
 
-## [Usage](../?id=usage)
+## [Usage](#usage?id=usage)
 ### Browse all your libraries
 ![browse_lib_1](browse_lib_1.png?cropResize=450,450)
 ### Browse recently added
 ![browse_latest_1](browse_latest_1.png?cropResize=450,450)
 
-## Customization
+## [Customization](#customization?id=customization)
 ### Change source name
 #### First of all. What is a source.
 
@@ -69,7 +69,7 @@ Same process used for OPDS but tapping "Default filters shown" instead.
 This will hide or show filters appearing in filter list. 
 To hide one filter just uncheck the checkbox
 
-## Sync Progress with Kavita
+## [Sync Progress with Kavita](#sync?id=sync)
 **Not implemented yet**
 
 
