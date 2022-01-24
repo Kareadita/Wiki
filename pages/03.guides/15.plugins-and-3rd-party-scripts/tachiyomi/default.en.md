@@ -32,7 +32,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 11. Browse your library 
 
 A graphical tutorial:
-![FK8NQqtWLW](FK8NQqtWLW.png "FK8NQqtWLW")
+![q2LxKllmUT](q2LxKllmUT.png "q2LxKllmUT")
 
 ## Usage
 ### Browse all your libraries
