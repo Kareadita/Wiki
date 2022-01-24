@@ -30,7 +30,7 @@ Access your Kavita instance from your web browser and login
 1. Access your Kavita user dashboard
 2. Switch to "3rd Party Clients" tab
 3. Copy the text under OPDS URL
-![setup_1](setup_1.pngcrop?cropResize=130,90 "setup_1")
+![setup_1](setup_1.png)
 **Once the  OPDS URL is obtained open Tachiyomi**
 4. Go back to Tachiyomi extensions tab
 5. Tap Kavita
@@ -44,9 +44,9 @@ Access your Kavita instance from your web browser and login
 
 ## Usage
 ### Browse all your libraries
-![browse_lib_1](browse_lib_1.png "browse_lib_1")
+![browse_lib_1](browse_lib_1.png?cropResize=300,300)
 ### Browse recently added
-![browse_latest_1](browse_latest_1.png "browse_latest_1")
+![browse_latest_1](browse_latest_1.png?cropResize=300,300)
 
 ## Customization
 ### Change source name
