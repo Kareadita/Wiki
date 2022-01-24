@@ -10,7 +10,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 * [Customization Guide](#customization)
 * [Sync Progress with Kavita](#sync)
 
-## [Installation](#installation?id=installation)
+## Installation
 
 **First of all make sure Kavita is updated**
 
@@ -21,7 +21,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 5. In the confirmation menu hit install again.
 ![Installation](Installation.png "Installation")
 
-## [Setup](setup?id=setup)
+## Setup
 
 To make the extension link with your Kavita instance we need the OPDS URL.
 The steps to get the OPDS URL are:
@@ -42,7 +42,7 @@ Access your Kavita instance from your web browser and login
 11. Browse your library 
 ![setup](setup.png "setup")
 
-## [Usage](#usage?id=usage)
+## Usage
 ### Browse all your libraries
 ![browse_lib_1](browse_lib_1.png?cropResize=450,450)
 ### Browse recently added
