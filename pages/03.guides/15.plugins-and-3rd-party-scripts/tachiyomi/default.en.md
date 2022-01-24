@@ -10,7 +10,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 * [Customization Guide](#customization)
 * [Sync Progress with Kavita](#sync)
 
-## Installation
+## [Installation](#installation?id=installation)
 
 **First of all make sure Kavita is updated**
 
