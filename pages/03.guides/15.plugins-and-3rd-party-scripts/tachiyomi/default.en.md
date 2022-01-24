@@ -42,7 +42,7 @@ Access your Kavita instance from your web browser and login
 11. Browse your library 
 ![setup](setup.png "setup")
 
-## Usage
+## [Usage](../?id=usage)
 ### Browse all your libraries
 ![browse_lib_1](browse_lib_1.png?cropResize=450,450)
 ### Browse recently added
@@ -50,7 +50,7 @@ Access your Kavita instance from your web browser and login
 
 ## Customization
 ### Change source name
-First of all. What is a source.
+#### First of all. What is a source.
 
 Once installed the user has access to 3 sources. 
 
@@ -62,7 +62,8 @@ By default these are differentiated with a number. 1,2 and 3.
 
 You can change each identifier with your own.
 
-To change the name of the source, follow the same process used for OPDS but tapping "Displayed name for source" instead.
+#### To change the name of the source
+Follow the same process used for OPDS but tapping "Displayed name for source" instead.
 ### Remove filters from filter list
 Same process used for OPDS but tapping "Default filters shown" instead.
 This will hide or show filters appearing in filter list. 
