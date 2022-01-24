@@ -47,12 +47,14 @@ Once the  OPDS URL is obtained open Tachiyomi
 ![browse_lib_1](browse_lib_1.png "browse_lib_1")
 ### Browse recently added
 ![browse_latest_1](browse_latest_1.png "browse_latest_1")
-### Filters
-Filters only work when browsing all libraries.
 
 ## Customization
 ### Change source name
+Same process used for OPDS but tapping "Displayed name for source" instead.
 ### Remove filters from filter list
+Same process used for OPDS but tapping "Default filters shown" instead.
+This will hide or show filters appearing in filter list. 
+To hide one filter just uncheck the checkbox
 
 ## Sync Progress with Kavita
 
