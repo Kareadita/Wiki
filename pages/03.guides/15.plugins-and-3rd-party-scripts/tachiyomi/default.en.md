@@ -57,6 +57,6 @@ This will hide or show filters appearing in filter list.
 To hide one filter just uncheck the checkbox
 
 ## Sync Progress with Kavita
-
+**Not implemented yet**
 
 
