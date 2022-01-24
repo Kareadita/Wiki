@@ -1,6 +1,6 @@
 ---
 title: Tachiyomi
-media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,q2LxKllmUT.png'
+media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png'
 ---
 
 ### Guide Overview
@@ -19,8 +19,8 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,q2LxKllmUT.p
 3. Now you can either scroll down untill you find or hit the search icon and write Kavita in it.
 4. Once you find or search tap install.
 5. In the confirmation menu hit install again.
-
 ![Installation](Installation.png "Installation")
+
 ## Setup
 
 To make the extension link with your Kavita instance we need the OPDS URL.
@@ -36,12 +36,11 @@ Once the  OPDS URL is obtained open Tachiyomi
 5. Tap Kavita
 6. Tap the gear icon in one of the sources. (sources explained in customization)
 7. Tap OPDS URL setting
-8. Paste your OPDS URL (If your OPDS URL address differs from your Kavita address, change it.) tap ok
+8. Paste your OPDS URL (If your OPDS URL address differs from your Kavita address, change it.)
+9. Tap ok
 10. Restart Tachiyomi
 11. Browse your library 
 
-A graphical tutorial:
-![q2LxKllmUT](q2LxKllmUT.png "q2LxKllmUT")
 
 ## Usage
 ### Browse all your libraries
