@@ -40,7 +40,7 @@ Once the  OPDS URL is obtained open Tachiyomi
 9. Tap ok
 10. Restart Tachiyomi
 11. Browse your library 
-
+![setup](setup.png "setup")
 
 ## Usage
 ### Browse all your libraries
