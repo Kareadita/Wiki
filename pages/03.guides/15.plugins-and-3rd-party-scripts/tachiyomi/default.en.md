@@ -52,15 +52,11 @@ Access your Kavita instance from your web browser and login
 #### Change source name
 ##### First of all. What is a source.
 
-Once installed the user has access to 3 sources. 
-
-This means you can have access to 3 different Kavita servers.
-
-On each source you can setup different OPDS URL and different filter preferences.
-
-By default these are differentiated with a number. 1,2 and 3.
-
-You can change each identifier with your own.
+Once installed the user has access to 3 sources. <br/>
+This means you can have access to 3 different Kavita servers.<br/>
+On each source you can setup different OPDS URL and different filter preferences.<br/>
+By default these are differentiated with a number. 1,2 and 3.<br/>
+You can change each identifier with your own.<br/>
 
 ##### To change the name of the source
 Follow the same process used for OPDS but tapping "Displayed name for source" instead.
