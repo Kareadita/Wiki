@@ -62,7 +62,7 @@ By default these are differentiated with a number. 1,2 and 3.
 
 You can change each identifier with your own.
 
-To change the name of the source follow the same process used for OPDS but tapping "Displayed name for source" instead.
+To change the name of the source, follow the same process used for OPDS but tapping "Displayed name for source" instead.
 ### Remove filters from filter list
 Same process used for OPDS but tapping "Default filters shown" instead.
 This will hide or show filters appearing in filter list. 
