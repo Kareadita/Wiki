@@ -44,9 +44,9 @@ Access your Kavita instance from your web browser and login
 
 ## Usage
 ### Browse all your libraries
-![browse_lib_1](browse_lib_1.png?cropResize=600,600)
+![browse_lib_1](browse_lib_1.png?cropResize=450,450)
 ### Browse recently added
-![browse_latest_1](browse_latest_1.png?cropResize=600,600)
+![browse_latest_1](browse_latest_1.png?cropResize=450,450)
 
 ## Customization
 ### Change source name
