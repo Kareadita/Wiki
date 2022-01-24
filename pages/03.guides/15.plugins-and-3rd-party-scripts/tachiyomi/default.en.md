@@ -50,7 +50,19 @@ Access your Kavita instance from your web browser and login
 
 ## Customization
 ### Change source name
-Same process used for OPDS but tapping "Displayed name for source" instead.
+First of all. What is a source.
+
+Once installed the user has access to 3 sources. 
+
+This means you can have access to 3 different Kavita servers.
+
+On each source you can setup different OPDS URL and different filter preferences.
+
+By default these are differentiated with a number. 1,2 and 3.
+
+You can change each identifier with your own.
+
+To change the name of the source follow the same process used for OPDS but tapping "Displayed name for source" instead.
 ### Remove filters from filter list
 Same process used for OPDS but tapping "Default filters shown" instead.
 This will hide or show filters appearing in filter list. 
