@@ -1,6 +1,6 @@
 ---
 title: Tachiyomi
-media_order: 'browse_lib_1.png,browse_latest_1.png,q2LxKllmUT.png,Installation.jpg'
+media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,q2LxKllmUT.png'
 ---
 
 ### Guide Overview
@@ -11,7 +11,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,q2LxKllmUT.png,Installation.j
 * Sync Progress with Kavita
 
 ## Installation
-![Installation](Installation.jpg "Installation")
+![Installation](Installation.png "Installation")
 ## Setup
 
 To make the extension link with your Kavita instance we need the OPDS URL.
