@@ -6,7 +6,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 ### Guide Overview
 * Installation
 * Setup
-* Usage
+* [Usage](../#usage)
 * Customization Guide
 * Sync Progress with Kavita
 
