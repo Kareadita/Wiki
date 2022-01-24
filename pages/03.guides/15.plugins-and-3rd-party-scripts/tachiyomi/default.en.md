@@ -8,7 +8,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 * [Setup](#setup)
 * [Usage](#usage)
 * [Customization Guide](#customization)
-* [Sync Progress with Kavita](#sync)
+* [Sync Progress with Kavita](#sync-progress-with-kavita)
 
 ## Installation
 
