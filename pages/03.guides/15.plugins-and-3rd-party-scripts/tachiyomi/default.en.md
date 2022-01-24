@@ -48,24 +48,23 @@ Access your Kavita instance from your web browser and login
 ### Browse recently added
 ![browse_latest_1](browse_latest_1.png?cropResize=450,450)
 
-## [Customization](#customization?id=customization)
+## Customization
 #### Change source name
-##### First of all. What is a source.
-
+##### First of all. What is a source.<br/>
 Once installed the user has access to 3 sources. <br/>
 This means you can have access to 3 different Kavita servers.<br/>
 On each source you can setup different OPDS URL and different filter preferences.<br/>
 By default these are differentiated with a number. 1,2 and 3.<br/>
 You can change each identifier with your own.<br/>
 
-##### To change the name of the source
+##### To change the name of the source<br/>
 Follow the same process used for OPDS but tapping "Displayed name for source" instead.
 #### Remove filters from filter list
 Same process used for OPDS but tapping "Default filters shown" instead.
 This will hide or show filters appearing in filter list. 
 To hide one filter just uncheck the checkbox
 
-## [Sync Progress with Kavita](#sync?id=sync)
+## Sync Progress with Kavita
 **Not implemented yet**
 
 
