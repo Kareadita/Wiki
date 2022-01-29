@@ -1,5 +1,0 @@
----
-title: Organization
-visible: false
----
-
