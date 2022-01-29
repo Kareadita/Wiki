@@ -7,6 +7,7 @@ admin:
 
 Kavita offers a few different settings for you as an owner and for users. 
 Page overview:
+
 Admin Dashboard<br/>
 ├── [General](#general-tab)<br/>
 ├── [User Management](#users-tab)<br/>
