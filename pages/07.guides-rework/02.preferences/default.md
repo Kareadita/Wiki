@@ -10,8 +10,8 @@ Page overview:
 Admin Dashboard
 ├── [General](#general-tab)<br/>
 ├── [User Management](#users-tab)<br/>
-├── [Libraries]()<br/>
-└── [System]()<br/>
+├── [Libraries](#libraries-tab)<br/>
+└── [System](#system-tab)<br/>
  [User Settings](#user-settings)<br/>
 └── [Preferences](#preferences)<br/>
 
