@@ -18,7 +18,7 @@ Admin Dashboard<br/>
 
 
 <hr style="border:2px solid green"> </hr>
-# Admin Dashboard
+## Admin Dashboard
 ### General Tab 
 There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
 
@@ -51,7 +51,7 @@ In addition, a new tab is available: Changelog. You guessed it, it is a log of a
 
 ![Changelog](Changelog.PNG "Changelog")
 <hr style="border:2px solid green"> </hr>
-# User Settings
+## User Settings
 To access the user settings page, which holds the all settings for the logged in user, you can use the nav bar dropdown on your username and select "User Settings". These settings apply for the logged in user and will not affect any other user.
 
 ![Default%20Page](Default%20Page.PNG "Default%20Page")
