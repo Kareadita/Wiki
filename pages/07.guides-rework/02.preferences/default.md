@@ -60,7 +60,9 @@ To access the user settings page, which holds the all settings for the logged in
 In this section, the user can configure site-wide preferences.
 #### Dark mode
 You can enable or disable dark mode
-![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)
+
+
+![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)<br/>
 ![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=400,400)
 
 #### Reading Settings
