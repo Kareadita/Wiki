@@ -62,7 +62,7 @@ In this section, the user can configure site-wide preferences.
 You can enable or disable dark mode
 
 
-![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)<br/>
+![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)
 
 ![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=400,400)
 
