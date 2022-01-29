@@ -7,7 +7,7 @@ admin:
 
 Kavita offers a few different settings for you as an owner and for users. 
 Page overview:
-Admin Dashboard
+Admin Dashboard<br/>
 ├── [General](#general-tab)<br/>
 ├── [User Management](#users-tab)<br/>
 ├── [Libraries](#libraries-tab)<br/>
@@ -16,7 +16,7 @@ Admin Dashboard
 └── [Preferences](#preferences)<br/>
 
 
-<hr style="border:2px solid gray"> </hr>
+<hr style="border:2px solid green"> </hr>
 # Admin Dashboard
 ## General Tab 
 There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
@@ -49,7 +49,7 @@ Kavita offers a quick way to see if a new version is available. From the System 
 In addition, a new tab is available: Changelog. You guessed it, it is a log of all the versions and the changes that go along with it. You can also jump to the Github to view it on the site itself. 
 
 ![Changelog](Changelog.PNG "Changelog")
-<hr style="border:2px solid gray"> </hr>
+<hr style="border:2px solid green"> </hr>
 # User Settings
 To access the user settings page, which holds the all settings for the logged in user, you can use the nav bar dropdown on your username and select "User Settings". These settings apply for the logged in user and will not affect any other user.
 
