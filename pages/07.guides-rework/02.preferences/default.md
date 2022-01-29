@@ -6,13 +6,14 @@ admin:
 ---
 
 Kavita offers a few different settings for you as an owner and for users. 
-
-# Server Settings
-To access the admin dashboard, which holds the all settings for the server, you can use the nav bar dropdown on your username and select "Server Settings". This option is only available for admins.
-
-![Admin%20Dashboard](Admin%20Dashboard.PNG "Admin%20Dashboard")
-
-### General Tab 
+Page overview:
+├── General
+├── User Management
+├── Libraries
+├── System
+└── User Settings
+# Admin Dashboard
+## General Tab 
 There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
 
 Allowing Anonymous Usage Collection is here, you can opt out. This setting allows you to send Anonymous data about your install which helps the Kavita team understand it's user base to make design decisions and performance enhancements. Some information that is collected is file types within kavita, number of users, screen sizes and browser information, OS, version, if you are using docker or not. The Stat collection is within the Kavita and KavitaStats repositories.
@@ -20,13 +21,13 @@ Allowing Anonymous Usage Collection is here, you can opt out. This setting allow
 You can enable OPDS for your Server here. See this [page](https://wiki.kavitareader.com/en/guides/preferences/opds) for how it works.
 
 Reoccurring tasks are also configurable to be changed.
-### Users Tab
-Adding Users is covered [here](https://wiki.kavitareader.com/guides/user-management).
+## Users Tab
+New addition waiting for wiki to be written
 
-### Libraries Tab
+## Libraries Tab
 Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/guides/adding-a-library).
 
-### System Tab
+## System Tab
 Under the System Tab admins can track what version Kavita is running, download logs, backup the database, check for updates, and manually Clear Cache. 
 System Cache is cleared automatically upon Library Scan or as an system function each night.
 
@@ -49,10 +50,10 @@ To access the user settings page, which holds the all settings for the logged in
 
 ![Default%20Page](Default%20Page.PNG "Default%20Page")
 
-### Site Settings
-In this section, the user can configure site-wide settings. For now, there is only Dark Mode. Dark Mode is the default theme (v0.4.2+).
-
-
+## Preferences
+In this section, the user can configure site-wide preferences.
+### Dark mode
+You can enable or disable dark mode
 ![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)
 ![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=400,400)
 
@@ -62,7 +63,5 @@ In the reading section, you will find all the options for the manga reader and t
 ### Password
 The logged in user can change their password from this screen.
 
-### Bookmarks
-Bookmarks are pages that you want to download after reading for a given series. While using the web reader, you can bookmark certain pages using the bookmark button on the top right. This will save a reference to that page for the given series. From the bookmarks tab in User settings, you can see all Series you have bookmarks on and for each series, download or clear said bookmarks. 
-
-![Bookmarks](Bookmarks.PNG "Bookmarks")
+## 3rd Party clients
+COVERED IN MISC/3RD PARTY
