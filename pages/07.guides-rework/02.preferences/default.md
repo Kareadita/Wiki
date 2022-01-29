@@ -63,6 +63,7 @@ You can enable or disable dark mode
 
 
 ![UserSettingsDarkModeOn](Dark%20Mode%20On.PNG?classes=flex&resize=400,400)<br/>
+
 ![UserSettingsDarkModeOff](Dark%20Mode%20Off.PNG?classes=flex&resize=400,400)
 
 #### Reading Settings
