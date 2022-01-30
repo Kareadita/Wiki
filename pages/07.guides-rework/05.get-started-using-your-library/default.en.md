@@ -61,3 +61,14 @@ Kavita allows for you to track your rating and provide a review for yourself all
 To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to review. Adding a text based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
 ![rating%20and%20review%202](rating%20and%20review%202.gif?cropResize=300 "rating%20and%20review%202")
 
+<hr style="border:5px solid #4ac694"> </hr>
+## Filtering
+Filtering allows the user to select the type of content displayed in a Library
+Select the Funnel at the top right to open the Filtering options
+![kavita_Library_Filtering](kavita_Library_Filtering.jpg "kavita_Library_Filtering")
+
+This will open the filtering section to allow you to explore your library. The filtering screen is dynamically created based on the screen. For example, on the below example, the Libraries is already pre-selected as Comics, since the section was opened on the Comics library view. If on a collection page, then the collection page will be pre-selected. 
+
+From this page, you can select a set of tags to search against. The search will always OR each field. All fields will react to the selected libraries (aka if there are no writers in library comics, writers will show up with nothing, even if there are defined writers in another library) except for Collections and Formats. Those will always show all options available. Rating field will show as the minimum rating. If you select 3 stars, then anything with 3 or more stars will be returned.
+
+![v0.5%20filters](v0.5%20filters.PNG "v0.5%20filters")
