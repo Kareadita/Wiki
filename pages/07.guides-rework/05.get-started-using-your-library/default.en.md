@@ -2,20 +2,20 @@
 title: 'Get Started using your library'
 ---
 
-page overview
-│    ├── Series details
-│    │    · Overview of a series' page
-│    │
-│    ├── General
-│    │    · Ratings and Reviews
-│    │    · Override Cover
-│    │    · Info
-│    │   
-│    ├── Filtering
-│    ├── Downloading
-│    ├── Collections
+page overview<br/>
+│    ├── Series details<br/>
+│    │    · Overview of a series' page<br/>
+│    │<br/>
+│    ├── General<br/>
+│    │    · Ratings and Reviews<br/>
+│    │    · Override Cover<br/>
+│    │    · Info<br/>
+│    │   <br/>
+│    ├── Filtering<br/>
+│    ├── Downloading<br/>
+│    ├── Collections<br/>
 ====
-│    └── Reading list
+│    └── Reading list<br/>
 =========
 
 <hr style="border:5px solid #4ac694"> </hr>
