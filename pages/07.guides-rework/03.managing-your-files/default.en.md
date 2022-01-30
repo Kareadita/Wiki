@@ -55,6 +55,7 @@ will parse "`Again!!`" for the Series name and group the file as a special under
 <hr style="border:5px solid #4ac694"> </hr>
 ## Metadata
 Kavita uses metadata to parse Series Name, Volumes, Chapters...
+Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file. 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Comics and Manga
 Comics and manga uses a ".xml" file at the root of the cbz,cbr,cb7... files
