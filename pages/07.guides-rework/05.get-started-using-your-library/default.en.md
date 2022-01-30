@@ -32,7 +32,7 @@ To start reading you can either click the individual volume or chapter or let Ka
 |  |  |
 |--|--|
 |![continue](continue.png?cropResize=120 "continue") |Continue will open the last chapter that you have progress on or the next (if the last one was finished).   |
- ![read](read.png?cropResize=120 "read")|Press "Read" to start reading from the first volume or chapter.
+|![read](read.png?cropResize=120 "read")|Press "Read" to start reading from the first volume or chapter.|
  
 Continue will open the last chapter that you have progress on or the next (if the last one was finished). 
 
