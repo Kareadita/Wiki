@@ -13,6 +13,4 @@ Page overview
 ## Scanning
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. 
 
-! **Note**:First scans are often slow, especially on networked storage. Be patient
-
-! **Note**:The Kavita Homepage and Library info, will not be updated throughout the scan, in chunks of 50 series at a time. 
+! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will not be updated throughout the scan, in chunks of 50 series at a time. 
