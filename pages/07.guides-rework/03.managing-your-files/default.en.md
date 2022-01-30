@@ -61,6 +61,7 @@ This file must be named ComicInfo.xml
 
 The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/introduction)
 
+You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/admin/pages/guides-rework/misc)
 <hr style="border:1px solid ##465176"> </hr>
 ### eBooks
 
