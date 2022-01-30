@@ -11,7 +11,7 @@ This page covers:
 Kavita now supports mixed media libraries. For example your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
 ![kavita%20Library%20File%20Type](kavita%20Library%20File%20Type.jpg "kavita Library Type")
 
-<hr style="border:2px solid #4ac694"> </hr>
+<hr style="border:4px solid #4ac694"> </hr>
 ### Adding a Library to Kavita
 
 To create a new Library an Admin can select the Server Settings option from the Drop Down menu.
