@@ -51,7 +51,7 @@ This tab is useful to troubleshoot problems related to name parsing. It list all
 <hr style="border:2px solid #4ac694"> </hr>
 ### Rating and Reviews
 
-![Example](Example.webp "Example")
+![Example](rating_and_preview_example.webp "Example")
 Kavita allows for you to track your rating and provide a review for yourself all within Kavita. Currently Kavita has it's own, separate system, however Scrobbing and Syncing to external sources is planned.
 
 To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to review. Adding a text based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
