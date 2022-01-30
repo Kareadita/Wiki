@@ -27,7 +27,7 @@ If the underlying file has not been modified between scans, Kavita will not do e
 ## Analyze books
 Analysis is automatically performed when content is added to your Library. In rare cases, new versions of Kavita may update the media analysis capabilities to correct something or add the ability to detect new things. In those cases, content may be re-analyzed when you access it after the new server version is installed.
 
-<hr style="border:2px solid ##4ac694"> </hr>
+<hr style="border:2px solid #4ac694"> </hr>
 ### What happens during Analysis?
 Whenever an item is added to one of your Libraries, Kavita performs some analysis on it to gather information. In addition, files analyzed will also be refreshed for covers in the following conditions:
 - A cover image is not present on the item
