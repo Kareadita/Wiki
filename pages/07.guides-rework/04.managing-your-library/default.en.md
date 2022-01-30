@@ -15,7 +15,7 @@ Page overview
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will not be updated throughout the scan. They will be updated in chunks of 50 series at a time. 
 
-<hr style="border:2px solid ##4ac694"> </hr>
+<hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them. Books like epub, will use the metadata within the epub to perform grouping. 
 
