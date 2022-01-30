@@ -91,11 +91,16 @@ Likewise with Age Rating, Release Year is a summation of the minimum year define
 ## Scanning files.
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will not be updated throughout the scan. They will be updated in chunks of 50 series at a time. 
-
+! **Note**: Kavita performs a first-time scan on new created libraries
 <hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
-Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them. Books like epub, will use the metadata within the epub to perform grouping. 
+Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
 
-Kavita also reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files, using the ComicInfo.xml format. If your archives contain metadata, it will override any parsed information from the file. You can read up more about metadata [here](https://wiki.kavitareader.com/en/guides-rework/managing-your-files#metadata).
+The scan basically parses the file names and reads the comic info if applicable, updates the database with that information, and updates the pages and other information we need. 
+If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
+If your archives contain metadata, it will override any parsed information from the file.
 
-If the underlying file has not been modified between scans, Kavita will not do extra processing on the file. 
+<hr style="border:5px solid #4ac694"> </hr>
+## Refresh Covers
+During the refresh covers task, same kind of logic applies. This is a heavy task because of the amount of I/o we have to perform and because the amount of memory we need to copy images out of the archive and onto the disk.
+In this task we don't open up any archives if they haven't been modified unless you do a refresh covers from the UI. In addition, even if it was modified, if you've locked the cover image by using the UI and uploading your own custom one, then we don't open up the archive either
