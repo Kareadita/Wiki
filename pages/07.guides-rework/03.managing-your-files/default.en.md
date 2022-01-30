@@ -31,11 +31,11 @@ The parsing order is the following
 3. Folder name
 
 Each library type has it's own naming convention. 
-* [Comic File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/comics)
-* [Manga File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/manga)
-* [eBooks File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/)
-* [PDF File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/)
-* [Raw Images File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/)
+* [Comic File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/comics)
+* [Manga File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/manga)
+* [eBooks File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/)
+* [PDF File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/)
+* [Raw Images File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/)
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Metadata
