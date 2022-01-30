@@ -1,5 +1,10 @@
 ---
 title: 'CManaging your files'
+taxonomy:
+    tag:
+        - Metadata
+        - ComicInfo
+        - Naming
 ---
 
 Overview of this page:<br/>
