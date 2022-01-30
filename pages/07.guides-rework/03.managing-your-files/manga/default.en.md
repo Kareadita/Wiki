@@ -32,7 +32,8 @@ Library Root
      ┖── Series Name
          ┖── Series Name.cbz```
 
-2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"```
+2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
+```
 Library Root
     ┖── Series Name
          ┖── Specials
