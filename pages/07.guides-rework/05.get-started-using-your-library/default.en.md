@@ -11,9 +11,9 @@ taxonomy:
 page overview<br/>
 ├── [Series details](Series Details)<br/>
 │    · Overview of a series page<br/>
-│    · Edit Series
+│    · Edit Series<br/>
 │    · Ratings and Reviews<br/>
-│    · Info Modal
+│    · Info Modal<br/>
 ├── [Filtering](#filtering)<br/>
 ├── [Downloading](#downloading)<br/>
 ├── [Collections](#collections)<br/>
