@@ -32,7 +32,7 @@ To start reading you can either click the individual volume or chapter or let Ka
 ![continue](continue.png "continue")
 Continue will open the last chapter that you have progress on or the next (if the last one was finished). 
 
-If you don't see Continue, this means you haven't started reading yet. Press "Read" to start reading from the first volume or chapter.![read](read.png?cropResize=30 "read")
+If you don't see Continue, this means you haven't started reading yet. Press "Read" to start reading from the first volume or chapter.![read](read.png?cropResize=120 "read")
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Edit Series
