@@ -1,5 +1,5 @@
 ---
-title: 'Managing your files'
+title: 'owManaging your files'
 ---
 
 Overview of this page:<br/>
@@ -29,7 +29,11 @@ The parsing order is the following
 1. Metadata file
 2. File name
 3. Folder name
-
+Each library type has it's own naming convention. 
+* [Comic File Structure]()
+* [Manga File Structure]()
+* [PDF File Structure]()
+* [Raw Images File Structure]()
 
 <hr style="border:4px solid #4ac694"> </hr>
 ## Metadata
