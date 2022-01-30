@@ -88,8 +88,8 @@ From this page, you can select a set of tags to search against. The search will 
 If a user has the Download role, they can download files from Kavita. Because Kavita uses a grouping mechanic, the downloads will mimic this structure. From any Series, Volume, or Chapter, a user can kick off a download via the context menu. If the underlying file is just one individual file, it will be sent as is, otherwise, the files will be grouped in a zip and downloaded. 
 
 Downloads may take longer than expected to process. Kavita will show a spinner on the item you are attempting to download from. 
-
 ![downloads](downloads.webp "downloads")
+
 <hr style="border:5px solid #4ac694"> </hr>
 ## Collections
 Collections will make this guide longer so a sub-page has been created.
@@ -97,6 +97,13 @@ Collections will make this guide longer so a sub-page has been created.
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Reading List
-A reading list is an ordered list of chapters that can be of mixed media types. Admin's can promote reading lists so all users can see them, but not edit them. Otherwise, reading lists are per-user.
+A reading list is an ordered list of chapters that can be of mixed media types. 
 
-Users can read through in one go a reading list and the readers will transition between the different readers. For example you can have Manga -> Manga -> Book -> Manga and you can read that without closing the reader. The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically. Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
+Only one user can see its reading lists except if an admins promote a reading list so all users can see them, but not edit them.
+
+Users can read through a reading list and the readers will transition automatically between the different types of readers accordingly to the file type.<br/>
+For example you can have a list with the following items: `Manga chapter -> Manga chapter -> Book chapter -> Manga` You can read them without closing the reader. 
+
+The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically.
+
+Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
