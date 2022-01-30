@@ -1,6 +1,6 @@
 ---
 title: 'Get Started using your library'
-media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif'
+media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif,kavita_Library_Filtering.jpg,v0.5 filters.PNG,rating_and_preview_example.webp,kavita_Library_Filtering2.jpg,downloads.webp,volume modal.webp'
 taxonomy:
     tag:
         - Rating
@@ -61,6 +61,19 @@ Kavita allows for you to track your rating and provide a review for yourself all
 To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to review. Adding a text based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
 ![rating%20and%20review%202](rating%20and%20review%202.gif?cropResize=300 "rating%20and%20review%202")
 
+<hr style="border:2px solid #4ac694"> </hr>
+### Info Modal
+Kavita has grouping which sometimes can be confusing, did a file get grouped properly? How can I check? This is where the Info modal comes from. From a Volume/Chapter, use the context actions menu to select Info. From Series detail, you must be an admin and can use the Edit button.
+
+#### Volume Info
+![volume%20modal](volume%20modal.PNG "volume%20modal")
+
+The volume info has some extra functionality. First, as you can see, we have individual chapters that are grouped into one virtual volume. When reading, you can jump chapter to chapter, but what if you want to re-read chapter 2? This screen will let you by clicking the cover image, which will open the reader directly on that chapter. Likewise, what if you've already read chapters 1-4 and want to quickly mark them as read? Using the context action button next to the Chapter title, you can now: 
+* Mark as Read
+* Mark as Unread
+* [Download](#downloading)
+
+
 <hr style="border:5px solid #4ac694"> </hr>
 ## Filtering
 Filtering allows the user to select the type of content displayed in a Library
@@ -72,3 +85,12 @@ This will open the filtering section to allow you to explore your library. The f
 From this page, you can select a set of tags to search against. The search will always OR each field. All fields will react to the selected libraries (aka if there are no writers in library comics, writers will show up with nothing, even if there are defined writers in another library) except for Collections and Formats. Those will always show all options available. Rating field will show as the minimum rating. If you select 3 stars, then anything with 3 or more stars will be returned.
 
 ![v0.5%20filters](v0.5%20filters.PNG "v0.5%20filters")
+
+<hr style="border:5px solid #4ac694"> </hr>
+## Download
+If a user has the Download role, they can download files from Kavita. Because Kavita uses a grouping mechanic, the downloads will mimic this structure. From any Series, Volume, or Chapter, a user can kick off a download via the context menu. If the underlying file is just one individual file, it will be sent as is, otherwise, the files will be grouped in a zip and downloaded. 
+
+Downloads may take longer than expected to process. Kavita will show a spinner on the item you are attempting to download from. 
+
+![downloads](downloads.webp "downloads")
+
