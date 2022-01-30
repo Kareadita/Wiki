@@ -29,20 +29,20 @@ An entity is considered a special when:
 1. A series can be parsed out of it, but no volume or chapter information is found.
 ```
 Library Root
-  ┖── Series Name
+    ┖── Series Name
       ┖── Series Name.cbz```
 
 2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
 ```
 Library Root
-  ┖── Series Name
+    ┖── Series Name
       ┖── Specials
           ┖── Series Name Omakes SP01.cbz```
 
 3. To force a Special status, the filename can use SP01, SP02 etc.
 ```
 Library Root
-  ┖── Series Name
+    ┖── Series Name
       ┠── Series Name v01.cbz
       ┠── Series Name v02.cbz
       ┠── Series Name SP01.cbz
