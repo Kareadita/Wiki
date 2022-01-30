@@ -5,6 +5,7 @@ taxonomy:
         - Metadata
         - ComicInfo
         - Naming
+visible: true
 ---
 
 Overview of this page:<br/>
