@@ -86,6 +86,7 @@ Ideally the value of this field should be the total number of volumes (manga) or
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 <hr style="border:2px solid #4ac694"> </hr>
 ### eBooks
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit sem id velit dignissim bibendum. Mauris felis elit, porttitor at sapien quis, efficitur volutpat quam. Integer pretium, erat in volutpat viverra, velit velit ultricies orci, ut vestibulum tellus massa eget lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus vulputate diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tellus erat, ut vehicula nulla pretium a. Mauris luctus eget nunc vitae congue. Nunc ultricies ut libero vitae aliquet. Aliquam eget laoreet eros, vitae efficitur ipsum. Fusce interdum eleifend est. Quisque lobortis tortor at sollicitudin auctor. Pellentesque vitae felis sed sem accumsan porttitor et in dolor. Curabitur est enim, placerat ac blandit vel, aliquam vel dolor. Phasellus in dolor venenatis, suscipit arcu ac, fringilla sapien.
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Scanning files.
