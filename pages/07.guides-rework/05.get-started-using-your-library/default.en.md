@@ -1,6 +1,6 @@
 ---
 title: 'Get Started using your library'
-media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png'
+media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png'
 ---
 
 page overview<br/>
@@ -35,6 +35,22 @@ If you don't see Continue, this means you haven't started reading yet. Press "Re
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Edit Series
+This opens a menu with 3 tabs
+#### General
+It's possible to change information of the series such as name, collections or summary.
+#### Cover Image
+Override the cover of the series without modifying any file.
+#### Info
+This tab is useful to troubleshoot problems related to name parsing. It list all files that are part of this series.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Rating and Reviews
+
+![Example](Example.PNG "Example")
+Kavita allows for you to track your rating and provide a review for yourself all within Kavita. Currently Kavita has it's own, separate system, however Scrobbing and Syncing to external sources is planned.
+
+To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to review. Adding a text based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
+
+![rating%20and%20review%201](rating%20and%20review%201.gif "rating%20and%20review%201")
+![rating%20and%20review%202](rating%20and%20review%202.gif "rating%20and%20review%202")
+
