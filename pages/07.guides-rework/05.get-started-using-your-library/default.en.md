@@ -24,7 +24,7 @@ Series detail is the main page where you can see a series and all the entities r
 
 Below this section is the metadata and collection tags. Collection tags can be clicked to view all items in that collection, while metadata tags can be clicked to open a filtered search query for said filter. For example, if you clicked Cover Artist "Cory Walker", then a search against anything that the user has access to that is tagged with Cover Artist of Cory Walker will be shown.
 
-![Detail%20Page](Detail%20Page.webp?cropResize=450,450 "Detail%20Page")
+![Detail%20Page](Detail%20Page.webp?cropResize=600,600 "Detail%20Page")
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Continue Reading
