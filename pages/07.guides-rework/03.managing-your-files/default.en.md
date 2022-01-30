@@ -34,11 +34,6 @@ Folder and File Structure TOC:
 * [PDF File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/pdf)
 * [Raw Images File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/raw-images)
 
-The parsing order is the following
-1. Metadata file
-2. File name
-3. Folder name
-
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
 To force a Special status, the filename can use SP01, SP02 etc.
