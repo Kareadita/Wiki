@@ -15,7 +15,7 @@ page overview<br/>
 │    · Ratings and Reviews<br/>
 │    · Info Modal<br/>
 ├── [Filtering](#filtering)<br/>
-├── [Downloading](#downloading)<br/>
+├── [Downloading](#download)<br/>
 ├── [Collections](#collections)<br/>
 └── [Reading list](#reading-list)<br/>
 
