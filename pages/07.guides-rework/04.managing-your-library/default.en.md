@@ -38,7 +38,6 @@ Whenever an item is added to one of your Libraries, Kavita performs some analysi
 #### Generate default artwork
 During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata (opf).
 
-<hr style="border:1px ##4ac694 solid "> </hr>
 #### Analyze your content
 
 You can analyze content in multiple ways: for a book, for a series, or even for an entire Library.
