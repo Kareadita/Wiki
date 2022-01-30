@@ -4,21 +4,21 @@ title: 'CManaging your files'
 
 Overview of this page:<br/>
 ```
-Managing your files<br/>
-├── Naming convention / File Structure<br/>
-│   ├── Manga<br/>
-│   ├── Comics<br/>
-│   ├── eBooks<br/>
-│   ├── PDF<br/>
-│   └── Raw Images<br/>
-│<br/>
-└── [Metadata](#metadata)<br/>
-    ├── [Comics and manga metadata](#comics-and-manga)<br/>
-    │     + Count and number explained<br/>
-    │     + Different tools<br/>
-    │<br/>
-    └── [Books metadata](#ebooks)<br/>
-          + Different tools Used<br/>
+Managing your files
+├── Naming convention / File Structure
+│   ├── Manga
+│   ├── Comics
+│   ├── eBooks
+│   ├── PDF
+│   └── Raw Images
+│
+└── [Metadata](#metadata)
+    ├── [Comics and manga metadata](#comics-and-manga)
+    │     + Count and number explained
+    │     + Different tools
+    │
+    └── [Books metadata](#ebooks)
+          + Different tools Used
 ```
 ===
 
