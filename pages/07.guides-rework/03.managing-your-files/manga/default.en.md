@@ -4,7 +4,7 @@ title: Manga
 
 ### Manga Structure
 A good structure would be:
-```
+`
 Library Root
   ┖── Series Name
       ┠── Series Name v01.cbz
@@ -17,7 +17,7 @@ Library Root
       ┠── Series Name 2 Vol.01 Ch.2.cbz
       ⋮
       ┖── Series Name 2 Vol.02 Ch.6.cbz
-```
+`
  
 
 ### Manga Specials
