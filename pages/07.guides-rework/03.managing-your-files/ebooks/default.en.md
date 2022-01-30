@@ -1,5 +1,6 @@
 ---
 title: ebooks
+media_order: collectionmetadata.webp
 ---
 
 ### eBook Structure
@@ -46,4 +47,4 @@ As of version 0.4.2, Kavita now supports EPUB version 3.2 "belongs-to-collection
 ```
 
 Here you can see the Harry Potter series, as coded above. Each book is an individual series, but because of the collection metadata, they are ordered and grouped together as "Harry Potter"
-![collectionmetadata](collectionmetadata.PNG "collectionmetadata")
+![collectionmetadata](collectionmetadata.webp "collectionmetadata")
