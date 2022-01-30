@@ -21,7 +21,7 @@ Overview of this page:<br/>
 
 ===
 
-<hr style="border:4px solid #4ac694"> </hr>
+<hr style="border:5px solid #4ac694"> </hr>
 ## File Structure
 It's important to know how kavita parses the info from the files.
 
