@@ -32,7 +32,6 @@ Managing your files
     └── [Books metadata](#ebooks)
           + Different tools Used
 ```
-===
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## File Structure
