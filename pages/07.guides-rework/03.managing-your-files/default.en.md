@@ -68,7 +68,6 @@ The series will be M as that is the most mature rating in all Issues.
 ##### Count
 In order for a Series to give a publication status, if you have at least one "Count" defined within any ComicInfo from the series and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
 Ideally the value of this field should be the total number of volumes (manga) or issues (comics)
-<hr style="border:1px solid ##465176"> </hr>
 ##### Release Year
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 ### eBooks
