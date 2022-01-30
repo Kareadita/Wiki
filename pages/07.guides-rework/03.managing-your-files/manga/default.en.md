@@ -16,7 +16,7 @@ Library Root
 ┖── Series Name 2
     ┠── Series Name 2 Vol.01 Ch.1.cbz
     ┠── Series Name 2 Vol.01 Ch.2.cbz
-    ...
+     ⋮
     ┖── Series Name 2 Vol.02 Ch.6.cbz
 ```
  
