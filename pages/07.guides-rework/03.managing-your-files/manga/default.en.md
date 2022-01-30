@@ -30,7 +30,7 @@ An entity is considered a special when:
 ```
 Library Root
      ┖── Series Name
-        ┖── Series Name.cbz```
+         ┖── Series Name.cbz```
 
 2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
 ```
