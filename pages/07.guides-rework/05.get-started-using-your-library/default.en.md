@@ -1,6 +1,11 @@
 ---
 title: 'Get Started using your library'
 media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif'
+taxonomy:
+    tag:
+        - Rating
+        - Filters
+        - 'Series Detail'
 ---
 
 page overview<br/>
