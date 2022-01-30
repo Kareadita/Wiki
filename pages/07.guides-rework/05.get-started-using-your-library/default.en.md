@@ -1,6 +1,6 @@
 ---
 title: 'Get Started using your library'
-media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif'
+media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif,rating and review 1.gif'
 taxonomy:
     tag:
         - Rating
