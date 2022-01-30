@@ -59,16 +59,22 @@ The xml schema of this file can be found in the [Anansi Project webpage](https:/
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/admin/pages/guides-rework/misc)
 <hr style="border:1px solid ##465176"> </hr>
 #### How Kavita parses certain tags
+
 ##### Age Rating
+
 Age rating may vary between different files within a series. The Series will take the highest Age Rating (aka most mature) and use it from the files contained within. So for example, say you have:
 * Issue 1 - PG
 * Issue 2 - PG
 * Issue 3 - M
 The series will be M as that is the most mature rating in all Issues.
+
 ##### Count
+
 In order for a Series to give a publication status, if you have at least one "Count" defined within any ComicInfo from the series and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
 Ideally the value of this field should be the total number of volumes (manga) or issues (comics)
+
 ##### Release Year
+
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 ### eBooks
 
