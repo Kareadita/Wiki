@@ -1,5 +1,5 @@
 ---
-title: 'CManaging your files'
+title: 'Managing your files'
 taxonomy:
     tag:
         - Metadata
