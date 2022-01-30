@@ -47,9 +47,8 @@ To force a Special status, the filename can use SP01, SP02 etc.
     /libraryroot/Series Name/Specials/Series Name SP01 Special Name.cbz
 
 This will take the file and force it to be a special. For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
-For example:
-    /libraryroot/Again!!/Specials/Again The After Story SP01.cbz 
-will parse "Again!!" for the Series name and group the file as a special under Again!!
+For example: `/libraryroot/Again!!/Specials/Again The After Story SP01.cbz`
+will parse "`Again!!`" for the Series name and group the file as a special under Again!!
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Metadata
