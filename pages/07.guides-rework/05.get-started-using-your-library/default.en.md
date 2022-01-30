@@ -41,10 +41,13 @@ If you don't see Continue, this means you haven't started reading yet. Press "Re
 <hr style="border:2px solid #4ac694"> </hr>
 ### Edit Series
 This opens a menu with 3 tabs
+
 **General**<br/>
 It's possible to change information of the series such as name, collections or summary.
+
 **Cover Image**<br/>
 Override the cover of the series without modifying any file.
+
 **Info**<br/>
 This tab is useful to troubleshoot problems related to name parsing. It list all files that are part of this series.
 
