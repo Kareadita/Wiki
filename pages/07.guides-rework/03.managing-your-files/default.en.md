@@ -11,12 +11,12 @@ Overview of this page:<br/>
 │    │   ├── PDF<br/>
 │    │   └── Raw Images<br/>
 │    │<br/>
-│    └── Metadata<br/>
-│        ├── ComicInfo.xml<br/>
+│    └── [Metadata](#metadata)<br/>
+│        ├── [Comics and manga metadata](#comics-and-manga)<br/>
 │        │     + Count and number explained<br/>
 │        │     + Different tools<br/>
 │        │<br/>
-│        └── Books metadata<br/>
+│        └── [Books metadata](#ebooks)<br/>
 │              + Different tools Used<br/>
 
 ===
