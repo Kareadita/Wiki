@@ -34,11 +34,11 @@ Whenever an item is added to one of your Libraries, Kavita performs some analysi
 - The user requested a refresh of covers manually from series/library context menu
 - The file has been modified since last scan
 
-<hr style="border:1px solid #4ac694"> </hr>
+<hr style="border:1px solid "> </hr>
 #### Generate default artwork
 During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata (opf).
 
-<hr style="border:2px solid #4ac694"> </hr>
+<hr style="border:1px solid "> </hr>
 #### Analyze your content
 
 You can analyze content in multiple ways: for a book, for a series, or even for an entire Library.
