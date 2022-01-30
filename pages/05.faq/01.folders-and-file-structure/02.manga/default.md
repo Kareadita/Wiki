@@ -5,19 +5,10 @@ title: Manga
 ### Manga Structure
 A good structure would be:
 
-```Library Root
-┖── Series Name
-    ┠── Series Name v01.cbz
-    ┠── Series Name v02.cbz
-    ┠── Series Name v03.cbz
-    ┖── Specials
-        ┖── Series Name Omakes SP01.cbz
-┖── Series Name 2
-    ┠── Series Name 2 Vol.01 Ch.1.cbz
-    ┠── Series Name 2 Vol.01 Ch.2.cbz
-    ...
-    ┖── Series Name 2 Vol.02 Ch.6.cbz
-```
+* /libraryroot/Series Name/Series Name v01.cbz  
+* /libraryroot/Series Name/Series Name v02.cbz  
+* /libraryroot/Series Name/Series Name v03 c01.cbz  
+* /libraryroot/Series Name/Specials/Series Name Omakes SP01.cbz
  
 
 ### Manga Specials
@@ -27,24 +18,14 @@ Kavita treats multiple types of files as "Specials" and will group them in a sep
 An entity is considered a special when:
 
 1. A series can be parsed out of it, but no volume or chapter information is found.
-```Library Root
-┖── Series Name
-    ┖── Series Name.cbz```
+*  /libraryroot/Series Name/Series Name.cbz 
 
 2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
-```Library Root
-┖── Series Name
-    ┖── Specials
-        ┖── Series Name Omakes SP01.cbz```
+*  /libraryroot/Series Name/Specials/Series Name Omake.cbz 
 
 3. To force a Special status, the filename can use SP01, SP02 etc.
-```Library Root
-┖── Series Name
-    ┠── Series Name v01.cbz
-    ┠── Series Name v02.cbz
-    ┠── Series Name SP01.cbz
-    ┖── Specials
-        ┖── Series Name SP01 Special Name.cbz```
+*  /libraryroot/Series Name/Series Name SP01.cbz
+*  /libraryroot/Series Name/Specials/Series Name SP01 Special Name.cbz
 
 ### Examples of Naming conventions supported out of the box
 * Noblesse - Episode 406 (52 Pages).7z -> Noblesse Chapter 406
