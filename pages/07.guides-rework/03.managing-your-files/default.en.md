@@ -37,7 +37,7 @@ Each library type has it's own naming convention.
 * [PDF File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/)
 * [Raw Images File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/)
 
-<hr style="border:4px solid #4ac694"> </hr>
+<hr style="border:5px solid #4ac694"> </hr>
 ## Metadata
 Kavita uses metadata to parse Series Name, Volumes, Chapters...
 <hr style="border:1px solid ##465176"> </hr>
