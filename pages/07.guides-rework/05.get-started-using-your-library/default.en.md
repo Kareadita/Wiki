@@ -90,4 +90,8 @@ If a user has the Download role, they can download files from Kavita. Because Ka
 Downloads may take longer than expected to process. Kavita will show a spinner on the item you are attempting to download from. 
 
 ![downloads](downloads.webp "downloads")
+<hr style="border:5px solid #4ac694"> </hr>
+## Collections
 
+<hr style="border:5px solid #4ac694"> </hr>
+## Reading List
