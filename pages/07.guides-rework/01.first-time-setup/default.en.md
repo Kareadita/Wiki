@@ -13,6 +13,7 @@ Kavita now supports mixed media libraries. For example your Light Novels (epub) 
 
 <hr style="border:4px solid #4ac694"> </hr>
 ### Adding a Library to Kavita
+<hr style="border:4px solid #4ac694"> </hr>
 
 To create a new Library an Admin can select the Server Settings option from the Drop Down menu.
 ![KavitaSettingsDropdown](KavitaSettingsDropdown.jpg "KavitaSettingsDropdown")
