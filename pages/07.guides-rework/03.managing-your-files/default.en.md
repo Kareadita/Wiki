@@ -39,6 +39,9 @@ Each library type has it's own naming convention.
 
 <hr style="border:4px solid #4ac694"> </hr>
 ## Metadata
-
+Kavita uses metadata to parse Series Name, Volumes, Chapters...
+<hr style="border:1px solid ##465176"> </hr>
 ### Comics and Manga
+<hr style="border:1px solid ##465176"> </hr>
+### eBooks
 
