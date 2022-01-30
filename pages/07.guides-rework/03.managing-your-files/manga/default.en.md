@@ -12,7 +12,7 @@ Library Root
       ┠── Series Name v03.cbz
       ┖── Specials
         ┖── Series Name Omakes SP01.cbz
-┖── Series Name 2
+  ┖── Series Name 2
       ┠── Series Name 2 Vol.01 Ch.1.cbz
       ┠── Series Name 2 Vol.01 Ch.2.cbz
        ⋮
