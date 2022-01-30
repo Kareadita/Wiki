@@ -105,7 +105,7 @@ The scan basically parses the file names and reads the comic info if applicable,
 If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
 If your archives contain metadata, it will override any parsed information from the file.
 
-<hr style="border:5px solid #4ac694"> </hr>
-## Refresh Covers
+<hr style="border:2px solid #4ac694"> </hr>
+### Refresh Covers
 During the refresh covers task, same kind of logic applies. This is a heavy task because of the amount of I/o we have to perform and because the amount of memory we need to copy images out of the archive and onto the disk.
 In this task we don't open up any archives if they haven't been modified unless you do a refresh covers from the UI. In addition, even if it was modified, if you've locked the cover image by using the UI and uploading your own custom one, then we don't open up the archive either
