@@ -29,6 +29,7 @@ The parsing order is the following
 1. Metadata file
 2. File name
 3. Folder name
+
 Each library type has it's own naming convention. 
 * [Comic File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/admin/pages/guides-rework/managing-your-files/manga)
