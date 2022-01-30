@@ -1,5 +1,6 @@
 ---
 title: 'Managing your library'
+media_order: LibraryActions.webp
 ---
 
 Page overview
@@ -38,14 +39,13 @@ Whenever an item is added to one of your Libraries, Kavita performs some analysi
 #### Generate default artwork
 During analysis, artwork will automatically be grabbed from the media file. The first page will be used for poster/thumbnail type purposes unless a file named cover is within the archive. Epubs have cover images specified within the metadata (opf).
 <hr style="border:2px solid #4ac694"> </hr>
-### Analyze your content
+### How to analyze?
 
 You can analyze content in multiple ways: for a book, for a series, or even for an entire Library.
 
 Look for the **Action Menu** icon of three vertical dots.
 
-![LibraryActions](LibraryActions.jpg?resize=300,300 "LibraryActions") ![MangaActions](MangaActions.jpg?resize=300,300 "MangaActions")![BooksActions](BooksActions.jpg?resize=300,300 "BooksActions")
-
+![LibraryActions](LibraryActions.webp?resize=300,300 "LibraryActions") ![MangaActions](MangaActions.webp?resize=300,300 "MangaActions")![BooksActions](BooksActions.webp?resize=300,300 "BooksActions")
 
 ! **Note**: Depending on the size of your Library, analysis may take a while.
 
