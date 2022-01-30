@@ -55,6 +55,12 @@ will parse "`Again!!`" for the Series name and group the file as a special under
 Kavita uses metadata to parse Series Name, Volumes, Chapters...
 <hr style="border:1px solid ##465176"> </hr>
 ### Comics and Manga
+Comics and manga uses a ".xml" file at the root of the cbz,cbr,cb7... files
+
+This file must be named ComicInfo.xml
+
+The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/introduction)
+
 <hr style="border:1px solid ##465176"> </hr>
 ### eBooks
 
