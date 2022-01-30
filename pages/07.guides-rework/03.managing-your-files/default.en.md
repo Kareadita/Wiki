@@ -23,6 +23,13 @@ Overview of this page:<br/>
 
 <hr style="border:4px solid #4ac694"> </hr>
 ## File Structure
+It's important to know how kavita parses the info from the files.
+
+The parsing order is the following
+1. Metadata file
+2. File name
+3. Folder name
+
 
 <hr style="border:4px solid #4ac694"> </hr>
 ## Metadata
