@@ -27,17 +27,17 @@ It's important to know how kavita parses the info from the files.
 
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Due to this, you are not required to put all of one series in the same folder, however it is good practice.
 
-The parsing order is the following
-1. Metadata file
-2. File name
-3. Folder name
-
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/manga)
 * [eBooks File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/ebooks)
 * [PDF File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/pdf)
 * [Raw Images File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/raw-images)
+
+The parsing order is the following
+1. Metadata file
+2. File name
+3. Folder name
 
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
