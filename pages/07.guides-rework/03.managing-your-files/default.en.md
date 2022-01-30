@@ -30,7 +30,7 @@ Kavita uses parsing (not folder structure) to determine what is a series and wha
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/manga)
-* [eBooks File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/ebooks)
+* [eBooks File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/ebooks)
 * [PDF File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/pdf)
 * [Raw Images File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/raw-images)
 
