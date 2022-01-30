@@ -27,8 +27,7 @@ Kavita treats multiple types of files as "Specials" and will group them in a sep
 An entity is considered a special when:
 
 1. A series can be parsed out of it, but no volume or chapter information is found.
-```
-Library Root
+```Library Root
      ┖── Series Name
          ┖── Series Name.cbz```
 
