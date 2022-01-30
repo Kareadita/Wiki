@@ -4,7 +4,6 @@ title: Manga
 
 ### Manga Structure
 A good structure would be:
-
 ```
 Library Root
 ┖── Series Name
