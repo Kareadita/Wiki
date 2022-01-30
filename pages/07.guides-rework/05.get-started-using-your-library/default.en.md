@@ -29,7 +29,9 @@ Below this section is the metadata and collection tags. Collection tags can be c
 <hr style="border:2px solid #4ac694"> </hr>
 ### Continue Reading
 To start reading you can either click the individual volume or chapter or let Kavita resume you where you left off by clicking "Continue".
-| ![continue](continue.png?cropResize=120 "continue") |Continue will open the last chapter that you have progress on or the next (if the last one was finished).   |
+|  |  |
+|--|--|
+|![continue](continue.png?cropResize=120 "continue") |Continue will open the last chapter that you have progress on or the next (if the last one was finished).   |
  ![read](read.png?cropResize=120 "read")|Press "Read" to start reading from the first volume or chapter.
  
 Continue will open the last chapter that you have progress on or the next (if the last one was finished). 
