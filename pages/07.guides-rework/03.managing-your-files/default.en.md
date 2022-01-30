@@ -3,22 +3,23 @@ title: 'CManaging your files'
 ---
 
 Overview of this page:<br/>
-├── Managing your files<br/>
-│    ├── Naming convention / File Structure<br/>
-│    │   ├── Manga<br/>
-│    │   ├── Comics<br/>
-│    │   ├── eBooks<br/>
-│    │   ├── PDF<br/>
-│    │   └── Raw Images<br/>
-│    │<br/>
-│    └── [Metadata](#metadata)<br/>
-│        ├── [Comics and manga metadata](#comics-and-manga)<br/>
-│        │     + Count and number explained<br/>
-│        │     + Different tools<br/>
-│        │<br/>
-│        └── [Books metadata](#ebooks)<br/>
-│              + Different tools Used<br/>
-
+```
+Managing your files<br/>
+├── Naming convention / File Structure<br/>
+│   ├── Manga<br/>
+│   ├── Comics<br/>
+│   ├── eBooks<br/>
+│   ├── PDF<br/>
+│   └── Raw Images<br/>
+│<br/>
+└── [Metadata](#metadata)<br/>
+    ├── [Comics and manga metadata](#comics-and-manga)<br/>
+    │     + Count and number explained<br/>
+    │     + Different tools<br/>
+    │<br/>
+    └── [Books metadata](#ebooks)<br/>
+          + Different tools Used<br/>
+```
 ===
 
 <hr style="border:5px solid #4ac694"> </hr>
