@@ -49,7 +49,7 @@ will parse "`Again!!`" for the Series name and group the file as a special under
 <hr style="border:5px solid #4ac694"> </hr>
 ## Metadata
 Kavita uses metadata to parse Series Name, Volumes, Chapters...
-
+<hr style="border:2px solid #4ac694"> </hr>
 ### Comics and Manga
 Comics and manga uses a ".xml" file at the root of the cbz,cbr,cb7... files
 
@@ -77,5 +77,6 @@ Ideally the value of this field should be the total number of volumes (manga) or
 ##### Release Year
 
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
+<hr style="border:2px solid #4ac694"> </hr>
 ### eBooks
 
