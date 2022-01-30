@@ -66,7 +66,7 @@ To provide a rating, click the star icons. When you first provide a rating, a pr
 Kavita has grouping which sometimes can be confusing, did a file get grouped properly? How can I check? This is where the Info modal comes from. From a Volume/Chapter, use the context actions menu to select Info. From Series detail, you must be an admin and can use the Edit button.
 
 #### Volume Info
-![volume%20modal](volume%20modal.PNG "volume%20modal")
+![volume%20modal](volume%20modal.webp "volume%20modal")
 
 The volume info has some extra functionality. First, as you can see, we have individual chapters that are grouped into one virtual volume. When reading, you can jump chapter to chapter, but what if you want to re-read chapter 2? This screen will let you by clicking the cover image, which will open the reader directly on that chapter. Likewise, what if you've already read chapters 1-4 and want to quickly mark them as read? Using the context action button next to the Chapter title, you can now: 
 * Mark as Read
