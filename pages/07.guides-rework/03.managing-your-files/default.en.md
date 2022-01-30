@@ -5,9 +5,13 @@ taxonomy:
         - Metadata
         - ComicInfo
         - Naming
+        - Scan
+        - 'Refresh Covers'
 visible: true
 metadata:
     'og:description': 'This page covers everything related to files management. This includes proper naming, local metadata and how to update files in kavita.'
+    'og:title': 'Managing your files | Kavita Wiki'
+    'og:url': 'https://wiki.kavitareader.com/en/guides-rework/managing-your-library'
 ---
 
 Overview of this page:<br/>
