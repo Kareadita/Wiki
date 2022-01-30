@@ -1,5 +1,5 @@
 ---
-title: 'Managing your files'
+title: 'CManaging your files'
 ---
 
 Overview of this page:<br/>
@@ -58,9 +58,13 @@ The xml schema of this file can be found in the [Anansi Project webpage](https:/
 
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/admin/pages/guides-rework/misc)
 
-###
+#### Count
+In order for a Series to give a publication status, if you have at least one "Count" defined within any ComicInfo from the series and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
+Ideally the value of this field should be the total number of volumes (manga) or issues (comics)
 
 <hr style="border:2px solid grey"> </hr>
-<hr style="border:2px solid #465176"> </hr>
+<hr style="border:2px solid #aac4ba"> </hr>
+#### Release Year
+Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 ### eBooks
 
