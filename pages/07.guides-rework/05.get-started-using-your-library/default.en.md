@@ -10,17 +10,14 @@ taxonomy:
 
 page overview<br/>
 ├── [Series details](Series Details)<br/>
-│    · Overview of a series' page<br/>
-│<br/>
-├── General<br/>
+│    · Overview of a series page<br/>
+│    · Edit Series
 │    · Ratings and Reviews<br/>
-│    · Override Cover<br/>
-│    · Info<br/>
-│<br/>
-├── Filtering<br/>
-├── Downloading<br/>
-├── Collections<br/>
-└── Reading list<br/>
+│    · Info Modal
+├── [Filtering](#filtering)<br/>
+├── [Downloading](#downloading)<br/>
+├── [Collections](#collections)<br/>
+└── [Reading list](#reading-list)<br/>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
