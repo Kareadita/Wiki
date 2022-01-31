@@ -1,6 +1,7 @@
 ---
 title: OPDS
 media_order: 'Setting.PNG,user-setting.PNG,Browse OPDS Feed.png,Browse Feed 2.png'
+visible: false
 ---
 
 OPDS is an open standard for browsing and consuming content on your server from external readers. To enable OPDS for your server, under System Settings, enable OPDS.
