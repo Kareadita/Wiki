@@ -3,9 +3,9 @@ title: 'Start reading'
 ---
 
 Page overview<br/>
-└── Start reading<br/>
-     ├── Comic/Manga Reader<br/>
-     └── Book Reader<br/>
+Start reading<br/>
+├── Comic/Manga Reader<br/>
+└── Book Reader<br/>
 
 In the underlying pages. Its explained how each reader interface works
 
