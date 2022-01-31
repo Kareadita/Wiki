@@ -14,24 +14,10 @@ metadata:
 admin: {  }
 ---
 
-Overview of this page:<br/>
-```
-Managing your files
-├── Naming convention / File Structure
-│   ├── Manga
-│   ├── Comics
-│   ├── eBooks
-│   ├── PDF
-│   └── Raw Images
-│
-└── [Metadata](#metadata)
-    ├── [Comics and manga metadata](#comics-and-manga)
-    │     + Count and number explained
-    │     + Different tools
-    │
-    └── [Books metadata](#ebooks)
-          + Different tools Used
-```
+#### Page overview
+[Naming convention / File Structure](#file-structure)
+[Metadata](#metadata)
+[Scanning files](#scanning-files)
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## File Structure
@@ -97,7 +83,7 @@ Likewise with Age Rating, Release Year is a summation of the minimum year define
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit sem id velit dignissim bibendum. Mauris felis elit, porttitor at sapien quis, efficitur volutpat quam. Integer pretium, erat in volutpat viverra, velit velit ultricies orci, ut vestibulum tellus massa eget lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus vulputate diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tellus erat, ut vehicula nulla pretium a. Mauris luctus eget nunc vitae congue. Nunc ultricies ut libero vitae aliquet. Aliquam eget laoreet eros, vitae efficitur ipsum. Fusce interdum eleifend est. Quisque lobortis tortor at sollicitudin auctor. Pellentesque vitae felis sed sem accumsan porttitor et in dolor. Curabitur est enim, placerat ac blandit vel, aliquam vel dolor. Phasellus in dolor venenatis, suscipit arcu ac, fringilla sapien.
 
 <hr style="border:5px solid #4ac694"> </hr>
-## Scanning files.
+## Scanning files
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan **in chunks of 50 series at a time.** <br/><br/>
 ! **Note**: Kavita performs a first-time scan on new created libraries
