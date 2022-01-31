@@ -9,12 +9,12 @@ Kavita offers a few different settings for you as an owner and for users.
 Page overview:
 
 Admin Dashboard<br/>
-├── [General](#general-tab)<br/>
-├── [User Management](#users-tab)<br/>
-├── [Libraries](#libraries-tab)<br/>
-└── [System](#system-tab)<br/>
- User Settings<br/>
-└── [Preferences](#preferences)<br/>
+[General](#general-tab)<br/>
+[User Management](#users-tab)<br/>
+[Libraries](#libraries-tab)<br/>
+[System](#system-tab)<br/>
+[User Settings](#User-Settings)<br/>
+
 
 
 <hr style="border:2px solid green"> </hr>
@@ -73,4 +73,4 @@ In the reading section, you will find all the options for the manga reader and t
 The logged in user can change their password from this screen.
 
 ## 3rd Party clients
-COVERED IN MISC/3RD PARTY
+[Go to opds](./opds)
