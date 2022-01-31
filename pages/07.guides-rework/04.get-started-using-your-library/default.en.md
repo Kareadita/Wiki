@@ -9,11 +9,11 @@ taxonomy:
 ---
 
 page overview<br/>
-├── [Series details](#series-details)<br/>
-│    · Overview of a series page<br/>
-│    · Edit Series<br/>
-│    · Ratings and Reviews<br/>
-│    · Info Modal<br/>
+<code>├── </code>[Series details](#series-details)<br/>
+<code>│    </code>· Overview of a series page<br/>
+<code>│    </code>Edit Series<br/>
+<code>│    </code>Ratings and Reviews<br/>
+<code>│    </code>Info Modal<br/>
 ├── [Filtering](#filtering)<br/>
 ├── [Downloading](#download)<br/>
 ├── [Collections](#collections)<br/>
