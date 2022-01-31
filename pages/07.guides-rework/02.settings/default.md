@@ -28,7 +28,7 @@ Reoccurring tasks are also configurable to be changed.
 New addition waiting for wiki to be written
 
 ### Libraries Tab
-Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/guides/adding-a-library).
+Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/guides-rework/first-time-setup#adding-a-library-to-kavita).
 
 ### System Tab
 Under the System Tab admins can track what version Kavita is running, download logs, backup the database, check for updates, and manually Clear Cache. 
