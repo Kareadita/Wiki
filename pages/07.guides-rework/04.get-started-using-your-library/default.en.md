@@ -9,8 +9,9 @@ taxonomy:
 ---
 
 page overview<br/>
-<code>├── </code>[Series details](#series-details)<br/>
-<code>│    </code>· Overview of a series page<br/>
+<code>
+├── [Series details](#series-details)<br/>
+│    Overview of a series page<br/>
 <code>│    </code>Edit Series<br/>
 <code>│    </code>Ratings and Reviews<br/>
 <code>│    </code>Info Modal<br/>
