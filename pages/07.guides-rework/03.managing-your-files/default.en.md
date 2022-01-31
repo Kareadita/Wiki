@@ -15,9 +15,9 @@ admin: {  }
 ---
 
 #### Page overview
-[Naming convention / File Structure](#file-structure)
-[Metadata](#metadata)
-[Scanning files](#scanning-files)
+[Naming convention / File Structure](#file-structure)<br/>
+[Metadata](#metadata)<br/>
+[Scanning files](#scanning-files)<br/>
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## File Structure
