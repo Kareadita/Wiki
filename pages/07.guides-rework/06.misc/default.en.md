@@ -2,11 +2,9 @@
 title: Misc
 ---
 
-page overview<br/>
-Misc<br/>
-├── Api Documentation<br/>
-├── Plugins & 3rd Party Scripts<br/>
-└── [Tachiyomi](./tachiyomi)<br/>
+#### Page overview
+Api Documentation<br/>
+[Tachiyomi](./tachiyomi)<br/>
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Api Documentation
