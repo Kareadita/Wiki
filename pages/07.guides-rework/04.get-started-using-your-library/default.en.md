@@ -10,10 +10,10 @@ taxonomy:
 
 #### Page overview
 <span style="all:unset">[Series details](#series-details)</span><br/>
-    \- Overview of a series page<br/>
-    \- Edit Series<br/>
-    \- Ratings and Reviews<br/>
-    \- Info Modal<br/>
+        \- Overview of a series page<br/>
+        \- Edit Series<br/>
+        \- Ratings and Reviews<br/>
+        \- Info Modal<br/>
 [Filtering](#filtering)<br/>
 [Downloading](#download)<br/>
 [Collections](#collections)<br/>
