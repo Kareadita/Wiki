@@ -10,7 +10,7 @@ admin:
 [User Management](#users-tab)<br/>
 [Libraries](#libraries-tab)<br/>
 [System](#system-tab)<br/>
-[User Settings](#User-Settings)<br/>
+[User Settings](#user-settings)<br/>
 
 
 
