@@ -2,10 +2,10 @@
 title: 'Start reading'
 ---
 
-page overview
-├── Start reading
-│    ├── Comic/Manga Reader
-│    └── Book Reader
+Page overview
+└── Start reading
+     ├── Comic/Manga Reader
+     └── Book Reader
 
 In the underlying pages. Its explained how each reader interface works
 
