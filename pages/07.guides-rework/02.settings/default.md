@@ -25,7 +25,7 @@ You can enable OPDS for your Server here. See this [page](https://wiki.kavitarea
 
 Reoccurring tasks are also configurable to be changed.
 ### Users Tab
-New addition waiting for wiki to be written
+To be added.
 
 ### Libraries Tab
 Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/guides-rework/first-time-setup#adding-a-library-to-kavita).
