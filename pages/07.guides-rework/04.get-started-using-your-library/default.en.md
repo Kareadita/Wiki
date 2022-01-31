@@ -1,5 +1,5 @@
 ---
-title: '"Get Started using your library'
+title: 'Get Started using your library'
 media_order: 'kavita_Series_Read.webp,kavita_Series_Continue.webp,Detail Page.webp,continue.png,read.png,rating and review 2.gif,kavita_Library_Filtering.jpg,v0.5 filters.PNG,rating_and_preview_example.webp,kavita_Library_Filtering2.jpg,downloads.webp,volume modal.webp'
 taxonomy:
     tag:
@@ -10,16 +10,16 @@ taxonomy:
 
 Page overview<br/>
 <code style="all: unset">
-    <pre>
+    <pre style="all: unset">
 ├── [Series details](#series-details)<br/>
- │                        + Overview of a series page<br/>
- │                        + Edit Series<br/>
- │                        + Ratings and Reviews<br/>
- │                        + Info Modal<br/>
- ├── [Filtering](#filtering)<br/>
- ├── [Downloading](#download)<br/>
- ├── [Collections](#collections)<br/>
- └── [Reading list](#reading-list)<br/></pre></code>
+│           + Overview of a series page<br/>
+│           + Edit Series<br/>
+│           + Ratings and Reviews<br/>
+│           + Info Modal<br/>
+├── [Filtering](#filtering)<br/>
+├── [Downloading](#download)<br/>
+├── [Collections](#collections)<br/>
+└── [Reading list](#reading-list)<br/></pre></code>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
