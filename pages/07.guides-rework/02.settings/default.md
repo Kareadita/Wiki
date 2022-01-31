@@ -5,10 +5,7 @@ admin:
     children_display_order: collection
 ---
 
-Kavita offers a few different settings for you as an owner and for users. 
-Page overview:
-
-Admin Dashboard<br/>
+#### Page overview
 [General](#general-tab)<br/>
 [User Management](#users-tab)<br/>
 [Libraries](#libraries-tab)<br/>
