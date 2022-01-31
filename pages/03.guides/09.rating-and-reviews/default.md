@@ -1,6 +1,6 @@
 ---
 title: 'Rating and Reviews'
-media_order: 'Example.PNG,rating and review 2.gif,rating and review 1.gif'
+media_order: 'rating and review 2.gif,rating and review 1.gif,Example.PNG'
 ---
 
 ![Example](Example.PNG "Example")
