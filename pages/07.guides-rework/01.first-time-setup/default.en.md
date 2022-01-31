@@ -4,7 +4,7 @@ title: 'First Time Setup'
 
 #### Page overview
 [General info](# GeneralInfo)<br/>
-[//]( TO BE ADDED: Creating first admin account<br/> )
+[\\]( TO BE ADDED: Creating first admin account<br/> )
 [Adding a library](#adding-a-library-to-kavita)<br/>
 
 <hr style="border:4px solid #4ac694"> </hr>
