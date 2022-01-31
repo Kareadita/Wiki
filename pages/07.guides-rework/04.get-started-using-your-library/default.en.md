@@ -93,7 +93,7 @@ Downloads may take longer than expected to process. Kavita will show a spinner o
 <hr style="border:5px solid #4ac694"> </hr>
 ## Collections
 Collections will make this guide longer so a sub-page has been created.
-[Click here to go to Collections Wiki page]()
+[Click here to go to Collections Wiki page](./collections)
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Reading List
