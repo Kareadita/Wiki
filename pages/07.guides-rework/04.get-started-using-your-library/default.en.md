@@ -8,13 +8,13 @@ taxonomy:
         - 'Series Detail'
 ---
 
-page overview<br/>
+Page overview<br/>
 <code style="all: unset">
 ├── [Series details](#series-details)<br/>
- │        + Overview of a series page<br/>
- │        + Edit Series<br/>
- │        + Ratings and Reviews<br/>
- │        + Info Modal<br/>
+ │                        + Overview of a series page<br/>
+ │                        + Edit Series<br/>
+ │                        + Ratings and Reviews<br/>
+ │                        + Info Modal<br/>
  ├── [Filtering](#filtering)<br/>
  ├── [Downloading](#download)<br/>
  ├── [Collections](#collections)<br/>
