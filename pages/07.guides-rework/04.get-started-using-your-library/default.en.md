@@ -9,7 +9,7 @@ taxonomy:
 ---
 
 #### Page overview
-[Series details](#series-details)
+<span style="all:unset">[Series details](#series-details)</span>
     - Overview of a series page<br/>
     - Edit Series<br/>
     - Ratings and Reviews<br/>
