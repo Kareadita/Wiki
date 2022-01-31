@@ -1,6 +1,5 @@
 ---
 title: Comics
-published: true
 ---
 
 ### Comics Structure
