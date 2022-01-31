@@ -13,10 +13,10 @@ Page overview<br/>
 
 
 <code style="all: unset">├── </code>[Series details](#series-details)<br/>
-<code style="all: unset">│      </code>     + Overview of a series page<br/>
-<code style="all: unset">│      </code>     + Edit Series<br/>
-<code style="all: unset">│      </code>     + Ratings and Reviews<br/>
-<code style="all: unset">│      </code>     + Info Modal<br/>
+<code style="all: unset">│           </code>+ Overview of a series page<br/>
+<code style="all: unset">│           </code>+ Edit Series<br/>
+<code style="all: unset">│           </code>+ Ratings and Reviews<br/>
+<code style="all: unset">│           </code>+ Info Modal<br/>
 <code style="all: unset">├── </code>[Filtering](#filtering)<br/>
 <code style="all: unset">├── </code>[Downloading](#download)<br/>
 <code style="all: unset">├──</code> [Collections](#collections)<br/>
