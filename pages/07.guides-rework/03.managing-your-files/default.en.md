@@ -11,8 +11,7 @@ metadata:
     'og:description': 'This page covers everything related to files management. This includes proper naming, local metadata and how to update files in kavita.'
     'og:title': 'Managing your files | Kavita Wiki'
     'og:url': 'https://wiki.kavitareader.com/en/guides-rework/managing-your-library'
-admin:
-    children_display_order: collection
+admin: {  }
 ---
 
 Overview of this page:<br/>
