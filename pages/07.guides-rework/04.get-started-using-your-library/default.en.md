@@ -11,14 +11,14 @@ taxonomy:
 page overview<br/>
 <code>
 ├── [Series details](#series-details)<br/>
-│        + Overview of a series page<br/>
-│        + Edit Series<br/>
-│        + Ratings and Reviews<br/>
-│        + Info Modal<br/>
-├── [Filtering](#filtering)<br/>
-├── [Downloading](#download)<br/>
-├── [Collections](#collections)<br/>
-└── [Reading list](#reading-list)<br/></code>
+ │        + Overview of a series page<br/>
+ │        + Edit Series<br/>
+ │        + Ratings and Reviews<br/>
+ │        + Info Modal<br/>
+ ├── [Filtering](#filtering)<br/>
+ ├── [Downloading](#download)<br/>
+ ├── [Collections](#collections)<br/>
+ └── [Reading list](#reading-list)<br/></code>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
