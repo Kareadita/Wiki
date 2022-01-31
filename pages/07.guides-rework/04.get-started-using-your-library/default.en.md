@@ -10,6 +10,7 @@ taxonomy:
 
 Page overview<br/>
 <code style="all: unset">
+    <pre>
 ├── [Series details](#series-details)<br/>
  │                        + Overview of a series page<br/>
  │                        + Edit Series<br/>
@@ -18,7 +19,7 @@ Page overview<br/>
  ├── [Filtering](#filtering)<br/>
  ├── [Downloading](#download)<br/>
  ├── [Collections](#collections)<br/>
- └── [Reading list](#reading-list)<br/></code>
+ └── [Reading list](#reading-list)<br/></pre></code>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
