@@ -8,11 +8,8 @@ taxonomy:
         - 'Series Detail'
 ---
 
-Page overview<br/>
-
-
-
-[Series details](#series-details)<br/>
+#### Page overview
+[Series details](#series-details)
     - Overview of a series page<br/>
     - Edit Series<br/>
     - Ratings and Reviews<br/>
