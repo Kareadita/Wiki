@@ -8,14 +8,14 @@ Under this Guides section you will find various How To, or How It Works informat
 
 Click on any of the items listed below to access its guide
 
-### [First Time Setup](./First-Time-Setup)
+### [First Time Setup](./first-time-setup)
 
-### [Settings](./Settings)
+### [Settings](./settings)
 
-### [Managing your files](./Managing-your-files)
+### [Managing your files](./managing-your-files)
 
-### [Get started using your library](./Get-started-using-your-library)
+### [Get started using your library](./get-started-using-your-library)
 
-### [Start reading](./Start-reading)
+### [Start reading](./start-reading)
 
-### [Miscellaneous](./Miscellaneous)
+### [Miscellaneous](./misc)
