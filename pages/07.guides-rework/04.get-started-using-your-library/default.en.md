@@ -9,18 +9,18 @@ taxonomy:
 ---
 
 Page overview<br/>
-<pre style="all: unset">
-<code style="all: unset">
 
-├── [Series details](#series-details)<br/>
-│           + Overview of a series page<br/>
-│           + Edit Series<br/>
-│           + Ratings and Reviews<br/>
-│           + Info Modal<br/>
-├── [Filtering](#filtering)<br/>
-├── [Downloading](#download)<br/>
-├── [Collections](#collections)<br/>
-└── [Reading list](#reading-list)<br/></code></pre>
+
+
+<code style="all: unset">├── </code>[Series details](#series-details)<br/>
+<code style="all: unset">│      </code>     + Overview of a series page<br/>
+<code style="all: unset">│      </code>     + Edit Series<br/>
+<code style="all: unset">│      </code>     + Ratings and Reviews<br/>
+<code style="all: unset">│      </code>     + Info Modal<br/>
+<code style="all: unset">├── </code>[Filtering](#filtering)<br/>
+<code style="all: unset">├── </code>[Downloading](#download)<br/>
+<code style="all: unset">├──</code> [Collections](#collections)<br/>
+<code style="all: unset">└── </code>[Reading list](#reading-list)<br/></code>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
