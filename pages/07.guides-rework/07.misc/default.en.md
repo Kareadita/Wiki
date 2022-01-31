@@ -6,9 +6,7 @@ page overview<br/>
 Misc<br/>
 ├── Api Documentation<br/>
 ├── Plugins & 3rd Party Scripts<br/>
-├── External Readers
-    └── [Tachiyomi](./tachiyomi)<br/>
-    └── Paperback<br/>
+└── [Tachiyomi](./tachiyomi)<br/>
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Api Documentation
