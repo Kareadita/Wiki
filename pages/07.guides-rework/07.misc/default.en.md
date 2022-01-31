@@ -15,7 +15,7 @@ To view Kavita's API documentation, you will need to build Kavita on your local 
 You can get your JWT by opening dev tools on a browser you have authenticated against and getting this key "kavita-user" from local storage. This will have a token key within it. Use "Bearer TOKEN_KEY" to authenticate. This must be on all APIs for Kavita to respond.
 
 <hr style="border:5px solid #4ac694"> </hr>
-## [Tachiyomi](./tachiyomi)
+## Tachiyomi
 Kavita does have it's own Tachiyomi extension. 
 
 [Access the guide for Tachiyomi here](./Tachiyomi)
