@@ -5,7 +5,8 @@ title: Misc
 page overview<br/>
 Misc<br/>
 ├── Api Documentation<br/>
-└── Plugins & 3rd Party Scripts<br/>
+├── Plugins & 3rd Party Scripts<br/>
+├── External Readers
     └── [Tachiyomi](./tachiyomi)<br/>
     └── Paperback<br/>
 
