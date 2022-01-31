@@ -2,10 +2,10 @@
 title: 'First Time Setup'
 ---
 
-This page covers:
-* General info
-* Creating first admin account
-* Adding a library
+#### Page overview
+[General info]()
+[Creating first admin account]()
+[Adding a library](#adding-a-library-to-kavita)
 
 <hr style="border:4px solid #4ac694"> </hr>
 ### General Info
