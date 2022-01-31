@@ -1,5 +1,6 @@
 ---
 title: 'Book Reader'
+media_order: 'toc.PNG,book_goback.gif,bookreader.PNG,cont_reading.PNG'
 ---
 
 ![book-reader](book-reader.gif "book-reader")
