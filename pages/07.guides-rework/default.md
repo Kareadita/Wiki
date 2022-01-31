@@ -1,7 +1,7 @@
 ---
 title: 'Guides (Rework)'
 published: true
-visible: true
+visible: false
 ---
 
 Under this Guides section you will find various How To, or How It Works information about different aspects of Kavita.
