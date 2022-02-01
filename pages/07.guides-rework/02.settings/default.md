@@ -71,5 +71,7 @@ The logged in user can change their password from this screen.
 
 ## 3rd Party clients
 3rd Party clients that uses OPDS:
+
 [Go to OPDS](./opds)
+
 [Go to Tachiyomi](../misc/tachiyomi)
