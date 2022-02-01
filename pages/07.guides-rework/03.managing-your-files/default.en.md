@@ -36,7 +36,7 @@ For all types of libraries, Kavita has an override for treating files as Special
 
 To force a Special status, the filename can use SP01, SP02 etc.
 
-   /libraryroot/Series Name/Series Name SP01.cbz
+    /libraryroot/Series Name/Series Name SP01.cbz
     /libraryroot/Series Name/Specials/Series Name SP01 Special Name.cbz
 
 This will take the file and force it to be a special. For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
