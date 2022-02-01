@@ -50,11 +50,11 @@ Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub fil
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Comics and Manga
-Comics and manga uses a ".xml" file at the root of the cbz,cbr,cb7... files
+Comics and manga uses a ".xml" file at the root of the cbz, cbr, cbt, cb7, etc files
 
-This file must be named ComicInfo.xml
+This file must be named ComicInfo.xml and be at the root of the archive.
 
-The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/introduction)
+The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/admin/pages/guides-rework/misc)
 
@@ -80,7 +80,16 @@ Likewise with Age Rating, Release Year is a summation of the minimum year define
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### eBooks
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit sem id velit dignissim bibendum. Mauris felis elit, porttitor at sapien quis, efficitur volutpat quam. Integer pretium, erat in volutpat viverra, velit velit ultricies orci, ut vestibulum tellus massa eget lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus vulputate diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor tellus erat, ut vehicula nulla pretium a. Mauris luctus eget nunc vitae congue. Nunc ultricies ut libero vitae aliquet. Aliquam eget laoreet eros, vitae efficitur ipsum. Fusce interdum eleifend est. Quisque lobortis tortor at sollicitudin auctor. Pellentesque vitae felis sed sem accumsan porttitor et in dolor. Curabitur est enim, placerat ac blandit vel, aliquam vel dolor. Phasellus in dolor venenatis, suscipit arcu ac, fringilla sapien.
+EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file. Kavita tries to map as much of this information as possible. 
+
+The tags that Kavita parses are:
+* EPUB Tag (ComicInfo field)
+* Description (Summary)
+* Creators (Writer)
+* Publishers (Publisher)
+* Publication Date (Month, Day, Year)
+* Title (Title)
+* Subjects (Genre)
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Scanning files
