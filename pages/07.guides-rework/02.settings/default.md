@@ -70,4 +70,6 @@ In the reading section, you will find all the options for the manga reader and t
 The logged in user can change their password from this screen.
 
 ## 3rd Party clients
-[Go to opds](./opds)
+3rd Party clients that uses OPDS:
+[Go to OPDS](./opds)
+[Go to Tachiyomi](../misc/tachiyomi)
