@@ -70,8 +70,8 @@ In the reading section, you will find all the options for the manga reader and t
 The logged in user can change their password from this screen.
 
 ## 3rd Party clients
-3rd Party clients that uses OPDS:
+Kavita provides multiple ways to connect to your server from external applications. You can find them below:
 
-[Go to OPDS](./opds)
+[Generic (OPDS)](./opds)
 
-[Go to Tachiyomi](../misc/tachiyomi)
+[Tachiyomi](../misc/tachiyomi)
