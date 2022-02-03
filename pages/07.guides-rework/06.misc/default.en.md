@@ -21,11 +21,14 @@ Kavita does have it's own Tachiyomi extension.
 <hr style="border:5px solid #4ac694"> </hr>
 ## External tools
 
+<hr style="border:2px solid #4ac694"> </hr>
 ### Comic Tagger
 [Go to comic tagger repo](https://github.com/comictagger/comictagger)
 
+<hr style="border:2px solid #4ac694"> </hr>
 ### Calibre
 [Go to calibre main page](https://calibre-ebook.com/es)
 
+<hr style="border:2px solid #4ac694"> </hr>
 ### Manga Manager
 [Go to Manga Manager repo](https://github.com/ThePromidius/Manga-Manager)
