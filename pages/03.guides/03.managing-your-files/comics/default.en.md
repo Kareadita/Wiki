@@ -1,5 +1,6 @@
 ---
 title: Comics
+visible: true
 ---
 
 ### Comics Structure
