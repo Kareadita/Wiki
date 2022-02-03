@@ -29,12 +29,19 @@ Kavita does have it's own Tachiyomi extension.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Comic Tagger
+* Import metadata from online metadata sources for comics
+* Edit ComicInfo.xml for both cbz and cbr
+* Option to bulk edit using CLI
 [Go to comic tagger repo](https://github.com/comictagger/comictagger)
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Calibre
+Lets you add metadata to ebooks.
 [Go to calibre main page](https://calibre-ebook.com/es)
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Manga Manager
+Currently in development. 
+* Change covers for individual cbz (changes first image of the file)
+* Rename files to include volume info
 [Go to Manga Manager repo](https://github.com/ThePromidius/Manga-Manager)
