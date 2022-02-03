@@ -1,6 +1,7 @@
 ---
 title: ebooks
 media_order: collectionmetadata.webp
+visible: true
 ---
 
 ### eBook Structure
