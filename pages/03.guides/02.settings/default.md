@@ -40,7 +40,7 @@ System Cache is cleared automatically upon Library Scan or as an system function
 !!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
 
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.PNG "Kavita%20new%20Admin%20page%20settings")
-Under the More Info section are links to Kavita related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Featurehub](https://feathub.com/Kareadita/Kavita) link and make a new request, or vote on one you support.  
+Under the More Info section are links to Kavita related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Feature Request](https://feats.kavitareader.com/) link and make a new request, or vote on one you support.  
 
 <hr style="border:2px solid #4ac694"> </hr>
 #### Checking For Updates
