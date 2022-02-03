@@ -17,3 +17,6 @@ You can get your JWT by opening dev tools on a browser you have authenticated ag
 Kavita does have it's own Tachiyomi extension. 
 
 [Access the guide for Tachiyomi here](./tachiyomi)
+
+<hr style="border:5px solid #4ac694"> </hr>
+## External tools
