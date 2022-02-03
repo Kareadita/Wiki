@@ -1,5 +1,5 @@
 ---
-title: 'Guides (Rework)'
+title: Guides
 published: true
 visible: false
 ---
