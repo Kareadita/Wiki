@@ -30,14 +30,16 @@ An entity is considered a special when:
 ```
 Library Root
      ┖── Series Name
-         ┖── Series Name.cbz```
+         ┖── Series Name.cbz
+```
 
 2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
 ```
 Library Root
     ┖── Series Name
          ┖── Specials
-             ┖── Series Name Omakes SP01.cbz```
+             ┖── Series Name Omakes SP01.cbz
+```
 
 3. To force a Special status, the filename can use SP01, SP02 etc.
 ```
@@ -47,7 +49,8 @@ Library Root
          ┠── Series Name v02.cbz
          ┠── Series Name SP01.cbz
          ┖── Specials
-             ┖── Series Name SP01 Special Name.cbz```
+             ┖── Series Name SP01 Special Name.cbz
+```
 
 ### Examples of Naming conventions supported out of the box
 * Noblesse - Episode 406 (52 Pages).7z -> Noblesse Chapter 406
