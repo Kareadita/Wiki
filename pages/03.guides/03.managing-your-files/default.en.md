@@ -26,11 +26,11 @@ It's important to know how kavita parses the info from the files.
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Due to this, you are not required to put all of one series in the same folder, however it is good practice.
 
 Folder and File Structure TOC:
-* [Comic File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/comics)
-* [Manga File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/manga)
-* [eBooks File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/ebooks)
-* [PDF File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/pdf)
-* [Raw Images File Structure](https://wiki.kavitareader.com/en/guides-rework/managing-your-files/managing-your-files/raw-images)
+* [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
+* [Manga File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/manga)
+* [eBooks File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/ebooks)
+* [PDF File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/managing-your-files/pdf)
+* [Raw Images File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/managing-your-files/raw-images)
 
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
@@ -56,7 +56,7 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 
 The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
-You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides-rework/misc#external-tools)
+You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
 <hr style="border:1px solid ##465176"> </hr>
 #### How Kavita parses certain ComicInfo tags
