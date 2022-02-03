@@ -30,7 +30,7 @@ To be added.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Libraries Tab
-Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/guides-rework/first-time-setup#adding-a-library-to-kavita).
+Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/guides/first-time-setup#adding-a-library-to-kavita).
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### System Tab
