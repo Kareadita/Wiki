@@ -20,7 +20,7 @@ Kavita does have it's own Tachiyomi extension.
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## External tools
-Nothing added yet.
+
 ### Comic Tagger
 [Go to comic tagger repo](https://github.com/comictagger/comictagger)
 
