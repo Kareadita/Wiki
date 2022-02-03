@@ -20,8 +20,6 @@ These are only the guides for some of them.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Tachiyomi
-Kavita does have it's own Tachiyomi extension. 
-
 [Access the guide for Tachiyomi here](./tachiyomi)
 
 <hr style="border:5px solid #4ac694"> </hr>
