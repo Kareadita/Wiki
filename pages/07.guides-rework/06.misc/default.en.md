@@ -16,6 +16,8 @@ You can get your JWT by opening dev tools on a browser you have authenticated ag
 ## External readers
 These are only the guides for some of them. 
 [Access the list of external readers](https://wiki.kavitareader.com/en/faq/external-readers)
+
+<hr style="border:2px solid #4ac694"> </hr>
 ### Tachiyomi
 Kavita does have it's own Tachiyomi extension. 
 
