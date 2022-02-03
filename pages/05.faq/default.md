@@ -6,6 +6,9 @@ admin:
 
 Frequently Asked Questions
 
+* Q. **I really like Kavita, but can it mirror or just use my folder structure?** 
+* A. No, Kavita uses filenames for parsing and is not designed for using folder structure. Please don't ask for this feature, it will never be implemented. If this is important to you, Ubooquity can be used and delivers this experience. 
+
 * Q. **I started Kavita but get Access Denied?** 
 * A. Kavita needs to be executable and the directory it is installed in must be writable by Kavita. On linux, chmod +x ./Kavita is usually sufficient. On Windows, ensure you did not install it in Program Files or Program Files (x86)
 
