@@ -4,6 +4,7 @@ media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,se
 external_links:
     no_follow: true
 published: true
+visible: true
 ---
 
 ### Guide Overview
