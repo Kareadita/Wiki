@@ -56,7 +56,7 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 
 The xml schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
-You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/admin/pages/guides-rework/misc)
+You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides-rework/misc)
 
 <hr style="border:1px solid ##465176"> </hr>
 #### How Kavita parses certain ComicInfo tags
