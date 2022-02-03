@@ -1,5 +1,6 @@
 ---
 title: PDF
+visible: true
 ---
 
 ### PDF (v0.4.3+)
