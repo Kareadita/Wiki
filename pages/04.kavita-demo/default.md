@@ -7,5 +7,5 @@ If you want to try out Kavita, we have a demo up: [https://demo.kavitareader.com
 * **Username**: demouser                                                             
 * **Password**: Demouser64
 
-
+![seriesdetail](seriesdetail.PNG "seriesdetail")
 ![seriesdetail](seriesdetail.PNG "seriesdetail")
