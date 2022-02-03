@@ -1,5 +1,6 @@
 ---
 title: Manga
+visible: true
 ---
 
 ### Manga Structure
