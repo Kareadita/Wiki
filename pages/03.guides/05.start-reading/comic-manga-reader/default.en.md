@@ -1,6 +1,7 @@
 ---
 title: 'Comic Manga Reader'
 media_order: 'KavitaWebReaderHomeMenuForwardChapterVol.webp,KavitaWebReaderHomeReadingMode.webp,KavitaWebReaderReadingDirection.webp,KavitaWebReaderSettings.webp,KavitaWebReaderSettingsFullSmall.webp,KavitaWebReaderSettingsFullSmallAutoCloseMenu.webp,KavitaWebReaderSettingsFullSmallImageScaling.webp,KavitaWebReaderHomeMenuBackChapterVol.webp,KavitaWebReaderHomeMenuFirstPage2.webp,KavitaWebReaderHomeMenuLastPage.webp,KavitaWebReaderColorOptions.webp,KavitaWebReaderSettingsFullSmallImageSplitting.webp,kavita_WebReader_BookmarkPage2.webp,kavita_WebReader_Settings.webp,KavitaWebReaderHomeMenu2.webp,kavita_webreader_pagination.webp,new-reader.gif'
+visible: true
 ---
 
 ![new-reader](new-reader.gif "new-reader")
