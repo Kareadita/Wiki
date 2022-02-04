@@ -9,7 +9,7 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 * Librera: OPDS/Download
 * Moon Reader: OPDS, epub, archives
 * Kubo Reader: Downloaded files only, epub not supported
-* Tachiyomi: Reading supported, Progress syncing to be released soon
+* [Tachiyomi](https://wiki.kavitareader.com/en/guides/misc/tachiyomi): Reading supported, Progress syncing to be released soon
 
 
 ## iOS
