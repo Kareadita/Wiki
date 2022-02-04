@@ -41,7 +41,13 @@ Lets you add metadata to ebooks.
 [Go to calibre main page](https://calibre-ebook.com/es)
 
 Edit your metadata making sure to set the Series and Number correctly so that Kavita groups the volumes of a Series together. 
+![Calibre%20Metadata](Calibre%20Metadata.jpg "Calibre%20Metadata")
+![Kavita%20Calibre%20Bobiverse](Kavita%20Calibre%20Bobiverse.jpg "Kavita%20Calibre%20Bobiverse")
 
+Then under Preferences change the Save to Disk settings to:
+![Screenshot%202022-02-03%20162818](Screenshot%202022-02-03%20162818.jpg "Screenshot%202022-02-03%20162818")
+
+Next use the Save to Disk option and import those files into your Kavita library location.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Manga Manager
