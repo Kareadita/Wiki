@@ -1,5 +1,6 @@
 ---
 title: Misc
+media_order: 'Calibre Metadata.jpg,Kavita Calibre Bobiverse.jpg'
 ---
 
 #### Page overview
@@ -38,6 +39,9 @@ These are only the guides for some of them.
 Lets you add metadata to ebooks.
 
 [Go to calibre main page](https://calibre-ebook.com/es)
+
+Edit your metadata making sure to set the Series and Number correctly so that Kavita groups the volumes of a Series together. 
+
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Manga Manager
