@@ -9,13 +9,13 @@ If using Kavita's builtin readers is not your cup of tea, you can use external r
 * Librera: OPDS/Download
 * Moon Reader: OPDS, epub, archives
 * Kubo Reader: Downloaded files only, epub not supported
-* [Tachiyomi](https://wiki.kavitareader.com/en/guides/misc/tachiyomi): Reading supported, Progress syncing to be released soon
+* Tachiyomi: Reading supported, Progress syncing to be released soon
 
 
 ## iOS
 * Chunky: Supports OPDS-PS, epub not supported
-* Panels: epub not supported
-* Yomu (epub only)
+* Panels: Supports OPDS-PS, epub not supported
+* Yomu: OPDS, Downloaded files, epub, archives
 * Paperback (planned)
 
 ! Have a suggestion for an app that we can connect with? Drop by the discord and suggest it.
