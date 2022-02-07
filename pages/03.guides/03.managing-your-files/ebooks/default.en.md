@@ -13,11 +13,11 @@ If not enough information is present, the internal epub metadata is used. Within
 Calibre eBook Managment software can be used to edit epub metadata to include Series, Volume, and Title so that books series parse correctly into the same series. [Calibre](https://calibre-ebook.com/)
 
 Any EPUB can use:
-```
+```  
 If the following tags exist in an epub:
 calibre:series_index
 calibre:series
-calibre:title_sort
+calibre:title_sort 
 
 Then map out the book as:
 

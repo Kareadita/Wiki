@@ -1,3 +1,16 @@
+# v2.0.4
+## 01/27/2023
+
+1. [](#new)
+   * Added `bbcode`/`shortcode` language, compatible with Grav's Shortcodes plugin
+ 
+# v2.0.3
+## 01/26/2022
+
+1. [](#improved)
+    * Upgraded to latest 1.26.0 Prism.JS version (with fixes)
+    * Added `C`, `C#`, and `C++` languages
+
 # v2.0.2
 ## 11/23/2021
 

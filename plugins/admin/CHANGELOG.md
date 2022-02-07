@@ -1,3 +1,28 @@
+# v1.10.29
+## 01/28/2022
+
+1. [](#new)
+   * Require **Grav 1.7.29**
+3. [](#improved)
+  * Made path handling unicode-safe, use new `Utils::basename()` and `Utils::pathinfo()` everywhere
+
+# v1.10.28
+## 01/24/2022
+
+1. [](#bugfix)
+  * Clean file names before displaying errors/metadata modals
+  * Recompiled JS for production [#2225](https://github.com/getgrav/grav-plugin-admin/issues/2225)
+
+# v1.10.27
+## 01/12/2022
+
+1. [](#new)
+   * Support for `YubiKey OTP` 2-Factor authenticator
+   * New `elements` container field that shows/hides children fields based on boolean trigger value
+   * Requires Grav `v1.7.27` and Login `v3.6.2`
+2. [](#improved)
+   * Added new asset language strings
+
 # v1.10.26.1
 ## 01/03/2022
 
