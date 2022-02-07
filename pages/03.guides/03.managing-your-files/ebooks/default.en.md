@@ -1,5 +1,5 @@
 ---
-title: ebooks
+title: eBooks
 media_order: collectionmetadata.webp
 visible: true
 ---
