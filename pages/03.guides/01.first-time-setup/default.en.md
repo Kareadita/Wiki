@@ -33,6 +33,7 @@ Once named click on the Type Drop Down menu to select the type of media in this 
 Next click the Plus sign icon to begin the Folder selection process. 
 Each folder has a Share button which can be used to select all content in all sub-folders. However, Clicking on the folder names allows you to drill down further to Share the exact folder you want.
 ! **Note**: It is not recommended to select a series folder directly because if it is empty then the scanning process will abort.
+
 ![KavitaDirectoryChoose](KavitaDirectoryChoose.jpg "KavitaDirectoryChoose")
 
 ! **Note**: The folder selection process is the same on any install but will depend heavily on your configuration. If a Docker install is used the bind mount for the shared Content will be in this list under that name. e.g. `-v /your/manga/directory:/manga` In this example /manga will be visible in the Folder selection process and will lead to your shared content.
