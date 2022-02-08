@@ -52,7 +52,9 @@ rclone mount [your mount name]: [local path to be mounted] \
     "KavitaVersion":"0.4.3.39",
      "DotNetVersion":"5.0.9",
      "IsDocker":true,
-     "NumOfCores":4
+     "NumOfCores":4,
+     "HasBookmarks" true,
+     "NumberOfLibraries": 4
 }
 ```
 
