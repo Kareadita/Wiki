@@ -43,7 +43,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ```
 
 * Q. **Does Kavita collect any data on me?**
-* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. Here is a record from our stats database:
+* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats) Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
 ```
 {
    "InstallId":"0cf3ad15",
@@ -58,11 +58,8 @@ rclone mount [your mount name]: [local path to be mounted] \
 }
 ```
 
-* Q. **I can't read PDF files**
-* A. Kavita currently does support PDF files on Raspberry Pi devices (ARM-based architecture), however users may need to manually install a dependencies `libgdiplus`. We are currently investigating a way to do this for you. 
-
 * Q. **Is there a way to use Kavita without Authentication?**
-* A. As of v0.4.7, Kavita supports disabling Authentication. All admin accounts will still require a password, however, a user chooser will be available to login via. No password is required to be filled out. This can be undone and the password will be presented to you to for all users. 
+* A. No, this type of functionality is not supported and there are no plans. Kavita offers Refresh Tokens which should keep you authenticated without having to manually login. 
 
 * Q. **Is there a way to see what isn't being added to Kavita during a scan?**
 * A. As of now, there is no dedicated UI page. You can instead search the logs for this:
@@ -73,7 +70,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 * A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. 
 
 * Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
-* A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privilidged. See: https://github.com/Kareadita/Kavita/issues/821
+* A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: https://github.com/Kareadita/Kavita/issues/821
 
 
 FAQ Pages TOC:
