@@ -1,5 +1,6 @@
 ---
 title: 'First Time Setup'
+media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,KavitaDirectoryChoose.jpg,KavitaLibraryDropdown.jpg,kavita Library File Type.jpg,KavitaNewLibrary.jpg,KavitaSettingsDropdown.jpg,User Tab.PNG,invite user.PNG,invite user - not accessible.PNG'
 ---
 
 #### Page overview
@@ -15,7 +16,7 @@ Kavita supports mixed media libraries. For example your Light Novels (epub) and 
 
 <hr style="border:4px solid #4ac694"> </hr>
 ### Setting up your Admin Account
-To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. Starting with v0.5.1, all accounts must have a valid email assigned to them. 
+To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. Starting with v0.5.1, all accounts must have a valid email assigned to them. If you already have an account, a migration will prompt you at login to add an email. Email links can always be found in your logs in case the email is delayed or your server is not accessible. 
 
 
 
@@ -39,6 +40,12 @@ Each folder has a Share button which can be used to select all content in all su
 ! **Note**: The folder selection process is the same on any install but will depend heavily on your configuration. If a Docker install is used the bind mount for the shared Content will be in this list under that name. e.g. `-v /your/manga/directory:/manga` In this example /manga will be visible in the Folder selection process and will lead to your shared content.
 
 
+### Adding users to Kavita
+![User%20Tab](User%20Tab.PNG "User%20Tab")
+To add new users to Kavita, navigate to the User Tab and click Invite. The invite user prompt will open, here you will fill out their email, the role you want to give them, and the libraries they should have access to. You can edit this anytime after they setup an account on your server. In the case your server is not accessible, for example you're on localhost, Kavita will give you a link to send to your friend (or use yourself to setup their account). This link can always be found within your logs in case you misplace it. 
 
+![invite%20user](invite%20user.PNG "invite%20user")
 
+You should see this if your server is not accessible and hence sending a link to a user wouldn't work.
+![invite%20user%20-%20not%20accessible](invite%20user%20-%20not%20accessible.PNG "invite%20user%20-%20not%20accessible")
 
