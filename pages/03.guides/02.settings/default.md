@@ -18,7 +18,7 @@ admin:
 ### General Tab 
 There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
 
-Allowing Anonymous Usage Collection is here, you can opt out. This setting allows you to send Anonymous data about your install which helps the Kavita team understand it's user base to make design decisions and performance enhancements. Some information that is collected is file types within kavita, number of users, screen sizes and browser information, OS, version, if you are using docker or not. The Stat collection is within the Kavita and KavitaStats repositories.
+Allowing Anonymous Usage Collection is here, you can opt out. This setting allows you to send Anonymous data about your install which helps the Kavita team understand it's user base to make design decisions and performance enhancements. Some information that is collected is installId (helps us track how many installs we have), OS, version, if you are using docker or not and a few small pieces of data for features. None of the data can be tracked back to you. You can find the list [here](https://wiki.kavitareader.com/en/faq). The Stat collection is within the Kavita and KavitaStats repositories.
 
 You can enable OPDS for your Server here. See this [page](https://wiki.kavitareader.com/en/guides/preferences/opds) for how it works.
 
