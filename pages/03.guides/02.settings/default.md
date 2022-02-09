@@ -26,7 +26,9 @@ Reoccurring tasks are also configurable to be changed.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Users Tab
-To be added.
+From the Users Tab, admins can see the pending invites to their server and their active users. They can quickly see information around them and modify their password, delete the user, or edit their library access or roles. An admin cannot use this screen to modify their own roles (admin role will always have all applicable permissions) or library access (admin always has full access). An admin can use user settings page to change their own password.
+
+![User%20Tab](User%20Tab.PNG "User%20Tab")
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Libraries Tab
