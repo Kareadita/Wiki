@@ -1,5 +1,5 @@
 ---
-title: smtp
+title: Email
 ---
 
 # Kavita Email
