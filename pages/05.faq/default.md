@@ -67,7 +67,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 There are multiple series that map to normalized key SERIESNAME. You can manually delete the entity via UI and rescan to fix it. This will be skipped
 ```
 * Q. **Follow up, some of my epubs aren't being added, how come?**
-* A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. 
+* A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. You can use Calibre to reexport, which usually fixes the malformed metadata.
 
 * Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
 * A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: https://github.com/Kareadita/Kavita/issues/821
