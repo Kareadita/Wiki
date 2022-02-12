@@ -72,6 +72,8 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 * Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
 * A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: https://github.com/Kareadita/Kavita/issues/821
 
+* Q. **v0.5.1 Introduced Email functionality, how does it work?**
+* A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails wont send, all email flows will write the link to your logs. This is the best way for you to confirm you email when doing the one time migration or setup accounts for your users. 
 
 FAQ Pages TOC:
 
