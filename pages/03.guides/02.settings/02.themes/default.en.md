@@ -9,7 +9,7 @@ There are a few things to note:
 - The filename must match the top level css property
 - The file must be .css
 
-So for instance if we created `test-theme-123` then .css file should be structured as follows
+So for instance if we created `test-theme-123` then css within should be structured as follows
 ``` 
 :root .bg-test-theme-123 {
 	/* CSS Variables here */
