@@ -16,18 +16,20 @@ So for instance if we created `test-theme-123` then .css file should be structur
   } 
   ```
   
-Here is a list of all the CSS variables available to override:  
+## Available CSS Variables
 *Note*: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
-**Color-scheme** - refers to scroll bar colors as well as which color placeholder images to use.  
+**Color-scheme**
+*This refers to the scroll bar color as well as which color placeholder images to use.*  
 --color-scheme: dark/light;  
     
-**Main Colors** - These refer to base colors you can override, you can add more here and use them as additional colors for hovers.  
+**Main Colors**  
+*These refer to base colors you can override, you can add more here and use them as additional colors for hovers.*  
 --primary-color: hex/rgb(a);  
 --error-color: hex/rgb(a);  
 --bs-body-bg: hex/rgb(a);  
 --body-text-color: hex/rgb(a);   
---btn-icon-filter: invert(1) grayscale(100%) brightness(200%);  
+--btn-icon-filter: filter(px);  
   
 **Navbar**  
 --navbar-bg-color: hex/rgb(a);    
