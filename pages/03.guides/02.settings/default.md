@@ -11,6 +11,7 @@ admin:
 [Libraries](#libraries-tab)<br/>
 [System](#system-tab)<br/>
 [User Settings](#user-settings)<br/>
+[Themes](#themes)<br/>
 
 
 <hr style="border:5px solid #4ac694"> </hr>
