@@ -2,7 +2,7 @@
 title: Themes
 ---
 
-As of Kavita v0.5.2 you can now upload a .css file for custom theming.
+As of v0.5.2 Kavita now supports reading a .css file for custom theming.
 
 There are a few things to note:
 - The filename must only contain characters, numbers, and `-`
