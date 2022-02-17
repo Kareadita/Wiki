@@ -5,13 +5,13 @@ title: Themes
 As of v0.5.2 Kavita now supports reading a .css file for custom theming.
 
 There are a few things to note:
-- This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
-	- If you would like any other properties exposed, please feel free to suggest theme in or discord or feature request page.
+- The file must be .css
 - The filename must only contain characters, numbers, and `-`
 - The filename must match the top level css property
-- The file must be .css
 - The .css file must be placed in `/config/themes`
 - After placing the file in the directory, you must scan for it using the Scan button on the User Settings > Themes page before you can apply it.
+- This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
+	- If you would like any other properties exposed, please feel free to suggest theme in or discord or feature request page.
 
 So for instance if we created `test-theme-123` then css within should be structured as follows
 ``` 
