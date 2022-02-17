@@ -136,6 +136,8 @@ So for instance if we created `test-theme-123` then css within should be structu
 --accordion-body-text-color: hex/rgb(a);  
 --accordion-header-collapsed-text-color: hex/rgb(a);  
 --accordion-header-collapsed-bg-color: hex/rgb(a);  
+--accordion-button-focus-border-color: hex/rgb(a);  
+--accordion-button-focus-box-shadow: hex/rgb(a);  
   
 **Breadcrumb**  
 --breadcrumb-bg-color: hex/rgb(a);  
