@@ -16,7 +16,8 @@ So for instance if we created `test-theme-123` then .css file should be structur
   } 
   ```
   
-  Here is a list of all the CSS variables available to override:
+  Here is a list of all the CSS variables available to override:  
+  
   **Color-scheme** - refers to scroll bar colors as well as which color placeholder images to use.  
     --color-scheme: dark/light;  
     --primary-color: #4ac694;  
