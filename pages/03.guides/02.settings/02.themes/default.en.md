@@ -26,7 +26,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --color-scheme: dark/light;  
     
 **Main Colors**  
-*These refer to base colors you can override, you can add more here and use them as additional colors for hovers.*  
+*These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
 --primary-color: hex/rgb(a);  
 --error-color: hex/rgb(a);  
 --bs-body-bg: hex/rgb(a);  
