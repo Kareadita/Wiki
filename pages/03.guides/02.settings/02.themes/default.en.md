@@ -10,9 +10,11 @@ There are a few things to note:
 - The file must be .css
 
 So for instance if we created `test-theme-123` then .css file should be structured as follows
-``` :root .bg-test-theme-123 {
+``` 
+:root .bg-test-theme-123 {
 	/* CSS Variables here */
-  } ```
+  } 
+  ```
   
   Here is a list of all the CSS variables available to override:
   * Color-scheme * - refers to scroll bar colors as well as which color placeholder images to use.
