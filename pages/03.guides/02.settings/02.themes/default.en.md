@@ -6,6 +6,7 @@ As of v0.5.2 Kavita now supports reading a .css file for custom theming.
 
 There are a few things to note:
 - This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
+	- If you would like any other properties exposed, please feel free to suggest theme in or discord or feature request page.
 - The filename must only contain characters, numbers, and `-`
 - The filename must match the top level css property
 - The file must be .css
