@@ -17,16 +17,16 @@ So for instance if we created `test-theme-123` then .css file should be structur
   ```
   
   Here is a list of all the CSS variables available to override:
-  * Color-scheme * - refers to scroll bar colors as well as which color placeholder images to use.
-    --color-scheme: dark/light;
-    --primary-color: #4ac694;
-    --primary-color-dark-shade: #3B9E76;
-    --primary-color-darker-shade: #338A67;
-    --primary-color-darkest-shade: #25624A;
-    --error-color: #BD362F;
-    --bs-body-bg: #343a40; 
-    --body-text-color: #efefef;
-    --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);
+  **Color-scheme** - refers to scroll bar colors as well as which color placeholder images to use.  
+    --color-scheme: dark/light;  
+    --primary-color: #4ac694;  
+    --primary-color-dark-shade: #3B9E76;  
+    --primary-color-darker-shade: #338A67;  
+    --primary-color-darkest-shade: #25624A;  
+    --error-color: #BD362F;  
+    --bs-body-bg: #343a40;   
+    --body-text-color: #efefef;  
+    --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);  
   
     /* Navbar */
     --navbar-bg-color: black;
