@@ -162,8 +162,9 @@ So for instance if we created `test-theme-123` then css within should be structu
 --card-bg-color: hex/rgb(a);  
 --card-text-color: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
---card-progress-bar-color:: hex/rgb(a);  
---card-overlay-hover-bg-color: hex/rgb(a);  
+--card-progress-bar-color: hex/rgb(a);  
+--card-overlay-bg-color: hex/rgb(a); 
+--card-overlay-hover-bg-color: hex/rgb(a); 
 
 **Slider**  
 --slider-text-color: hex/rgb(a);  
