@@ -2,9 +2,21 @@
 title: Themes
 ---
 
+As of Kavita v0.5.2 you can now upload a .css file for custom theming.
 
-``` :root .bg-test {
-    --color-scheme: dark;
+There are a few things to note:
+- The filename must only contain characters, numbers, and `-`
+- The filename must match the top level css property
+- The file must be .css
+
+So for instance if we created `test-theme-123` then .css file should be structured as follows
+``` :root .bg-test-theme-123 {
+	/* CSS Variables here */
+  } ```
+  
+  Here is a list of all the CSS variables available to override:
+  * Color-scheme * - refers to scroll bar colors as well as which color placeholder images to use *
+    --color-scheme: dark/light;
     --primary-color: #4ac694;
     --primary-color-dark-shade: #3B9E76;
     --primary-color-darker-shade: #338A67;
@@ -161,5 +173,4 @@ title: Themes
     --radio-hover-accent-color: var(--primary-color-dark-shade);
 	
 	--carousel-header-text-color: white;
-  } ```
 
