@@ -84,3 +84,8 @@ Kavita provides multiple ways to connect to your server from external applicatio
 [Generic (OPDS)](./opds)
 
 [Tachiyomi](../misc/tachiyomi)
+
+## Themes
+As of v0.5.2 Kavita allows for custom themes. We have opened up some elements to changes via css variables. Please read the Themes page below for further info:
+
+[Themes](./themes)
