@@ -20,31 +20,30 @@ So for instance if we created `test-theme-123` then .css file should be structur
   
   **Color-scheme** - refers to scroll bar colors as well as which color placeholder images to use.  
     --color-scheme: dark/light;  
-    --primary-color: #4ac694;  
-    --primary-color-dark-shade: #3B9E76;  
-    --primary-color-darker-shade: #338A67;  
-    --primary-color-darkest-shade: #25624A;  
-    --error-color: #BD362F;  
-    --bs-body-bg: #343a40;   
-    --body-text-color: #efefef;  
+    
+    **Main Colors** - These refer to base colors you can override, you can add more here and use them as additional colors for hovers.  
+    --primary-color: hex/rgb(a);  
+    --error-color: hex/rgb(a);  
+    --bs-body-bg: hex/rgb(a);  
+    --body-text-color: hex/rgb(a);   
     --btn-icon-filter: invert(1) grayscale(100%) brightness(200%);  
   
-    /* Navbar */
-    --navbar-bg-color: black;
-    --navbar-text-color: white;
-    --navbar-fa-icon-color: white;
+    **Navbar**  
+    --navbar-bg-color: hex/rgb(a);    
+    --navbar-text-color: hex/rgb(a);  
+    --navbar-fa-icon-color: hex/rgb(a);  
   
-    /* Inputs */
-    --input-bg-color: #343a40;
-    --input-bg-readonly-color: #434648;
-    --input-focused-border-color: #ccc;
-    --input-text-color: #fff;
-    --input-placeholder-color: #aeaeae;
-    --input-border-color: #ccc;
+    **Inputs**
+    --input-bg-color: hex/rgb(a);  
+    --input-bg-readonly-color: hex/rgb(a);  
+    --input-focused-border-color: hex/rgb(a);  
+    --input-text-color: hex/rgb(a);  
+    --input-placeholder-color: hex/rgb(a);  
+    --input-border-color: hex/rgb(a);  
   
     /* Buttons */
-    --btn-primary-text-color: white;
-    --btn-primary-bg-color: var(--primary-color-darker-shade);
+    --btn-primary-text-color: hex/rgb(a);  
+    --btn-primary-bg-color: hex/rgb(a);  
     --btn-primary-border-color: var(--primary-color-darker-shade);
     --btn-primary-hover-text-color: white;
     --btn-primary-hover-bg-color: var(--primary-color-darkest-shade);
