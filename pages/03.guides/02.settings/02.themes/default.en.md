@@ -9,7 +9,7 @@ There are a few things to note:
 - The filename must match the top level css property
 - The file must be .css
 - The .css file must be placed in `/config/themes`
-- After placing the file, you must scan for it using the Scan button on the User Settings > Themes page.
+- After placing the file in the directory, you must scan for it using the Scan button on the User Settings > Themes page before you can apply it.
 
 So for instance if we created `test-theme-123` then css within should be structured as follows
 ``` 
