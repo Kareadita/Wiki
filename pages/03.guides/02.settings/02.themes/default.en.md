@@ -11,7 +11,7 @@ There are a few things to note:
 - The .css file must be placed in `/config/themes`
 - After placing the file in the directory, you must scan for it using the Scan button on the User Settings > Themes page before you can apply it.
 - This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
-	- If you would like any other properties exposed, please feel free to suggest theme in or discord or feature request page.
+	- If you would like any other properties exposed, please feel free to suggest theme in our discord or feature request page.
 
 So for instance if we created `test-theme-123` then css within should be structured as follows
 ``` 
