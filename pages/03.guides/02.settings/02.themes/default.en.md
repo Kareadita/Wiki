@@ -34,7 +34,7 @@ Here is a list of all the CSS variables available to override:
 --navbar-text-color: hex/rgb(a);  
 --navbar-fa-icon-color: hex/rgb(a);  
   
-**Inputs**
+**Inputs**  
 --input-bg-color: hex/rgb(a);  
 --input-bg-readonly-color: hex/rgb(a);  
 --input-focused-border-color: hex/rgb(a);  
@@ -42,7 +42,7 @@ Here is a list of all the CSS variables available to override:
 --input-placeholder-color: hex/rgb(a);  
 --input-border-color: hex/rgb(a);  
   
-**Buttons**
+**Buttons**  
 --btn-primary-text-color: hex/rgb(a);  
 --btn-primary-bg-color: hex/rgb(a);  
 --btn-primary-border-color: hex/rgb(a);  
@@ -59,7 +59,7 @@ Here is a list of all the CSS variables available to override:
 --btn-disabled-text-color: hex/rgb(a);  
 --btn-disabled-border-color: hex/rgb(a);  
 
-**Nav**
+**Nav**  
 --nav-tab-border-color: hex/rgb(a);  
 --nav-tab-text-color: hex/rgb(a);  
 --nav-tab-bg-color: hex/rgb(a);  
@@ -79,34 +79,34 @@ Here is a list of all the CSS variables available to override:
 --nav-tab-border-hover-bottom: hex/rgb(a);  
 --nav-tab-border-hover-right: hex/rgb(a);  
 
-**Toasts**
+**Toasts**  
 --toast-success-bg-color: hex/rgb(a);  
 --toast-error-bg-color: hex/rgb(a);  
 --toast-info-bg-color: hex/rgb(a);  
 --toast-warning-bg-color: hex/rgb(a);  
   
-**Checkboxes**
+**Checkboxes**  
 --checkbox-checked-bg-color: hex/rgb(a);  
 --checkbox-border-color: hex/rgb(a);  
 --checkbox-focus-border-color: hex/rgb(a);  
   
-**Tag Badge**
+**Tag Badge**  
 --tagbadge-border-color: hex/rgb(a);  
 --tagbadge-text-color: hex/rgb(a);  
 --tagbadge-bg-color: hex/rgb(a);  
   
-**List items**
+**List items**  
 --list-group-item-text-color: hex/rgb(a);  
 --list-group-item-bg-color: hex/rgb(a);  
 --list-group-item-border-color: hex/rgb(a);  
 --list-group-hover-text-color: hex/rgb(a);  
 --list-group-hover-bg-color: hex/rgb(a);  
   
-**Popover**
+**Popover**  
 --popover-body-bg-color: hex/rgb(a);  
 --popover-body-text-color: hex/rgb(a);  
   
-**Pagination**
+**Pagination**  
 --pagination-active-link-border-color: hex/rgb(a);  
 --pagination-active-link-bg-color: hex/rgb(a);  
 --pagination-active-link-text-color: hex/rgb(a);  
@@ -115,14 +115,14 @@ Here is a list of all the CSS variables available to override:
 --pagination-link-bg-color: hex/rgb(a);  
 --pagination-focus-border-color: hex/rgb(a);  
   
-**Dropdown**
+**Dropdown**  
 --dropdown-item-hover-text-color: hex/rgb(a);  
 --dropdown-item-hover-bg-color: hex/rgb(a);  
 --dropdown-item-text-color: hex/rgb(a);  
 --dropdown-item-bg-color: hex/rgb(a);  
 --dropdown-overlay-color: hex/rgb(a);  
   
-**Accordion**
+**Accordion**  
 --accordion-header-text-color: hex/rgb(a);  
 --accordion-header-bg-color: hex/rgb(a);  
 --accordion-body-bg-color: hex/rgb(a);  
@@ -131,16 +131,16 @@ Here is a list of all the CSS variables available to override:
 --accordion-header-collapsed-text-color: hex/rgb(a);  
 --accordion-header-collapsed-bg-color: hex/rgb(a);  
   
-**Breadcrumb**
+**Breadcrumb**  
 --breadcrumb-bg-color: hex/rgb(a);  
 --breadcrumb-item-text-color: hex/rgb(a);  
   
-**Rating star**
+**Rating star**  
 --ratingstar-color: hex/rgb(a);  
 --ratingstar-star-empty: hex/rgb(a);  
 --ratingstar-star-filled: hex/rgb(a);  
   
-**Global**
+**Global**  
 --hr-color: hex/rgb(a);  
 --accent-bg-color: hex/rgb(a);  
 --accent-text-color: hex/rgb(a);  
@@ -152,14 +152,14 @@ Here is a list of all the CSS variables available to override:
 --body-font-family: "Font-Family", sans-serif;  
 --brand-font-family: "Font-Family", sans-serif;  
   
-**Card**
+**Card**  
 --card-bg-color: hex/rgb(a);  
 --card-text-color: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
 --card-progress-bar-color:: hex/rgb(a);  
 --card-overlay-hover-bg-color: hex/rgb(a);  
 
-**Slider**
+**Slider**  
 --slider-text-color: hex/rgb(a);  
   
 **Manga Reader**  
@@ -170,10 +170,10 @@ Here is a list of all the CSS variables available to override:
 --manga-reader-next-highlight-bg-color: hex/rgb(a);  
 --manga-reader-prev-highlight-bg-color: hex/rgb(a);  
     
-**Radios**
+**Radios**  
 --radio-accent-color: hex/rgb(a);  
 --radio-hover-accent-color: hex/rgb(a);  
 	
- **Carousel**
+ **Carousel**  
  --carousel-header-text-color: hex/rgb(a);  
 
