@@ -17,7 +17,7 @@ So for instance if we created `test-theme-123` then .css file should be structur
   ```
   
 ## Available CSS Variables
-*Note*: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
+**Note**: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
 **Color-scheme**
 *This refers to the scroll bar color as well as which color placeholder images to use.*  
