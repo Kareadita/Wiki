@@ -15,7 +15,7 @@ So for instance if we created `test-theme-123` then .css file should be structur
 	/* CSS Variables here */
   } 
   ```
-  
+  <hr style="border:5px solid #4ac694"> </hr>
 ## Available CSS Variables
 **Note**: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
