@@ -157,6 +157,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --hr-color: hex/rgb(a);  
 --accent-bg-color: hex/rgb(a);  
 --accent-text-color: hex/rgb(a);  
+--text-muted-color: hex/rgb(a);  
 --grid-breakpoints-xs: px;  
 --grid-breakpoints-sm: px;  
 --grid-breakpoints-md: px;  
