@@ -47,6 +47,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --input-text-color: hex/rgb(a);  
 --input-placeholder-color: hex/rgb(a);  
 --input-border-color: hex/rgb(a);  
+--input-focus-boxshadow-color: hex/rgb(a);  
   
 **Buttons**  
 --btn-primary-text-color: hex/rgb(a);  
@@ -64,6 +65,8 @@ So for instance if we created `test-theme-123` then css within should be structu
 --btn-disabled-bg-color: hex/rgb(a);  
 --btn-disabled-text-color: hex/rgb(a);  
 --btn-disabled-border-color: hex/rgb(a);  
+--btn-focus-boxshadow-color: hex/rgb(a);  
+--btn-alt-focus-boxshadow-color: hex/rgb(a);  
 
 **Nav**  
 --nav-tab-border-color: hex/rgb(a);  
@@ -74,16 +77,17 @@ So for instance if we created `test-theme-123` then css within should be structu
 --nav-link-bg-color: hex/rgb(a);  
 --nav-link-active-text-color: hex/rgb(a);  
 --nav-link-text-color: hex/rgb(a);  
---nav-tab-hover-text-color: hex/rgb(a);  
---nav-tab-hover-bg-color: hex/rgb(a);  
 --nav-tab-border-top: hex/rgb(a);  
 --nav-tab-border-left: hex/rgb(a);  
 --nav-tab-border-bottom: var(--bs-body-bg);  
 --nav-tab-border-right: hex/rgb(a);  
---nav-tab-border-hover-top: hex/rgb(a);  
---nav-tab-border-hover-left: hex/rgb(a);  
---nav-tab-border-hover-bottom: hex/rgb(a);  
---nav-tab-border-hover-right: hex/rgb(a);  
+--nav-tab-hover-text-color: hex/rgb(a);  
+--nav-tab-hover-bg-color: hex/rgb(a);  
+--nav-tab-hover-border-top: hex/rgb(a);  
+--nav-tab-hover-border-left: hex/rgb(a);  
+--nav-tab-hover-border-bottom: hex/rgb(a);  
+--nav-tab-hover-border-right: hex/rgb(a);  
+--nav-tab-active-hover-bg-color: hex/rgb(a);
 
 **Toasts**  
 --toast-success-bg-color: hex/rgb(a);  
@@ -95,6 +99,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --checkbox-checked-bg-color: hex/rgb(a);  
 --checkbox-border-color: hex/rgb(a);  
 --checkbox-focus-border-color: hex/rgb(a);  
+--checkbox-focus-boxshadow-color: hex/rgb(a);  
   
 **Tag Badge**  
 --tagbadge-border-color: hex/rgb(a);  
@@ -182,6 +187,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 **Radios**  
 --radio-accent-color: hex/rgb(a);  
 --radio-hover-accent-color: hex/rgb(a);  
+--radio-focus-boxshadow-color: hex/rgb(a);  
 	
  **Carousel**  
  --carousel-header-text-color: hex/rgb(a);  
