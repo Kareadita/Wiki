@@ -50,7 +50,7 @@ Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub fil
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Comics and Manga
-Comics and manga uses a ".xml" file at the root of the cbz, cbr, cbt, cb7, etc files
+Comics and manga uses a ".xml" file at the root of the cbz, cbr, cbt, cb7 files
 
 This file must be named ComicInfo.xml and be at the root of the archive.
 
