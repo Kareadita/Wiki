@@ -7,7 +7,7 @@ Bookmarks are a way for you to save images when you are reading and revisit them
 
 ![bookmark%20user%20settings](bookmark%20user%20settings.PNG "bookmark%20user%20settings")
 
-From the user settings tab, you can see all your bookmarks. You can download all images in a zip or delete all files. Likewise, you can view each and every image by clicking the pencil icon.
+From the user settings tab, you can see all your bookmarks. You can download all images in a zip or delete all files. Likewise, you can view each and every image by clicking the series title or using the eye button to go the series itself.
 
 ![bookmark%20modal](bookmark%20modal.PNG "bookmark%20modal")
 
