@@ -12,8 +12,10 @@ taxonomy:
 [Series details](#series-details)<br/>
 [Filtering](#filtering)<br/>
 [Downloading](#download)<br/>
+[Bookmarks](#bookmarks)<br/>
 [Collections](#collections)<br/>
 [Reading list](#reading-list)<br/>
+
 
 
 <hr style="border:5px solid #4ac694"> </hr>
@@ -85,6 +87,11 @@ If a user has the Download role, they can download files from Kavita. Because Ka
 
 Downloads may take longer than expected to process. Kavita will show a spinner on the item you are attempting to download from. 
 ![downloads](downloads.webp "downloads")
+
+<hr style="border:5px solid #4ac694"> </hr>
+## Bookmarks
+Bookmarks will make this guide longer so a sub-page has been created.
+[Click here to go to Bookmarks Wiki page](./bookmarks)
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Collections
