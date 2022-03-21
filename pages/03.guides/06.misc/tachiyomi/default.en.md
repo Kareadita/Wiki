@@ -3,6 +3,7 @@ title: Tachiyomi
 media_order: 'browse_lib_1.png,browse_latest_1.png,Installation.png,setup.png,setup_1.png'
 external_links:
     no_follow: true
+visible: true
 ---
 
 ### Guide Overview
