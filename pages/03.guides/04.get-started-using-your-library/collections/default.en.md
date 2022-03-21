@@ -1,6 +1,7 @@
 ---
 title: Collections
 media_order: 'Kavita Context Action Menu.png,kavita_Collections_detailedView.webp,kavita_Collections_Details.webp,kavita_Collections_Edit.webp,kavita_homepage_Collections.webp,kavita_homepage_Collections_select.webp,KavitaCollectionSelected.webp,KavitaCollectionsHomepage.webp,kavtia_Collections_Delete.webp'
+visible: true
 ---
 
 ### Collections
