@@ -1,5 +1,6 @@
 ---
 title: 'Adding & Editing Metadata'
+media_order: 'edit3.PNG,edit1.PNG,edit2.PNG'
 ---
 
 ### Metadata
@@ -11,3 +12,6 @@ Kavita supports reading metadata from ComicInfo or Epub files, but sometimes, th
 When you edit a field, the field will show a locked icon next to it. This implies that if you add ComicInfo or change ComicInfo, it will not change what is set, as the field is locked. You can always unlock a field by clicking the lock. In addition, you can edit the item, like name and click unlock in the same go, which will allow a ComicInfo update to change it.
 
 ### Metadata
+![edit1](edit1.PNG "edit1")
+![edit2](edit2.PNG "edit2")
+![edit3](edit3.PNG "edit3")
