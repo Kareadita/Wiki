@@ -15,7 +15,7 @@ taxonomy:
 [Bookmarks](#bookmarks)<br/>
 [Collections](#collections)<br/>
 [Reading list](#reading-list)<br/>
-[Metadata Editing](#metadata-editing)</br/>
+[Metadata Editing](#metadata-editing)<br/>
 
 
 
