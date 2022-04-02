@@ -15,6 +15,7 @@ taxonomy:
 [Bookmarks](#bookmarks)<br/>
 [Collections](#collections)<br/>
 [Reading list](#reading-list)<br/>
+[Metadata Editing](#metadata-editing)</br/>
 
 
 
@@ -110,3 +111,8 @@ For example you can have a list with the following items: `Manga chapter -> Mang
 The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically.
 
 Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
+
+<hr style="border:5px solid #4ac694"> </hr>
+## Metadata Editing
+Metadata editing will make this guide longer so a sub-page has been created.
+[Click here to go to Metadata Editing Wiki page](./adding-and-editing-metadata)
