@@ -31,13 +31,13 @@ So for instance if we created `test-theme-123` then css within should be structu
 **Main Colors**  
 *These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
 --primary-color: hex/rgb(a);  
---primary-color-dark-shade: hex/rgb(a);
---primary-color-darker-shade: hex/rgb(a);
---primary-color-darkest-shade: hex/rgb(a);
+--primary-color-dark-shade: hex/rgb(a);  
+--primary-color-darker-shade: hex/rgb(a);  
+--primary-color-darkest-shade: hex/rgb(a);  
 --error-color: hex/rgb(a);  
---bs-body-bg: hex/rgb(a);  // Background color for pages
+--bs-body-bg: hex/rgb(a);  // Background color for pages  
 --body-text-color: hex/rgb(a);   
---btn-icon-filter: invert(1) grayscale(%) brightness(%));  // Any filter chain. Useful mainly for dark themes
+--btn-icon-filter: invert(1) grayscale(%) brightness(%));  // Any filter chain. Useful mainly for dark themes  
   
 **Navbar**  
 --navbar-bg-color: hex/rgb(a);    
@@ -96,14 +96,14 @@ So for instance if we created `test-theme-123` then css within should be structu
 --nav-tab-hover-border-left: hex/rgb(a);  
 --nav-tab-hover-border-bottom: hex/rgb(a);  
 --nav-tab-hover-border-right: hex/rgb(a);  
---nav-tab-active-hover-bg-color: hex/rgb(a);
---nav-link-bg-color: hex/rgb(a);
---nav-link-active-text-color: hex/rgb(a);
---nav-link-text-color: hex/rgb(a);
+--nav-tab-active-hover-bg-color: hex/rgb(a);  
+--nav-link-bg-color: hex/rgb(a);  
+--nav-link-active-text-color: hex/rgb(a);  
+--nav-link-text-color: hex/rgb(a);  
 
 **Header**  
---nav-header-text-color: hex/rgb(a);
---nav-header-bg-color: hex/rgb(a);
+--nav-header-text-color: hex/rgb(a);  
+--nav-header-bg-color: hex/rgb(a);  
 
 **Toasts**  
 --toast-success-bg-color: hex/rgb(a);  
@@ -126,25 +126,25 @@ So for instance if we created `test-theme-123` then css within should be structu
 --tagbadge-typeahead-bg-color: hex/rgb(a);  
 
 **Side Nav**
---side-nav-bg-color: hex/rgb(a);
---side-nav-mobile-bg-color: hex/rgb(a);
---side-nav-openclose-transition: s ease-in-out;
---side-nav-box-shadow: hex/rgb(a);
---side-nav-mobile-box-shadow: px/em hex/rgb(a);
---side-nav-hover-text-color: hex/rgb(a);
---side-nav-hover-bg-color: hex/rgb(a);
---side-nav-color: hex/rgb(a);
---side-nav-border-radius: px;
---side-nav-border: hex/rgb(a)/none;
---side-nav-border-closed: hex/rgb(a)/none;
---side-nav-border-transition: s ease-in-out;
---side-nav-companion-bar-transistion:s linear;
---side-nav-bg-color-transition: s ease-in-out;
---side-nav-closed-bg-color: hex/rgb(a);
---side-nav-item-active-color: hex/rgb(a);
---side-nav-item-active-text-color: hex/rgb(a);
---side-nav-active-bg-color: hex/rgb(a);
---side-nav-overlay-color: hex/rgb(a);
+--side-nav-bg-color: hex/rgb(a);  
+--side-nav-mobile-bg-color: hex/rgb(a);  
+--side-nav-openclose-transition: s ease-in-out;  
+--side-nav-box-shadow: hex/rgb(a);  
+--side-nav-mobile-box-shadow: px/em hex/rgb(a);  
+--side-nav-hover-text-color: hex/rgb(a);  
+--side-nav-hover-bg-color: hex/rgb(a);  
+--side-nav-color: hex/rgb(a);  
+--side-nav-border-radius: px;  
+--side-nav-border: hex/rgb(a)/none;  
+--side-nav-border-closed: hex/rgb(a)/none;  
+--side-nav-border-transition: s ease-in-out;  
+--side-nav-companion-bar-transistion:s linear;  
+--side-nav-bg-color-transition: s ease-in-out;  
+--side-nav-closed-bg-color: hex/rgb(a);  
+--side-nav-item-active-color: hex/rgb(a);  
+--side-nav-item-active-text-color: hex/rgb(a);  
+--side-nav-active-bg-color: hex/rgb(a);  
+--side-nav-overlay-color: hex/rgb(a);  
 
 **List items**  
 --list-group-item-text-color: hex/rgb(a);  
@@ -152,15 +152,15 @@ So for instance if we created `test-theme-123` then css within should be structu
 --list-group-item-border-color: hex/rgb(a);  
 --list-group-hover-text-color: hex/rgb(a);  
 --list-group-hover-bg-color: hex/rgb(a);  
--list-group-active-border-color: hex/rgb(a);
+--list-group-active-border-color: hex/rgb(a);
   
 **Popover**  
 --popover-body-bg-color: hex/rgb(a);  
 --popover-body-text-color: hex/rgb(a);  
---popover-outerarrow-color: hex/rgb(a);
---popover-arrow-color: hex/rgb(a);
---popover-bg-color: hex/rgb(a);
---popover-border-color: hex/rgb(a);
+--popover-outerarrow-color: hex/rgb(a);  
+--popover-arrow-color: hex/rgb(a);  
+--popover-bg-color: hex/rgb(a);  
+--popover-border-color: hex/rgb(a);  
   
 **Pagination**  
 --pagination-active-link-border-color: hex/rgb(a);  
@@ -173,9 +173,9 @@ So for instance if we created `test-theme-123` then css within should be structu
 --pagination-link-hover-color: hex/rgb(a);
 
 **Progress Bar**
---progress-striped-animated-color: linear-gradient(deg, rgba %, deg, rgba %, ..., deg, rgba %));
---progress-bg-color: hex/rgb(a);
---progress-bar-color: hex/rgb(a);
+--progress-striped-animated-color: linear-gradient(deg, rgba %, deg, rgba %, ..., deg, rgba %));  
+--progress-bg-color: hex/rgb(a);  
+--progress-bar-color: hex/rgb(a);  
   
 **Dropdown**  
 --dropdown-item-hover-text-color: hex/rgb(a);  
@@ -222,8 +222,8 @@ So for instance if we created `test-theme-123` then css within should be structu
 --card-text-color: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
 --card-progress-bar-color: hex/rgb(a);  
---card-overlay-bg-color: hex/rgb(a); 
---card-overlay-hover-bg-color: hex/rgb(a); 
+--card-overlay-bg-color: hex/rgb(a);  
+--card-overlay-hover-bg-color: hex/rgb(a);  
 
 **Slider**  
 --slider-text-color: hex/rgb(a);  
@@ -243,15 +243,15 @@ So for instance if we created `test-theme-123` then css within should be structu
 	
  **Carousel**  
 --carousel-header-text-color: hex/rgb(a);  
---carousel-header-text-decoration: hex/rgb(a);
---carousel-hover-header-text-decoration: hex/rgb(a);
+--carousel-header-text-decoration: hex/rgb(a);  
+--carousel-hover-header-text-decoration: hex/rgb(a);  
 
 **Drawer**
 --drawer-background-color: hex/rgb(a);
 
 **Event Widget**
---event-widget-bg-color: hex/rgb(a);
---event-widget-item-bg-color: hex/rgb(a);
---event-widget-text-color: hex/rgb(a);
---event-widget-item-border-color: hex/rgb(a);
---event-widget-border-color: hex/rgb(a);
+--event-widget-bg-color: hex/rgb(a);  
+--event-widget-item-bg-color: hex/rgb(a);  
+--event-widget-text-color: hex/rgb(a);  
+--event-widget-item-border-color: hex/rgb(a);  
+--event-widget-border-color: hex/rgb(a);  
