@@ -172,7 +172,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --pagination-focus-border-color: hex/rgb(a);  
 --pagination-link-hover-color: hex/rgb(a);
 
-**Progress Bar**
+**Progress Bar**  
 --progress-striped-animated-color: linear-gradient(deg, rgba %, deg, rgba %, ..., deg, rgba %));  
 --progress-bg-color: hex/rgb(a);  
 --progress-bar-color: hex/rgb(a);  
