@@ -14,7 +14,7 @@ There are a few things to note:
 - This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
 	- If you would like any other properties exposed, please feel free to suggest theme in our discord or feature request page.
 
-So for instance if we created `test-theme-123` then css within should be structured as follows
+So for instance if we created `test-theme-123.css` then css within should be structured as follows
 ``` 
 :root .bg-test-theme-123 {
 	/* CSS Variables here */
