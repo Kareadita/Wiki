@@ -246,7 +246,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --carousel-header-text-decoration: hex/rgb(a);  
 --carousel-hover-header-text-decoration: hex/rgb(a);  
 
-**Drawer**
+**Drawer**  
 --drawer-background-color: hex/rgb(a);
 
 **Event Widget**
