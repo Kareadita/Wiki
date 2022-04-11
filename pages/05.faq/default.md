@@ -43,7 +43,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ```
 
 * Q. **Does Kavita collect any data on me?**
-* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats) Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
+* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. Thank you for opting in, it really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats) Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
 ```
 {
    "InstallId":"0cf3ad15",
@@ -54,7 +54,12 @@ rclone mount [your mount name]: [local path to be mounted] \
      "IsDocker":true,
      "NumOfCores":4,
      "HasBookmarks" true,
-     "NumberOfLibraries": 4
+     "NumberOfLibraries": 4,
+     "NumberOfReadingLIsts": 2,
+     "NumberOfCollections": 0,
+	 "TotalFiles": 10351
+     "ActiveTheme": "Dark",
+     "ReadingMode": "Webtoon"
 }
 ```
 
@@ -69,11 +74,14 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 * Q. **Follow up, some of my epubs aren't being added, how come?**
 * A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. You can use Calibre to reexport, which usually fixes the malformed metadata.
 
+* Q. **Sometimes I add ComicInfo to the first archive, but Kavita doesn't show it at a series level. Is this a bug?**
+* A. There are 2 things to keep in mind. If the underlying file Created/LastModified isn't being changed since our last scan, we skip it to save on time and resources. In addition, if the file is not an archive starting with C, like cbz, cbr, etc, then it will not be checked for ComicInfo metadata. 
+
 * Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
 * A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: https://github.com/Kareadita/Kavita/issues/821
 
 * Q. **v0.5.1 Introduced Email functionality, how does it work?**
-* A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails wont send, all email flows will write the link to your logs. This is the best way for you to confirm you email when doing the one time migration or setup accounts for your users. 
+* A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails wont send, all email flows will write the link to your logs. This is the best way for you to confirm you email when doing the one time migration or setup accounts for your users. You do not need to have a valid email, unless you plan to use forgot password. You can setup your users accounts for them by doing the invite flow and using their invite link. We do not collect any email account information. It is deleted immediately after being dispatched by an automatic rule. You can run your own email service as well. 
 
 FAQ Pages TOC:
 
