@@ -125,7 +125,7 @@ So for instance if we created `test-theme-123` then css within should be structu
 --tagbadge-typeahead-text-color: hex/rgb(a);  
 --tagbadge-typeahead-bg-color: hex/rgb(a);  
 
-**Side Nav**
+**Side Nav**  
 --side-nav-bg-color: hex/rgb(a);  
 --side-nav-mobile-bg-color: hex/rgb(a);  
 --side-nav-openclose-transition: s ease-in-out;  
