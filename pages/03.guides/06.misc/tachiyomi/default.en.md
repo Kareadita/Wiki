@@ -7,6 +7,7 @@ visible: true
 ---
 
 ### Guide Overview
+* [Issues](#issues)
 * [Installation](#installation)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -15,6 +16,10 @@ visible: true
 ! Note: Currently there's only official support for the original Tachiyomi version.<br/>
 ! Some of the forks that are confirmed (by the users) to work are: TachiyomiSY, TachiyomiAZ
 
+## Issues
+If you find any error please report them here:
+[https://github.com/ThePromidius/tachiyomi-extensions/issues/new?assignees=&labels=Bug&template=report_issue.yml](https://github.com/ThePromidius/tachiyomi-extensions/issues/new?assignees=&labels=Bug&template=report_issue.yml)
+This is the fork github. Please do not create issues on the main app github for extension-related issues.
 ## Installation
 
 **First of all make sure Kavita is updated**
