@@ -24,7 +24,7 @@ So for instance if we created `/config/themes/test-theme-123.css` then the css w
 ## Available CSS Variables
 **Note**: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
-**Color-scheme**
+**Color-scheme**  
 *This refers to the scroll bar color as well as which color placeholder images to use.*  
 --color-scheme: dark/light;  
     
