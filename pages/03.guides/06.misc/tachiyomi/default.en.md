@@ -12,6 +12,8 @@ visible: true
 * [Usage](#usage)
 * [Customization Guide](#customization)
 * [Sync Progress with Kavita](#sync-progress-with-kavita)
+! Note: Currently there's only official support for the original Tachiyomi version.<br/>
+! Some of the forks that are confirmed (by the users) to work are: TachiyomiSY, TachiyomiAZ
 
 ## Installation
 
