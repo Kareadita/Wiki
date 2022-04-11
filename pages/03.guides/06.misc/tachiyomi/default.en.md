@@ -21,7 +21,7 @@ If you find any error please report them here:
 
 [https://github.com/ThePromidius/tachiyomi-extensions/issues/new?assignees=&labels=Bug&template=report_issue.yml](https://github.com/ThePromidius/tachiyomi-extensions/issues/new?assignees=&labels=Bug&template=report_issue.yml)
 
-This is the fork github. Please do not create issues on the main app github for extension-related issues.
+This is the plugin's github. Please do not create issues on the main app github for extension-related issues.
 ## Installation
 
 **First of all make sure Kavita is updated**
