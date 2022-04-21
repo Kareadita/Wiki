@@ -98,7 +98,7 @@ WHERE b.Id != c.low_ID
 ORDER BY b.FilePath
 ```
 ```
-//Delete Chapter Information first
+// Delete Chapter Information first
 DELETE FROM Chapter 
 WHERE Id IN (
 	SELECT b.ChapterId FROM MangaFile b JOIN( 
@@ -111,7 +111,7 @@ WHERE Id IN (
 )
 ```
 ```
-//Delete MangaFile Information
+// Delete MangaFile Information
 DELETE FROM MangaFile
 WHERE Id IN (
 	SELECT b.Id FROM MangaFile b JOIN( 
