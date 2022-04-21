@@ -88,7 +88,9 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 
 * Q. **Follow up, some of my epubs aren't being added, how come?**
 * A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. You can use Calibre to reexport, which usually fixes the malformed metadata.
+
 ===
+
 * Q. **Sometimes I add ComicInfo to the first archive, but Kavita doesn't show it at a series level. Is this a bug?**
 * A. There are 2 things to keep in mind. If the underlying file Created/LastModified isn't being changed since our last scan, we skip it to save on time and resources. In addition, if the file is not an archive starting with C, like cbz, cbr, etc, then it will not be checked for ComicInfo metadata. 
 
