@@ -83,10 +83,10 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 * Q. **v0.5.1 Introduced Email functionality, how does it work?**
 * A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails wont send, all email flows will write the link to your logs. This is the best way for you to confirm you email when doing the one time migration or setup accounts for your users. You do not need to have a valid email, unless you plan to use forgot password. You can setup your users accounts for them by doing the invite flow and using their invite link. We do not collect any email account information. It is deleted immediately after being dispatched by an automatic rule. You can run your own email service as well. 
 
-* Q. **I'm seeing duplicate chapters/issues. What's going on?**
-* A. This may happen if you've been a longtime user. Over the version iterations the DB has changed pretty significantly. There are two options
-* 1. You can choose to start fresh, delete your current database and reconfigure the instance. This is not recommended or ideal.
-* 2. You can use execute the following SQL commands on your DB using some tool like DB Browser.
+- Q. **I'm seeing duplicate chapters/issues. What's going on?**
+- A. This may happen if you've been a longtime user. Over the version iterations the DB has changed pretty significantly. There are two options
+	- 1. You can choose to start fresh, delete your current database and reconfigure the instance. This is not recommended or ideal.
+	- 2. You can use execute the following SQL commands on your DB using some tool like DB Browser.
 ```
 // Verify Duplicates
 SELECT b.* FROM MangaFile b JOIN( 
