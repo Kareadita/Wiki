@@ -107,7 +107,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 - Q. **I'm seeing duplicate chapters/issues. What's going on?**
-- A. This may happen if you've been a longtime user. Over the version iterations the DB has changed pretty significantly. There are two options
+- A. This may happen if you've been a longtime user. Over the version iterations the DB has changed pretty significantly. There are two options, in either case **Backup your Database first**:
 	- 1. You can choose to start fresh, delete your current database and reconfigure the instance. This is not recommended or ideal.
 	- 2. You can use execute the following SQL commands on your DB using some tool like DB Browser.
 ```
