@@ -2,7 +2,8 @@
 title: 'Series Relationships'
 ---
 
-TODO: Update this page
+! This page is a work in progress. This functionality requires v0.5.2.14+
+
 
 |Relationship | Description |  
 |  ------ | ------ |
