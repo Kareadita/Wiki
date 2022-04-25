@@ -3,7 +3,7 @@ title: 'Series Relationships'
 media_order: 'Related Tab.PNG,Parent Relationship.PNG'
 ---
 
-! This page is a work in progress. This functionality requires v0.5.2.14+
+! This functionality requires v0.5.2.14+
 
 Starting with v0.5.2.14, Kavita now allows you to express relationships between different series. Unlike with Reading lists, linked series provides more context for how different series relate to each other. 
 
