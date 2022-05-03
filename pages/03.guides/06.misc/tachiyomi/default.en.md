@@ -78,5 +78,6 @@ To hide one filter just uncheck the checkbox
 
 ## Sync Progress with Kavita
 **Not implemented yet**
+Check the discord to access a preview of this feature
 
 
