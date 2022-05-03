@@ -1,6 +1,12 @@
 ---
 title: Email
 media_order: Email-Service-Link.PNG
+published: true
+taxonomy:
+    category:
+        - docs
+    tag:
+        - Mail
 ---
 
 # Kavita Email
