@@ -50,5 +50,5 @@ If you have comments or questions not addressed by this Wiki or want to help us 
 If you haven't installed Kavita yet, please see the Install page [here](https://wiki.kavitareader.com/install). 
 
 ### Naming convention
-After install, make sure you check out our [naming conventions](https://wiki.kavitareader.com/en/faq/folders-and-file-structure). 
+After install, make sure you check out our [naming conventions](/guides/managing-your-files). 
 
