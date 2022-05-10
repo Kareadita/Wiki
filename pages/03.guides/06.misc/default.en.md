@@ -5,7 +5,7 @@ media_order: 'Calibre Metadata.jpg,Kavita Calibre Bobiverse.jpg'
 
 ## Misc information about Metadata
 #### Publication Status
-Kavita will can set the Publication Status on a series for you based on the underlying ComicInfo. If you have at least one ComicInfo with the `Count`property, then Kavita will at least mark the series as Ended. Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed. This logic will only run if the field is not locked. At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
+Kavita will can set the Publication Status on a series for you based on the underlying ComicInfo. If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended. Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed. This logic will only run if the field is not locked. At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
 
 
 
