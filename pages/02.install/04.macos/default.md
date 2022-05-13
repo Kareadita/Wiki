@@ -3,4 +3,15 @@ title: macOS
 ---
 
 ### Introduction
-Kavita does not have a dedicated app for macOS. The best way to handle macOS is to use docker or follow the [linux instructions](https://wiki.kavitareader.com/en/install/linux-install).
+
+Download Kavita for macos https://www.kavitareader.com/#downloads-v1-macos
+
+Unpack Kavita to your User Folder.
+
+Make Kavita executable.
+In Terminal: sudo chmod +x ~/Kavita/Kavita
+
+Disable Gatekeeper for Kavita folder so kavita and all .dll and .dylib files can be opened.
+In Terminal: attr -r -d com.apple.quarantine ~/Downloads/Kavita
+
+Start Kavita with rightklick -> Open (or in Terminal: ~/Kavita/Kavita )
