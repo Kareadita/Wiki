@@ -53,6 +53,8 @@ Library Root
              ┖── Series Name SP01 Special Name.cbz
 ```
 
+! Specials will fallback to folder name for Series name. If you have a different name than the series files, then your special may not properly group.
+
 ### Examples of Naming conventions supported out of the box
 * Noblesse - Episode 406 (52 Pages).7z -> Noblesse Chapter 406
 * \[Hidoi]\_Amaenaideyo\_MS_vol01_chp02.rar -> Amaenaideyo MS Vol 1 Chapter 2
