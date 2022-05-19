@@ -255,3 +255,11 @@ So for instance if we created `/config/themes/test-theme-123.css` then the css w
 --event-widget-text-color: hex/rgb(a);  
 --event-widget-item-border-color: hex/rgb(a);  
 --event-widget-border-color: hex/rgb(a);  
+
+**Search Results**  (v0.5.3)
+--search-result-text-lite-color: hex/rgb(a);
+
+**Bulk Selection**  (v0.5.3)
+--bulk-selection-highlight-text-color: hex/rgb(a);
+--bulk-selection-text-color: hex/rgb(a);
+
