@@ -20,7 +20,9 @@ So for instance if we created `/config/themes/test-theme-123.css` then the css w
 	/* CSS Variables here */
   } 
   ```
-  <hr style="border:5px solid #4ac694"> </hr>
+ ! Kavita as of v0.5.3 only supports Dark theme out of the box. However you can find a good starting point for Light/E-ink themes on the side bar.
+ 
+ <hr style="border:5px solid #4ac694"> </hr>
 ## Available CSS Variables
 **Note**: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
