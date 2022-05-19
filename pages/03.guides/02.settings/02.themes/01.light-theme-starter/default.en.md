@@ -1,6 +1,7 @@
 ---
 title: 'Light Theme Starter'
 published: true
+visible: true
 ---
 
 ! This theme is not maintained with the latest css variables. See [themes](https://wiki.kavitareader.com/en/guides/settings/themes) for all variables. 
