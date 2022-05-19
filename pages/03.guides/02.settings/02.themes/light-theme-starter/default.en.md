@@ -2,6 +2,7 @@
 title: 'Light Theme Starter'
 ---
 
+! This theme is not maintained with the latest css variables. See [themes](https://wiki.kavitareader.com/en/guides/settings/themes) for all variables. 
 ```
 /* Theme for the light mode of Kavita */
 :root .bg-light {
