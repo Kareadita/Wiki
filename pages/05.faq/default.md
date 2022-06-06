@@ -97,7 +97,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 * Q. **I have a Pi (Buster) that doesn't run Kavita in Docker. Is there a workaround?**
-* A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: https://github.com/Kareadita/Kavita/issues/821
+* A. There is a bug in the OS version for Buster. We have a workaround. You can run the docker container with privileged. See: [https://github.com/Kareadita/Kavita/issues/821](https://github.com/Kareadita/Kavita/issues/821)
 
 ===
 
