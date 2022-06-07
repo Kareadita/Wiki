@@ -29,8 +29,9 @@ Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/manga)
 * [eBooks File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/ebooks)
-* [PDF File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/managing-your-files/pdf)
-* [Raw Images File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/managing-your-files/raw-images)
+
+* [PDF File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/pdf)
+* [Raw Images File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/raw-images)
 
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
