@@ -29,7 +29,6 @@ Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/manga)
 * [eBooks File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/ebooks)
-
 * [PDF File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/pdf)
 * [Raw Images File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/raw-images)
 
