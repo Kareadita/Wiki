@@ -47,6 +47,9 @@ This file is an example and assumes you have installed Kavita to /opt/Kavita and
 
 Once the file is saved you can run `systemctl start kavita.service` to test if it starts correctly, and if does, run `systemctl enable kavita.service` and it will start at boot for your system.
 
+### 5. Updating
+In order to update Kavita, stop the program/service from running and copy/paste all files EXCEPT config/ to your Kavita install directory. If you replace config, you will loose your data. 
+
 ! **Note**: Please contact us if you wish to port Kavita for any other distro.
 
 
