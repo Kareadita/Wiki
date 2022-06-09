@@ -8,8 +8,10 @@ Kavita supports reading metadata from ComicInfo or Epub files, but sometimes, th
 
 ! Kavita does not save to the underlying file. This is just for within Kavita. 
 
+Some metadata fields have special functions, you can find information about them [here](https://wiki.kavitareader.com/en/guides/misc#misc-information-about-metadata).
+
 ### Locking Fields
-When you edit a field, the field will show a locked icon next to it. This implies that if you add ComicInfo or change ComicInfo, it will not change what is set, as the field is locked. You can always unlock a field by clicking the lock. In addition, you can edit the item, like name and click unlock in the same go, which will allow a ComicInfo update to change it.
+When you edit a field, the field will show a locked icon next to it. This implies that if you add ComicInfo or change ComicInfo, it will not reflect within Kavita, as the field is locked. You can always unlock a field by clicking the lock. In addition, you can edit the item, like name and click unlock in the same go, which will allow a ComicInfo update to change it.
 
 ### Metadata
 ![edit1](edit1.PNG "edit1")
