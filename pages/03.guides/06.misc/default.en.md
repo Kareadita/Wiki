@@ -13,7 +13,21 @@ If you however have some bad data and need to restore, then check config/backups
 #### Publication Status
 Kavita will can set the Publication Status on a series for you based on the underlying ComicInfo. If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended. Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed. This logic will only run if the field is not locked. At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
 
-
+#### Format
+Kavita will take the following Format tags from ComicInfo and use them to treat the file as a special:
+* Special
+* Reference
+* Director's Cut
+* Box Set
+* Box-Set
+* Annual
+* Anthology
+* Epilogue
+* One Shot
+* One-Shot
+* Prologue
+* TPB
+* Trade Paper Back
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Api Documentation
