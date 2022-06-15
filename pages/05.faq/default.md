@@ -149,6 +149,6 @@ WHERE Id IN (
 
 FAQ Pages TOC:
 
-[Folder and File Structure](https://wiki.kavitareader.com/faq/folders-and-file-structure)
+[External](https://wiki.kavitareader.com/admin/pages/faq/external-readers)
 
 [Compare to Competition](https://wiki.kavitareader.com/faq/compare-to-competition)
