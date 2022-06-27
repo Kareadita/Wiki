@@ -130,4 +130,9 @@ If your archives contain metadata, it will override any parsed information from 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Refresh Covers
 During the refresh covers task, same kind of logic applies. This is a heavy task because of the amount of I/o we have to perform and because the amount of memory we need to copy images out of the archive and onto the disk.
-In this task we don't open up any archives if they haven't been modified unless you do a refresh covers from the UI. In addition, even if it was modified, if you've locked the cover image by using the UI and uploading your own custom one, then we don't open up the archive either
+In this task Kavita doesn't open up any archives if they haven't been modified unless you do a refresh covers from the UI. In addition, even if it was modified, if you've locked the cover image by using the UI and uploading your own custom one, then Kavita doesn't open up the archive either.
+
+
+<hr style="border:2px solid #4ac694"> </hr>
+### Analyze Files
+During the analyze files task, Kavita will open epub files and count number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be vary if you have a remote storage or slow server.
