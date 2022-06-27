@@ -1,6 +1,7 @@
 ---
 title: 'PDF Reader'
 media_order: 'basic Reader.PNG'
+visible: true
 ---
 
 # PDF Reader
