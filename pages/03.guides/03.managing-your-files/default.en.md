@@ -21,7 +21,7 @@ admin: {  }
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## File Structure
-It's important to know how kavita parses the info from the files.
+It's important to know how Kavita parses the info from the files.
 
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Due to this, you are not required to put all of one series in the same folder, however it is good practice.
 
