@@ -8,10 +8,12 @@ In the underlying pages. Its explained how each reader interface works
 
 [Go to Book Reader Wiki](./book-reader)
 
+[Go to PDF Reader Wiki](./pdf-reader)
+
 ### Keyboard Shortcuts
 Each reader shares the same keyboard shortcuts:
-* b: Bookmark page (Comic/Manga reader)
-* f: Toggle fullscreen mode
+* B: Bookmark page (Comic/Manga reader)
+* F: Toggle fullscreen mode
 * Left/Right arrow: Move next/prev
-* Esc: Close the reader
-* g: Go to page
+* ESC: Close the reader
+* G: Go to page
