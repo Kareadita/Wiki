@@ -78,6 +78,28 @@ Ideally the value of this field should be the total number of volumes (manga) or
 
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 
+##### Format
+If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). The following entries will cause this:
+* Special
+* Reference
+* Director's Cut
+* Box Set
+* Box-Set
+* Annual
+* Anthology
+* Epilogue
+* One Shot
+* One-Shot
+* Prologue
+* TPB
+* Trade Paper Back
+* Omnibus
+* Compendium
+* Absolute
+* Graphic Novel
+* GN
+* FCBD 
+
 <hr style="border:2px solid #4ac694"> </hr>
 ### eBooks
 EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file. Kavita tries to map as much of this information as possible. 
