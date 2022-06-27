@@ -265,3 +265,6 @@ So for instance if we created `/config/themes/test-theme-123.css` then the css w
 --bulk-selection-highlight-text-color: hex/rgb(a);
 --bulk-selection-text-color: hex/rgb(a);
 
+**Card List Item** (v0.5.4)
+--card-list-item-bg-color: hex/rgb(a);
+
