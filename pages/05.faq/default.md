@@ -51,7 +51,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ===
 
 * Q. **Does Kavita collect any data on me?**
-* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. We actively use this data to help design the UX and plan enhancements. Thank you for opting in, it really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats) Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
+* A. Kavita by default will collect stats on your install, this can be turned off after the initial launch. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively use this data to help design the UX and plan enhancements. Thank you for opting in, it really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats) Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
 ```
 {
    "InstallId":"0cf3ad15",
@@ -146,6 +146,11 @@ WHERE Id IN (
 	ORDER BY b.FilePath
 )
 ```
+
+===
+
+- Q. **How exactly does Estimated Reading Time work?**
+- A. Kavita calculates in two different methods. For items where we can count words (epub), we use a spread of 10,260-30,000 words per hour to calculate min, max and average. For non-word based, we assume a comic page and calculate using 2.75-3.33 mins per page. This works in most cases but might fail in areas like pdf (for which we still use images on the backend) or webtoons which have a long strip format. Kavita is not aiming to give a perfect sense of time, but an average to help guide users on picking up items to read or how long to finish off a series. 
 
 FAQ Pages TOC:
 
