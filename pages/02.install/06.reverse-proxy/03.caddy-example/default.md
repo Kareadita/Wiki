@@ -2,7 +2,7 @@
 title: 'Caddy Example'
 ---
 
-### Caddy Example
+### Caddy Example (v1)
 In this example IP address 192.168.0.1 is the IP of the Caddy machine.
 ```
  # Proxy to Kavita running locally on port 5000
@@ -17,3 +17,21 @@ kavita.yourdomain.com {
 
 }
  ```
+ 
+ ### Caddy Example (v2)
+ ```
+{
+        email youremail@here.com
+        admin off
+}
+
+kavita.yourdomain.com {
+        encode gzip
+        tls youremail@here.com
+        reverse_proxy /* localhost:5000 192.168.0.1:5000  {
+            header_up X-Forwarded-Host {host}:5000
+            header_up -Origin
+            header_up -Referer
+        }
+}
+```
