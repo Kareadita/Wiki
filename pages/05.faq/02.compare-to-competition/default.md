@@ -2,6 +2,14 @@
 title: 'Compare to Competition'
 ---
 
+# Comparsion
+This page may be out of date as all software except Ubooquity is in active development. To provide a quick summary: 
+* Komga is more focused on Comics and management of your comics (including reading), it does not support reading any text-based documents as text (aka epubs are read as images). Great software, alternative UX, active development. 
+* Calibre-web is a nicer frontend to Calibre. You need to have Calibre manage your files. I don't personally use this, but the UX is much nicer than the actual Calibre application. Very focused on ebooks.
+* Ubooquity is known by all. Maps your folders into cards and provides a basic reader for cbz/cbr and pdf (as images). No longer developed.
+* Mango: I've never used, but I think it has a downloader and that's pretty cool.
+* Kavita: Focused on reading experience and exploring your collection. epub and pdf readers allow for text and are feature rich. Uses metadata and filename parsing to group into series, volumes, etc.  
+
 | | [Kavita](https://github.com/Kareadita/Kavita) | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | [Calibre-web](https://github.com/janeczku/calibre-web) |
 |  ------ | ------ | ------ | ------ | ------ | ------ |
 | Multi-User Support | ✓ | ✓ | ✓ | ✓ | ✓ |
