@@ -24,7 +24,7 @@ To access Kavita, go to the Installed Applications page and click Kavita's "Open
 
 ### Installing Kavita (Nightly)
 
-##### Note: Kavita's nightly release is meant for beta testers, and breaking changes may slip in. For the most stable experience, install Kavita (Stable).
+! Note: Kavita's nightly release is meant for beta testers, and breaking changes may slip in. For the most stable experience, install Kavita (Stable).
 
 As there currently isn't a TrueCharts app for Kavita's nightly releases, it needs to be installed as a Docker image.
 
