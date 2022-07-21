@@ -10,7 +10,7 @@ Installations supported:
 * [Linux](https://wiki.kavitareader.com/install/linux-install)
 * [Docker](https://wiki.kavitareader.com/install/docker-install)
 * [macOS](https://wiki.kavitareader.com/install/macos)
-* Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid) or [OpenMediaVault](https://www.openmediavault.org/)
+* Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid), [TrueNAS Scale](https://wiki.kavitareader.com/en/install/truenas-scale), or [OpenMediaVault](https://www.openmediavault.org/)
 * [Synology](https://wiki.kavitareader.com/en/install/synology)
 * [Reverse Proxy Examples](https://wiki.kavitareader.com/install/reverse-proxy)
 
