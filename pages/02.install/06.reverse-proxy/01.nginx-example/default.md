@@ -18,7 +18,16 @@ server{
          # Proxy to Kavita running locally on port 5000 using ssl
          proxy_pass https://127.0.0.1:5000 ;
      }
-        server_name kavita.example.com;
+     
+    location /hubs {
+        proxy_pass http://127.0.0.1:5000;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+        proxy_set_header Host $host;
+    }
+    
+    server_name kavita.example.com;
 
     listen 443 ssl; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
