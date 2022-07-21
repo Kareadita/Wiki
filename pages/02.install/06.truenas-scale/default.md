@@ -7,7 +7,7 @@ In your server's filesystem, create a folder for your library and a folder for K
 
 ### Installing Kavita (Stable)
 
-[Install](https://truecharts.org/manual/Quick-Start%20Guides/02-Installing-an-App/#requirements=) the TrueCharts app catalog, search for Kavita, and click "install".
+[Install](https://truecharts.org/docs/manual/SCALE%20Apps/Quick-Start%20Guides/Adding-TrueCharts) the TrueCharts app catalog, search for Kavita, and click "install".
 
 Modify the following sections:
 - Application Name
@@ -23,6 +23,8 @@ Leave all other sections at their default settings. Continue to the end and clic
 To access Kavita, go to the Installed Applications page and click Kavita's "Open" button.
 
 ### Installing Kavita (Nightly)
+
+##### Note: Kavita's nightly release is meant for beta testers, and breaking changes may slip in. For the most stable experience, install Kavita (Stable).
 
 As there currently isn't a TrueCharts app for Kavita's nightly releases, it needs to be installed as a Docker image.
 
@@ -46,3 +48,5 @@ Modify the following sections:
 Leave all other sections at their default settings. Continue to the end and click "Save".
 
 To access Kavita, browse to `your_server_ip:host_port`
+
+To give feedback on nightly releases, go to the [dev-branch-testing](https://discord.com/channels/821879810934439936/851515194185744464) channel in the [Discord](https://discord.gg/b52wT37kt7) server.
