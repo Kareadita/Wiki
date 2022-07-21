@@ -15,10 +15,16 @@ server{
          proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for; aio threads;
          proxy_set_header        X-Forwarded-Proto $scheme;
 
+         # Headers to proxy websocket connections
+         proxy_http_version 1.1;
+         proxy_set_header Upgrade $http_upgrade;
+         proxy_set_header Connection "Upgrade"; 
+
          # Proxy to Kavita running locally on port 5000 using ssl
          proxy_pass https://127.0.0.1:5000 ;
-     }
-        server_name kavita.example.com;
+    }
+     
+    server_name kavita.example.com;
 
     listen 443 ssl; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
