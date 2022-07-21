@@ -3,6 +3,7 @@ title: macOS
 ---
 
 ### Introduction
+! No one of the dev team owns a Mac. These instructions are suggested from our users. If you think you can improve them, please submit a PR.
 
 1. Download Kavita for macos https://www.kavitareader.com/#downloads-v1-macos
 2. Unpack Kavita to your User Folder or folder of choice.
