@@ -35,13 +35,43 @@ The following will be parsed as "Chapters", which may naturally group into a Vol
 
 ! If you have multiple comics from different years, you can name them as "Fables 2004" and "Fables 1989". Then in Kavita's UI, you can rename the "Name" field to be "Fables (2004)" and "Fables (1989)" so they are separate series. This workaround is the only way for different releases of the same series to be supported in Kavita.
 
-Comics also have a list of special keywords that will mark it as a special. Some of these are:
+Comics also have a list of special filename keywords that will mark it as a special. Some of these are:
+* Specials
+* Annual
+* Extra Chapter
 * Book
 * Conpendium
 * OneShot
 * Extra
 * FCBD
 * TPB
+* Side Stories
+* Art Collection
 * Absolute 
 * Preview
 * Omnibus
+* Bonus
+* Hors Série
+* HS
+* THS
+
+The "Format" metadata field for the Comicinfo.xml standard can also be used to mark the comic as a special:
+* Special
+* Reference
+* Director's Cut
+* Box Set
+* Box-Set
+* Annual
+* Anthology
+* Epilogue
+* One Shot
+* One-Shot
+* Prologue
+* TPB
+* Trade Paper Back
+* Omnibus
+* Compendium
+* Absolute
+* Graphic Novel
+* GN
+* FCBD
