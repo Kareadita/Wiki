@@ -28,6 +28,12 @@ Kavita will take the following Format tags from ComicInfo and use them to treat 
 * Prologue
 * TPB
 * Trade Paper Back
+* Omnibus
+* Compendium
+* Absolute
+* Graphic Novel
+* GN
+* FCBD
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Api Documentation
