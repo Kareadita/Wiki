@@ -24,4 +24,4 @@ To "Promote" a Collection to other Kavita users' homepage, click on the Promote 
 To edit the cover image for a Collection, select the Cover Image tab and choose a method to select a new cover. The Cover can also be Reset to default on this Tab.
 ![kavita_Collections_Edit_CoverImage](kavita_Collections_Edit_CoverImage.webp "kavita_Collections_Edit_CoverImage")
 To Delete a Collection/Tag uncheck all Series in the Collection and hit Save. A popup will warn that you are about to delete the Collection/Tag.
-![kavtia_Collections_Delete](kavita_Collections_Delete.webp "kavita_Collections_Delete")
+![kavita_Collections_Delete](kavita_Collections_Delete.webp "kavita_Collections_Delete")
