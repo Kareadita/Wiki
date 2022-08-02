@@ -3,12 +3,20 @@ title: Bookmarks
 media_order: 'bookmark user settings.PNG,bookmark modal.PNG'
 ---
 
-Bookmarks are a way for you to save images when you are reading and revisit them later. When you bookmark a file, the image is saved in your bookmarks/ directory (which can be configured to be stored in a location other than config/). These bookmarks can be viewed from the UI either through Series Detail page and using Context options or from User Settings and clicking Bookmarks tab.
+Bookmarks allow you to save individual pages you want to revisit later. They can be accessed from the Bookmarks Library.
 
-![bookmark%20user%20settings](bookmark%20user%20settings.PNG "bookmark%20user%20settings")
+![bookmark_library](bookmark_library.png "bookmark_library")
 
-From the user settings tab, you can see all your bookmarks. You can download all images in a zip or delete all files. Likewise, you can view each and every image by clicking the series title or using the eye button to go the series itself.
+From here, a series' bookmarks can be viewed by clicking its card. 
 
-![bookmark%20modal](bookmark%20modal.PNG "bookmark%20modal")
+![viewing_bookmarks](viewing_bookmarks.png "viewing_bookmarks.png")
 
-From here, you have the same options but can remove individual images that might have been saved that you don't want any longer.
+#### Removing Bookmarks
+- To remove an individual bookmark, navigate back to the original file (the "View Series" button is useful for this) and remove the bookmark from the page.
+- To remove all bookmarks from a series, open the context menu and click "Clear".
+
+#### Downloading Bookmarks
+- Bookmarks can be downloaded from each series' context menu by clicking "Download".
+- If you have access to the filesystem, bookmarks can be downloaded from `config/bookmarks/`. This is the default directory and can be changed from the Admin Dashboard.
+
+

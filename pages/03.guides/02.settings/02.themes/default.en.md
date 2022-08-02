@@ -7,20 +7,20 @@ As of v0.5.2, Kavita now supports reading a .css file for custom theming.
 There are a few things to note:
 - The file must be .css
 - The filename must only contain characters, numbers, and `-`
-- The filename must match the top level css property
+- The filename must match the top-level CSS property
 - The .css file must be placed in `/config/themes`
 - After placing the file in the directory, you must scan for it using the Scan button on the User Settings > Themes page before you can apply it.
-- Optionally, you can set as Default and all new accounts will have this theme auto-selected (they can override with their preference)
+- Optionally, you can set it as Default and all new accounts will have this theme auto-selected (they can override with their preference)
 - This is limited to the properties we have exposed. (*See Available CSS Variables Below*)
-	- If you would like any other properties exposed, please feel free to suggest theme in our discord or feature request page.
+  - If you would like any other properties exposed, please feel free to suggest themes in our [Discord](https://discord.gg/b52wT37kt7) server or [feature request page](https://feats.kavitareader.com/).
 
-So for instance if we created `/config/themes/test-theme-123.css` then the css within the file should be structured as follows
+So for instance, if we created `/config/themes/test-theme-123.css` then the CSS within the file should be structured as follows
 ``` 
 :root .bg-test-theme-123 {
-	/* CSS Variables here */
+  /* CSS Variables here */
   } 
   ```
- ! Kavita as of v0.5.3 only supports Dark theme out of the box. However you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
+ ! Kavita as of v0.5.3 only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
  
  <hr style="border:5px solid #4ac694"> </hr>
 ## Available CSS Variables
@@ -242,7 +242,7 @@ So for instance if we created `/config/themes/test-theme-123.css` then the css w
 --radio-accent-color: hex/rgb(a);  
 --radio-hover-accent-color: hex/rgb(a);  
 --radio-focus-boxshadow-color: hex/rgb(a);  
-	
+  
  **Carousel**  
 --carousel-header-text-color: hex/rgb(a);  
 --carousel-header-text-decoration: hex/rgb(a);  

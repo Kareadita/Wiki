@@ -16,10 +16,10 @@ Upon pressing the search in the top left, the user can search for text within th
 There are controls to jump through the document. Continuous reading is not implemented for PDF Reader.
 
 ### Light/Dark mode
-This is very experimental and may be prone to rendering issues. By pressing the sun/moon in top right, you can toggle the light/dark mode. 
+This is very experimental and may be prone to rendering issues. By pressing the sun/moon in the top right, you can toggle the light/dark mode. 
 
 ### Page Layout
-There are many layouts supported out of box by this reader. Use the hamburger menu on the right to activate them. 
+There are many layouts supported out of the box by this reader. Use the hamburger menu on the right to activate them. 
 
 ### Table of Contents
-A Table of contents is provided in the left hamburger menu along with a page preview. 
+A Table of contents is provided in the left hamburger menu along with a page preview.

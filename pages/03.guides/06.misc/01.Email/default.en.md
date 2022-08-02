@@ -10,9 +10,9 @@ taxonomy:
 ---
 
 # Kavita Email
-Kavita provides an email functionality out of the box to invite users, send reset password links, and more. We currently use a Google account which sends the emails and auto deletes them. However, not all users want to put trust in another party and for this, Kavita offers [KavitaEmail](https://github.com/Kareadita/KavitaEmail) microService, so you can use your own SMTP service.
+Kavita provides email functionality out of the box to invite users, send reset password links, and more. We currently use a Google account that sends the emails and then auto deletes them. However, not all users want to put trust in another party and for this, Kavita offers [KavitaEmail](https://github.com/Kareadita/KavitaEmail) microService, so you can use your own SMTP service.
 
-To get started, head over to the KavitaEmail Github and download a release, or use our [docker container](https://hub.docker.com/r/kizaing/kavitaemail).
+To get started, head over to the KavitaEmail GitHub and download a release, or use our [docker container](https://hub.docker.com/r/kizaing/kavitaemail).
 
 <hr style="border:5px solid #4ac694"> </hr>
 
@@ -49,7 +49,7 @@ services:
 
 
 ### Kavita Side
-Once you have setup your KavitaEmail service, you can now link your Kavita instance with KavitaEmail service. Navigate to Server Settings and under Email, you can change the url to your local service (and port if needed). Press Test to ensure it works.
+Once you have set up your KavitaEmail service, you can now link your Kavita instance with KavitaEmail service. Navigate to Server Settings and under Email, you can change the URL to your local service (and port if needed). Press Test to ensure it works.
 
 ![Email-Service-Link](Email-Service-Link.PNG "Email-Service-Link")
 

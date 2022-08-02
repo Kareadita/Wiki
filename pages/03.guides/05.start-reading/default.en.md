@@ -2,7 +2,7 @@
 title: 'Start reading'
 ---
 
-In the underlying pages. Its explained how each reader interface works
+In the underlying pages, it is explained how each reader interface works.
 
 [Go to Comic/Manga Reader Wiki](./comic-manga-reader)
 
