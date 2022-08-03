@@ -29,15 +29,10 @@ Below this section is the metadata and collection tags. Collection tags can be c
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Continue Reading
-To start reading you can either click the individual volume or chapter or let Kavita resume you where you left off by clicking "Continue".
+To start reading you can either click the individual volume or chapter or let Kavita resume you where you left off by clicking 
+<img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/continue.png" alt='the "continue" button' style="vertical-align: middle" height="32" />. This will open the last chapter that you have progress on or the next (if the last one was finished).
 
-![continue](continue.png "continue")
-
-Continue will open the last chapter that you have progress on or the next (if the last one was finished).
-
-If you don't see Continue, this means you haven't started reading yet. Press "Read" to start reading from the first volume or chapter.
-
-![read](read.png "read") 
+If you haven't started reading something, <img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/continue.png" alt="continue btn" style="vertical-align: middle" height="32" /> will be replaced by <img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/read.png" alt='the "read" button' style="vertical-align: middle" height="32" />
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Edit Series
