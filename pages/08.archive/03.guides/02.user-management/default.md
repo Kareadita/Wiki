@@ -10,7 +10,7 @@ Select the Users Tab and click Add User. Create the unique Username and Password
 ![KavitaAddUser](KavitaAddUser.jpg "KavitaAddUser")
 !! **Warning**: Users created with the "Admin" flag have complete access to all libraries and can only be Deleted, not edited, even by the main Admin.
 
-Once a User is created you must grant them access to specific Libraries using the Pencil Edit button. The Sharing: line displays what Libraries the user has access to. From this screen, you can edit the password for a user, edit their access to libraries, delete the user entirely or assign the roles. 
+Once a user is created you must grant them access to specific libraries using the Pencil Edit button. The Sharing line displays what libraries the user has access to. From this screen, you can edit the password for a user, edit their access to libraries, delete the user entirely or assign them roles. 
 ![KavitaLibraryAccess](KavitaLibraryAccess.jpg "KavitaLibraryAccess")
 
 ### Roles

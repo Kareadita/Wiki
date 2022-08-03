@@ -10,14 +10,14 @@ By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Acti
 ![kavita_Collections_Details](kavita_Collections_Details.jpg "kavita_Collections_Details")
 Collections will appear at the bottom of the Kavita homepage. 
 ![kavita_homepage_Collections](kavita_homepage_Collections.jpg "kavita_homepage_Collections")
-Collections can be accessed directly or they have their own select-able homepage.
+Collections can be accessed directly or they have their own selectable homepage.
 ![kavita_homepage_Collections_select](kavita_homepage_Collections_select.jpg "kavita_homepage_Collections_select")
 ![kavita_Collections_page](kavita_Collections_page.jpg "kavita_Collections_page")
 When selected all Series in the Collection will be available.
 ![kavita_Collections_detailedView](kavita_Collections_detailedView.jpg "kavita_Collections_detailedView")
 To Edit a Collection click on the Context Action button and select Edit.
 ![kavita_Collections_Edit](kavita_Collections_Edit.jpg "kavita_Collections_Edit")
-To "Promote" a Collection to other Kavita users' homepage, click on the Promote button.
+To "Promote" a Collection to other Kavita users' homepages, click on the Promote button.
 ![kavita_Collections_Edit_General](kavita_Collections_Edit_General.jpg "kavita_Collections_Edit_General")
 ! **Note**: Although a Promoted Collection can be seen by others, they may not have access to the items due to user access restrictions on what Libraries they can see.
 To edit the cover image for a Collection, select the Cover Image tab and choose a method to select a new cover. The Cover can also be Reset to default on this Tab.

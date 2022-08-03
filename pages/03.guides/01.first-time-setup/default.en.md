@@ -11,7 +11,7 @@ media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,K
 
 <hr style="border:4px solid #4ac694"> </hr>
 ### General Info
-Kavita supports mixed media libraries. For example your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
+Kavita supports mixed media libraries. For example, your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
 ![kavita%20Library%20File%20Type](kavita%20Library%20File%20Type.jpg "kavita Library Type")
 
 <hr style="border:4px solid #4ac694"> </hr>
@@ -31,8 +31,8 @@ Click the Add Library button. And give the Library a name.
 ![KavitaNewLibrary](KavitaNewLibrary.jpg "KavitaNewLibrary")
 Once named click on the Type Drop Down menu to select the type of media in this Library. Different media types use different ways to identify grouping. Use the one most applicable to your content.
 ![KavitaLibraryDropdown](KavitaLibraryDropdown.jpg "KavitaLibraryDropdown")
-Next click the Plus sign icon to begin the Folder selection process. 
-Each folder has a Share button which can be used to select all content in all sub-folders. However, Clicking on the folder names allows you to drill down further to Share the exact folder you want.
+Next, click the plus icon to begin the folder selection process. 
+Each folder has a Share button which can be used to select all content in all sub-folders. Clicking on the folder names allows you to drill down further to share the exact folder you want.
 
 ![KavitaDirectoryChoose](KavitaDirectoryChoose.jpg "KavitaDirectoryChoose")
 ! **Note**: It is not recommended to select a series folder directly because if it is empty then the scanning process will abort.
@@ -42,7 +42,7 @@ Each folder has a Share button which can be used to select all content in all su
 
 ### Adding users to Kavita
 ![User%20Tab](User%20Tab.PNG "User%20Tab")
-To add new users to Kavita, navigate to the User Tab and click Invite. The invite user prompt will open, here you will fill out their email, the role you want to give them, and the libraries they should have access to. You can edit this anytime after they setup an account on your server. In the case your server is not accessible, for example you're on localhost, Kavita will give you a link to send to your friend (or use yourself to setup their account). This link can always be found within your logs in case you misplace it. 
+To add new users to Kavita, navigate to the User Tab and click Invite. The invite user prompt will open, here you will fill out their email, the role you want to give them, and the libraries they should have access to. You can edit this anytime after they set up an account on your server. In the case your server is not accessible, for example, you're on localhost, Kavita will give you a link to send to your friend (or use yourself to set up their account). This link can always be found within your logs in case you misplace it. 
 
 ![invite%20user](invite%20user.PNG "invite%20user")
 

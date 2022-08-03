@@ -50,15 +50,15 @@ It's possible to change information of the series such as name, collections or s
 Override the cover of the series without modifying any file.
 
 **Info**<br/>
-This tab is useful to troubleshoot problems related to name parsing. It list all files that are part of this series.
+This tab is useful to troubleshoot problems related to name parsing. It lists all files that are part of this series.
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Rating and Reviews
-Kavita allows for you to track your rating and provide a review for yourself all within Kavita. Currently Kavita has it's own, separate system, however Scrobbing and Syncing to external sources is planned.
+Kavita allows for you to track your rating and provide a review for yourself all within Kavita. Currently, Kavita has its own, separate system, however Scrobbing and Syncing to external sources is planned.
 ![Example](rating_and_preview_example.webp "Example")
 
 
-To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to review. Adding a text based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
+To provide a rating, click the star icons. When you first provide a rating, a prompt will ask if you want to add a review. Adding a text-based review is optional. If you clicked no and want to add or edit your rating or review, you can click the edit icon displayed next to the star rating. 
 ![rating%20and%20review%202](rating%20and%20review%202.gif?cropResize=300 "rating%20and%20review%202")
 
 <hr style="border:2px solid #4ac694"> </hr>
@@ -68,7 +68,7 @@ Kavita has grouping which sometimes can be confusing, did a file get grouped pro
 #### Volume Info
 ![volume%20modal](volume%20modal.webp "volume%20modal")
 
-The volume info has some extra functionality. First, as you can see, we have individual chapters that are grouped into one virtual volume. When reading, you can jump chapter to chapter, but what if you want to re-read chapter 2? This screen will let you by clicking the cover image, which will open the reader directly on that chapter. Likewise, what if you've already read chapters 1-4 and want to quickly mark them as read? Using the context action button next to the Chapter title, you can now: 
+The volume info has some extra functionality. As you can see, we have individual chapters that are grouped into one virtual volume. When reading, you can jump chapter to chapter, but what if you want to re-read chapter 2? This screen will let you by clicking the cover image, which will open the reader directly on that chapter. Likewise, what if you've already read chapters 1-4 and want to quickly mark them as read? Using the context action button next to the Chapter title, you can now: 
 * Mark as Read
 * Mark as Unread
 * [Download](#downloading)
@@ -82,13 +82,13 @@ Select the Funnel at the top right to open the Filtering options
 
 This will open the filtering section to allow you to explore your library. The filtering screen is dynamically created based on the screen. For example, on the below example, the Libraries is already pre-selected as Comics, since the section was opened on the Comics library view. If on a collection page, then the collection page will be pre-selected. 
 
-From this page, you can select a set of tags to search against. The search will always OR each field. All fields will react to the selected libraries (aka if there are no writers in library comics, writers will show up with nothing, even if there are defined writers in another library) except for Collections and Formats. Those will always show all options available. Rating field will show as the minimum rating. If you select 3 stars, then anything with 3 or more stars will be returned.
+From this page, you can select a set of tags to search against. The search will always OR each field. All fields will react to the selected libraries (aka if there are no writers in library comics, writers will show up with nothing, even if there are defined writers in another library) except for Collections and Formats. Those will always show all options available. The rating field will show as the minimum rating. If you select 3 stars, then anything with 3 or more stars will be returned.
 
 ![v0.5%20filters](v0.5%20filters.PNG "v0.5%20filters")
 
 <hr style="border:5px solid #4ac694"> </hr>
 ## Download
-If a user has the Download role, they can download files from Kavita. Because Kavita uses a grouping mechanic, the downloads will mimic this structure. From any Series, Volume, or Chapter, a user can kick off a download via the context menu. If the underlying file is just one individual file, it will be sent as is, otherwise, the files will be grouped in a zip and downloaded. 
+If a user has the Download role, they can download files from Kavita. Because Kavita uses a grouping mechanic, the downloads will mimic this structure. From any Series, Volume, or Chapter, a user can kick off a download via the context menu. If the underlying file is just one individual file, it will be sent as is, otherwise, the files will be grouped in a zip file and downloaded. 
 
 Downloads may take longer than expected to process. Kavita will show a spinner on the item you are attempting to download from. 
 ![downloads](downloads.webp "downloads")
@@ -110,9 +110,9 @@ A reading list is an ordered list of chapters that can be of mixed media types.
 Only one user can see its reading lists except if an admins promote a reading list so all users can see them, but not edit them.
 
 Users can read through a reading list and the readers will transition automatically between the different types of readers accordingly to the file type.<br/>
-For example you can have a list with the following items: `Manga chapter -> Manga chapter -> Book chapter -> Manga` You can read them without closing the reader. 
+For example, you can have a list with the following items: `Manga chapter -> Manga chapter -> Book chapter -> Manga` You can read them without closing the reader. 
 
-The order can be manipulated via drag and drop or by using input boxes on right hand side to manually adjust the position. Position changes save automatically.
+The order can be manipulated via drag and drop or by using input boxes on the right-hand side to manually adjust the position. Position changes save automatically.
 
 Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
 

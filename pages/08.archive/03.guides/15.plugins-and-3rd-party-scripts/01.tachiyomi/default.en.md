@@ -19,8 +19,8 @@ visible: true
 **First of all make sure Kavita is updated**
 
 1. After that, after opening Tachiyomi, go to Browse in the lower nav.
-2. Select Extensions tab at the top of the screen.
-3. Now you can either scroll down untill you find or hit the search icon and write Kavita in it.
+2. Select the Extensions tab at the top of the screen.
+3. Now you can either scroll down until you find or hit the search icon and write Kavita in it.
 4. Once you find or search tap install.
 5. In the confirmation menu hit install again.
 ![Installation](Installation.png "Installation")
@@ -30,13 +30,13 @@ visible: true
 To make the extension link with your Kavita instance we need the OPDS URL.
 The steps to get the OPDS URL are:
 
-Access your Kavita instance from your web browser and login
+Access your Kavita instance from your web browser and log in
 1. Access your Kavita user dashboard
-2. Switch to "3rd Party Clients" tab
-3. Copy the text under OPDS URL
+2. Switch to the "3rd Party Clients" tab
+3. Copy the text under the OPDS URL
 ![setup_1](setup_1.png)
 **Once the  OPDS URL is obtained open Tachiyomi**
-4. Go back to Tachiyomi extensions tab
+4. Go back to the Tachiyomi extensions tab
 5. Tap Kavita
 6. Tap the gear icon in one of the sources. (sources explained in customization)
 7. Tap OPDS URL setting
@@ -54,7 +54,7 @@ Access your Kavita instance from your web browser and login
 
 ## Customization
 #### Change source name
-##### First of all. What is a source.<br/>
+##### First of all, what is a source?<br/>
 Once installed the user has access to 3 sources. <br/>
 This means you can have access to 3 different Kavita servers.<br/>
 On each source you can setup different OPDS URL and different filter preferences.<br/>

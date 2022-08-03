@@ -42,7 +42,7 @@ Library Root
              ┖── Series Name Omakes SP01.cbz
 ```
 
-3. To force a Special status, the filename can use SP01, SP02 etc.
+3. To force a Special status, the filename can use SP01, SP02, etc.
 ```
 Library Root
     ┖── Series Name
@@ -53,7 +53,7 @@ Library Root
              ┖── Series Name SP01 Special Name.cbz
 ```
 
-! Specials will fallback to folder name for Series name. If you have a different name than the series files, then your special may not properly group.
+! Specials will fall back to the folder name for Series name. If you have a different name than the series files, then your special may not properly group.
 
 ### Examples of Naming conventions supported out of the box
 * Noblesse - Episode 406 (52 Pages).7z -> Noblesse Chapter 406

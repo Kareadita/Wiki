@@ -6,7 +6,7 @@ visible: true
 
 ![new-reader](new-reader.gif "new-reader")
 
-When in the Web Reader click of tap in the center of the screen to bring up the Menu. In the top left the Arrow will let you exit the Manga/Comic and the Title, Volume, and Chapter of what you have open is displayed.
+When in the Web Reader click or tap in the center of the screen to bring up the menu. In the top left the arrow will let you exit the manga/comic and the title, volume, and chapter of what you have open is displayed.
 ![kavita_WebReader_Settings](kavita_WebReader_Settings.webp "kavita_WebReader_Settings")
 #####**Previous Chapter** or **Volume**
 ![KavitaWebReaderHomeMenuBackChapterVol](KavitaWebReaderHomeMenuBackChapterVol.webp "KavitaWebReaderHomeMenuBackChapterVol")
@@ -18,7 +18,7 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 ![KavitaWebReaderHomeMenuForwardChapterVol](KavitaWebReaderHomeMenuForwardChapterVol.webp "KavitaWebReaderHomeMenuForwardChapterVol")
 #####**Reading Direction**: Left to Right or Right To Left
 
-- Reading Direction changes which side of the screen you need to press to move to the next page. By default you are reading Left to right, meaning the right side (as shown in Pagination below) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
+- Reading Direction changes which side of the screen you need to press to move to the next page. By default, you are reading Left to right, meaning the right side (as shown in Pagination below) will move you to the next page. You can toggle to Right to Left and hence the left side will progress to the next page.
 
 ![KavitaWebReaderReadingDirection](KavitaWebReaderReadingDirection.webp "KavitaWebReaderReadingDirection")
 - When changing the Reading Direction option Colors will briefly highlight the Pagination (page turn) areas.
@@ -31,11 +31,20 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.webp "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
-#####**Image Splitting Options**: Right to Left or Left to Right
-- Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splits it so it feels like 2 pages. This is useful if you don't want to scroll while reading on a phone or tablet. Right to Left will split the image so the right side of the image renders first, then the left part as the second page. This is the most common.
+#####**Image Splitting Options**: Right to Left, Left to Right, Fit to Screen
+- Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splitting it so that it looks and acts like two pages. This is useful if you don't want to scroll or zoom while reading on a phone or tablet.
+  - Left to Right: The left half of the image is shown as the first page, then the right half as the second page. This is the most common choice for comics.
+  - Right to Left: The right half of the image is shown as the first page, then the left half as the second page. This is the most common choice for manga.
+  - Fit to Screen: Fits the image to the width of your screen. Unlike the width option under Image Scaling, this is only applied on spread pages.
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.webp "KavitaWebReaderSettingsFullSmallImageSplitting")
 #####**Image Scaling Options**: Height, Width, and Original
-- Scaling Options is how the image should be mapped to your screen. Height fits the image to fill the full height of your screen. Width fits to the width (best for reading on a phone) and Original does no scaling and sends the raw image over. Note that the Automatic Scaling Option from User Preferences will choose the best option based on your screen size.
+- Scaling Options adjust how the image is mapped to your screen.
+  - Height: Fits the image to the height of your screen. 
+  - Width: Fits the image to the width of your screen. Best for reading on a phone.
+  - Original: Does not scale the image.
+
+! Note: By default, Kavita will choose the best option based on your screen size. This can be changed in User Preferences > Image Reader > Scaling Options.
+
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.webp "KavitaWebReaderSettingsFullSmallImageScaling")
 #####**Auto Close the Menu** Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.webp "KavitaWebReaderSettingsFullSmallAutoCloseMenu")
@@ -56,6 +65,6 @@ When in the Web Reader click of tap in the center of the screen to bring up the 
 ### Webtoon Reading Mode
 The reader provides a few ways to read without having to close the reader to open the next chapter. As shown above, there are Next/Previous Chapter buttons that can be manually clicked and in addition, for non-webtoon mode, you can just page like normal and within 10 pages of a chapter boundary, the server will prefetch information needed and tell the server to start caching said files. 
 
-For Webtoon mode, due to the nature of the reader, there is a slightly more manual way to trigger the next/previous chapters. You can always use the buttons, however to do it without using the menu is more ideal. Now when the user scrolls to top or last page in the reader, a "spacer" is inserted at the top or bottom respectively. This spacer should show an animation to the user to scroll into it. When that is done, the next chapter is loaded. 
+For Webtoon mode, due to the nature of the reader, there is a slightly more manual way to trigger the next/previous chapters. You can always use the buttons, however, doing it without using the menu is more ideal. Now when the user scrolls to the top or last page in the reader, a "spacer" is inserted at the top or bottom respectively. This spacer should show an animation to the user to scroll into it. When that is done, the next chapter is loaded. 
 
 ![webtoon_cont_reading](webtoon_cont_reading.gif "webtoon_cont_reading")
