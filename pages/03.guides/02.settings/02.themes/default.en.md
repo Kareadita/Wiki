@@ -18,9 +18,9 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ``` 
 :root .bg-test-theme-123 {
   /* CSS Variables here */
-  } 
-  ```
- ! Kavita as of v0.5.3 only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
+  }
+```
+ ! As of v0.5.3, Kavita only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
  
  <hr style="border:5px solid #4ac694"> </hr>
 ## Available CSS Variables
@@ -28,7 +28,9 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 
 **Color-scheme**  
 *This refers to the scroll bar color as well as which color placeholder images to use.*  
-`--color-scheme: dark/light;`
+```
+--color-scheme: dark/light;
+```
     
 **Main Colors**  
 *These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
@@ -49,7 +51,8 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --navbar-text-color: hex/rgb(a);  
 --navbar-fa-icon-color: hex/rgb(a);  
 --navbar-btn-hover-outline-color: hex/rgb(a);  
-```  
+```
+
 **Inputs**  
 ```
 --input-bg-color: hex/rgb(a);  
@@ -168,8 +171,8 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **List items**  
-
-```--list-group-item-text-color: hex/rgb(a);  
+```
+--list-group-item-text-color: hex/rgb(a);  
 --list-group-item-bg-color: hex/rgb(a);  
 --list-group-item-border-color: hex/rgb(a);  
 --list-group-hover-text-color: hex/rgb(a);  
@@ -267,7 +270,9 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Slider**  
-`--slider-text-color: hex/rgb(a);`  
+```
+--slider-text-color: hex/rgb(a);
+```
 
 **Manga Reader**
 ```
@@ -294,7 +299,9 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Drawer**  
-`--drawer-background-color: hex/rgb(a);`
+```
+--drawer-background-color: hex/rgb(a);
+```
 
 **Event Widget**
 ```
@@ -306,7 +313,9 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Search Results**  (v0.5.3)
-`--search-result-text-lite-color: hex/rgb(a);`
+```
+--search-result-text-lite-color: hex/rgb(a);
+```
 
 **Bulk Selection**  (v0.5.3)
 ```
@@ -315,5 +324,6 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Card List Item** (v0.5.4)
-`--card-list-item-bg-color: hex/rgb(a);
-`
+```
+--card-list-item-bg-color: hex/rgb(a);
+```
