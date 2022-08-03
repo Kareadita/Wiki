@@ -28,10 +28,11 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 
 **Color-scheme**  
 *This refers to the scroll bar color as well as which color placeholder images to use.*  
---color-scheme: dark/light;  
+`--color-scheme: dark/light;`
     
 **Main Colors**  
 *These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
+```
 --primary-color: hex/rgb(a);  
 --primary-color-dark-shade: hex/rgb(a);  
 --primary-color-darker-shade: hex/rgb(a);  
@@ -39,15 +40,18 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --error-color: hex/rgb(a);  
 --bs-body-bg: hex/rgb(a);  // Background color for pages  
 --body-text-color: hex/rgb(a);   
---btn-icon-filter: invert(1) grayscale(%) brightness(%));  // Any filter chain. Useful mainly for dark themes  
+--btn-icon-filter: invert(1) grayscale(%) brightness(%));  // Any filter chain. Useful mainly for dark themes
+```
   
-**Navbar**  
+**Navbar**
+```
 --navbar-bg-color: hex/rgb(a);    
 --navbar-text-color: hex/rgb(a);  
 --navbar-fa-icon-color: hex/rgb(a);  
 --navbar-btn-hover-outline-color: hex/rgb(a);  
-  
+```  
 **Inputs**  
+```
 --input-bg-color: hex/rgb(a);  
 --input-bg-readonly-color: hex/rgb(a);  
 --input-focused-border-color: hex/rgb(a);  
@@ -55,8 +59,10 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --input-placeholder-color: hex/rgb(a);  
 --input-border-color: hex/rgb(a);  
 --input-focus-boxshadow-color: hex/rgb(a);  
-  
+```
+
 **Buttons**  
+```
 --btn-primary-text-color: hex/rgb(a);  
 --btn-primary-bg-color: hex/rgb(a);  
 --btn-primary-border-color: hex/rgb(a);  
@@ -78,8 +84,10 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --btn-disabled-bg-color: hex/rgb(a);  
 --btn-disabled-text-color: hex/rgb(a);  
 --btn-disabled-border-color: hex/rgb(a);  
-    
-**Nav (Tabs)**  
+```  
+
+**Nav (Tabs)**
+```
 --nav-tab-border-color: hex/rgb(a);  
 --nav-tab-text-color: hex/rgb(a);  
 --nav-tab-bg-color: hex/rgb(a);  
@@ -102,32 +110,42 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --nav-link-bg-color: hex/rgb(a);  
 --nav-link-active-text-color: hex/rgb(a);  
 --nav-link-text-color: hex/rgb(a);  
+```
 
 **Header**  
+```
 --nav-header-text-color: hex/rgb(a);  
 --nav-header-bg-color: hex/rgb(a);  
+```
 
 **Toasts**  
+```
 --toast-success-bg-color: hex/rgb(a);  
 --toast-error-bg-color: hex/rgb(a);  
 --toast-info-bg-color: hex/rgb(a);  
 --toast-warning-bg-color: hex/rgb(a);  
-  
+```  
+
 **Checkboxes**  
+```
 --checkbox-checked-bg-color: hex/rgb(a);  
 --checkbox-border-color: hex/rgb(a);  
 --checkbox-focus-border-color: hex/rgb(a);  
 --checkbox-focus-boxshadow-color: hex/rgb(a);  
-  
+```  
+
 **Tag Badge**  
+```
 --tagbadge-border-color: hex/rgb(a);  
 --tagbadge-text-color: hex/rgb(a);  
 --tagbadge-bg-color: hex/rgb(a);  
 --tagbadge-typeahead-border-color: hex/rgb(a);  
 --tagbadge-typeahead-text-color: hex/rgb(a);  
 --tagbadge-typeahead-bg-color: hex/rgb(a);  
+```
 
 **Side Nav**  
+```
 --side-nav-bg-color: hex/rgb(a);  
 --side-nav-mobile-bg-color: hex/rgb(a);  
 --side-nav-openclose-transition: s ease-in-out;  
@@ -147,24 +165,30 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --side-nav-item-active-text-color: hex/rgb(a);  
 --side-nav-active-bg-color: hex/rgb(a);  
 --side-nav-overlay-color: hex/rgb(a);  
+```
 
 **List items**  
---list-group-item-text-color: hex/rgb(a);  
+
+```--list-group-item-text-color: hex/rgb(a);  
 --list-group-item-bg-color: hex/rgb(a);  
 --list-group-item-border-color: hex/rgb(a);  
 --list-group-hover-text-color: hex/rgb(a);  
 --list-group-hover-bg-color: hex/rgb(a);  
 --list-group-active-border-color: hex/rgb(a);
-  
+```  
+
 **Popover**  
+```
 --popover-body-bg-color: hex/rgb(a);  
 --popover-body-text-color: hex/rgb(a);  
 --popover-outerarrow-color: hex/rgb(a);  
 --popover-arrow-color: hex/rgb(a);  
 --popover-bg-color: hex/rgb(a);  
 --popover-border-color: hex/rgb(a);  
-  
-**Pagination**  
+```
+
+**Pagination**
+```  
 --pagination-active-link-border-color: hex/rgb(a);  
 --pagination-active-link-bg-color: hex/rgb(a);  
 --pagination-active-link-text-color: hex/rgb(a);  
@@ -173,20 +197,26 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --pagination-link-bg-color: hex/rgb(a);  
 --pagination-focus-border-color: hex/rgb(a);  
 --pagination-link-hover-color: hex/rgb(a);
+```
 
 **Progress Bar**  
+```
 --progress-striped-animated-color: linear-gradient(deg, rgba %, deg, rgba %, ..., deg, rgba %));  
 --progress-bg-color: hex/rgb(a);  
 --progress-bar-color: hex/rgb(a);  
-  
+```  
+
 **Dropdown**  
+```
 --dropdown-item-hover-text-color: hex/rgb(a);  
 --dropdown-item-hover-bg-color: hex/rgb(a);  
 --dropdown-item-text-color: hex/rgb(a);  
 --dropdown-item-bg-color: hex/rgb(a);  
 --dropdown-overlay-color: hex/rgb(a);  
-  
+```
+
 **Accordion**  
+```
 --accordion-header-text-color: hex/rgb(a);  
 --accordion-header-bg-color: hex/rgb(a);  
 --accordion-body-bg-color: hex/rgb(a);  
@@ -196,17 +226,23 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --accordion-header-collapsed-bg-color: hex/rgb(a);  
 --accordion-button-focus-border-color: hex/rgb(a);  
 --accordion-button-focus-box-shadow: hex/rgb(a);  
-  
+```  
+
 **Breadcrumb**  
+```
 --breadcrumb-bg-color: hex/rgb(a);  
 --breadcrumb-item-text-color: hex/rgb(a);  
-  
+```  
+
 **Rating star**  
+```
 --ratingstar-color: hex/rgb(a);  
 --ratingstar-star-empty: hex/rgb(a);  
 --ratingstar-star-filled: hex/rgb(a);  
-  
+```  
+
 **Global**  
+```
 --hr-color: hex/rgb(a);  
 --accent-bg-color: hex/rgb(a);  
 --accent-text-color: hex/rgb(a);  
@@ -218,53 +254,66 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --grid-breakpoints-xl: px;  
 --body-font-family: "Font-Family", sans-serif;  
 --brand-font-family: "Font-Family", sans-serif;  
-  
+```  
+
 **Card**  
+```
 --card-bg-color: hex/rgb(a);  
 --card-text-color: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
 --card-progress-bar-color: hex/rgb(a);  
 --card-overlay-bg-color: hex/rgb(a);  
 --card-overlay-hover-bg-color: hex/rgb(a);  
+```
 
 **Slider**  
---slider-text-color: hex/rgb(a);  
-  
-**Manga Reader**  
+`--slider-text-color: hex/rgb(a);`  
+
+**Manga Reader**
+```
 --manga-reader-overlay-filter: Filter(px);  
 --manga-reader-overlay-bg-color: hex/rgb(a);  
 --manga-reader-overlay-text-color: hex/rgb(a);  
 --manga-reader-bg-color: hex/rgb(a);  
 --manga-reader-next-highlight-bg-color: hex/rgb(a);  
 --manga-reader-prev-highlight-bg-color: hex/rgb(a);  
-    
+```    
+
 **Radios**  
+```
 --radio-accent-color: hex/rgb(a);  
 --radio-hover-accent-color: hex/rgb(a);  
 --radio-focus-boxshadow-color: hex/rgb(a);  
-  
+```  
+
  **Carousel**  
+```
 --carousel-header-text-color: hex/rgb(a);  
 --carousel-header-text-decoration: hex/rgb(a);  
 --carousel-hover-header-text-decoration: hex/rgb(a);  
+```
 
 **Drawer**  
---drawer-background-color: hex/rgb(a);
+`--drawer-background-color: hex/rgb(a);`
 
 **Event Widget**
+```
 --event-widget-bg-color: hex/rgb(a);  
 --event-widget-item-bg-color: hex/rgb(a);  
 --event-widget-text-color: hex/rgb(a);  
 --event-widget-item-border-color: hex/rgb(a);  
 --event-widget-border-color: hex/rgb(a);  
+```
 
 **Search Results**  (v0.5.3)
---search-result-text-lite-color: hex/rgb(a);
+`--search-result-text-lite-color: hex/rgb(a);`
 
 **Bulk Selection**  (v0.5.3)
+```
 --bulk-selection-highlight-text-color: hex/rgb(a);
 --bulk-selection-text-color: hex/rgb(a);
+```
 
 **Card List Item** (v0.5.4)
---card-list-item-bg-color: hex/rgb(a);
-
+`--card-list-item-bg-color: hex/rgb(a);
+`

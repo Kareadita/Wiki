@@ -31,11 +31,20 @@ When in the Web Reader click or tap in the center of the screen to bring up the 
 ![KavitaWebReaderSettings](KavitaWebReaderSettings.webp "KavitaWebReaderSettings")
 ! Note: All Menu options scale with the screen size of your device display.
 
-#####**Image Splitting Options**: Right to Left or Left to Right
-- Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splitting it so it feels like 2 pages. This is useful if you don't want to scroll while reading on a phone or tablet. Right to Left will split the image so the right side of the image renders first, then the left part as the second page. This is the most common.
+#####**Image Splitting Options**: Right to Left, Left to Right, Fit to Screen
+- Splitting is the act of taking a spread page (a page that contains both left and right as one image) and virtually splitting it so that it looks and acts like two pages. This is useful if you don't want to scroll or zoom while reading on a phone or tablet.
+  - Left to Right: The left half of the image is shown as the first page, then the right half as the second page. This is the most common choice for comics.
+  - Right to Left: The right half of the image is shown as the first page, then the left half as the second page. This is the most common choice for manga.
+  - Fit to Screen: Fits the image to the width of your screen. Unlike the width option under Image Scaling, this is only applied on spread pages.
 ![KavitaWebReaderSettingsFullSmallImageSplitting](KavitaWebReaderSettingsFullSmallImageSplitting.webp "KavitaWebReaderSettingsFullSmallImageSplitting")
 #####**Image Scaling Options**: Height, Width, and Original
-- Scaling Options is how the image should be mapped to your screen. Height fits the image to fill the full height of your screen. Width fits to the width (best for reading on a phone) and Original does no scaling and sends the raw image over. Note that the Automatic Scaling Option from User Preferences will choose the best option based on your screen size.
+- Scaling Options adjust how the image is mapped to your screen.
+  - Height: Fits the image to the height of your screen. 
+  - Width: Fits the image to the width of your screen. Best for reading on a phone.
+  - Original: Does not scale the image.
+
+! Note: By default, Kavita will choose the best option based on your screen size. This can be changed in User Preferences > Image Reader > Scaling Options.
+
 ![KavitaWebReaderSettingsFullSmallImageScaling](KavitaWebReaderSettingsFullSmallImageScaling.webp "KavitaWebReaderSettingsFullSmallImageScaling")
 #####**Auto Close the Menu** Check Box
 ![KavitaWebReaderSettingsFullSmallAutoCloseMenu](KavitaWebReaderSettingsFullSmallAutoCloseMenu.webp "KavitaWebReaderSettingsFullSmallAutoCloseMenu")

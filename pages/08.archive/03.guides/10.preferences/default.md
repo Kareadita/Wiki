@@ -31,14 +31,14 @@ System Cache is cleared automatically upon Library Scan and as a system function
 !!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
 
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.PNG "Kavita%20new%20Admin%20page%20settings")
-Under the More Info section are links to Kavita-related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Featurehub](https://feathub.com/Kareadita/Kavita) link and make a new request, or vote on one you support.  
+Under the More Info section are links to Kavita-related websites. [Donations](https://opencollective.com/kavita) are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [GitHub](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Featurehub](https://feathub.com/Kareadita/Kavita) link and make a new request, or vote on one you support.  
 
 ### Checking For Updates
 Kavita offers a quick way to see if a new version is available. From the System tab, click Actions -> Check for Update. If an update is available, a modal will appear with a list of the new features and fixes along with a link to GitHub to download the new version. If you are on Docker, there is no Download button. Please pull the latest image yourself. 
 
 ![CheckForUpdate](CheckForUpdate.PNG "CheckForUpdate")
 
-In addition, a new tab is available: Changelog. You guessed it, it is a log of all the versions and the changes that go along with it. You can also jump to Github to view it on the site itself. 
+In addition, a new tab is available: Changelog. You guessed it, it is a log of all the versions and the changes that go along with it. You can also jump to GitHub to view it on the site itself. 
 
 ![Changelog](Changelog.PNG "Changelog")
 

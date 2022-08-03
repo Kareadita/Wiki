@@ -19,7 +19,7 @@ admin:
 ### General Tab 
 There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
 
-Anonymous Usage Collection is here. You can opt out by turning off "Send Data" from the Admin Dashboard. This setting allows you to send Anonymous data about your install which helps the Kavita team understand its user base to make design decisions and performance enhancements. Some information that is collected is file types within Kavita, number of users, screen sizes and browser information, OS, version, and if you are using Docker or not. The Stat collection is within the Kavita and KavitaStats repositories.
+By default, Kavita will collect stats on your installation. You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can see exactly what data we collect [here](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs).
 
 You can enable OPDS for your Server here. See this [page](https://wiki.kavitareader.com/en/guides/settings/opds) for how it works.
 
@@ -43,7 +43,7 @@ System Cache is cleared automatically after a Library Scan and as a system funct
 !!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
 
 ![Kavita%20new%20Admin%20page%20settings](Kavita%20new%20Admin%20page%20settings.PNG "Kavita%20new%20Admin%20page%20settings")
-Under the More Info section are links to Kavita-related websites. [Donations ](https://opencollective.com/kavita)are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [github](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Feature Request](https://feats.kavitareader.com/) link and make a new request, or vote on one you support.  
+Under the More Info section are links to Kavita-related websites. [Donations](https://opencollective.com/kavita) are very appreciated and directly support development and web hosting. If you need to report an issue please visit the [GitHub](https://github.com/Kareadita/Kavita/issues) page. If Kavita is missing a function please visit the [Feature Request](https://feats.kavitareader.com/) link and make a new request, or vote on one you support.  
 
 <hr style="border:2px solid #4ac694"> </hr>
 #### Checking For Updates
