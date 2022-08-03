@@ -1,3 +1,24 @@
+# v6.0.3
+## 05/05/2022
+
+1. [](#bugfix)
+    * Regression: Fixed broken `addForm()` method
+
+# v6.0.2
+## 05/02/2022
+
+1. [](#bugfix)
+    * Fixed `forms({ route: '/forms/_myform' })` not finding form from non-routable pages (second try)
+
+# v6.0.1
+## 04/25/2022
+
+1. [](#improved)
+    * Improved `prepare_form_field()` twig method to include `plain_name`
+1. [](#bugfix)
+    * Fixed `columns` and `column` fields with `.dotted` variables inside to ignore columns and column names
+    * Fixed `forms({ route: '/forms/_myform' })` not finding forms from non-routable pages
+
 # v6.0.0
 ## 03/28/2022
 
