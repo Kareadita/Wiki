@@ -12,7 +12,7 @@ taxonomy:
 # Kavita Email
 Kavita provides email functionality out of the box to invite users, send reset password links, and more. We currently use a Google account that sends the emails and then auto deletes them. However, not all users want to put trust in another party and for this, Kavita offers [KavitaEmail](https://github.com/Kareadita/KavitaEmail) microService, so you can use your own SMTP service.
 
-To get started, head over to the KavitaEmail GitHub and download a release, or use our [docker container](https://hub.docker.com/r/kizaing/kavitaemail).
+To get started, head over to the KavitaEmail GitHub and download a release, or use our [Docker container](https://hub.docker.com/r/kizaing/kavitaemail).
 
 <hr style="border:5px solid #4ac694"> </hr>
 
