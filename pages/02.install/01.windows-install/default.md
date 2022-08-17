@@ -2,9 +2,9 @@
 title: 'Windows Install'
 ---
 
-You can install Kavita on Windows either from [Github releases](#github-release) or using [Scoop](#scoop)
-
 ## Installation
+
+You can install Kavita on Windows either from [Github releases](#github-release) or using [Scoop](#scoop)
 
 ### Github Release
 
