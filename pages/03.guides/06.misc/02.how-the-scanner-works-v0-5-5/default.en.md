@@ -6,7 +6,7 @@ title: 'How the Scanner Works (v0.5.5)'
 
 # File Layout
 Kavita expects all series to be nested in a folder. The ideal layout is:
-`
+> 
 /library root/
     Series A/
        series a - v01.cbz
@@ -14,7 +14,7 @@ Kavita expects all series to be nested in a folder. The ideal layout is:
       specials/
           Artbook 1.cbz
       series b - v01.cbz
-`
+
 
 
 # The Scan Loop
