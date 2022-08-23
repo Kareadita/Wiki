@@ -75,7 +75,9 @@ server {
   * Block Common Exploits: enabled
 * Click Save, then edit the proxy host you just created
 * Head over to SSL, and choose "Request a new SSL Certificate"
+
 ![ssl](ssl.png "Requesting a new SSL Certificate")
+
 * Set the following:
   * Force SSL: enabled
   * HSTS: enabled
