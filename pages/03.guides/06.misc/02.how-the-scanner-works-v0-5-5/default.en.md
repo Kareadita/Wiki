@@ -4,6 +4,8 @@ title: 'How the Scanner Works (v0.5.5)'
 
 ! This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change. 
 
+! Note: Put in a link to https://github.com/dazinator/DotNet.Glob for How .kavitaignore works
+
 # File Layout
 Kavita expects all series to be nested in a folder. The ideal layout is:
 ``` 
@@ -20,8 +22,8 @@ Kavita expects all series to be nested in a folder. The ideal layout is:
 # The Scan Loop
 
 ### Step 1: Validate if we need to scan
-- On all scans, we validate that all library folders are not empty and can be accessed. If they cannot, the scan is aborted. For a series, we also check the folder path on disk for the series exists, if it does not, we abort. 
-- Next, (Fill out the other cache checks)
+- On all scans, Kavita validate that all library folders are not empty and can be accessed. If they cannot, the scan is aborted. For a series, we also check the folder path on disk for the series exists, if it does not, we abort. 
+- Next, if this is a series scan, Kavita will ignore if the file has changed or not and process any files. However, for library scan, Kavita also checks if any of the library folders have been modified since last scan. If not, the scan is aborted.
 
 ### Step 2: Scan the directories
 - The scanner is pretty smart, it avoids as much work as possible by default. 
