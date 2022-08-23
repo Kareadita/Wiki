@@ -1,22 +1,19 @@
 ---
 title: Collections
-media_order: 'Kavita Context Action Menu.png,kavita_Collections_Edit.webp,kavita_homepage_Collections.webp,kavita_Collections_Edit_General.webp,kavita_Collections_page.webp,kavita_Collections_Delete.webp,series_metadata_view.png,collections_from_series.png,collections_library.png,collections_homepage.png,edit_collection_button.png,promote_collection.png,edit_cover_image.png'
+media_order: 'Kavita Context Action Menu.png,kavita_Collections_Delete.webp,series_metadata_view.png,collections_from_series.png,collections_library.png,collections_homepage.png,edit_collection_button.png,promote_collection.png,edit_cover_image.png'
 visible: true
 ---
 
 ### Collections
 
-To create a collection, select the Edit option in the Context Action Menu ![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a Collections tag can be created and will be used to create a collection with that name. Other books, comics and manga can have this tag added to become part of the Collection, which will be shown on the Kavita Homepage.
+To create a collection, select the Edit option in the Context Action Menu ![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a collections tag can be created and will be used to create a collection with that name. Other books, comics and manga can have this tag added to become part of the collection.
 ![series_metadata_view](series_metadata_view.png "series_metadata_view")
-
-<!-- Collections will appear at the bottom of the Kavita homepage. 
-![kavita_homepage_Collections](kavita_homepage_Collections.webp "kavita_homepage_Collections") -->
 
 Collections can be accessed from the list of libraries, or from a series that is part of a collection.
 ![collections_homepage](collections_homepage.png "collections_homepage")
 ![collections_from_series](collections_from_series.png "collections_from_series")
 
-When selected all Series in the Collection will be available.
+When selected, all series in the collection will be available.
 ![collections_library](collections_library.png "collections_library")
 
 To edit a collection, click on the Context Action button and select Edit.
