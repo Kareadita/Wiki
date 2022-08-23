@@ -64,7 +64,9 @@ server {
 
 * Head over to your Nginx Proxy Manager page 
 * Add a new Proxy Host
+
 ![proxy](proxy.png "The proxy host settings")
+
 * Set the following:
   * Domain Name: to the subdomain you want to use for Kavita
   * Scheme: http
