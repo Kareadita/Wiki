@@ -6,7 +6,7 @@ visible: true
 
 ### Collections
 
-By selecting the Edit option in the Context Action Menu![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a Collections tag can be created and will be used to create a collection with that name. Other Books/Comics/Manga can have this Tag added to become part of the Collection which will be shown on the Kavita Homepage.
+To create a collection, select the Edit option in the Context Action Menu ![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a Collections tag can be created and will be used to create a collection with that name. Other books, comics and manga can have this tag added to become part of the Collection, which will be shown on the Kavita Homepage.
 
 ![kavita_Collections_Details](kavita_Collections_Details.webp "kavita_Collections_Details")
 Collections will appear at the bottom of the Kavita homepage. 
