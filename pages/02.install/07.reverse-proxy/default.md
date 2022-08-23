@@ -14,3 +14,4 @@ A Reverse Proxy allows you to share web-based services, like Kavita, outside of 
 * [HAPROXY Example](https://wiki.kavitareader.com/install/reverse-proxy/haproxy-example)
 * [Caddy Example](https://wiki.kavitareader.com/install/reverse-proxy/caddy-example)
 * [Apache2 Example](https://wiki.kavitareader.com/install/reverse-proxy/apache2-example)
+* [SWAG Example](https://wiki.kavitareader.com/install/reverse-proxy/swag-example)
