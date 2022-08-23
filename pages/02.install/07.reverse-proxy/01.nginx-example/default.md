@@ -63,7 +63,8 @@ server {
  ### NGINX Proxy Manager with Let's Encrypt
 
 * Head over to your Nginx Proxy Manager page 
-* Add a new Proxy Host.
+* Add a new Proxy Host
+![proxy](proxy.png "The proxy host settings")
 * Set the following:
   * Domain Name: to the subdomain you want to use for Kavita
   * Scheme: http
@@ -74,13 +75,14 @@ server {
   * Block Common Exploits: enabled
 * Click Save, then edit the proxy host you just created
 * Head over to SSL, and choose "Request a new SSL Certificate"
+![ssl](ssl.png "Requesting a new SSL Certificate")
 * Set the following:
   * Force SSL: enabled
   * HSTS: enabled
 * Click Save
 
 ### Adding Organizr iframe support in NGINX Proxy Manager:
-
+![customlocations](customlocations.png "Custom Location settings for integrating with Organizr")
 * Edit your Kavita proxy host
 * Click on "Custom locations" and add a locations
 * Click the Gear icon on the right side of the location box to open the Advanced menu
