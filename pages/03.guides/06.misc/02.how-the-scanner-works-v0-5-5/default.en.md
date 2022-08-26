@@ -45,5 +45,5 @@ Kavita expects all series to be nested in a folder. The ideal layout is:
 
 
 ## Notes
-- Having multiple series in one folder is not supported but does work. There are some caveats to this. If there exists a series in that folder that utilizes LocalizedSeries ComicInfo tag, then the series may group in an undexpected way. This will be informed to the user via the Log file, ie ``
+- Having multiple series in one folder is not supported but does work. There are some caveats to this. If there exists a series in that folder that utilizes LocalizedSeries ComicInfo tag, then the series may group in an undexpected way. This will be informed to the user via the Log file, ie ``. In addition, Folder Watching wont pick up on series changes correctly due to utilizing the same folder. 
 - For series scan, if the series folder is no longer on the disk, the scan will be aborted. A library scan should be run which will delete the series. 
