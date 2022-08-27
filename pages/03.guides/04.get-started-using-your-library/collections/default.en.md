@@ -1,6 +1,6 @@
 ---
 title: Collections
-media_order: 'Kavita Context Action Menu.png,kavita_Collections_Delete.webp,series_metadata_view.png,collections_from_series.png,collections_library.png,collections_homepage.png,edit_collection_button.png,promote_collection.png,edit_cover_image.png'
+media_order: 'Kavita Context Action Menu.png,kavita_Collections_Delete.webp,series_metadata_view.png,collections_from_series.png,collections_library.png,collections_homepage.png,edit_collection_button.png,promote_collection.png,edit_cover_image.png,delete_collection.png'
 visible: true
 ---
 
@@ -27,4 +27,4 @@ To edit the cover image for a collection, select the Cover Image tab and choose 
 ![edit_cover_image](edit_cover_image.png "edit_cover_image")
 
 To Delete a Collection/Tag uncheck all Series in the Collection and hit Save. A popup will warn that you are about to delete the Collection/Tag.
-![kavita_Collections_Delete](kavita_Collections_Delete.webp "kavita_Collections_Delete")
+![delete_collection](delete_collection.png "delete_collection")
