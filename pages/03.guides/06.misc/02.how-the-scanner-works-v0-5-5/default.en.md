@@ -36,7 +36,7 @@ Library Root
 - For each folder (in a library or for a given series), we first check if the folder has changed since our last scan. This checks at a minute level, so seconds will be ignored. This validates on the Last Write Time of the folder. (Note: Last Write time requires scanning all nested folders to accurately report the last time that folder has changed)
 - In each folder, we check for a .kavitaignore and parse if it exists. This allows Glob patterns to apply to the scanner and ignore certain files or folders. This applies recursively. See more [here]().
 - The files are then reported for processing (Parser)
-- Files that are ignored in `.kavitaignore` will be excluded from the scan. [See kavitaignore usage](en/guides/misc/ignoring-files-and-folders)
+- Files that are ignored in `.kavitaignore` will be excluded from the scan. [See kavitaignore usage](/en/guides/misc/ignoring-files-and-folders)
 
 ### Step 3: Processing files
 - The library dictates the rules for the parser and there are different parsers for different file types. 
