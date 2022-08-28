@@ -20,8 +20,8 @@ You can have a max of one file per directory in as many directories as you want.
 A basic example of a file structure could be: (Basic syntax is shown. This is a basic showcase)
 ```
 Library Root
-  ┖── .kavitaignore				# Compiles global patterns to be applied to all subfolders. 
-  ┖── Series Name
+  ┠── .kavitaignore				# Compiles global patterns to be applied to all subfolders. 
+  ┠── Series Name
       ┠── .kavitaignore			# Compiles patterns to be applied to "Series Name". Could affect direct files and subfolders depending on the patterns inside of it
       ┠── Series Name v01.cbz
       ┠── Series Name v02.cbz
