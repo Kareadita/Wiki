@@ -12,13 +12,13 @@ For advanced syntax please refer to the [library description](https://github.com
 ## What is the basic syntax
 * Blank lines are ignored.
 * The * character is a wildcard.
-* Patterns without the forward-slash (/) character (e.g. `*.cbz`) match filenames in the same directory as the `.kavitaignore` file, or anywhere in the tree if `.kavitaignore` is a root of the section.
-* Patterns with the forward-slash (/) character (e.g. `somedir/*`) match directory and file patterns relative to the directory containing the `.kavitaignore` file.
+* Patterns without the forward-slash (/) character (e.g. `*.cbz`) match filenames in the same directory as the **.kavitaignore** file, or anywhere in the tree if **.kavitaignore** is a root of the section.
+* Patterns with the forward-slash (/) character (e.g. `somedir/*`) match directory and file patterns relative to the directory containing the **.kavitaignore** file.
 
 ## Where exactly and how many .kavitaignore files can be in my directory tree?
 You can have a max of one file per directory in as many directories as you want.
 A basic example of a file structure could be: (Basic syntax is shown. This is a basic showcase)
-```
+>>>
 Library Root
   ┖── .kavitaignore				# Compiles global patterns to be applied to all subfolders. 
   ┖── Series Name
@@ -34,4 +34,3 @@ Library Root
       ┠── Series Name 2 Vol.01 Ch.2.cbz
       ⋮
       ┖── Series Name 2 Vol.02 Ch.6.cbz
-```
