@@ -8,14 +8,20 @@ title: 'How the Scanner Works (v0.5.5)'
 
 # File Layout
 Kavita expects all series to be nested in a folder. The ideal layout is:
-``` 
-/library root/
-┖──Series A/
-     ┖──series a - v01.cbz
-┖──Series B/
-    ┖──specials/
-         ┖──Artbook 1.cbz
-     ┖──series b - v01.cbz
+```
+Library Root
+  ┖── Series Name A
+      ┠── Series Name A - v01.cbz
+            ⋮
+      ┠── Series Name A - v06.cbz
+      ┖── Specials
+        ┖── Artbook 1.cbz
+  ┖── Series Name B
+      ┠── Series Name B - v01.cbz
+      ⋮
+      ┠── Series Name B - v06.cbz
+      ┖── Specials
+        ┖── Artbook 1.cbz
 ```
 
 
