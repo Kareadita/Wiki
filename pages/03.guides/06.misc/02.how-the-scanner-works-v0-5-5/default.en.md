@@ -2,7 +2,7 @@
 title: 'How the Scanner Works (v0.5.5)'
 ---
 
-! This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change. 
+>>> This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change. 
 
 ! Note: Put in a link to https://github.com/dazinator/DotNet.Glob for How .kavitaignore works
 
