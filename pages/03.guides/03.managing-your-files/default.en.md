@@ -118,7 +118,6 @@ The tags that Kavita parses are:
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
 <br/><br/>
-! **Note**: Kavita performs a first-time scan on newly created libraries
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
