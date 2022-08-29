@@ -116,16 +116,19 @@ The tags that Kavita parses are:
 <hr style="border:5px solid #4ac694"> </hr>
 ## Scanning files
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
-! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan **in chunks of 50 series at a time.** <br/><br/>
+! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
+<br/><br/>
 ! **Note**: Kavita performs a first-time scan on newly created libraries
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
-Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
+Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
 
 The scan parses the file names, reads the comic info (if applicable), updates the database with that information, and updates the UI. 
 If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
 If your archives contain metadata, it will override any parsed information from the file.
+
+To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works-v0-5-5). (Note: This is for v05.5.6 only)
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Refresh Covers
