@@ -128,7 +128,7 @@ The scan parses the file names, reads the comic info (if applicable), updates th
 If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
 If your archives contain metadata, it will override any parsed information from the file.
 
-To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works-v0-5-5). (Note: This is for v05.5.6 only)
+To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works-v0-5-6).
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Refresh Covers
