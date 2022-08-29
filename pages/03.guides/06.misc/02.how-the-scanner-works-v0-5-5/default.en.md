@@ -1,10 +1,9 @@
 ---
-title: 'How the Scanner Works (v0.5.5)'
+title: 'How the Scanner Works'
 ---
 
->>> This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change. 
+>>> This guide is a WIP write up of the new v0.5.6. Scan Loop.
 
-! Note: Put in a link to https://github.com/dazinator/DotNet.Glob for How .kavitaignore works
 
 # File Layout
 Kavita expects all series to be nested in a folder. The ideal layout is:
@@ -24,6 +23,19 @@ Library Root
         ┖── Artbook 1.cbz
 ```
 
+This means you can also have:
+```
+Library Root
+  ┠── Publisher
+      ┠── Series Name A
+          ┠── Series Name A - v01.cbz
+          ⋮
+          ┠── Series Name A - v06.cbz
+      ┖── Series Name B
+                ┖── Oneshot.cbz
+```
+
+But no files can exist at root level and series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B). If these rules are followed, you shouldn't have any problems.
 
 # The Scan Loop
 
@@ -50,6 +62,7 @@ Library Root
 - In here, we do all the underlying db work and update fields, etc.
 - Lastly we queue tasks to perform Cover Generation and File Analysis. These again will run in parallel and are scheduled on the same queue as other scan tasks. 
 
+>>> If there are no modifications to folders, Kavita will not scan or process them.
 
 ## Notes
 - Having multiple series in one folder is not supported but does work. There are some caveats to this. If there exists a series in that folder that utilizes LocalizedSeries ComicInfo tag, then the series may group in an undexpected way. This will be informed to the user via the Log file, ie ``. In addition, Folder Watching wont pick up on series changes correctly due to utilizing the same folder. 
