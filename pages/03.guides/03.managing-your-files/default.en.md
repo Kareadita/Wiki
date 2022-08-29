@@ -23,7 +23,7 @@ admin: {  }
 ## File Structure
 It's important to know how Kavita parses the info from the files.
 
-Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Due to this, you are not required to put all of one series in the same folder, however, it is good practice.
+Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in it's folder and that no files are at root level of the library.
 
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
