@@ -2,8 +2,7 @@
 title: 'How the Scanner Works'
 ---
 
->>> This guide is a write up of the new v0.5.6 Scan Loop.
-
+>>> This guide is a write up of the v0.5.6 Scan Loop.
 
 # File Layout
 Kavita expects all series to be nested in a folder. The ideal layout is:
