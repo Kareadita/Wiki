@@ -27,7 +27,7 @@ server{
          proxy_set_header Connection "Upgrade"; 
 
          # Proxy to Kavita running locally on port 5000 using ssl
-         proxy_pass https://$server:$port;
+         proxy_pass http://$server:$port;
          
          # Organizr support - uncomment both of the following lines
          #proxy_hide_header "Content-Security-Policy";
