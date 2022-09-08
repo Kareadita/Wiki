@@ -8,14 +8,15 @@ taxonomy:
 
 >>> This guide is a WIP writeup of the new Scanner dedicated page
 
-# Page overview
-- [](#Scanning files)
-- [](## What happens during a Scan?
-- [](### Refresh Covers
-- [](###Analyze Files
-- [](# File Layout
-- [](#The Scan Loop
-## Scanning files
+## Page overview
+- [Introduction](#Scanning files)
+- [What happens during a Scan](## What happens during a Scan?
+- [Refresh Covers](### Refresh Covers
+- [Analyze Files](###Analyze Files
+- [File Layout](# File Layout
+- [The Scan Loop](#The Scan Loop
+- [Notes](#notes)
+## Introduction
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
 <br/><br/>
@@ -94,7 +95,7 @@ Library Root
 ```
 If these rules are followed, you shouldn't have any problems.
 
-# The Scan Loop
+## The Scan Loop
 In-depth overview on how the scan loop works
 
 ### Step 1: Validate if we need to scan
@@ -114,7 +115,7 @@ In-depth overview on how the scan loop works
 - After parsing, we check any series need to be merged together. Merging might happen if there are ComicInfo's with `LocalizedSeries` tag which allows 2 different names to be merged together automatically. Note: If there are multiple series in one folder with localizedSeries tag, they will group incorrectly. We will log this, but not stop the scan. This is not a valid configuration.
 - For each found series in the folder (should be one), we invoke a process series task
 
-## Step 4: Process Series
+### Step 4: Process Series
 - This is responsible for taking the processed data and updating the Database. This runs parallel with other process series tasks. This may make the logs difficult to understand.
 - The first thing that needs to happen is find the series in the Database. This is done by checking against Series name and localized name. If neither exist, a new series will be created.
 - In here, we do all the underlying db work and update fields, etc.
