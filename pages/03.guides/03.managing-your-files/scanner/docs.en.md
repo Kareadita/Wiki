@@ -19,7 +19,6 @@ taxonomy:
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
 <br/><br/>
-!! Test
 <hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
@@ -46,11 +45,11 @@ Kavita expects all series to be nested in a folder. The ideal layout is:
 ```
 Library Root
   ┠── Series Name A
-      ┠── Series Name A - v01.cbz
-      ⋮
-      ┠── Series Name A - v06.cbz
-      ┖── Specials
-        ┖── Artbook 1.cbz
+  │   ┠── Series Name A - v01.cbz
+  │   ⋮
+  │   ┠── Series Name A - v06.cbz
+  │   ┖── Specials
+  │     ┖── Artbook 1.cbz
   ┖── Series Name B
       ┠── Series Name B - v01.cbz
       ⋮
@@ -63,22 +62,32 @@ This means you can also have:
 ```
 Library Root
   ┠── Publisher A
-      ┠── Series Name A
-          ┠── Series Name A - v01.cbz
-          ⋮
-          ┠── Series Name A - v06.cbz
-      ┖── Series Name B
-                ┖── Oneshot.cbz
-  ┠── Publisher B
+  │   ┠── Series Name A
+  │   │   ┠── Series Name A - v01.cbz
+  │   │   ⋮
+  │   │   ┖── Series Name A - v06.cbz
+  │   ┖── Series Name B
+  │             ┖── Oneshot.cbz
+  │
+  ┖── Publisher B
       ┠── Series Name C
-          ┠── Series Name C - v01.cbz
-          ⋮
-          ┠── Series Name C - v06.cbz
+      │   ┠── Series Name C - v01.cbz
+      │   ⋮
+      │   ┖── Series Name C - v06.cbz
       ┖── Series Name D
                 ┖── Oneshot.cbz
 ```
 
-But no files can exist at root level and series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B). If these rules are followed, you shouldn't have any problems.
+But no files can exist at root level and series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B).
+```
+Library Root
+  ┠── Publisher A
+  │   ┖── Series Name A
+  ┖── Publisher B
+      ┖── Series Name A
+        
+```
+If these rules are followed, you shouldn't have any problems.
 
 # The Scan Loop
 
