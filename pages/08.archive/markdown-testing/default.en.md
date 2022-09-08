@@ -16,7 +16,10 @@ Info Block
 Show orange block
 ! **Important**: Something
 -.-
-!! **Important**:
+!! **Important**: Something
 -.-
 !!! **Important**:
 -.-
+!!!! **Important**:
+-.-
+!!!!! **Important**:
