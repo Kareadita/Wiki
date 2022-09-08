@@ -33,7 +33,7 @@ This is the style i'm using. Posting so others use it aswell. Looks nice.
 ```<hr style="border:1px solid ##465176"> </hr>
 #### Title
 ```
-For better readibility while editing. Any <hr> should have a blank line before.
+For better readibility while editing. Any `<hr>` should have a blank line before.
 ```words from different topic
 
 <hr>
