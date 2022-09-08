@@ -4,10 +4,10 @@ media_order: 'continue.png,read.png'
 ---
 
 # Some Markdown Templates:
+Show Info block
+>>> This guide is a WIP write up of the new ...
 
->>> This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change.
-
-Show orange block
+Show color block
 ! **Important**: Something
 -.-
 !! **Important**: Something
@@ -37,10 +37,11 @@ For better readibility while editing. Any <hr> should have a blank line before.
 ```words from different topic
 
 <hr>
-## Title```
+## Title
+```
  
 
-# Random testing
+# Random md testing
 
 To start reading you can either click the individual volume or chapter or let Kavita resume you where you left off by clicking 
 <img src="https://wiki.kavitareader.com/en/archive/markdown-testing/continue.png" alt='the "continue" button' style="vertical-align: middle" height="32" />. This will open the last chapter that you have progress on or the next (if the last one was finished).
