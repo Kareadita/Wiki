@@ -62,12 +62,19 @@ Library Root
 This means you can also have:
 ```
 Library Root
-  ┠── Publisher
+  ┠── Publisher A
       ┠── Series Name A
           ┠── Series Name A - v01.cbz
           ⋮
           ┠── Series Name A - v06.cbz
       ┖── Series Name B
+                ┖── Oneshot.cbz
+  ┠── Publisher B
+      ┠── Series Name C
+          ┠── Series Name C - v01.cbz
+          ⋮
+          ┠── Series Name C - v06.cbz
+      ┖── Series Name D
                 ┖── Oneshot.cbz
 ```
 
