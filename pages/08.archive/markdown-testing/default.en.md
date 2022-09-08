@@ -4,7 +4,7 @@ media_order: 'continue.png,read.png'
 ---
 
 # Some Markdown Templates:
-Info Block
+
 >>> This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change.
 
 > THis is some text
@@ -18,6 +18,29 @@ Show orange block
 -.-
 !!!! **Important**:
 
+## Header lines
+This is the style i'm using. Posting so others use it aswell. Looks nice.
+
+<hr style="border:5px solid #4ac694"> </hr>
+```<hr style="border:5px solid #4ac694"> </hr>
+## Title
+```
+
+<hr style="border:2px solid #4ac694"> </hr>
+```<hr style="border:2px solid #4ac694"> </hr>
+### Title
+```
+
+<hr style="border:1px solid ##465176"> </hr>
+```<hr style="border:1px solid ##465176"> </hr>
+#### Title
+```
+For better readibility while editing. Any <hr> should have a blank line before.
+```words from different topic
+
+<hr>
+## Title```
+ 
 
 # Random testing
 
