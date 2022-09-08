@@ -7,6 +7,14 @@ taxonomy:
 ---
 
 >>> This guide is a WIP writeup of the new Scanner dedicated page
+
+# Page overview
+- [](#Scanning files)
+- [](## What happens during a Scan?
+- [](### Refresh Covers
+- [](###Analyze Files
+- [](# File Layout
+- [](#The Scan Loop
 ## Scanning files
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
@@ -20,7 +28,7 @@ The scan parses the file names, reads the comic info (if applicable), updates th
 If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
 If your archives contain metadata, it will override any parsed information from the file.
 
-To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works).
+To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](#The Scan Loop).
 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Refresh Covers
