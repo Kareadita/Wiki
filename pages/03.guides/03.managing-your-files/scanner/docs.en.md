@@ -50,6 +50,7 @@ Library Root
   │   ┠── Series Name A - v06.cbz
   │   ┖── Specials
   │     ┖── Artbook 1.cbz
+  │
   ┖── Series Name B
       ┠── Series Name B - v01.cbz
       ⋮
@@ -66,6 +67,7 @@ Library Root
   │   │   ┠── Series Name A - v01.cbz
   │   │   ⋮
   │   │   ┖── Series Name A - v06.cbz
+  │   │
   │   ┖── Series Name B
   │             ┖── Oneshot.cbz
   │
@@ -74,22 +76,26 @@ Library Root
       │   ┠── Series Name C - v01.cbz
       │   ⋮
       │   ┖── Series Name C - v06.cbz
+      │
       ┖── Series Name D
                 ┖── Oneshot.cbz
 ```
+(wiki dev note: Should we add some common not supported structures?)
+!! But no files can exist at root level
 
-But no files can exist at root level and series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B).
+!! Series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B).
 ```
 Library Root
-  ┠── Publisher A
-  │   ┖── Series Name A
-  ┖── Publisher B
-      ┖── Series Name A
+  ┠── Series A
+  │   ┖── Series A File 1.cbz
+  ┖── Series B
+      ┖── Series A File 2.cbz
         
 ```
 If these rules are followed, you shouldn't have any problems.
 
 # The Scan Loop
+In-depth overview on how the scan loop works
 
 ### Step 1: Validate if we need to scan
 - On all scans, Kavita validate that all library folders are not empty and can be accessed. If they cannot, the scan is aborted. For a series, we also check the folder path on disk for the series exists, if it does not, we abort. 
