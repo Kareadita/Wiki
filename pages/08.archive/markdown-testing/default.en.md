@@ -7,8 +7,6 @@ media_order: 'continue.png,read.png'
 
 >>> This guide is a WIP write up of the new v0.5.5. Scan Loop. Do not use this as guidance for folder structure, this is subject to change.
 
-> THis is some text
-
 Show orange block
 ! **Important**: Something
 -.-
