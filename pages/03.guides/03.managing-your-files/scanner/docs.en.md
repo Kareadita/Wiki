@@ -3,6 +3,7 @@ title: Scanner
 taxonomy:
     category:
         - docs
+visible: false
 ---
 
 >>> This guide is a WIP writeup of the new Scanner dedicated page
