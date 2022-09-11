@@ -1,6 +1,5 @@
 ---
 title: 'File Structure Examples'
-published: false
 ---
 
 As of v.0.5.6 file structure changed due to the scanner update
