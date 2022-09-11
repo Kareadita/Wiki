@@ -14,3 +14,16 @@ Examples of Library Structures NOT SUPPORTED
   ┖── Series Name B
       ┠── Series Name A - v02.cbz
 ```
+"""Library Root
+  ┠── Publisher A
+  │   ┖── Series Name A
+  │       ┠── Series Name A - v01.cbz
+  │       ⋮
+  │       ┖── Series Name A - v06.cbz
+  │
+  ┖── Publisher B
+      ┖── Series Name A
+          ┠── Series Name A - v07.cbz
+          ⋮
+          ┖── Series Name A - v09.cbz
+"""
