@@ -1,6 +1,5 @@
 ---
 title: Scanner
-published: false
 taxonomy:
     category:
         - docs
