@@ -5,7 +5,7 @@ published: false
 
 As of v.0.5.6 file structure changed due to the scanner update
 [Read how the new Scanner works here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works)
-# Not Supported
+!! # Not Supported
 Examples of Library Structures NOT SUPPORTED
 ```Library Root
   ┠── Series Name A
