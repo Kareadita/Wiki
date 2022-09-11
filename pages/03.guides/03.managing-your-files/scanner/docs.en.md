@@ -19,7 +19,7 @@ visible: false
 ## Introduction
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
-<br/><br/>
+
 <hr style="border:2px solid #4ac694"> </hr>
 ### What happens during a Scan?
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
@@ -39,6 +39,8 @@ In this task, Kavita doesn't open up any archives if they haven't been modified 
 <hr style="border:2px solid #4ac694"> </hr>
 ### Analyze Files
 During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.
+
+
 >>> This guide is a write up of the v0.5.6 Scan Loop.
 
 # File Layout
@@ -84,7 +86,7 @@ Library Root
 (wiki dev note: Should we add some common not supported structures?)
 !! But no files can exist at root level
 
-!! Series cannot be between 2 adjacent folders (aka Series Name A cannot have something from Series Name B).
+!! Series cannot be between 2 adjacent folders (aka  `Series Name B`  cannot have something from  `Series Name A` ).
 ```
 Library Root
   ┠── Series A
