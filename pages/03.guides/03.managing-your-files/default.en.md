@@ -20,7 +20,8 @@ admin: {  }
 [Scanning files](#scanning-files)<br/>
 
 <hr style="border:5px solid #4ac694"> </hr>
-## File Structure
+
+# File Structure
 It's important to know how Kavita parses the info from the files.
 
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in it's folder and that no files are at root level of the library.
@@ -44,11 +45,13 @@ For example: `/libraryroot/Again!!/Specials/Again The After Story SP01.cbz`
 will parse "`Again!!`" for the Series name and group the file as a special under Again!!
 
 <hr style="border:5px solid #4ac694"> </hr>
-## Metadata
+
+# Metadata
 Kavita uses metadata to parse Series Name, Volumes, Chapters...
 Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file. 
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Comics and Manga
 Comics and manga use a ".xml" file at the root of the cbz, cbr, cbt, cb7 files
 
@@ -58,8 +61,32 @@ The XML schema of this file can be found in the [Anansi Project webpage](https:/
 
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
-<hr style="border:1px solid ##465176"> </hr>
-#### How Kavita parses certain ComicInfo tags
+<hr style="border:1px solid #465176"> </hr>
+
+### eBooks
+EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file. Kavita tries to map as much of this information as possible. 
+
+[//]: # (TODO: Add a column that express what tags would be mapped to kavita
+            This means X tag in epub is X in comicinfo. Both are shown as X in kavita )
+
+A comparison of the tags that are parsed 
+
+| EPUB Tag        |  Is  | In ComicInfo      |
+|:----------------|:----:|:------------------|
+| Description     |  ->  | Summary           |
+| Cretors         |  ->  | Writer            |
+| Pubishers       |  ->  | Publisher         |
+| Pubication Date |  ->  | Month, Day, Year  |
+| Title           |  ->  | Title             |
+| Subects         |  ->  | Genre             |
+ 
+
+<hr style="border:5px solid #4ac694"> </hr>
+
+## ComicInfo
+> The ComicInfo.xml file originates from the ComicRack application, which is not developed anymore.
+
+The file schema is currently governed by the [Anansi Project](https://anansi-project.github.io/) 
 
 ##### Age Rating
 
@@ -67,6 +94,7 @@ Age rating may vary between different files within a series. The Series will tak
 * Issue 1 - PG
 * Issue 2 - PG
 * Issue 3 - M
+
 The series will be M as that is the most mature rating in all Issues.
 
 ##### Count
@@ -100,26 +128,21 @@ If a Format is specified, that issue or volume may be forced into being treated 
 * GN
 * FCBD 
 
+#### Publication Status
+Kavita will set the Publication Status on a series for you based on the underlying ComicInfo. If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended. Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed. This logic will only run if the field is not locked. At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
+
+
 <hr style="border:2px solid #4ac694"> </hr>
-### eBooks
-EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file. Kavita tries to map as much of this information as possible. 
 
-The tags that Kavita parses are:
-* EPUB Tag (ComicInfo field)
-* Description (Summary)
-* Creators (Writer)
-* Publishers (Publisher)
-* Publication Date (Month, Day, Year)
-* Title (Title)
-* Subjects (Genre)
 
-<hr style="border:5px solid #4ac694"> </hr>
+
 ## Scanning files
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
 <br/><br/>
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### What happens during a Scan?
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
 
@@ -130,11 +153,13 @@ If your archives contain metadata, it will override any parsed information from 
 To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works).
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Refresh Covers
 During the refresh covers task, the same kind of logic applies. This is a heavy task because of the amount of I/O we have to perform and because of the amount of memory we need to copy images out of the archive and onto the disk.
 In this task, Kavita doesn't open up any archives if they haven't been modified unless you start a cover refresh from the UI. Even if the archive was modified, if you've locked the cover image by using the UI to upload your own custom cover, the archive will not be opened.
 
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Analyze Files
 During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.
