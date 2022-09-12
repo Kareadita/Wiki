@@ -19,52 +19,22 @@ Library Root
       ⋮
       ┖── Series Name 2 Vol.02 Ch.6.cbz
 ```
- 
-
-### Manga Specials
-
-Kavita treats multiple types of files as "Specials" and will group them in a separate tab in series detail. Special marker (SP) will be removed from the UI title, however is used when ordering. 
-
-An entity is considered a special when:
-
-1. A series can be parsed out of it, but no volume or chapter information is found.
-```
-Library Root
-     ┖── Series Name
-         ┖── Series Name.cbz
-```
-
-2. There are keywords in the filename like "Specials", "Omake" "OneShot", "Extra", "Art Collection", "Side Stories"
-```
-Library Root
-    ┖── Series Name
-         ┖── Specials
-             ┖── Series Name Omakes SP01.cbz
-```
-
-3. To force a Special status, the filename can use SP01, SP02, etc.
-```
-Library Root
-    ┖── Series Name
-         ┠── Series Name v01.cbz
-         ┠── Series Name v02.cbz
-         ┠── Series Name SP01.cbz
-         ┖── Specials
-             ┖── Series Name SP01 Special Name.cbz
-```
-
-! Specials will fall back to the folder name for Series name. If you have a different name than the series files, then your special may not properly group.
 
 ### Examples of Naming conventions supported out of the box
-* Noblesse - Episode 406 (52 Pages).7z -> Noblesse Chapter 406
-* \[Hidoi]\_Amaenaideyo\_MS_vol01_chp02.rar -> Amaenaideyo MS Vol 1 Chapter 2
-* Transferred to another world magical swordsman v1.2 -> Transferred to another world magical swordsman Vol 1 Chapter 2
-* Okusama wa Shougakusei c003 (v01) [bokuwaNEET] -> Okusama wa Shougakusei Vol 1 Chapter 3
-* Goblin Slayer Side Story - Year One 025.5 -> Goblin Slayer Side Story - Year One Chapter 25.5
-* Itoshi no Karin - c001-006x1 (v01) [Renzokusei Scans] -> Itoshi no Karin Chapters 1-6
-* Beelzebub_53\[KSH].zip -> Beelzebub Chapter 53
-* Killing Bites Vol. 0001 Ch. 0001 - Galactica Scanlations (gb) -> Killing Bites Vol 1 Chapter 1
-* And [many more](https://github.com/Kareadita/Kavita/blob/develop/API.Tests/Parser/MangaParserTests.cs)...
+
+| Filename                                                        |               Parsed Serie Name                | Volume | Chapter |
+|:----------------------------------------------------------------|:----------------------------------------------:|:-------|:--------|
+| `Noblesse - Episode 406 (52 Pages).7z`                          |                    Noblesse                    | 406    |         |
+| `[Hidoi]_Amaenaideyo_MS_vol01_chp02.rar`                        |                 Amaenaideyo MS                 | 1      | 2       |
+| `Transferred to another world magical swordsman v1.2`           | Transferred to another world magical swordsman | 1      | 2       |
+| `Okusama wa Shougakusei c003 (v01) [bokuwaNEET]`                |             Okusama wa Shougakusei             | 1      | 3       |
+| `Goblin Slayer Side Story - Year One 025.5`                     |      Goblin Slayer Side Story - Year One       |        | 25.5    |
+| `Itoshi no Karin - c001-006x1 (v01) [Renzokusei Scans]`         |                Itoshi no Karin                 |        | 1-6     |
+| `Beelzebub_53[KSH].zip`                                         |                   Beelzebub                    |        | 53      |
+| `Killing Bites Vol. 0001 Ch. 0001 - Galactica Scanlations (gb)` |                 Killing Bites                  | 1      | 1       |
+|                                                                 |                                                |        |         |
+|                                                                 |                                                |        |         |
+And [many more](https://github.com/Kareadita/Kavita/blob/develop/API.Tests/Parser/MangaParserTests.cs)...
 
 ### Supported but not preferred (v0.4.3 or higher)
 ```

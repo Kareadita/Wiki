@@ -44,23 +44,37 @@ For all types of libraries, Kavita has an override for treating files as Special
 [//]: # (TODO: Add more info related to specias)
 ## Specials
 
-To force a Special status, the filename can use SP01, SP02, etc.
+Kavita treats multiple types of files as "Specials" and will group them in a separate tab in series detail. Special marker (SP) will be removed from the UI title, however is used when ordering.
+
+An entity is considered a special when a series can be parsed out of it, but no volume or chapter information is found:
+
 ```
 Library Root
   ┖── Series Name
-      ┖── Series Name SP01.cbz
+      ┖── Series Name.cbz
 ```
+<hr style="border:1px solid #465176">
+To force a Special status, the filename can include SP01, SP02, etc.
+This will take the file and force it to be a special:
+
+```
+Library Root
+  ┖── Series Name
+      ┖── Series Name SP01 Special Name.cbz
+```
+<hr style="border:1px solid #465176">
+Other keywords that are used to mark as special are `Specials`, `Omake`, `OneShot`, `Extra`, `Art Collection`, `Side Stories`:
+
 ```
 Library Root
   ┖── Series Name
       ┖── Specials
-            ┖── Series Name SP01 Special Name.cbz
+          ┖── Series Name Omakes SP01.cbz
 ```
-
-This will take the file and force it to be a special.
-
+<hr style="border:1px solid #465176">
 For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
 For example:
+
 ```
 Library Root
   ┖── Again!!
@@ -68,8 +82,11 @@ Library Root
             ┖── Again The After Story SP01.cbz
 ```
 Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the serie `"Again!!"`
+<hr style="border:1px solid #465176">
 
-Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
+!!! Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
+
+! **Note**: Specials will fall back to the folder name for Series name. If you have a different name than the series files, then your special may not properly group.
 
 <hr style="border:5px solid #4ac694">
 
@@ -77,6 +94,8 @@ Additionaly if the file is a `.cb*` file, you may set this value with the use of
 Kavita uses metadata to parse Series Name, Volumes, Chapters, Special Status, etc... 
 
 Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file**name**
+
+You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
 <hr style="border:2px solid #4ac694">
 
@@ -96,7 +115,7 @@ Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub fil
 | `Subjects`         |  →  | `Genre`                |  →  |                   Genres                   |
 |                    |     | `Tags`                 |  →  |                    Tags                    |
 |                    |     | `AgeRating`            |  →  |                 Age Rating                 |
-`
+
 ### Comics and Manga
 Comics and manga use a ".xml" file at the root of the cbz, cbr, cbt, cb7 files
 
@@ -104,10 +123,8 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 
 The XML schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
-! **Note**: Kavita currently supports custom tags: 
+! **Note**: Kavita currently supports the following custom tags: 
 - `<LocalizedTitle>` : Contains optional localized series name. 
-
-You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
 <hr style="border:2px solid #4ac694">
 
