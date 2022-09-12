@@ -21,6 +21,7 @@ Scanning a library makes Kavita check its folders and sub-folders for new or rem
 ! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### What happens during a Scan?
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
 
@@ -31,12 +32,14 @@ If your archives contain metadata, it will override any parsed information from 
 To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](#The Scan Loop).
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Refresh Covers
 During the refresh covers task, the same kind of logic applies. This is a heavy task because of the amount of I/O we have to perform and because of the amount of memory we need to copy images out of the archive and onto the disk.
 In this task, Kavita doesn't open up any archives if they haven't been modified unless you start a cover refresh from the UI. Even if the archive was modified, if you've locked the cover image by using the UI to upload your own custom cover, the archive will not be opened.
 
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Analyze Files
 During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.
 

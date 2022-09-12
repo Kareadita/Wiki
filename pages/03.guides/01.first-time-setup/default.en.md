@@ -10,17 +10,20 @@ media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,K
 
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### General Info
 Kavita supports mixed media libraries. For example, your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
 ![kavita%20Library%20File%20Type](kavita%20Library%20File%20Type.jpg "kavita Library Type")
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### Setting up your Admin Account
 To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. Starting with v0.5.1, all accounts must have a valid email assigned to them. If you already have an account, a migration will prompt you at login to add an email. Email links can always be found in your logs in case the email is delayed or your server is not accessible. 
 
 
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### Adding a Library to Kavita
 
 To create a new Library, an Admin can select the Server Settings option from the Drop Down menu.
