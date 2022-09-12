@@ -15,16 +15,17 @@ admin: {  }
 ---
 
 #### Page overview
-- [Naming convention / File Structure](#file-structure)<br/>
-- [Metadata](#metadata)<br/>
+- [Naming convention / File Structure](#naming-convention--file-structure)<br/>
+  - [Specials](#specials)
+- [Metadata](#metadata)
   - [Metadata Tags Mapping](#general-overview-on-how-kavita-reads-certain-metadata-tags) (How kavita uses certain metadata tags)
   - [Comics And Manga](#comics-and-manga)
   - [eBooks](#ebooks)
   - [ComicInfo](#comicinfo)
 <hr style="border:5px solid #4ac694"> </hr>
 
-# File Structure
-It's important to know how Kavita parses the info from the files so you can see what you want how you want.
+# Naming convention / File Structure
+It's important to know how Kavita parses the info from the files, so you can see what you want how you want.
 
 [//]: # (TODO: Add link)
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in it's folder and that no files are at root level of the library.
@@ -40,15 +41,36 @@ Folder and File Structure TOC:
 
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
+[//]: # (TODO: Add more info related to specias)
+## Specials
+
 To force a Special status, the filename can use SP01, SP02, etc.
+```
+Library Root
+  ┖── Series Name
+      ┖── Series Name SP01.cbz
+```
+```
+Library Root
+  ┖── Series Name
+      ┖── Specials
+            ┖── Series Name SP01 Special Name.cbz
+```
 
-    /libraryroot/Series Name/Series Name SP01.cbz
-    /libraryroot/Series Name/Specials/Series Name SP01 Special Name.cbz
+This will take the file and force it to be a special.
 
-This will take the file and force it to be a special. For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
-For example: `/libraryroot/Again!!/Specials/Again The After Story SP01.cbz`
-will parse "`Again!!`" for the Series name and group the file as a special under Again!!
-In the case of Comicinfo you can setup [format tag](#format)
+For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
+For example:
+```
+Library Root
+  ┖── Again!!
+      ┖── Specials
+            ┖── Again The After Story SP01.cbz
+```
+Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the serie `"Again!!"`
+
+Additionaly if the file is a `.cb*`, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
+
 <hr style="border:5px solid #4ac694"> </hr>
 
 # Metadata
