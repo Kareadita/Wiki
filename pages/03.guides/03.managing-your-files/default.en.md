@@ -15,10 +15,12 @@ admin: {  }
 ---
 
 #### Page overview
-[Naming convention / File Structure](#file-structure)<br/>
-[Metadata](#metadata)<br/>
-[Scanning files](#scanning-files)<br/>
-
+- [Naming convention / File Structure](#file-structure)<br/>
+- [Metadata](#metadata)<br/>
+  - [Metadata Tags Mapping](#general-overview-on-how-kavita-reads-certain-metadata-tags) (How kavita uses certain metadata tags)
+  - [Comics And Manga](#comics-and-manga)
+  - [eBooks](#ebooks)
+  - [ComicInfo](#comicinfo)
 <hr style="border:5px solid #4ac694"> </hr>
 
 # File Structure
@@ -120,6 +122,18 @@ Likewise with Age Rating, Release Year is a summation of the minimum year define
 
 <hr style="border:1px solid #465176"> </hr>
 
+#### Publication Status
+Kavita will set the Publication Status on a series for you based on the underlying ComicInfo. 
+
+If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended.
+
+Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed.
+
+[//]: # (TODO: Add locked section rel link)
+This logic will only run if the field is not [locked](). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
+
+<hr style="border:1px solid #465176"> </hr>
+
 #### Format
 If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). 
 
@@ -143,15 +157,3 @@ The following entries will cause this:
 * Graphic Novel
 * GN
 * FCBD 
-
-<hr style="border:1px solid #465176"> </hr>
-
-#### Publication Status
-Kavita will set the Publication Status on a series for you based on the underlying ComicInfo. 
-
-If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended.
-
-Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed.
-
-[//]: # (TODO: Add locked section rel link)
-This logic will only run if the field is not [locked](). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
