@@ -7,7 +7,7 @@ In your server's filesystem, create a folder for your library and a folder for K
 
 ### Installing Kavita (Stable)
 
-[Install](https://truecharts.org/docs/manual/SCALE%20Apps/Quick-Start%20Guides/Adding-TrueCharts) the TrueCharts app catalog, search for Kavita, and click "install".
+[Install](https://truecharts.org/docs/manual/SCALE%20Apps/Adding-TrueCharts) the TrueCharts app catalog, search for Kavita, and click "install".
 
 Modify the following sections:
 - Application Name
