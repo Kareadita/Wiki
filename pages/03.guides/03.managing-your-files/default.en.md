@@ -32,6 +32,8 @@ Kavita uses parsing (not folder structure) to determine what is a series and wha
 
 ! Please Read [how the new scanner works]() prior to continuing with this article
 
+!! **Important**: When parsing filenames, anything betweeen parenthesis and parenthesis themselves will be removed from the series name. <br/>If you wish to separate series using `Series Name (2019)`, it's advised to change parenthesis to brackets `{` `}` and change series name in the UI
+
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
 * [Manga File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/manga)
@@ -81,7 +83,7 @@ Library Root
       ┖── Specials
             ┖── Again The After Story SP01.cbz
 ```
-Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the serie `"Again!!"`
+Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the series `"Again!!"`
 <hr style="border:1px solid #465176">
 
 !!! Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
@@ -89,6 +91,24 @@ Will parse `"Again!!"` for the Series name and group the file `"Again The After 
 ! **Note**: Specials will fall back to the folder name for Series name. If you have a different name than the series files, then your special may not properly group.
 
 <hr style="border:5px solid #4ac694">
+
+## Volumes
+In order for something to be parsed as having a volume, a volume must be on the filename.
+
+Volume means:
+* v1
+* vol 1
+* vol. 1
+* volume 01
+* Vol 7.5
+* Volume.2000
+* 卷2
+* 册2
+* 2巻
+* t. 2
+* tome 2
+* 
+!!! Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the `volume tag`
 
 # Metadata
 Kavita uses metadata to parse Series Name, Volumes, Chapters, Special Status, etc... 
@@ -108,7 +128,7 @@ You can find multiple tools to add metadata under [Misc section](https://wiki.ka
 | EPUB Tag           | Is  | In ComicInfo           | Is  |            Equivalent In Kavita            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
 | `Description`      |  →  | `Summary`              |  →  |                  Summary                   |
-| `Cretors`          |  →  | `Writer`               |  →  |                  Writers                   |
+| `Creators`         |  →  | `Writer`               |  →  |                  Writers                   |
 | `Pubishers`        |  →  | `Publisher`            |  →  |                 Publisher                  |
 | `Publication Date` |  →  | `Month`, `Day`, `Year` |  →  | Release Date<br/>(Release Year for series) |
 | `Title`            |  →  | `Title`                |  →  |               Chapter Title                |

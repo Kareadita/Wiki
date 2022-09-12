@@ -22,7 +22,7 @@ Library Root
 
 ### Examples of Naming conventions supported out of the box
 
-| Filename                                                        |               Parsed Serie Name                | Volume | Chapter |
+| Filename                                                        |               Parsed Series Name               | Volume | Chapter |
 |:----------------------------------------------------------------|:----------------------------------------------:|:-------|:--------|
 | `Noblesse - Episode 406 (52 Pages).7z`                          |                    Noblesse                    | 406    |         |
 | `[Hidoi]_Amaenaideyo_MS_vol01_chp02.rar`                        |                 Amaenaideyo MS                 | 1      | 2       |
