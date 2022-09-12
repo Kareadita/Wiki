@@ -22,15 +22,15 @@ admin: {  }
   - [Comics And Manga](#comics-and-manga)
   - [eBooks](#ebooks)
   - [ComicInfo](#comicinfo)
-<hr style="border:5px solid #4ac694"> </hr>
+< style="border:5px solid #4ac694">
 
 # Naming convention / File Structure
 It's important to know how Kavita parses the info from the files, so you can see what you want how you want.
 
 [//]: # (TODO: Add link)
-Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in it's folder and that no files are at root level of the library.
+Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in its folder and that no files are at root level of the library.
 
-! Please Read [how the new scanner works]() prior to continue with this read
+! Please Read [how the new scanner works]() prior to continuing with this article
 
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
@@ -69,15 +69,16 @@ Library Root
 ```
 Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the serie `"Again!!"`
 
-Additionaly if the file is a `.cb*`, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
+Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
 
-<hr style="border:5px solid #4ac694"> </hr>
+<hr style="border:5px solid #4ac694">
 
 # Metadata
-Kavita uses metadata to parse Series Name, Volumes, Chapters...
-Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file. 
+Kavita uses metadata to parse Series Name, Volumes, Chapters, Special Status, etc... 
 
-<hr style="border:2px solid #4ac694"> </hr>
+Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file**name**
+
+<hr style="border:2px solid #4ac694">
 
 
 ### General Overview on how kavita reads certain metadata tags
@@ -85,14 +86,16 @@ Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub fil
 [//]: # (TODO: Add a column that express what tags would be mapped to kavita
             This means X tag in epub is X in comicinfo. Both are shown as X in kavita )
 
-| EPUB Tag          | Is  | In ComicInfo           | Is  | Equivalent In Kavita |
-|:------------------|:---:|:-----------------------|:---:|:--------------------:|
-| `Description`     |  →  | `Summary`              |  →  |                      |
-| `Cretors`         |  →  | `Writer`               |  →  |                      |
-| `Pubishers`       |  →  | `Publisher`            |  →  |                      |
-| `Pubication Date` |  →  | `Month`, `Day`, `Year` |  →  |                      |
-| `Title`           |  →  | `Title`                |  →  |                      |
-| `Subects`         |  →  | `Genre`                |  →  |                      |
+| EPUB Tag           | Is  | In ComicInfo           | Is  |            Equivalent In Kavita            |
+|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
+| `Description`      |  →  | `Summary`              |  →  |                  Summary                   |
+| `Cretors`          |  →  | `Writer`               |  →  |                  Writers                   |
+| `Pubishers`        |  →  | `Publisher`            |  →  |                 Publisher                  |
+| `Publication Date` |  →  | `Month`, `Day`, `Year` |  →  | Release Date<br/>(Release Year for series) |
+| `Title`            |  →  | `Title`                |  →  |               Chapter Title                |
+| `Subjects`         |  →  | `Genre`                |  →  |                   Genres                   |
+|                    |     | `Tags`                 |  →  |                    Tags                    |
+|                    |     | `AgeRating`            |  →  |                 Age Rating                 |
 `
 ### Comics and Manga
 Comics and manga use a ".xml" file at the root of the cbz, cbr, cbt, cb7 files
@@ -101,17 +104,22 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 
 The XML schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
+! **Note**: Kavita currently supports custom tags: 
+- `<LocalizedTitle>` : Contains optional localized series name. 
+
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
-<hr style="border:2px solid #4ac694"> </hr>
+<hr style="border:2px solid #4ac694">
 
 ### eBooks
 EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file.
 See the table above to know what tags do kavita read from the OPF file
 
+!**Note:** OPF metadata files must be **inside** the `.epub` file, or it won't be read.  
+
  
 
-<hr style="border:5px solid #4ac694"> </hr>
+<hr style="border:5px solid #4ac694">
 
 ## ComicInfo
 ### Tags that will cause specific behaviour in your kavita:
@@ -129,20 +137,22 @@ Current tags from less restrictive to most restrictive:
 
 The series will be M as that is the most mature rating in all Issues.
 
-<hr style="border:1px solid #465176"> </hr>
+<hr style="border:1px solid #465176">
 
 #### Count
+Kavita will set the Publication Status on a series for you based on this tag
 
-In order for a Series to give a publication status, if you have at least one "Count" defined within any ComicInfo from the series and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
-Ideally, the value of this field should be the total number of volumes (manga) or issues (comics)
+- If you have at least one "Count" defined within any ComicInfo from the series, and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
 
-<hr style="border:1px solid #465176"> </hr>
+- Ideally, the value of this field should be the total number of volumes (manga) or issues (comics)
+
+<hr style="border:1px solid #465176">
 
 #### Release Year
 
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 
-<hr style="border:1px solid #465176"> </hr>
+<hr style="border:1px solid #465176">
 
 #### Publication Status
 Kavita will set the Publication Status on a series for you based on the underlying ComicInfo. 
@@ -154,7 +164,7 @@ Kavita will also check if the number of Volumes or Chapters matches this exactly
 [//]: # (TODO: Add locked section rel link)
 This logic will only run if the field is not [locked](). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
 
-<hr style="border:1px solid #465176"> </hr>
+<hr style="border:1px solid #465176">
 
 #### Format
 If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). 
