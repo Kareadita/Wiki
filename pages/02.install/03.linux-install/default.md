@@ -4,27 +4,28 @@ admin:
     children_display_order: collection
 ---
 
-#### 1. Download Kavita
+## 1. Download
 
-Download the latest Linux archive with the following link and execute it. [Releases](https://github.com/Kareadita/Kavita/releases)
+Go to [https://github.com/Kareadita/Kavita/releases/latest](https://github.com/Kareadita/Kavita/releases/latest) and scroll down untill you see the 'assets' section
+where there's a list of files that you can download
 
-#### 2. Install Kavita
+You should download the one that fits your system
+
+<hr style="border:5px solid #4ac694">
+
+## 2. Install Kavita
 
 1. Unzip the archive to a writable directory.
 2. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 3. Run Kavita executable. Usually `./Kavita`
-4. Open http://localhost:5000 and set up your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [Libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
 
+<hr style="border:2px solid #4ac694"
 
-#### 3. View Kavita
-
-Browse to http://localhost:5000 to start using Kavita.
-
-#### 4. Install Kavita as a Service (Optional)
+### Install Kavita as a Service (Optional)
 
 Optionally to have Kavita start in the background at boot, you may install it as a systemd service on your operating system. Save the following to a file named kavita.service in the directory `/etc/systemd/system`.
 
-```
+```ini
 [Unit]
 Description=Kavita Server
 After=network.target
@@ -43,14 +44,29 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-This file is an example and assumes you have installed Kavita to /opt/Kavita and you are running it as a separate user. Please change those settings if that is not the case for you.
+!!! **Note**: This file is an example and assumes you have installed Kavita in `/opt/Kavita` and you are running it as a separate user.
+<br/>Please change those settings if that is not the case for you.
 
 Once the file is saved you can run `systemctl start kavita.service` to test if it starts correctly, and if does, run `systemctl enable kavita.service` and it will start at boot for your system.
 
-### 5. Updating
-In order to update Kavita, stop the program/service from running and copy/paste all files EXCEPT config/ to your Kavita install directory. If you replace the config, you will lose your data. 
+<hr style="border:5px solid #4ac694">
 
-! **Note**: Please contact us if you wish to port Kavita for any other distro.
+## 3. View Kavita
 
+Browse to http://localhost:5000 to start using Kavita.
 
+! **Note**: `localhost` should be replaced with the IP address of the machine that is running Kavita when accessing from inside your network from a different device like a phone or tablet.
+
+For more instructions on how to make Kavita accessible from outside your home network... see [Accessing Kavita from external network](../10.access-kavita-from-network/default.en.md).
+
+<hr style="border:5px solid #4ac694">
+
+## 4. Updating Kavita
+Kavita self-updating is down the road. Expected to be released in v0.6.0 per the [project page](https://github.com/Kareadita/Kavita/projects?type=classic)
+
+Before updating Kavita, stop the program/service from running.
+1. Follow the guide aguain but:
+2. Copy/paste all files __**EXCEPT**__ `config/` to your Kavita install directory.
+
+!!! **Warning**: If you replace `config/`, you will lose your data. 
 

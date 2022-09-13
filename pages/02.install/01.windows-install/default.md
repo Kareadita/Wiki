@@ -37,7 +37,7 @@ Run `scoop bucket add extras` and then run `scoop install kavita`.
 <hr style="border:5px solid #4ac694">
 
 ## Updating Kavita
-Kavita self-updating is down the road. Expected to be released in v0.5.6 per the [project page](https://github.com/Kareadita/Kavita/projects?type=classic)
+Kavita self-updating is down the road. Expected to be released in v0.6.0 per the [project page](https://github.com/Kareadita/Kavita/projects?type=classic)
 
 Before updating Kavita, stop the program/service from running.
 
