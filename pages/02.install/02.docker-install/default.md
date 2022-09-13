@@ -2,23 +2,22 @@
 title: 'Docker Install'
 ---
 
-### Introduction
+# Introduction
 
 The Kavita team offers an official Docker image that is automatically updated based on changes to [GitHub](https://github.com/Kareadita/Kavita).
 
-#### 1. Kavita on Docker Hub
-
+[//]: # (This can be pretty much omitted
+The dockerhub image can be acessed here
 [Kizaing/KavitaDocker](https://hub.docker.com/r/kizaing/kavita)
 
-#### 2. Docker Install
-
+# Docker run
 
 Running your Kavita server in docker is super easy! You can run the `:latest` stable version with bind mounts using this command:
 
-! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/><br/>
-! **Note**: The text after "`:`" is the virtual directory that will be created inside the docker container.
+! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/>Also change the volume bind path in the host<br/>
+! **Note**: In the volume bind parameter `-v`, the text after "`:`" is the virtual directory that will be created inside the docker container.
 
-```
+```shell
 docker run --name kavita -p 5000:5000 \
 -v /your/manga/directory:/manga \
 -v /kavita/data/directory:/kavita/config \
@@ -26,28 +25,40 @@ docker run --name kavita -p 5000:5000 \
 -e TZ=Your/Timezone \
 -d kizaing/kavita:latest
 ```
-You can also run it via the docker-compose file:
-```
+
+# Docker compose
+
+Using docker compose lets you save your container config setup.
+
+Also makes it easier to update your container if you don't use a container manager (portainer,watchtower)
+Create a docker-compose.yml file with the following:
+! **Important**: This command is just a template. Change the values to fit your needs
+
+!!!!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
+
+!!! **Note** The way volumes work is: `<path in your host>` `:` `<path inside the container>` 
+```yml
 version: '3.9'
 services:
     kavita:
         image: kizaing/kavita:latest
         volumes:
-            - ./manga:/manga
-            - ./data:/kavita/config
+            - ./manga:/manga    # Manga is just an example you can have the name you want. See the following
+            - ./comics:/comics  # Use as many as you want
+            - ./books:/books    #
+            - ./data:/kavita/config # Change './data if you want to have the config files in a different place.
         environment:
             - TZ=Your/Timezone
         ports:
-            - "5000:5000"
+            - "5000:5000" # Change the public port (the first 5000) if you have conflicts with other services
         restart: unless-stopped
 ```
 You don't need to call it manga, you can name it anything that works for you. Kavita supports more than just Manga.
 
-!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
+! **Important** When creating a library, **do not select the first `manga`, `comics` or `epub` you see**. Navigate to `/` then you can select `manga`, `comics` or `epub`. Doing otherwise will result in your library being empty
 
-### 3. Setup Kavita
-Open [http://localhost:5000](http://localhost:5000) and set up your [user accounts](https://wiki.kavitareader.com/guides/user-management) and [libraries](https://wiki.kavitareader.com/guides/adding-a-library) in the UI.
 
-### 4. View Kavita
+## Acces Kavita
+Browse to [http://localhost:5000](http://localhost:5000) to start using Kavita from any device inside your network. (change localhost to the host IP where your docker instance is at)
+Please continue in [first time setup wiki page](../../03.guides/01.first-time-setup/default.en.md)
 
-Browse to [http://localhost:5000](http://localhost:5000) to start using Kavita from any device inside your network.
