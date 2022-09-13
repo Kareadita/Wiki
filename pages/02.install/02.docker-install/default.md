@@ -6,10 +6,6 @@ title: 'Docker Install'
 
 The Kavita team offers an official Docker image that is automatically updated based on changes to [GitHub](https://github.com/Kareadita/Kavita).
 
-[//]: # (This can be pretty much omitted
-The dockerhub image can be acessed here
-[Kizaing/KavitaDocker](https://hub.docker.com/r/kizaing/kavita)
-
 # Docker run
 
 Running your Kavita server in docker is super easy! You can run the `:latest` stable version with bind mounts using this command:
@@ -41,24 +37,30 @@ Create a docker-compose.yml file with the following:
 version: '3.9'
 services:
     kavita:
-        image: kizaing/kavita:latest
+        image: kizaing/kavita:latest    # Change latest to nightly for latest develop builds (can't go back to stable)
+        container_name: kavita
         volumes:
-            - ./manga:/manga    # Manga is just an example you can have the name you want. See the following
-            - ./comics:/comics  # Use as many as you want
-            - ./books:/books    #
-            - ./data:/kavita/config # Change './data if you want to have the config files in a different place.
+            - ./manga:/manga            # Manga is just an example you can have the name you want. See the following
+            - ./comics:/comics          # Use as many as you want
+            - ./books:/books            #
+            - ./data:/kavita/config     # Change './data if you want to have the config files in a different place.
+                                        # /kavita/config must not be changed
         environment:
             - TZ=Your/Timezone
         ports:
             - "5000:5000" # Change the public port (the first 5000) if you have conflicts with other services
         restart: unless-stopped
 ```
+
+Execute `docker-compose up -d` in your terminal after moving to the folder where the file is at
+
 You don't need to call it manga, you can name it anything that works for you. Kavita supports more than just Manga.
 
 ! **Important** When creating a library, **do not select the first `manga`, `comics` or `epub` you see**. Navigate to `/` then you can select `manga`, `comics` or `epub`. Doing otherwise will result in your library being empty
 
 
-## Acces Kavita
+## Access Kavita
 Browse to [http://localhost:5000](http://localhost:5000) to start using Kavita from any device inside your network. (change localhost to the host IP where your docker instance is at)
+
 Please continue in [first time setup wiki page](../../03.guides/01.first-time-setup/default.en.md)
 
