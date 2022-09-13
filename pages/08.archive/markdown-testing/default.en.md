@@ -47,20 +47,17 @@ To start reading you can either click the individual volume or chapter or let Ka
 <img src="https://wiki.kavitareader.com/en/archive/markdown-testing/continue.png" alt='the "continue" button' style="vertical-align: middle" height="32" />. This will open the last chapter that you have progress on or the next (if the last one was finished).
 
 If you haven't started reading something, <img src="https://wiki.kavitareader.com/en/archive/markdown-testing/continue.png" alt="continue btn" style="vertical-align: middle" height="32" /> will be replaced by <img src="https://wiki.kavitareader.com/en/archive/markdown-testing/read.png" alt='the "read" button' style="vertical-align: middle" height="32" />
-
-```console
-foo@bar:~$ docker run --name kavita -p 5000:5000 \
-```
-
 ```bash
 foo@bar:~$ docker run --name kavita -p 5000:5000 \
 ```
 ```shell
 foo@bar:~$ docker run --name kavita -p 5000:5000 \
 ```
-
-```cmd
-foo@bar:~$ docker run --name kavita -p 5000:5000 \
+```bash
+docker run --name kavita -p 5000:5000 \
+```
+```shell
+docker run --name kavita -p 5000:5000 \
 ```
 
 
