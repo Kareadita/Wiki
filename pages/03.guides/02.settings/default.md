@@ -13,7 +13,7 @@ admin:
   - [Libraries Tab](#libraries-tab)
   - Media Tab
   - Email Tab
-  - Taks Tab
+  - [Taks Tab](#tasks)
   - [System Tab](#system-tab)
 - [User Settings](#user-settings)
   - [Preferences Tab](#preferences)
@@ -103,6 +103,9 @@ You can also specify when you want the library to scan itself and make backups.
  >>>System Cache is cleared automatically after a Library Scan and as a system function each night.
 
 !!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
+
+#### Remove want to read
+Kavita will remove any series from a user's want to read list, where the series has the Publication Status Completed (this implies everything is within kavita and no more issues will be released) and the user has fully read the series.
 
 <hr style="border:1px solid #465176">
 
