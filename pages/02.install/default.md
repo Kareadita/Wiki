@@ -13,6 +13,8 @@ These are the guides for the supported systems
 * Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid), [TrueNAS Scale](https://wiki.kavitareader.com/en/install/truenas-scale), or [OpenMediaVault](https://www.openmediavault.org/)
 * [Synology](https://wiki.kavitareader.com/en/install/synology)
 
+>>> There's an article that explains how to restore a backup if needed in [this page](backup.en.md) 
+
 ## Accessing Kavita from external network
 
 ### Operating Systems supported by Kavita

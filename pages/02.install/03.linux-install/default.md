@@ -69,4 +69,3 @@ Before updating Kavita, stop the program/service from running.
 2. Copy/paste all files __**EXCEPT**__ `config/` to your Kavita install directory.
 
 !!! **Warning**: If you replace `config/`, you will lose your data. 
-

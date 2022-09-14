@@ -74,3 +74,4 @@ If you want to start using Kavita from any device inside your network, a Windows
 ! **Note**: `localhost` should be replaced with the IP address of the machine that is running Kavita when accessing from inside your network from a different device like a phone or tablet.
 For more instructions on how to make Kavita accessible from outside your home network... see the [Reverse Proxy](https://wiki.kavitareader.com/install/reverse-proxy) page.
 
+

@@ -58,6 +58,24 @@ You don't need to call it manga, you can name it anything that works for you. Ka
 
 ! **Important** When creating a library, **do not select the first `manga`, `comics` or `epub` you see**. Navigate to `/` then you can select `manga`, `comics` or `epub`. Doing otherwise will result in your library being empty
 
+## Updating Kavita
+
+You can run the following commands:
+```shell
+docker pull kizaing/kavita:latest
+```
+Then run the command you used to [first create docker](#docker-run).
+```shell
+docker run ...
+```
+
+If you used a docker-compose file, in your terminal head to where the file is allocated and run the command again
+```shell
+docker-compose up -d
+# New docker versions have compose integrated as a subcommand.
+docker compose up -d
+```
+
 
 ## Access Kavita
 Browse to [http://localhost:5000](http://localhost:5000) to start using Kavita from any device inside your network. (change localhost to the host IP where your docker instance is at)
