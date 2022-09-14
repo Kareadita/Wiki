@@ -10,23 +10,23 @@ What you find below is not an exhaustive list, but rather what has been tested t
 
 ## Android
 
-| Name        | Opds | Epub | Download<br/>Offline reading | Progress Sync |
-|-------------|:----:|:----:|:----------------------------:|:-------------:|
-| Librera     |  ✓   |  ✓   |              ✓               |               |
-| Moon Reader |      |  ✓   |                              |               |
-| Kubo Reader |      |  ✗   |                              |               |
-| Tachiyomi   |  ✗*  |      |              ✓               |      ✓**      |
-<br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is required
+| Name        | Opds | Opds-PS | Epub | Progress Sync |
+|-------------|:----:|:---------:|:----:|:-------------:|
+| Librera     |  ✓   | ✗       |  ✓   |       ✗       |
+| Moon Reader |  ✓   | ✗       |  ✓   |       ✗       |
+| Kubo Reader |      | ✗       |  ✗   |       ✗       |
+| Tachiyomi   |  ✗*  | ✗       |  ✗   |      ✓**      |
+<br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
 <br/>** To be released soon
 
 ## iOS
 
-| Name      | Opds | Opds-PS | epub | Download<br/>Offline reading |
-|-----------|:----:|:-------:|------|------------------------------|
-| Chunky    |  ✓   |    ✓    | ✗    |                              |
-| Panels    |  ✓   |    ✓    | ✗    |                              |
-| Yomu      |  ✓   |    ✗    | ✓    | ✓                            |
-| Paperback | *WIP |         |      |                              |
+| Name      | Opds | Opds-PS | Epub | Progress Sync |
+|-----------|:----:|:-------:|:----:|:-------------:|
+| Chunky    |  ✓   |    ✓    |  ✗   |       ✓       |
+| Panels    |  ✓   |    ✓    |  ✗   |       ✓       |
+| Yomu      |  ✓   |    ✗    |  ✓   |       ✗       |
+| Paperback | WIP  |         |      |               |
 
-! Have a suggestion for an app that we can connect with? Drop by the [Discord](https://discord.gg/b52wT37kt7) server and suggest it.
+! Have a suggestion for an app that we can connect with? Drop by the [Feature Requests](https://discord.gg/b52wT37kt7) page and suggest it or upvote existing requests.
 
