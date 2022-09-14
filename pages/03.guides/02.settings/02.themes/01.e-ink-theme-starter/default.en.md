@@ -3,7 +3,7 @@ title: 'E-Ink Theme Starter'
 ---
 
 ! This theme is not maintained with the latest css variables. See [themes](https://wiki.kavitareader.com/en/guides/settings/themes) for all variables. 
-```
+```css
 :root .bg-e-ink {
   --color-scheme: light;
   --primary-color: black;
