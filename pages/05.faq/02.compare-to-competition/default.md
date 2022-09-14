@@ -10,19 +10,19 @@ This page may be out of date as all software except Ubooquity is in active devel
 * Mango: I've never used it, but I think it has a downloader and that's pretty cool.
 * Kavita: Focused on the reading experience and exploring your collection. Epub and pdf readers allow for text and are feature rich. Uses metadata and filename parsing to group into series, volumes, etc.  
 
-| | [Kavita](https://github.com/Kareadita/Kavita) | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | [Calibre-web](https://github.com/janeczku/calibre-web) |
-|  ------ | ------ | ------ | ------ | ------ | ------ |
-| Multi-User Support | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Download |Individual file, volume, or entire series | ✗ | Individual files | Individual files | Individual files |
-| Role-based Security| ✓ | | ✓ |  | ✓ | 
-| OPDS  | ✓* | ✓* | ✓* | ✓ | ✓ |
-| Dark/light mode | ✓ | ✓ | ✓ | Not out of the box | ✗ |
-| Formats | cbr, cbz, cb7, cbt, zip, rar, tar.gz, 7zip, 7z, epub, pdf, png, jpg, jpeg, webp | cbz, cbr, zip, rar | cbz, cbr, pdf, epub*** | cbz, cbr, pdf, epub | mobi, epub, pdf, cbz, cbr, cbt, lit, doc(x), odt, rtf, html |
-| Reading Progress | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Metadata | ✓++ | ✓ | ✓++ | ✗ | ✓ |
-| Cross Platform | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Accessibility and Screen Reader Support | ✓ | | ✗ | | ✗ |
-| Webtoon/Continuous Scroll | ✓ | |✓ | | |
+|                                         | [Kavita](https://github.com/Kareadita/Kavita)                                                  | [Mango](https://github.com/hkalexling/Mango) | [Komga](https://github.com/gotson/komga) | [Ubooquity](https://vaemendis.net/ubooquity/) | [Calibre-web](https://github.com/janeczku/calibre-web)      |
+|-----------------------------------------|------------------------------------------------------------------------------------------------|----------------------------------------------|------------------------------------------|-----------------------------------------------|-------------------------------------------------------------|
+| Multi-User Support                      | ✓                                                                                              | ✓                                            | ✓                                        | ✓                                             | ✓                                                           |
+| Download                                | Individual file, volume, or entire series                                                      | ✗                                            | Individual files                         | Individual files                              | Individual files                                            |
+| Role-based Security                     | ✓                                                                                              |                                              | ✓                                        |                                               | ✓                                                           | 
+| OPDS                                    | ✓*                                                                                             | ✓*                                           | ✓*                                       | ✓                                             | ✓                                                           |
+| Dark/light mode                         | ✓                                                                                              | ✓                                            | ✓                                        | Not out of the box                            | ✗                                                           |
+| Formats                                 | cbr++, cbz++, cb7++, cbt++, zip, rar, tar.gz,<br/> 7zip, 7z, epub++, pdf, png, jpg, jpeg, webp | cbz, cbr, zip, rar                           | cbz, cbr, pdf, epub***                   | cbz, cbr, pdf, epub                           | mobi, epub, pdf, cbz, cbr, cbt, lit, doc(x), odt, rtf, html |
+| Reading Progress                        | ✓                                                                                              | ✓                                            | ✓                                        | ✓                                             | ✓                                                           |
+| Metadata                                | ✓++                                                                                            | ✓                                            | ✓++                                      | ✗                                             | ✓                                                           |
+| Cross Platform                          | ✓                                                                                              | ✓                                            | ✓                                        | ✓                                             | ✓                                                           |
+| Accessibility and Screen Reader Support | ✓                                                                                              |                                              | ✗                                        |                                               | ✗                                                           |
+| Webtoon/Continuous Scroll               | ✓                                                                                              |                                              | ✓                                        |                                               |                                                             |
 
 * *= OPDS-PS support
 
