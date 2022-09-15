@@ -11,7 +11,7 @@ admin:
   - [General Tab](#general-tab)
   - [Users Tab](#users-tab)
   - [Libraries Tab](#libraries-tab)
-  - Media Tab
+  - [Media Tab](#media-tab)
   - Email Tab
   - [Taks Tab](#tasks)
   - [System Tab](#system-tab)
@@ -89,7 +89,9 @@ Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### Media
+From the Media Tab, admins can set server-wide settings for media. As of v0.5.6, the only setting is Using WebP for Bookmarks. WebP offers impressive compression and performance with the only draw back of limited support on older iOS devices.
 
+!!! Note: Turning this setting on/off will not do a conversion. When turned on, use [Tasks](#tasks-tab) tab to run the conversion job for all existing Bookmarks.
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### Email
@@ -102,7 +104,7 @@ In this page you can, download logs, backup the database, check for updates, and
 You can also specify when you want the library to scan itself and make backups.
  >>>System Cache is cleared automatically after a Library Scan and as a system function each night.
 
-!!! Note: Manually clearing system cache while other users are enjoying Kavita will incur a one-time loading during the reading experience.
+!!! Note: Manually clearing system cache while other users are reading on Kavita will incur a one-time loading during the reading experience.
 
 #### Remove want to read
 Kavita will remove any series from a user's want to read list, where the series has the Publication Status Completed (this implies everything is within kavita and no more issues will be released) and the user has fully read the series.
@@ -110,7 +112,7 @@ Kavita will remove any series from a user's want to read list, where the series 
 <hr style="border:1px solid #465176">
 
 #### Checking For Updates
-Kavita offers a quick way to see if a new version is available. From the Taks tab, click Check for Update. A modal will appear if an update is available where you can read the new features and fixes and click Download to open Github and download the updated version. If you are on Docker, there is no Download button. Please pull the latest image yourself. 
+Kavita offers a quick way to see if a new version is available. From the Tasks tab, click Check for Update. A modal will appear if an update is available where you can read the new features and fixes and click Download to open Github and download the updated version. If you are on Docker, there is no Download button. Please pull the latest image yourself. 
 
 ![Changelog](Changelog.PNG "Changelog")
 
