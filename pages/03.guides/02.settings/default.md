@@ -13,7 +13,7 @@ admin:
   - [Libraries Tab](#libraries-tab)
   - [Media Tab](#media-tab)
   - Email Tab
-  - [Taks Tab](#tasks)
+  - [Tasks Tab](#tasks)
   - [System Tab](#system-tab)
 - [User Settings](#user-settings)
   - [Preferences Tab](#preferences)
