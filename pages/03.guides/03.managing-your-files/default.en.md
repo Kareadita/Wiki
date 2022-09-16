@@ -15,15 +15,24 @@ admin: {  }
 ---
 
 #### Page overview
-[Naming convention / File Structure](#file-structure)<br/>
-[Metadata](#metadata)<br/>
-[Scanning files](#scanning-files)<br/>
+- [Naming convention / File Structure](#naming-convention--file-structure)<br/>
+  - [Specials](#specials)
+- [Metadata](#metadata)
+  - [Metadata Tags Mapping](#general-overview-on-how-kavita-reads-certain-metadata-tags) (How kavita uses certain metadata tags)
+  - [Comics And Manga](#comics-and-manga)
+  - [eBooks](#ebooks)
+  - [ComicInfo](#comicinfo)
+< style="border:5px solid #4ac694">
 
-<hr style="border:5px solid #4ac694"> </hr>
-## File Structure
-It's important to know how Kavita parses the info from the files.
+# Naming convention / File Structure
+It's important to know how Kavita parses the info from the files, so you can see what you want how you want.
 
-Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in it's folder and that no files are at root level of the library.
+[//]: # (TODO: Add link)
+Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in its folder and that no files are at root level of the library.
+
+! Please Read [how the new scanner works]() prior to continuing with this article
+
+!! **Important**: When parsing filenames, anything betweeen parenthesis and parenthesis themselves will be removed from the series name. <br/>If you wish to separate series using `Series Name (2019)`, it's advised to change parenthesis to brackets `{` `}` and change series name in the UI
 
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
@@ -34,21 +43,99 @@ Folder and File Structure TOC:
 
 For all types of libraries, Kavita has an override for treating files as Specials. 
 
-To force a Special status, the filename can use SP01, SP02, etc.
+[//]: # (TODO: Add more info related to specias)
+## Specials
 
-    /libraryroot/Series Name/Series Name SP01.cbz
-    /libraryroot/Series Name/Specials/Series Name SP01 Special Name.cbz
+Kavita treats multiple types of files as "Specials" and will group them in a separate tab in series detail. Special marker (SP) will be removed from the UI title, however is used when ordering.
 
-This will take the file and force it to be a special. For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
-For example: `/libraryroot/Again!!/Specials/Again The After Story SP01.cbz`
-will parse "`Again!!`" for the Series name and group the file as a special under Again!!
+An entity is considered a special when a series can be parsed out of it, but no volume or chapter information is found:
 
-<hr style="border:5px solid #4ac694"> </hr>
-## Metadata
-Kavita uses metadata to parse Series Name, Volumes, Chapters...
-Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file. 
+```
+Library Root
+  ┖── Series Name
+      ┖── Series Name.cbz
+```
+<hr style="border:1px solid #465176">
+To force a Special status, the filename can include SP01, SP02, etc.
+This will take the file and force it to be a special:
 
-<hr style="border:2px solid #4ac694"> </hr>
+```
+Library Root
+  ┖── Series Name
+      ┖── Series Name SP01 Special Name.cbz
+```
+<hr style="border:1px solid #465176">
+Other keywords that are used to mark as special are `Specials`, `Omake`, `OneShot`, `Extra`, `Art Collection`, `Side Stories`:
+
+```
+Library Root
+  ┖── Series Name
+      ┖── Specials
+          ┖── Series Name Omakes SP01.cbz
+```
+<hr style="border:1px solid #465176">
+For it to identify as a special and not as the series from the filename, it will look up towards the library root and attempt to parse the series name from the folder names.<br/>
+For example:
+
+```
+Library Root
+  ┖── Again!!
+      ┖── Specials
+            ┖── Again The After Story SP01.cbz
+```
+Will parse `"Again!!"` for the Series name and group the file `"Again The After Story SP01.cbz"` as a special under the series `"Again!!"`
+<hr style="border:1px solid #465176">
+
+!!! Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the [format tag](#format)
+
+! **Note**: Specials will fall back to the folder name for Series name. If you have a different name than the series files, then your special may not properly group.
+
+<hr style="border:5px solid #4ac694">
+
+## Volumes
+In order for something to be parsed as having a volume, a volume must be on the filename.
+
+Volume means:
+* v1
+* vol 1
+* vol. 1
+* volume 01
+* Vol 7.5
+* Volume.2000
+* 卷2
+* 册2
+* 2巻
+* t. 2
+* tome 2
+* 
+!!! Additionaly if the file is a `.cb*` file, you may set this value with the use of [ComicInfo metadata](#comicinfo) using the `volume tag`
+
+# Metadata
+Kavita uses metadata to parse Series Name, Volumes, Chapters, Special Status, etc... 
+
+Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file**name**
+
+You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
+
+<hr style="border:2px solid #4ac694">
+
+
+### General Overview on how kavita reads certain metadata tags
+
+[//]: # (TODO: Add a column that express what tags would be mapped to kavita
+            This means X tag in epub is X in comicinfo. Both are shown as X in kavita )
+
+| EPUB Tag           | Is  | In ComicInfo           | Is  |            Equivalent In Kavita            |
+|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
+| `Description`      |  →  | `Summary`              |  →  |                  Summary                   |
+| `Creators`         |  →  | `Writer`               |  →  |                  Writers                   |
+| `Pubishers`        |  →  | `Publisher`            |  →  |                 Publisher                  |
+| `Publication Date` |  →  | `Month`, `Day`, `Year` |  →  | Release Date<br/>(Release Year for series) |
+| `Title`            |  →  | `Title`                |  →  |               Chapter Title                |
+| `Subjects`         |  →  | `Genre`                |  →  |                   Genres                   |
+|                    |     | `Tags`                 |  →  |                    Tags                    |
+|                    |     | `AgeRating`            |  →  |                 Age Rating                 |
+
 ### Comics and Manga
 Comics and manga use a ".xml" file at the root of the cbz, cbr, cbt, cb7 files
 
@@ -56,30 +143,70 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 
 The XML schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
-You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
+! **Note**: Kavita currently supports the following custom tags: 
+- `<LocalizedTitle>` : Contains optional localized series name. 
 
-<hr style="border:1px solid ##465176"> </hr>
-#### How Kavita parses certain ComicInfo tags
+<hr style="border:2px solid #4ac694">
 
-##### Age Rating
+### eBooks
+EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file.
+See the table above to know what tags do kavita read from the OPF file
+
+!**Note:** OPF metadata files must be **inside** the `.epub` file, or it won't be read.  
+
+ 
+
+<hr style="border:5px solid #4ac694">
+
+## ComicInfo
+### Tags that will cause specific behaviour in your kavita:
+#### Age Rating
 
 Age rating may vary between different files within a series. The Series will take the highest Age Rating (aka most mature) and use it from the files contained within. So for example, say you have:
+
+Current tags from less restrictive to most restrictive: 
+
+[//]: # (TODO: Add list from least restrictive to most restrictive)
+
 * Issue 1 - PG
 * Issue 2 - PG
 * Issue 3 - M
+
 The series will be M as that is the most mature rating in all Issues.
 
-##### Count
+<hr style="border:1px solid #465176">
 
-In order for a Series to give a publication status, if you have at least one "Count" defined within any ComicInfo from the series and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
-Ideally, the value of this field should be the total number of volumes (manga) or issues (comics)
+#### Count
+Kavita will set the Publication Status on a series for you based on this tag
 
-##### Release Year
+- If you have at least one "Count" defined within any ComicInfo from the series, and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
+
+- Ideally, the value of this field should be the total number of volumes (manga) or issues (comics)
+
+<hr style="border:1px solid #465176">
+
+#### Release Year
 
 Likewise with Age Rating, Release Year is a summation of the minimum year defined within a series that is at least 4 units long (> 1000).
 
-##### Format
-If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). The following entries will cause this:
+<hr style="border:1px solid #465176">
+
+#### Publication Status
+Kavita will set the Publication Status on a series for you based on the underlying ComicInfo. 
+
+If you have at least one ComicInfo with the `Count` property, then Kavita will at least mark the series as Ended.
+
+Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed.
+
+[//]: # (TODO: Add locked section rel link)
+This logic will only run if the field is not [locked](). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
+
+<hr style="border:1px solid #465176">
+
+#### Format
+If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). 
+
+The following entries will cause this:
 * Special
 * Reference
 * Director's Cut
@@ -99,42 +226,3 @@ If a Format is specified, that issue or volume may be forced into being treated 
 * Graphic Novel
 * GN
 * FCBD 
-
-<hr style="border:2px solid #4ac694"> </hr>
-### eBooks
-EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file. Kavita tries to map as much of this information as possible. 
-
-The tags that Kavita parses are:
-* EPUB Tag (ComicInfo field)
-* Description (Summary)
-* Creators (Writer)
-* Publishers (Publisher)
-* Publication Date (Month, Day, Year)
-* Title (Title)
-* Subjects (Genre)
-
-<hr style="border:5px solid #4ac694"> </hr>
-## Scanning files
-Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. 
-! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
-<br/><br/>
-
-<hr style="border:2px solid #4ac694"> </hr>
-### What happens during a Scan?
-Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
-
-The scan parses the file names, reads the comic info (if applicable), updates the database with that information, and updates the UI. 
-If the file hasn't been modified since the last time we scanned, Kavita will not do extra processing on the file. 
-If your archives contain metadata, it will override any parsed information from the file.
-
-To understand in depth how Kavita's scan works, you can read about it [here](https://wiki.kavitareader.com/en/guides/misc/how-the-scanner-works).
-
-<hr style="border:2px solid #4ac694"> </hr>
-### Refresh Covers
-During the refresh covers task, the same kind of logic applies. This is a heavy task because of the amount of I/O we have to perform and because of the amount of memory we need to copy images out of the archive and onto the disk.
-In this task, Kavita doesn't open up any archives if they haven't been modified unless you start a cover refresh from the UI. Even if the archive was modified, if you've locked the cover image by using the UI to upload your own custom cover, the archive will not be opened.
-
-
-<hr style="border:2px solid #4ac694"> </hr>
-### Analyze Files
-During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.

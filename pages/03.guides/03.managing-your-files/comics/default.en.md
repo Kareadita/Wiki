@@ -15,22 +15,19 @@ The same naming conventions work with Comics.
     ┖── Series Name v03 c01.cbz
 ```
 
-In order for something to be parsed as having a volume, a volume must be on the filename. Volume means:
-* v1
-* vol 1
-* vol. 1
-* volume 01
-* Vol 7.5
-* Volume.2000
+
 
 The following will be parsed as "Chapters", which may naturally group into a Volume entity if a volume is on the file itself.
-* Invincible 070.5 - Invincible Returns 1 (2010) (digital) (Minutemen-InnerDemons).cbr -> Chapter 70.5
-* Batman & Wildcat (1 of 3) -> Chapter 1
-* Amazing Man Comics chapter 25 -> Chapter 25
-* Superman v1 024 (09-10 1943) -> Volume 1 Chapter 24
-* Y - The Last Man #001 -> Chapter 1
-* Batgirl Vol.2000 #57 (December, 2004) -> Chapter 57
-* Babe 01 -> Chapter 1
+
+| Filename                                                                               | Parsed Series Name | Volume | Chapter |
+|:---------------------------------------------------------------------------------------|:------------------:|:-------|:--------|
+| `Invincible 070.5 - Invincible Returns 1 (2010) (digital) (Minutemen-InnerDemons).cbr` |                    |        | 70.5    |
+| `Batman & Wildcat (1 of 3)`                                                            |                    |        | 1       |
+| `Amazing Man Comics chapter 25`                                                        |                    |        | 25      |
+| `Superman v1 024 (09-10 1943)`                                                         |                    | 1      | 24      |
+| `Y - The Last Man `                                                                    |                    |        | 1       |
+| `Batgirl Vol.2000 #57 (December, 2004)`                                                |                    |        | 57      |
+| `Babe 01`                                                                              |                    |        | 1       |
 
 
 ! If you have multiple comics from different years, you can name them as "Fables 2004" and "Fables 1989". Then in Kavita's UI, you can rename the "Name" field to be "Fables (2004)" and "Fables (1989)" so they are separate series. This workaround is the only way for different releases of the same series to be supported in Kavita.
@@ -55,23 +52,4 @@ Comics also have a list of special filename keywords that will mark them as spec
 * HS
 * THS
 
-The "Format" metadata field for the Comicinfo.xml standard can also be used to mark the comic as a special:
-* Special
-* Reference
-* Director's Cut
-* Box Set
-* Box-Set
-* Annual
-* Anthology
-* Epilogue
-* One Shot
-* One-Shot
-* Prologue
-* TPB
-* Trade Paper Back
-* Omnibus
-* Compendium
-* Absolute
-* Graphic Novel
-* GN
-* FCBD
+! **Note**: The "[Format metadata field](../default.en.md#format)" for the [ComicInfo metadata](../default.en.md#comicinfo) can also be used to mark the comic as a special:

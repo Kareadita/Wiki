@@ -10,17 +10,20 @@ media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,K
 
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### General Info
 Kavita supports mixed media libraries. For example, your Light Novels (epub) and your Manga (cbz,cbr) can coexist in the same library. A library now is more just a grouping of media. Icons will show next to the series or book name to help you understand that, for example, one is a book and one is a PDF file.
 ![kavita%20Library%20File%20Type](kavita%20Library%20File%20Type.jpg "kavita Library Type")
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### Setting up your Admin Account
 To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. Starting with v0.5.1, all accounts must have a valid email assigned to them. If you already have an account, a migration will prompt you at login to add an email. Email links can always be found in your logs in case the email is delayed or your server is not accessible. 
 
 
 
 <hr style="border:4px solid #4ac694"> </hr>
+
 ### Adding a Library to Kavita
 
 To create a new Library, an Admin can select the Server Settings option from the Drop Down menu.
@@ -35,9 +38,15 @@ Next, click the plus icon to begin the folder selection process.
 Each folder has a Share button which can be used to select all content in all sub-folders. Clicking on the folder names allows you to drill down further to share the exact folder you want.
 
 ![KavitaDirectoryChoose](KavitaDirectoryChoose.jpg "KavitaDirectoryChoose")
+
 ! **Note**: It is not recommended to select a series folder directly because if it is empty then the scanning process will abort.
 
-! **Note**: The folder selection process is the same on any install but will depend heavily on your configuration. If a Docker install is used the bind mount for the shared Content will be in this list under that name. e.g. `-v /your/manga/directory:/manga` In this example /manga will be visible in the Folder selection process and will lead to your shared content.
+! **Note**: The folder selection process is the same on any install but will depend heavily on your configuration.
+
+>>> **Important Docker users**:<br/>When creating a library, **do not select the first `manga`, `comics` or `epub` you see**.<br/>
+Instead, navigate to `/` and then you can select `manga`, `comics` or `epub`. Doing otherwise will result in your library being empty
+
+If a Docker install is used the bind mount for the shared Content will be in this list under that name. e.g. `-v /your/manga/directory:/manga` In this example /manga will be visible in the Folder selection process and will lead to your shared content.
 
 
 ### Adding users to Kavita

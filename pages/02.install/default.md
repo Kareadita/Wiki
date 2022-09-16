@@ -4,7 +4,7 @@ title: 'Installation Guides'
 
 ## Installation Guides
 
-Installations supported:
+These are the guides for the supported systems
 
 * [Windows](https://wiki.kavitareader.com/install/windows-install) 
 * [Linux](https://wiki.kavitareader.com/install/linux-install)
@@ -12,19 +12,22 @@ Installations supported:
 * [macOS](https://wiki.kavitareader.com/install/macos)
 * Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid), [TrueNAS Scale](https://wiki.kavitareader.com/en/install/truenas-scale), or [OpenMediaVault](https://www.openmediavault.org/)
 * [Synology](https://wiki.kavitareader.com/en/install/synology)
-* [Reverse Proxy Examples](https://wiki.kavitareader.com/install/reverse-proxy)
+
+>>> There's an article that explains how to restore a backup if needed in [this page](backup.en.md) 
+
+## Accessing Kavita from external network
 
 ### Operating Systems supported by Kavita
 
 ### Windows
 
-OS                                    | Version                 | Architectures   | Lifecycle
---------------------------------------|-------------------------|-----------------|----------
-[Windows Client][Windows-client]      | 7 SP1(**\***), 8.1      | x64, x86        | [Windows][Windows-lifecycle]
-[Windows 10 Client][Windows-client]   | Version 1607+           | x64, x86, Arm64 | [Windows][Windows-lifecycle]
-[Windows Server][Windows-Server]      | 2012 R2+                | x64, x86        | [Windows Server][Windows-Server-lifecycle]
-[Windows Server Core][Windows-Server] | 2012 R2+                | x64, x86        | [Windows Server][Windows-Server-lifecycle]
-[Nano Server][Nano-Server]            | Version 1809+           | x64             | [Windows Server][Windows-Server-lifecycle]
+| OS                                    | Version            | Architectures   | Lifecycle                                  |
+|---------------------------------------|--------------------|-----------------|--------------------------------------------|
+| [Windows Client][Windows-client]      | 7 SP1(**\***), 8.1 | x64, x86        | [Windows][Windows-lifecycle]               |
+| [Windows 10 Client][Windows-client]   | Version 1607+      | x64, x86, Arm64 | [Windows][Windows-lifecycle]               |
+| [Windows Server][Windows-Server]      | 2012 R2+           | x64, x86        | [Windows Server][Windows-Server-lifecycle] |
+| [Windows Server Core][Windows-Server] | 2012 R2+           | x64, x86        | [Windows Server][Windows-Server-lifecycle] |
+| [Nano Server][Nano-Server]            | Version 1809+      | x64             | [Windows Server][Windows-Server-lifecycle] |
 
 **\*** Windows 7 SP1 is supported with [Extended Security Updates](https://docs.microsoft.com/troubleshoot/windows-client/windows-7-eos-faq/windows-7-extended-security-updates-faq) installed.
 
@@ -37,17 +40,17 @@ OS                                    | Version                 | Architectures 
 
 ### Linux
 
-OS                                    | Version               | Architectures     | Lifecycle
---------------------------------------|-----------------------|-------------------|----------
-[Alpine Linux][Alpine]                | 3.11+                 | x64, Arm64        | [Alpine][Alpine-lifecycle]
-[CentOS][CentOS]                      | 7+                    | x64               | [CentOS][CentOS-lifecycle]
-[Debian][Debian]                      | 9+                    | x64, Arm32, Arm64 | [Debian][Debian-lifecycle]
-[Fedora][Fedora]                      | 32+                   | x64               | [Fedora][Fedora-lifecycle]
-[Linux Mint][Linux-Mint]              | 18+                   | x64               | [Linux Mint][Linux-Mint-lifecycle]
-[openSUSE][OpenSUSE]                  | 15+                   | x64               | [OpenSUSE][OpenSUSE-lifecycle]
-[Red Hat Enterprise Linux][RHEL]      | 7+                    | x64               | [Red Hat][RHEL-lifecycle]
-[SUSE Enterprise Linux (SLES)][SLES]  | 12 SP2+               | x64               | [SUSE][SLES-lifecycle]
-[Ubuntu][Ubuntu]                      | 21.04, 20.10, 20.04, 18.04, 16.04  | x64, Arm32, Arm64 | [Ubuntu][Ubuntu-lifecycle]
+| OS                                   | Version                           | Architectures     | Lifecycle                          |
+|--------------------------------------|-----------------------------------|-------------------|------------------------------------|
+| [Alpine Linux][Alpine]               | 3.11+                             | x64, Arm64        | [Alpine][Alpine-lifecycle]         |
+| [CentOS][CentOS]                     | 7+                                | x64               | [CentOS][CentOS-lifecycle]         |
+| [Debian][Debian]                     | 9+                                | x64, Arm32, Arm64 | [Debian][Debian-lifecycle]         |
+| [Fedora][Fedora]                     | 32+                               | x64               | [Fedora][Fedora-lifecycle]         |
+| [Linux Mint][Linux-Mint]             | 18+                               | x64               | [Linux Mint][Linux-Mint-lifecycle] |
+| [openSUSE][OpenSUSE]                 | 15+                               | x64               | [OpenSUSE][OpenSUSE-lifecycle]     |
+| [Red Hat Enterprise Linux][RHEL]     | 7+                                | x64               | [Red Hat][RHEL-lifecycle]          |
+| [SUSE Enterprise Linux (SLES)][SLES] | 12 SP2+                           | x64               | [SUSE][SLES-lifecycle]             |
+| [Ubuntu][Ubuntu]                     | 21.04, 20.10, 20.04, 18.04, 16.04 | x64, Arm32, Arm64 | [Ubuntu][Ubuntu-lifecycle]         |
 
 [Alpine]: https://alpinelinux.org/
 [Alpine-lifecycle]: https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases
@@ -82,8 +85,8 @@ OS                                    | Version               | Architectures   
 
 ### macOS
 
-OS                            | Version                       | Architectures  |
-------------------------------|-------------------------------|----------------|
-[macOS][macOS]                | 10.13+                        | x64            |
+| OS             | Version | Architectures |
+|----------------|---------|---------------|
+| [macOS][macOS] | 10.13+  | x64           |
 
 [macOS]: https://support.apple.com/macos

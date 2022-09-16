@@ -20,6 +20,7 @@ taxonomy:
 
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Series Details
 Series detail is the main page where you can see a series and all the entities related to it. As you can see below, there are a number of controls. To start, the series cover image is displayed along with the title of the series. From the buttons you can [Continue Reading](#continue-reading), [Edit Series](#edit-series), Download the whole series, or add/edit your [rating and review](#rating-and-reviews).
 
@@ -28,6 +29,7 @@ Below this section is the metadata and collection tags. Collection tags can be c
 ![Detail%20Page](Detail%20Page.webp?cropResize=900,600 "Detail%20Page")
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Continue Reading
 To start reading you can either click the individual volume or chapter or let Kavita resume you where you left off by clicking 
 <img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/continue.png" alt='the "continue" button' style="vertical-align: middle" height="32" />. This will open the last chapter that you have progress on or the next (if the last one was finished).
@@ -35,6 +37,7 @@ To start reading you can either click the individual volume or chapter or let Ka
 If you haven't started reading something, <img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/continue.png" alt="continue btn" style="vertical-align: middle" height="32" /> will be replaced by <img src="https://wiki.kavitareader.com/en/guides/get-started-using-your-library/read.png" alt='the "read" button' style="vertical-align: middle" height="32" />
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Edit Series
 This opens a menu with 3 tabs
 
@@ -48,6 +51,7 @@ Override the cover of the series without modifying any file.
 This tab is useful to troubleshoot problems related to name parsing. It lists all files that are part of this series.
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Rating and Reviews
 Kavita allows for you to track your rating and provide a review for yourself all within Kavita. Currently, Kavita has its own, separate system, however Scrobbing and Syncing to external sources is planned.
 ![Example](rating_and_preview_example.webp "Example")
@@ -57,6 +61,7 @@ To provide a rating, click the star icons. When you first provide a rating, a pr
 ![rating%20and%20review%202](rating%20and%20review%202.gif?cropResize=300 "rating%20and%20review%202")
 
 <hr style="border:2px solid #4ac694"> </hr>
+
 ### Info Modal
 Kavita has grouping which sometimes can be confusing, did a file get grouped properly? How can I check? This is where the Info modal comes from. From a Volume/Chapter, use the context actions menu to select Info. From Series detail, you must be an admin and can use the Edit button.
 
@@ -70,6 +75,7 @@ The volume info has some extra functionality. As you can see, we have individual
 
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Filtering
 Filtering allows the user to select the type of content displayed in a Library
 Select the Funnel at the top right to open the Filtering options
@@ -82,6 +88,7 @@ From this page, you can select a set of tags to search against. The search will 
 ![v0.5%20filters](v0.5%20filters.PNG "v0.5%20filters")
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Download
 If a user has the Download role, they can download files from Kavita. Because Kavita uses a grouping mechanic, the downloads will mimic this structure. From any Series, Volume, or Chapter, a user can kick off a download via the context menu. If the underlying file is just one individual file, it will be sent as is, otherwise, the files will be grouped in a zip file and downloaded. 
 
@@ -89,16 +96,19 @@ Downloads may take longer than expected to process. Kavita will show a spinner o
 ![downloads](downloads.webp "downloads")
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Bookmarks
 Bookmarks will make this guide longer so a sub-page has been created.
 [Click here to go to Bookmarks Wiki page](./bookmarks)
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Collections
 Collections will make this guide longer so a sub-page has been created.
 [Click here to go to Collections Wiki page](./collections)
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Reading List
 A reading list is an ordered list of chapters that can be of mixed media types. 
 
@@ -112,6 +122,7 @@ The order can be manipulated via drag and drop or by using input boxes on the ri
 Lastly, if you are using a reading list to track new chapters added to your server and want to quickly clear it out when you've gone through them, there is a "Remove Read" button which will remove any fully read chapters from the list. 
 
 <hr style="border:5px solid #4ac694"> </hr>
+
 ## Metadata Editing
 Metadata editing will make this guide longer so a sub-page has been created.
 [Click here to go to Metadata Editing Wiki page](./adding-and-editing-metadata)

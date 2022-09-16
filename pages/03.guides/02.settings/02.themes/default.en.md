@@ -15,14 +15,15 @@ There are a few things to note:
   - If you would like any other properties exposed, please feel free to suggest themes in our [Discord](https://discord.gg/b52wT37kt7) server or [feature request page](https://feats.kavitareader.com/).
 
 So for instance, if we created `/config/themes/test-theme-123.css` then the CSS within the file should be structured as follows
-``` 
+```css
 :root .bg-test-theme-123 {
   /* CSS Variables here */
   }
 ```
- ! As of v0.5.3, Kavita only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
+>>> As of v0.5.3, Kavita only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
  
  <hr style="border:5px solid #4ac694"> </hr>
+
 ## Available CSS Variables
 **Note**: You can use `color: var(--css-variable-name)` to refer to a defined css variable.
 
@@ -34,7 +35,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
     
 **Main Colors**  
 *These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
-```
+```css
 --primary-color: hex/rgb(a);  
 --primary-color-dark-shade: hex/rgb(a);  
 --primary-color-darker-shade: hex/rgb(a);  
@@ -46,7 +47,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
   
 **Navbar**
-```
+```css
 --navbar-bg-color: hex/rgb(a);    
 --navbar-text-color: hex/rgb(a);  
 --navbar-fa-icon-color: hex/rgb(a);  
@@ -54,7 +55,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Inputs**  
-```
+```css
 --input-bg-color: hex/rgb(a);  
 --input-bg-readonly-color: hex/rgb(a);  
 --input-focused-border-color: hex/rgb(a);  
@@ -65,7 +66,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Buttons**  
-```
+```css
 --btn-primary-text-color: hex/rgb(a);  
 --btn-primary-bg-color: hex/rgb(a);  
 --btn-primary-border-color: hex/rgb(a);  
@@ -90,7 +91,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Nav (Tabs)**
-```
+```css
 --nav-tab-border-color: hex/rgb(a);  
 --nav-tab-text-color: hex/rgb(a);  
 --nav-tab-bg-color: hex/rgb(a);  
@@ -116,13 +117,13 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Header**  
-```
+```css
 --nav-header-text-color: hex/rgb(a);  
 --nav-header-bg-color: hex/rgb(a);  
 ```
 
 **Toasts**  
-```
+```css
 --toast-success-bg-color: hex/rgb(a);  
 --toast-error-bg-color: hex/rgb(a);  
 --toast-info-bg-color: hex/rgb(a);  
@@ -130,7 +131,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Checkboxes**  
-```
+```css
 --checkbox-checked-bg-color: hex/rgb(a);  
 --checkbox-border-color: hex/rgb(a);  
 --checkbox-focus-border-color: hex/rgb(a);  
@@ -138,7 +139,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Tag Badge**  
-```
+```css
 --tagbadge-border-color: hex/rgb(a);  
 --tagbadge-text-color: hex/rgb(a);  
 --tagbadge-bg-color: hex/rgb(a);  
@@ -148,7 +149,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Side Nav**  
-```
+```css
 --side-nav-bg-color: hex/rgb(a);  
 --side-nav-mobile-bg-color: hex/rgb(a);  
 --side-nav-openclose-transition: s ease-in-out;  
@@ -171,7 +172,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **List items**  
-```
+```css
 --list-group-item-text-color: hex/rgb(a);  
 --list-group-item-bg-color: hex/rgb(a);  
 --list-group-item-border-color: hex/rgb(a);  
@@ -181,7 +182,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Popover**  
-```
+```css
 --popover-body-bg-color: hex/rgb(a);  
 --popover-body-text-color: hex/rgb(a);  
 --popover-outerarrow-color: hex/rgb(a);  
@@ -191,7 +192,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Pagination**
-```  
+``` css
 --pagination-active-link-border-color: hex/rgb(a);  
 --pagination-active-link-bg-color: hex/rgb(a);  
 --pagination-active-link-text-color: hex/rgb(a);  
@@ -203,14 +204,14 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Progress Bar**  
-```
+``` css
 --progress-striped-animated-color: linear-gradient(deg, rgba %, deg, rgba %, ..., deg, rgba %));  
 --progress-bg-color: hex/rgb(a);  
 --progress-bar-color: hex/rgb(a);  
 ```  
 
 **Dropdown**  
-```
+```css
 --dropdown-item-hover-text-color: hex/rgb(a);  
 --dropdown-item-hover-bg-color: hex/rgb(a);  
 --dropdown-item-text-color: hex/rgb(a);  
@@ -219,7 +220,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Accordion**  
-```
+```css
 --accordion-header-text-color: hex/rgb(a);  
 --accordion-header-bg-color: hex/rgb(a);  
 --accordion-body-bg-color: hex/rgb(a);  
@@ -232,20 +233,20 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Breadcrumb**  
-```
+```css
 --breadcrumb-bg-color: hex/rgb(a);  
 --breadcrumb-item-text-color: hex/rgb(a);  
 ```  
 
 **Rating star**  
-```
+```css
 --ratingstar-color: hex/rgb(a);  
 --ratingstar-star-empty: hex/rgb(a);  
 --ratingstar-star-filled: hex/rgb(a);  
 ```  
 
 **Global**  
-```
+```css
 --hr-color: hex/rgb(a);  
 --accent-bg-color: hex/rgb(a);  
 --accent-text-color: hex/rgb(a);  
@@ -260,7 +261,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```  
 
 **Card**  
-```
+```css
 --card-bg-color: hex/rgb(a);  
 --card-text-color: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
@@ -270,12 +271,12 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Slider**  
-```
+```css
 --slider-text-color: hex/rgb(a);
 ```
 
 **Manga Reader**
-```
+```css
 --manga-reader-overlay-filter: Filter(px);  
 --manga-reader-overlay-bg-color: hex/rgb(a);  
 --manga-reader-overlay-text-color: hex/rgb(a);  
@@ -285,21 +286,21 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```    
 
 **Radios**  
-```
+```css
 --radio-accent-color: hex/rgb(a);  
 --radio-hover-accent-color: hex/rgb(a);  
 --radio-focus-boxshadow-color: hex/rgb(a);  
 ```  
 
  **Carousel**  
-```
+```css
 --carousel-header-text-color: hex/rgb(a);  
 --carousel-header-text-decoration: hex/rgb(a);  
 --carousel-hover-header-text-decoration: hex/rgb(a);  
 ```
 
 **Drawer**  
-```
+```css
 --drawer-background-color: hex/rgb(a);
 ```
 
@@ -313,17 +314,17 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 
 **Search Results**  (v0.5.3)
-```
+```css
 --search-result-text-lite-color: hex/rgb(a);
 ```
 
 **Bulk Selection**  (v0.5.3)
-```
+```css
 --bulk-selection-highlight-text-color: hex/rgb(a);
 --bulk-selection-text-color: hex/rgb(a);
 ```
 
 **Card List Item** (v0.5.4)
-```
+```css
 --card-list-item-bg-color: hex/rgb(a);
 ```

@@ -24,7 +24,7 @@ Frequently Asked Questions
 * Q. **Can I use Kavita with a Google Drive mount?**
 * A. Yes, you can use Plexdrive or rclone. Although it is not officially supported.
 Rclone requires a specific configuration to cache files locally and work better with Kavita. Here is a user-provided configuration that works well:
-```
+```ssh
 rclone mount [your mount name]: [local path to be mounted] \
     --no-checksum \
     --use-server-modtime \
@@ -52,7 +52,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 
 * Q. **Does Kavita collect any data on me?**
 * A. By default, Kavita will collect stats on your installation. You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats). Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
-```
+```json
 {
     "InstallId":"0cf3ad15",
     "LastUpdate":"2021-08-21T00:00:11.385Z",
@@ -110,8 +110,9 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 - A. This may happen if you've been a longtime user. Over the version iterations, the DB has changed pretty significantly. There are two options. In either case, **Backup your Database first**:
     - 1. You can choose to start fresh, delete your current database and reconfigure the instance. This is not recommended or ideal.
     - 2. You can use execute the following SQL commands on your DB using some tool like DB Browser.
-```
-// Verify Duplicates
+
+    2. Verify Duplicates
+```sql
 SELECT b.* FROM MangaFile b JOIN( 
     SELECT *, MIN(Id) as low_ID, Count(*) FROM MangaFile
     GROUP BY FilePath
@@ -120,8 +121,8 @@ ON b.FilePath = c.FilePath
 WHERE b.Id != c.low_ID
 ORDER BY b.FilePath
 ```
-```
-// Delete Chapter Information first
+Delete Chapter Information first
+```sql
 DELETE FROM Chapter 
 WHERE Id IN (
     SELECT b.ChapterId FROM MangaFile b JOIN( 
@@ -133,8 +134,9 @@ WHERE Id IN (
     ORDER BY b.FilePath
 )
 ```
-```
-// Delete MangaFile Information
+Delete MangaFile Information
+```sql
+
 DELETE FROM MangaFile
 WHERE Id IN (
     SELECT b.Id FROM MangaFile b JOIN( 
