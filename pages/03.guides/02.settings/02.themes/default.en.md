@@ -280,7 +280,6 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --manga-reader-overlay-filter: Filter(px);  
 --manga-reader-overlay-bg-color: hex/rgb(a);  
 --manga-reader-overlay-text-color: hex/rgb(a);  
---manga-reader-bg-color: hex/rgb(a);  
 --manga-reader-next-highlight-bg-color: hex/rgb(a);  
 --manga-reader-prev-highlight-bg-color: hex/rgb(a);  
 ```    
