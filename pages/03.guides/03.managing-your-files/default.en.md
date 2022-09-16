@@ -22,7 +22,8 @@ admin: {  }
   - [Comics And Manga](#comics-and-manga)
   - [eBooks](#ebooks)
   - [ComicInfo](#comicinfo)
-< style="border:5px solid #4ac694">
+ 
+<hr style="border:5px solid #4ac694">
 
 # Naming convention / File Structure
 It's important to know how Kavita parses the info from the files, so you can see what you want how you want.
