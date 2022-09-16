@@ -28,12 +28,11 @@ admin: {  }
 # Naming convention / File Structure
 It's important to know how Kavita parses the info from the files, so you can see what you want how you want.
 
-[//]: # (TODO: Add link)
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in its folder and that no files are at root level of the library.
 
-! Please Read [how the new scanner works]() prior to continuing with this article
+! Please Read [how the new scanner works](scanner/docs.en.md) prior to continuing with this article
 
-!! **Important**: When parsing filenames, anything betweeen parenthesis and parenthesis themselves will be removed from the series name. <br/>If you wish to separate series using `Series Name (2019)`, it's advised to change parenthesis to brackets `{` `}` and change series name in the UI
+!! **Important**: When parsing filenames, anything between parenthesis and parenthesis themselves will be removed from the series name. <br/>If you wish to separate series using `Series Name (2019)`, it's advised to change parenthesis to brackets `{` `}` and change series name in the UI
 
 Folder and File Structure TOC:
 * [Comic File Structure](https://wiki.kavitareader.com/en/guides/managing-your-files/comics)
@@ -121,10 +120,8 @@ You can find multiple tools to add metadata under [Misc section](https://wiki.ka
 <hr style="border:2px solid #4ac694">
 
 
-### General Overview on how kavita reads certain metadata tags
+### General Overview on how Kavita reads certain metadata tags
 
-[//]: # (TODO: Add a column that express what tags would be mapped to kavita
-            This means X tag in epub is X in comicinfo. Both are shown as X in kavita )
 
 | EPUB Tag           | Is  | In ComicInfo           | Is  |            Equivalent In Kavita            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
@@ -200,7 +197,7 @@ If you have at least one ComicInfo with the `Count` property, then Kavita will a
 Kavita will also check if the number of Volumes or Chapters matches this exactly and if so, will mark the series as Completed.
 
 [//]: # (TODO: Add locked section rel link)
-This logic will only run if the field is not [locked](). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
+This logic will only run if the field is not [locked](../04.get-started-using-your-library/02.adding-and-editing-metadata/default.en.md#locking-fields). At any time you can hover over the tag badge in Series Detail to view how many issues or volumes you are missing. 
 
 <hr style="border:1px solid #465176">
 
