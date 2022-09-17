@@ -4,6 +4,7 @@ taxonomy:
     category:
         - docs
 visible: false
+published: true
 ---
 
 >>> This guide is a WIP writeup of the new Scanner dedicated page
