@@ -3,6 +3,9 @@ title: Settings
 media_order: 'Default Page.PNG,Dark Mode On.PNG,Dark Mode Off.PNG,Bookmarks.PNG,Kavita new Admin page settings.PNG,CheckForUpdate.PNG,Changelog.PNG,Admin Dashboard.PNG'
 admin:
     children_display_order: collection
+taxonomy:
+    category:
+        - docs
 ---
 
 #### Page overview
