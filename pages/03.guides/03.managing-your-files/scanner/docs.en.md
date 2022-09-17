@@ -9,7 +9,7 @@ visible: false
 >>> This guide is a WIP writeup of the new Scanner dedicated page
 
 ## Page overview
-- [Introduction](#Scanning files)
+- [Introduction](#introduction)
   - [What happens during a Scan](#what-happens-during-a-scan)
   - [Refresh Covers](#refresh-covers)
   - [Analyze Files](#analyze-files)
