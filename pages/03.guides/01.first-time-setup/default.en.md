@@ -4,6 +4,8 @@ media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,K
 taxonomy:
     category:
         - docs
+    tag:
+        - Setup
 ---
 
 #### Page overview
