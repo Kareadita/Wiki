@@ -1,5 +1,8 @@
 ---
 title: 'Installation Guides'
+taxonomy:
+    category:
+        - docs
 ---
 
 ## Installation Guides
