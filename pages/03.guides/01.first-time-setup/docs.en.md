@@ -6,6 +6,8 @@ taxonomy:
         - docs
     tag:
         - Setup
+admin:
+    children_display_order: collection
 ---
 
 #### Page overview
