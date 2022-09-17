@@ -4,8 +4,7 @@ media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,K
 taxonomy:
     category:
         - docs
-admin:
-    children_display_order: collection
+admin: {  }
 ---
 
 #### Page overview
