@@ -1,6 +1,9 @@
 ---
 title: Misc
 media_order: 'Calibre Metadata.jpg,Kavita Calibre Bobiverse.jpg'
+taxonomy:
+    category:
+        - docs
 ---
 
 <hr style="border:5px solid #4ac694"> </hr>
