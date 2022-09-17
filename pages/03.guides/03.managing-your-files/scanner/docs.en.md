@@ -3,7 +3,6 @@ title: Scanner
 taxonomy:
     category:
         - docs
-visible: false
 published: true
 ---
 
