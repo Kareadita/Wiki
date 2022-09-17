@@ -91,7 +91,7 @@ Library Root
 ```
 [//]: # (;wiki dev note: Should we add some common not supported structures?&#41;)
 
-!! But no files can exist at root level
+!! But no files can exist at root level `Library Root` / `Series Name v01 Ch.1.cbz`
 
 !! Series cannot be between 2 adjacent folders (aka  `Series Name B`  cannot have something from  `Series Name A` ). **From the library root**
 ```
