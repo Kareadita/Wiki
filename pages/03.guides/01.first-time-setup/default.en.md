@@ -1,6 +1,9 @@
 ---
 title: 'First Time Setup'
 media_order: 'KavitaAddFolderToLibraryHighlighted.jpg,KavitaAdminLibraries.jpg,KavitaDirectoryChoose.jpg,KavitaLibraryDropdown.jpg,kavita Library File Type.jpg,KavitaNewLibrary.jpg,KavitaSettingsDropdown.jpg,User Tab.PNG,invite user.PNG,invite user - not accessible.PNG'
+taxonomy:
+    category:
+        - docs
 ---
 
 #### Page overview
