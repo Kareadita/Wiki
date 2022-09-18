@@ -5,6 +5,8 @@ title: 'TrueNAS Scale Install'
 ### Before you start
 In your server's filesystem, create a folder for your library and a folder for Kavita's config.
 
+>>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db
+
 ### Installing Kavita (Stable)
 
 [Install](https://truecharts.org/docs/manual/SCALE%20Apps/Adding-TrueCharts) the TrueCharts app catalog, search for Kavita, and click "install".
