@@ -62,6 +62,9 @@ For more instructions on how to make Kavita accessible from outside your home ne
 <hr style="border:5px solid #4ac694">
 
 ## 4. Updating Kavita
+
+>>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db
+
 Kavita self-updating is down the road. Expected to be released in v0.6.0 per the [project page](https://github.com/Kareadita/Kavita/projects?type=classic)
 
 Before updating Kavita, stop the program/service from running.
