@@ -61,7 +61,7 @@ You don't need to call it manga, you can name it anything that works for you. Ka
 ## Updating Kavita
 
 >>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db<br/>
->>>To do so use as image tag kizaing/kavita:<version_tag_here><br/>
+>>>To do so use as image tag kizaing/kavita:<version_tag_here\><br/>
 >>>Check available tags in the [dockerhub tags page](https://hub.docker.com/r/kizaing/kavita/tags)<br/>
 >>>Look for stable tags would just be `x.y.z`
 
