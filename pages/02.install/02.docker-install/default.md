@@ -11,7 +11,7 @@ The Kavita team offers an official Docker image that is automatically updated ba
 Running your Kavita server in docker is super easy! You can run the `:latest` stable version with bind mounts using this command:
 
 ! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/>Also change the volume bind path in the host<br/>
-! **Note**: In the volume bind parameter `-v`, the text after "`:`" is the virtual directory that will be created inside the docker container.
+! **Note**: In the volume bind parameter `-v`, the text after "**`:`**" is the virtual directory that will be created inside the docker container. (mind the **`:`** in between)
 
 ```shell
 docker run --name kavita -p 5000:5000 \
@@ -32,7 +32,7 @@ Create a docker-compose.yml file with the following:
 
 !!!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
 
-!!! **Note** The way volumes work is: `<path in your host>` `:` `<path inside the container>` 
+!!! **Note** The way volumes work is: `<path in your host>` **`:`** `<path inside the container>`   (mind the **`:`** in between)
 ```yml
 version: '3.9'
 services:
