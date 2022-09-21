@@ -30,7 +30,7 @@ Also makes it easier to update your container if you don't use a container manag
 Create a docker-compose.yml file with the following:
 ! **Important**: This command is just a template. Change the values to fit your needs
 
-!!!!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
+!!!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
 
 !!! **Note** The way volumes work is: `<path in your host>` `:` `<path inside the container>` 
 ```yml
