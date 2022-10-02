@@ -1,9 +1,9 @@
 ---
-title: macOS
+title: 'macOS'
 ---
 
 ### Introduction
-! No one on the dev team owns a Mac. These instructions are suggested by our users. If you think you can improve them, please [edit this wiki](https://github.com/Kareadita/Wiki/edit/main/pages/02.install/04.macos/default.md) and submit a PR.
+! No one on the dev team owns a Mac. These instructions are suggested by our users. If you think you can improve them, please [submit a PR](https://github.com/Kareadita/Wiki/edit/main/pages/02.install/04.macos/default.md).
 
 1. [Download Kavita for macOS](https://www.kavitareader.com/#downloads-v1-macos). The file you want is "kavita-osx-x64.tar.gz".
 
@@ -23,17 +23,13 @@ title: macOS
 
 6. Start Kavita in Terminal. You need to launch Kavita from within the `~/Kavita` folder, or else `appsettings.json` will fail to be acquired.
     * `cd ~/Kavita`
-    * `./Kavita &`
+    * `./Kavita`
 
 7. Open a browser window, at address: http://localhost:5000/
 
 ### Troubleshooting
-8. If you see an error like this, you have a Port clash. <sub><i>`Unhandled exception. System.IO.IOException: Failed to bind to address http://[::]:5000: address already in use.`</i></sub>
-    * Edit the file `config/appsettings.json` and change the value near the end to something else, e.g. `"Port": 5555`
-    
-9. Open a browser window, at the new address: http://localhost:5555/
+1. If you see an error like the following, please edit the file `config/appsettings.json` and change the Port, e.g. `"Port": 5555`. 
+    * <i>`Unhandled exception. System.IO.IOException: Failed to bind to address http://[::]:5000: address already in use.`</i>
 
-----
+2. Open a browser window, at the new address: http://localhost:5555/
 
-> [!NOTE]
-> *We are working on a [startup script](https://apple.stackexchange.com/questions/8166/running-a-command-whenever-mac-boots-up-with-launchctl-plist) to run Kavita as a service, instead of Step 6.*
