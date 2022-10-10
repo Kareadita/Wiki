@@ -14,7 +14,7 @@ taxonomy:
   - [Users Tab](#users-tab)
   - [Libraries Tab](#libraries-tab)
   - [Media Tab](#media-tab)
-  - Email Tab
+  - [Email Tab](#email-tab)
   - [Tasks Tab](#tasks)
   - [System Tab](#system-tab)
 - [User Settings](#user-settings)
@@ -99,9 +99,10 @@ From the Media Tab, admins can set server-wide settings for media. As of v0.5.6,
 ### Email
 
 <hr style="border:2px solid #4ac694"> </hr>
+In this tab, you can configure the email service Kavita uses for Send To device, User registration, and Forgot Password. By default, Kavita uses an out of the box solution hosted by Kavita's developer. This is an email account which is not maintained and emails are deleted automatically. However, if you want to run your own instance, you can, by following the instructions [here](https://wiki.kavitareader.com/en/guides/misc/email).
 
 ### Tasks
-In this page you can, download logs, backup the database, check for updates, and manually Clear Cache. 
+In this tab, you can download logs, backup the database, check for updates, and manually Clear Cache. 
 
 You can also specify when you want the library to scan itself and make backups.
  >>>System Cache is cleared automatically after a Library Scan and as a system function each night.
