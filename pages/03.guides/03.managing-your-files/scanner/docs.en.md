@@ -7,8 +7,6 @@ published: true
 visible: true
 ---
 
->>> This guide is a WIP writeup of the new Scanner dedicated page
-
 ## Page overview
 - [Introduction](#introduction)
   - [What happens during a Scan](#what-happens-during-a-scan)
@@ -31,10 +29,10 @@ Scanning a library makes Kavita check its folders and sub-folders for new or rem
 Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata, and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
 
 The scan parses the file names, reads the comic info (if applicable), updates the database with that information, and updates the UI. 
-If the file hasn't been modified since the last time Kavita scanned, it will not do extra procesings on the file. 
+If the file hasn't been modified since the last time Kavita scanned, it will not do extra processing on the file. 
 If your archives contain metadata, it will override any parsed information from the file.
 
-To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](#The Scan Loop).
+To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](https://wiki.kavitareader.com/en/guides/managing-your-files/scanner#the-scan-loop).
 
 <hr style="border:2px solid #4ac694">
 
