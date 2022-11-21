@@ -10,10 +10,10 @@ taxonomy:
 
 ## Api Documentation
 
-! Swagger on production builds is being removed in v0.7. 
-To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger`
+! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our api documentation
 
-! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our api documentation: https://www.kavitareader.com/docs/api/#/
+To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger` or use https://www.kavitareader.com/docs/api/#/
+
 
 Alternatively you can build Kavita on your local machine and then browse to the Swagger UI at http://localhost:5000/swagger/. Kavita uses JWT for authentication, and thus you must attach your JWT key to Swagger to test against your local instance.
 
