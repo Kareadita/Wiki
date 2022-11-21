@@ -12,10 +12,10 @@ taxonomy:
 
 ! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our api documentation
 
-To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger` or use https://www.kavitareader.com/docs/api/#/
+To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger` or use [https://www.kavitareader.com/docs/api/#/](https://www.kavitareader.com/docs/api/#/)
 
 
-Alternatively you can build Kavita on your local machine and then browse to the Swagger UI at http://localhost:5000/swagger/. Kavita uses JWT for authentication, and thus you must attach your JWT key to Swagger to test against your local instance.
+Alternatively you can build Kavita on your local machine and then browse to the Swagger UI at [http://localhost:5000/swagger/](http://localhost:5000/swagger/). Kavita uses JWT for authentication, and thus you must attach your JWT key to Swagger to test against your local instance.
 
 You can get your JWT by opening dev tools on a browser you have authenticated against and getting this key "kavita-user" from local storage. This will have a token key within it. Use "Bearer TOKEN_KEY" to authenticate. This must be on all APIs for Kavita to respond.
 
