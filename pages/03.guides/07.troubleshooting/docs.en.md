@@ -5,6 +5,8 @@ taxonomy:
         - docs
 ---
 
+>>> **Info:** This page is currently being build and it content might change without prior notice
+
 In this section of the wiki, common errors will be layed out and will be walked through to fix them.
 
 Check [logs-errors] section to learn more about a log error.
