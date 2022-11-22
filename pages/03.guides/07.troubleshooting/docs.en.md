@@ -9,11 +9,11 @@ In this section of the wiki, common errors will be layed out and will be walked 
 
 Check [logs-errors] section to learn more about a log error.
 
-# Something is not working right. What to do?
+## Something is not working right. What to do?
 
 
 Please follow the following generic steps to troubleshoot your issue.
-## 1. Is my folder structure compliant with scanner requirements?
+### 1. Is my folder structure compliant with scanner requirements?
 As of v.0.5.6 file structure changed due to the scanner update please do read [how the new Scanner works](/guides/managing-your-files/scanner)
 
 TLDR:
@@ -24,12 +24,12 @@ TLDR:
 - Not every action you can perform on a folder will change its modification time, including renaming and moving it. Keep this in mind if library scans are not working as expecte
 ** Does not apply for epub files
 
-## My folder structure is compliant with new requirements
+### My folder structure is compliant with new requirements
 If you are sure your files are compliant, then something is going on. Put your logging level on Debug and redo process.
 
 After that check the logs and take a look at [logs-errors] section.
 
-## My files are not being grouped correctly. What to do?
+### My files are not being grouped correctly. What to do?
 Ensure you understand that pdfs, epubs and cb* do not stack in Kavita. Kavita separates by format and series name due to different format having different readers
 
 	
