@@ -29,7 +29,7 @@ TLDR:
 ### My folder structure is compliant with new requirements
 If you are sure your files are compliant, then something is going on. Put your logging level on Debug and redo process.
 
-After that check the logs and take a look at [logs-errors] section.
+After that check the logs and take a look at [logs-errors](logs-errors) section.
 
 ### My files are not being grouped correctly. What to do?
 Ensure you understand that pdfs, epubs and cb* do not stack in Kavita. Kavita separates by format and series name due to different format having different readers
