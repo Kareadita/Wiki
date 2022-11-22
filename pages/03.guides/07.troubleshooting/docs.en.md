@@ -9,7 +9,7 @@ taxonomy:
 
 In this section of the wiki, common errors will be layed out and will be walked through to fix them.
 
-Check [logs-errors] section to learn more about a log error.
+Check [logs-errors](logs-errors) section to learn more about a log error.
 
 ## Something is not working right. What to do?
 
