@@ -1,11 +1,9 @@
 ---
-title: logs-errors
+title: 'Common logs errors'
 taxonomy:
     category:
         - docs
 ---
-
-# Common errors
 
 ### There was an exception when opening epub book
 
