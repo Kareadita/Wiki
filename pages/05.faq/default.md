@@ -136,7 +136,6 @@ WHERE Id IN (
 ```
 Delete MangaFile Information
 ```sql
-
 DELETE FROM MangaFile
 WHERE Id IN (
     SELECT b.Id FROM MangaFile b JOIN( 
