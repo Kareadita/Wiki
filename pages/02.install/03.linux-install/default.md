@@ -19,7 +19,7 @@ You should download the one that fits your system
 2. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 3. Run Kavita executable. Usually `./Kavita`
 
-<hr style="border:2px solid #4ac694"
+<hr style="border:2px solid #4ac694">
 
 ### Install Kavita as a Service (Optional)
 
