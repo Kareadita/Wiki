@@ -1,5 +1,6 @@
 ---
 title: 'Compare to Competition'
+published: false
 ---
 
 # Comparsion
