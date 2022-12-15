@@ -155,9 +155,6 @@ WHERE Id IN (
   - For items where we can count words (epub), we use a spread of 10,260 to 30,000 words per hour to calculate min, max, and average. 
   - For files that don't have countable words, we use a spread of 2.75 to 3.33 minutes per page. This works in most cases but might fail for files like pdfs, for which we still use images on the backend, or webtoons, which have a long strip format.
 
-* Q. **How is Kavita different than Komga, Mango, Calibre, Ubooquity, etc?** 
-- A. We have a handy guide here: [Compare to Competition](https://wiki.kavitareader.com/faq/compare-to-competition)
-
 * Q. **Is there an app? I don't want to use the website.** 
-* Kavita does not yet offer mobile apps, however you can "Add to Homescreen" our website, which will create an icon on your mobile device and launch the site in fullscreen mode. If that doesn't work for you, you can use a supported external reader, found [here](https://wiki.kavitareader.com/faq/external-readers).
+* Kavita does not yet offer mobile apps, however you can "Add to Home screen" our website, which will create an icon on your mobile device and launch the site in fullscreen mode. If that doesn't work for you, you can use a supported external reader, found [here](https://wiki.kavitareader.com/faq/external-readers).
 
