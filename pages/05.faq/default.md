@@ -7,7 +7,7 @@ admin:
 Frequently Asked Questions
 
 * Q. **I really like Kavita, but can it mirror or just use my folder structure?** 
-* A. No, Kavita uses filenames for parsing and is not designed to use folder structure. Please don't ask for this feature, it will never be implemented. If this is important to you, [Ubooquity](https://vaemendis.net/ubooquity/) may be a better choice, as it offers this feature. 
+* A. No, Kavita uses filenames and internal metadata for parsing and is not designed to use folder structure. Please don't ask for this feature, it will never be implemented. If this is important to you, [Ubooquity](https://vaemendis.net/ubooquity/) may be a better choice, as it offers this feature. 
 
 ===
 
