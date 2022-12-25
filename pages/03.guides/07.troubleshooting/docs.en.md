@@ -32,6 +32,7 @@ If you are sure your files are compliant, then something is going on. Put your l
 After that check the logs and take a look at [logs-errors](logs-errors) section.
 
 ### My files are not being grouped correctly. What to do?
-Ensure you understand that pdfs, epubs and cb* do not stack in Kavita. Kavita separates by format and series name due to different format having different readers
+Ensure you understand that pdfs, epubs and cb* do not stack in Kavita. Kavita separates by format -and series name due to different format having different readers
 
-	
+## Covers keep updating in the dashboard
+The root cause for this issue is that you probably have one series across multiple folders. Make sure [your folder structure is compliant with scanning requirements](#My-folderstructure is-compliant with-new-requirements)
