@@ -16,8 +16,8 @@ Frequently Asked Questions
 
 ===
 
-* Q. **Kavita doesn't seem to run on my computer?**
-* A. Kavita will not run on any processor (CPU) that does not support SSE4.2 instruction set. Generally, Core i3/i5/i7/i9 support them, whereas Pentium and Celeron CPUs do not. CPUs from 2011 onwards should support SSE4.2. You can read more about it [here](https://github.com/kleisauke/net-vips/issues/176). If you fall in this category and still want to use Kavita, you can either compile or install from your package manager, see this issue [here](https://github.com/Kareadita/Kavita/issues/1423).
+* Q. **Kavita doesn't seem to run or generate covers on my computer?**
+* A. Kavita uses NetVips for cover generation and thus requires SSE4.2 instruction set. Generally, Core i3/i5/i7/i9 support them, whereas Pentium and Celeron CPUs do not. CPUs from 2011 onwards should support SSE4.2. You can read more about it [here](https://github.com/kleisauke/net-vips/issues/176). If you fall in this category and still want to use Kavita, you can delete the libvips.dll or libvips.so and install it (`libvips-tools` for Linux) via your system manager (version must < v8.10.6) or compile it yourself, see this issue [here](https://github.com/Kareadita/Kavita/issues/1423). 
 
 ===
 
