@@ -49,7 +49,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ===
 
 #### Q. **Does Kavita collect any data on me?**
-* A. By default, Kavita will collect stats on your installation. You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats). Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
+* A. By default, Kavita will collect stats on your installation. This will run after 24 hours to give you time to opt-out (v0.7). You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats). Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
 ```json
 {
     "InstallId":"0cf3ad15",
