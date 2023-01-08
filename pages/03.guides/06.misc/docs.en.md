@@ -10,7 +10,7 @@ taxonomy:
 
 ## Api Documentation
 
-! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our api documentation
+! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our [API documentation](https://www.kavitareader.com/docs/api/#/).
 
 To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger` or use [https://www.kavitareader.com/docs/api/#/](https://www.kavitareader.com/docs/api/#/)
 
@@ -63,15 +63,16 @@ Both ComicTagger and MangaManager work with comic files and manga files. They ha
 * Copy Metadata from different files
 * Epub to Cbz
 * Docker support for headless systems
-
-[Go to Manga Manager repo](https://github.com/ThePromidius/Manga-Manager)
+* [Site](https://github.com/ThePromidius/Manga-Manager)
 
 <hr style="border:2px solid #4ac694"> 
 
 ### Calibre
-Lets you add metadata to ebooks.
+* EPUB metadata editor
+* Can scrape from online and write Calibre-specific tags (which Kavita reads for grouping)
+* Powerful but steep learning curve. Need to export books so opf file is written within the EPUB for Kavita to read properly. 
+* [Site](https://calibre-ebook.com/es)
 
-[Go to Calibre's main page](https://calibre-ebook.com/es)
 #### Calibre Metadata
 Edit your metadata making sure to set the `Series` and `Number` correctly so that Kavita groups the volumes of a Series together. 
 ![Calibre%20Metadata](Calibre%20Metadata.jpg "Calibre%20Metadata")
@@ -82,4 +83,15 @@ Then under Preferences change the Save to Disk settings to:
 
 Next, use the Save to Disk option and import those files into your Kavita library location.
 
+<hr style="border:2px solid #4ac694"> 
 
+### Sigil
+* EPUB metadata editor which has tools to ensure the epub matches the spec (fixes corrupt epub metadata). 
+* Supports a number of plugins to enhance experience
+* [Site](https://sigil-ebook.com/)
+
+### Komf
+* Separate server that listens to Series Add events from Kavita and can scrape a number of configurable sources 
+* Actively developed with support from the developer in Kavita discord
+* Supports writing directly to Kavita's DB via the API or saving to ComicInfo.xml inside files.
+* [Site](https://github.com/Snd-R/komf)
