@@ -28,6 +28,7 @@ The following will be parsed as "Chapters", which may naturally group into a Vol
 | `Y - The Last Man `                                                                    |                    |        | 1       |
 | `Batgirl Vol.2000 #57 (December, 2004)`                                                |                    |        | 57      |
 | `Babe 01`                                                                              |                    |        | 1       |
+| `Babe T1 01`                                                                              |                    |    1    | 1       |
 
 
 ! If you have multiple comics from different years, you can name them as "Fables 2004" and "Fables 1989". Then in Kavita's UI, you can rename the "Name" field to be "Fables (2004)" and "Fables (1989)" so they are separate series. This workaround is the only way for different releases of the same series to be supported in Kavita.
@@ -52,4 +53,4 @@ Comics also have a list of special filename keywords that will mark them as spec
 * HS
 * THS
 
-! **Note**: The "[Format metadata field](../default.en.md#format)" for the [ComicInfo metadata](../default.en.md#comicinfo) can also be used to mark the comic as a special:
+! **Note**: The "[Format metadata field](../default.en.md#format)" for the [ComicInfo metadata](../default.en.md#comicinfo) can also be used to mark the comic as a special.
