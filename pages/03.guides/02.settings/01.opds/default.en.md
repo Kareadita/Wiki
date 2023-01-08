@@ -13,7 +13,7 @@ This will grant all your users a unique URL and API key (like a unique password)
 
 From this UI, a user can use the copy button to quickly copy it into their clipboard. The red refresh button is used to generate a new API key and thus a new URL.
 
-Kavita supports OPDS-PS (page streaming) which will capture your progress when reading through external readers. Currently, Chunky Reader and Panels on iOS supports OPDS-PS. 
+Kavita supports OPDS-PS (page streaming) which will capture your progress when reading through external readers. Currently, Chunky Reader and Panels on iOS supports OPDS-PS. OPDS-PS is only supported for image based media.
 
 ### Examples
 ![Browse%20OPDS%20Feed](Browse%20OPDS%20Feed.png "Browse%20OPDS%20Feed")
