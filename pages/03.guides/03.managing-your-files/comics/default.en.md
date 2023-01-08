@@ -31,7 +31,7 @@ The following will be parsed as "Chapters", which may naturally group into a Vol
 | `Babe T1 01`                                                                              |                    |    1    | 1       |
 
 
-! If you have multiple comics from different years, you can name them as "Fables 2004" and "Fables 1989". Then in Kavita's UI, you can rename the "Name" field to be "Fables (2004)" and "Fables (1989)" so they are separate series. This workaround is the only way for different releases of the same series to be supported in Kavita.
+! If you have multiple comics from different years, you can name them as "Fables {2004}" and "Fables {1989}". Then in Kavita's UI, you can rename the "Name" field to be "Fables (2004)" and "Fables (1989)" so they are separate series. This workaround is the only way for different releases of the same series to be supported in Kavita. Note that anything withing () will be stripped during parsing as there is usually junk in there. Use {} or embedded metadata. 
 
 Comics also have a list of special filename keywords that will mark them as specials. Some of these are:
 * Specials
