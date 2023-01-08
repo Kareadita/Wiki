@@ -17,10 +17,13 @@ Kavita doesn't dictate any rules to how the relationships are used, however, we 
 |alternative setting |        Same universe/world/reality/timeline, completely different characters. |
 |alternative version |        Same setting, same characters, story is told differently. |
 |side story |         Takes place sometime during the parent storyline. |
-|parent |         This field is not selectable. Shows for everything but Sequel/Prequel |
+|parent |         This field is not selectable. Shows for everything but Sequel/Prequel/Edition |
 |spin-off |       Uses characters of a different series, but is not an alternate setting or story.|
 |adaptation |         Manga/Anime adaptation. |
 |character  |     When characters appear in both series, but is not a spin-off|
+|contains  |  Not sure, MAL used it.   |
+|editon  |  When another series is a special edition or colored edition   |
+| doujinshi | A fan published work of the series | 
 |other  |     When nothing else fits | 
 
 ![Related%20Tab](Related%20Tab.PNG "Related%20Tab")
