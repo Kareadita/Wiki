@@ -75,7 +75,6 @@ This will hide or show filters appearing in the filter list.
 To hide one filter just uncheck the checkbox
 
 ## Sync Progress with Kavita
-**Not implemented yet**
-Check the [Discord](https://discord.gg/b52wT37kt7) sever to access a preview of this feature
+Check the [Discord](https://discord.gg/b52wT37kt7) sever to access a preview of this feature. Kavita is waiting on Tachiyomi team to release the next version with our code in it.
 
 
