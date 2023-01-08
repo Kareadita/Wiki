@@ -1,12 +1,12 @@
 ---
-title: eBooks
+title: EPUB
 media_order: collectionmetadata.webp
 visible: true
 ---
 
-### eBooks (EPUB) Structure
+### EPUB Structure
 
-eBooks are primarily parsed by metadata within the epub file (opf). Filenames are used only for Volume and Series, but metadata overrides everything. eBooks do not fall back to folders for parsing.
+EPUB are primarily parsed by metadata within the epub file (opf). Filenames are used only for Volume and Series, but metadata overrides everything. eBooks do not fall back to folders for parsing.
 
 Kavita scans ebooks in a 2 pass process. The first pass tries to parse from the filename. If **volume** and **series** name can be parsed, then it is treated like a manga or comic.
 If not enough information is present, the internal epub metadata is used. Within the metadata, certain tags are used to group them into a collection, like "Expanse".
