@@ -22,35 +22,14 @@ visible: true
 ## Introduction
 Scanning a library makes Kavita check its folders and sub-folders for new or removed items (books, archive files, etc). If new media is found, it then pulls it into the library. <br/>You can think of scanning as “check for new or changed content”. It is important that you respect the requirements of file layout in order for Kavita to ingest your files.
 
-! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan
+! **Important**:<br/>- First scans are often slow, especially on networked storage. Be patient<br/>- The Kavita Homepage and Library info, will be updated throughout the scan<br/>- Kavita enforces that all files are within folders from the library root. Files at library root will be ignored.
 
 <hr style="border:2px solid #4ac694">
 
-### What happens during a Scan?
-Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata, and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
+## File Layout
+Kavita expects all series to be nested in a folder and the same series must **not** be parallel from the library root.
 
-The scan parses the file names, reads the comic info (if applicable), updates the database with that information, and updates the UI. 
-If the file hasn't been modified since the last time Kavita scanned, it will not do extra processing on the file. 
-If your archives contain metadata, it will override any parsed information from the file.
-
-To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](https://wiki.kavitareader.com/en/guides/managing-your-files/scanner#the-scan-loop).
-
-<hr style="border:2px solid #4ac694">
-
-### Refresh Covers
-During the refresh covers task, the same kind of logic applies. This is a heavy task because of the amount of I/O Kavita has to perform and because of the amount of memory it needs to copy images out of the archive and onto the disk.
-In this task, Kavita doesn't open up any archives if they haven't been modified unless you start a cover refresh from the UI. Even if the archive was modified, if you've locked the cover image by using the UI to upload your own custom cover, the archive will not be opened.
-
-
-<hr style="border:2px solid #4ac694">
-
-### Analyze Files
-During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.
-
-<hr style="border:5px solid #4ac694">
-
-# File Layout
-Kavita expects all series to be nested in a folder. The ideal layout is:
+The ideal layout is:
 ```
 Library Root
   ┠── Series Name A
@@ -103,6 +82,29 @@ Library Root
         
 ```
 If these rules are followed, you shouldn't have any problems.
+
+<hr style="border:5px solid #4ac694">
+
+### What happens during a Scan?
+Kavita will generate a library representation of your files on disk. A Kavita library does _not_ represent exactly your folder structure. Kavita uses filenames, internal metadata, and some limited folder names to parse out the series, volume, chapter, etc from the file and group them.
+
+The scan parses the file names, reads the comic info (if applicable), updates the database with that information, and updates the UI. 
+If the file hasn't been modified since the last time Kavita scanned, it will not do extra processing on the file. 
+If your archives contain metadata, it will override any parsed information from the file.
+
+To understand in depth how Kavita's scan works, go to the scan loop section of this page [here](https://wiki.kavitareader.com/en/guides/managing-your-files/scanner#the-scan-loop).
+
+<hr style="border:2px solid #4ac694">
+
+### Refresh Covers
+During the refresh covers task, the same kind of logic applies. This is a heavy task because of the amount of I/O Kavita has to perform and because of the amount of memory it needs to copy images out of the archive and onto the disk.
+In this task, Kavita doesn't open up any archives if they haven't been modified unless you start a cover refresh from the UI. Even if the archive was modified, if you've locked the cover image by using the UI to upload your own custom cover, the archive will not be opened.
+
+
+<hr style="border:2px solid #4ac694">
+
+### Analyze Files
+During the analyze files task, Kavita will open epub files and count the number of words per entity. This is I/O and memory intensive. Like other tasks, Kavita employs checks against Last Modified to avoid re-calculation whenever possible. When invoking this task manually from the UI, it will force a recalculation, so be very careful if you use remote storage or a slow server.
 
 <hr style="border:5px solid #4ac694">
 
