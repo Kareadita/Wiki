@@ -6,6 +6,8 @@ visible: true
 
 ### Collections
 
+A collection is a set of series grouped together manually. A collection can be promoted by the admin thus making the collection visible to all users. However, just because the collection is visible, does not mean the individual user can view series in it they are not privy to. If a user does not have access to a library or series are outside of their age restriction, those series will not be visible by said user. A collection can contain any series from any library and thus can be cross format. For example, a user may have a collection called "KonoSuba" and it may contain all Konosuba works including light novels, spin offs, manga, TTRPGs, etc. 
+
 To create a collection, select the Edit option in the Context Action Menu ![Kavita%20Context%20Action%20Menu](Kavita%20Context%20Action%20Menu.png "Kavita%20Context%20Action%20Menu"), a collections tag can be created and will be used to create a collection with that name. Other books, comics and manga can have this tag added to become part of the collection.
 ![series_metadata_view](series_metadata_view.png "series_metadata_view")
 
