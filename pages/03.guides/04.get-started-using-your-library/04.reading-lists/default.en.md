@@ -1,5 +1,6 @@
 ---
 title: 'Reading Lists'
+media_order: 'lists.PNG,detail.PNG'
 ---
 
 Reading Lists are an ordered set of chapters that can be created and promoted (made visible to all users on the server). Like Collections, they can have a a cover image and summary. 
@@ -8,3 +9,6 @@ The main features of a reading list are the order. Reading order is enforced at 
 
 The list order can be changed by using drag and drop or clicking Order Numbers and shifting order number directly. 
 
+![lists](lists.PNG "lists")
+
+![detail](detail.PNG "detail")
