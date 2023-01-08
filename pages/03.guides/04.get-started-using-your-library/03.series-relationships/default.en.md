@@ -3,9 +3,7 @@ title: 'Series Relationships'
 media_order: 'Related Tab.PNG,Parent Relationship.PNG'
 ---
 
-! This functionality requires v0.5.2.14+
-
-Starting with v0.5.2.14, Kavita allows you to express relationships between different series. Unlike reading lists, linked series provide more context as to how different series relate to each other. 
+Kavita allows you to express relationships between different series. Unlike reading lists, linked series provide more context as to how different series relate to each other.
 
 Kavita doesn't dictate any rules to how the relationships are used, however, we do have some suggestions below. When configuring a linked series, for everything but a Prequel or Sequel, Kavita will show a relationship back to the parent series.
 
