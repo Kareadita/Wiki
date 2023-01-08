@@ -9,10 +9,10 @@ visible: true
 
 ## Page overview
 - [Introduction](#introduction)
+- [File Layout](#file-layout)
   - [What happens during a Scan](#what-happens-during-a-scan)
   - [Refresh Covers](#refresh-covers)
   - [Analyze Files](#analyze-files)
-- [File Layout](#file-layout)
 - [The Scan Loop](#the-scan-loop)
 - [Notes](#notes)
 - [Folder Watching](#folder-watching)
@@ -72,7 +72,7 @@ Library Root
 
 !! But no files can exist at root level `Library Root` / `Series Name v01 Ch.1.cbz`
 
-!! Series cannot be between 2 adjacent folders (aka  `Series Name B`  cannot have something from  `Series Name A` ). **From the library root**
+!! Series cannot be between 2 adjacent folders (aka  `Series Name B`  cannot have something from  `Series Name A` ) **from the library root**
 ```
 Library Root
   ┠── Series A
@@ -145,10 +145,10 @@ In-depth overview on how the scan loop works
 <hr style="border:5px solid #4ac694">
 
 # Notes
-- Having multiple series in one folder is not supported but does work. There are some caveats to this. If there exists a series in that folder that utilizes LocalizedSeries ComicInfo tag, then the series may group in an undexpected way. This will be informed to the user via the Log file, ie ``. In addition, Folder Watching wont pick up on series changes correctly due to utilizing the same folder. 
+- Having multiple series in one folder is not supported but does work. There are some caveats to this. If there exists a series in that folder that utilizes LocalizedSeries ComicInfo tag, then the series may group in an unexpected way. This will be informed to the user via the Log file, ie ``. In addition, Folder Watching wont pick up on series changes correctly due to utilizing the same folder. 
 - For series scan, if the series folder is no longer on the disk, the scan will be aborted. A library scan should be run which will delete the series. 
 - Not every action you can perform on a folder will change its modification time, including renaming and moving it. Keep this in mind if library scans are not working as expected.
-# Folder Watching
-(Added in v0.5.6)
 
-Folder watching lets kavita know when a file has been added or modified in your library and update it in your kavita instance.
+# Folder Watching
+
+Folder watching (v0.5.6+) lets Kavita know when a file has been added or modified in your library and update it in your Kavita instance. Folder watching is enabled by default and watches each folder of a given library for modifications. When files are added (loose leaf images or non supported extensions are ignored), renamed, deleted, etc, Kavita takes note and setups a Scan. Depending on your setup, Kavita will try to do a Scan folder, which is much lighter on resources. However, if you have multiple series within the same folder, a scan library will be used. This event is scheduled from the event time, 5 minutes into the future to allow for any other changes to get grouped in. 
