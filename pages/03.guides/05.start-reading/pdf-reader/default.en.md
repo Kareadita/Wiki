@@ -7,6 +7,8 @@ visible: true
 # PDF Reader
 The PDF Reader (v0.5.4+) is unique in that we are using an out-of-the-box library instead of a homegrown solution. Because of this, the reader is currently limited in design and custom functionality. 
 
+! Help us with what is important to you in a PDF Reader by adding your experience in the [Github Issue](https://github.com/Kareadita/Kavita/issues/1523)
+
 ![basic%20Reader](basic%20Reader.PNG "basic%20Reader")
 
 ### Search
