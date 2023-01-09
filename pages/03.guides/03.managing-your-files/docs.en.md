@@ -3,6 +3,9 @@ title: 'Managing your files'
 taxonomy:
     category:
         - docs
+    tag:
+        - specials
+        - metadata
 metadata:
     'og:description': 'This page covers everything related to file management. This includes proper naming, local metadata, and how to update files in Kavita.'
     'og:title': 'Managing your files | Kavita Wiki'
