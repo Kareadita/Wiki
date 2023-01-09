@@ -15,7 +15,7 @@ The PDF Reader (v0.5.4+) is unique in that we are using an out-of-the-box librar
 Upon pressing the search in the top left, the user can search for text within the document. 
 
 ### Pagination
-There are controls to jump through the document. Continuous reading is not implemented for PDF Reader.
+There are controls to jump through the document. Continuous reading is not implemented for PDF Reader yet.
 
 ### Light/Dark mode
 This is very experimental and may be prone to rendering issues. By pressing the sun/moon in the top right, you can toggle the light/dark mode. 
