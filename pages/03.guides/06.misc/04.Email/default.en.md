@@ -25,8 +25,7 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 ### With Docker Compose
 
 >>>>>> To setup the mail service with docker-compose it's highly recommended to use a docker stack. This allows both containers to be accesible from eachother.
-Later in kavita you would only need to type down `http:kavita-email:3001` in the smpt service settings.
-
+Later in kavita you would only need to type down `http:kavita-email:3001` in the smpt service settings.<br/>
 To do so just copy the config from "email" to the bottom and add it to your current kavita compose. 
 
 
