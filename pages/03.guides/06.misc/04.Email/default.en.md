@@ -44,7 +44,7 @@ services:
            - DISP_NAME=<display name to use>
            - ALLOW_SENDTO=<true/false if you want the service to email files for Kavita>
            - SIZE_LIMIT=<size in bytes that your SMTP provider can handle for a single email. This is optional, defaults to 25MB>
-        ports:
+        ports: # Ports not needed to be opened if running with a stack
            - "5003:5003"
         restart: unless-stopped
 ```
