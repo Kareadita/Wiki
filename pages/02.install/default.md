@@ -12,6 +12,7 @@ These are the guides for the supported systems
 * [macOS](https://wiki.kavitareader.com/install/macos)
 * Various NAS devices like [Unraid](https://wiki.kavitareader.com/install/unraid), [TrueNAS Scale](https://wiki.kavitareader.com/en/install/truenas-scale), or [OpenMediaVault](https://www.openmediavault.org/)
 * [Synology](https://wiki.kavitareader.com/en/install/synology)
+* [Managed Hosting](https://wiki.kavitareader.com/install/managed-hosting) - without administering own server
 
 >>> There's an article that explains how to restore a backup if needed in [this page](backup.en.md) 
 
