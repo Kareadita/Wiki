@@ -32,6 +32,12 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```
 --color-scheme: dark/light;
 ```
+
+*This refers to the tab color in the browser. Modifies the meta tag. (v0.6.1.27+)*  
+```
+--theme-color: #000000;
+```
+
     
 **Main Colors**  
 *These refer to base colors you can override, you can add more and use them as additional colors for hovers.*  
