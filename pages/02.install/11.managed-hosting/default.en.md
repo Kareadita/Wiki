@@ -15,3 +15,5 @@ Start free with $5 free welcome credit:
 
 [![Run on PikaPods](pikapods.PNG "pikapods")](https://www.pikapods.com/pods?run=kavita)
 
+[[Run on PikaPods](pikapods.PNG "pikapods")](https://www.pikapods.com/pods?run=kavita)
+
