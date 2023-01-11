@@ -13,6 +13,5 @@ Based on the official Docker image. EU and US data regions available. Daily back
 
 Start free with $5 free welcome credit:
 
-![pikapods](pikapods.PNG "pikapods")(https://www.pikapods.com/static/run-button.svg)](https://www.pikapods.com/pods?run=kavita)
+![pikapods](pikapods.PNG "pikapods")(https://www.pikapods.com/pods?run=kavita)
 
-[![Run on PikaPods](https://www.pikapods.com/static/run-button.svg)](https://www.pikapods.com/pods?run=kavita)
