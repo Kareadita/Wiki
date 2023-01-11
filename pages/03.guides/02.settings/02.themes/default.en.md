@@ -20,7 +20,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
   /* CSS Variables here */
   }
 ```
->>> As of v0.5.3, Kavita only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here.
+>>> As of v0.5.3, Kavita only supports the Dark theme out of the box. However, you can find a good starting point for [Light](https://wiki.kavitareader.com/en/guides/settings/themes/light-theme-starter)/[E-Ink](https://wiki.kavitareader.com/en/guides/settings/themes/eink-theme-starter) themes here. As of v0.7, you no longer need to maintain all the css variables, only those you need to override.
  
  <hr style="border:5px solid #4ac694"> </hr>
 
