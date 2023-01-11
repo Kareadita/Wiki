@@ -1,6 +1,6 @@
 ---
 title: 'Managed Hosting'
-media_order: pikapods.PNG
+media_order: pikapods.png
 ---
 
 ## Managed Hosting
@@ -9,6 +9,6 @@ If you don't administer your own server, you can also use a managed hosting offe
 
 ### PikaPods
 
-Based on the official Docker image. EU and US data regions available. Daily backups and weekly updates. 20% of app revenues are contributed back to the project via our Open Collective.
+Offers Kavita hosting based on the official Docker image. EU and US data regions available. Daily backups and weekly updates. 20% of app revenues are contributed back to the project via our Open Collective. Free to start with $5 welcome credit.
 
-Start free with $5 free welcome credit: [![Run on PikaPods](pikapods.PNG "pikapods")](https://www.pikapods.com/pods?run=kavita)
+[<img src="https://www.pikapods.com/static/run-button.png" width="148" />](https://www.pikapods.com/pods?run=kavita)
