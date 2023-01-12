@@ -154,10 +154,10 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```css
 --tagbadge-border-color: hex/rgb(a);  
 --tagbadge-text-color: hex/rgb(a);  
---tagbadge-bg-color: hex/rgb(a);  
---tagbadge-typeahead-border-color: hex/rgb(a);  
---tagbadge-typeahead-text-color: hex/rgb(a);  
---tagbadge-typeahead-bg-color: hex/rgb(a);  
+--tagbadge-bg-color: vhex/rgb(a);  
+--tagbadge-filled-border-color: hex/rgb(a);  
+--tagbadge-filled-text-color: hex/rgb(a);  
+--tagbadge-filled-bg-color: hex/rgb(a);  
 ```
 
 **Side Nav**  
@@ -242,6 +242,8 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --accordion-header-collapsed-bg-color: hex/rgb(a);  
 --accordion-button-focus-border-color: hex/rgb(a);  
 --accordion-button-focus-box-shadow: hex/rgb(a);  
+--accordion-active-body-bg-color: hex/rgb(a);  
+--accordion-body-box-shadow: hex/rgb(a);  
 ```  
 
 **Breadcrumb**  
@@ -262,7 +264,6 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --hr-color: hex/rgb(a);  
 --accent-bg-color: hex/rgb(a);  
 --accent-text-color: hex/rgb(a);  
---text-muted-color: hex/rgb(a);  
 --grid-breakpoints-xs: px;  
 --grid-breakpoints-sm: px;  
 --grid-breakpoints-md: px;  
@@ -276,15 +277,20 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 ```css
 --card-bg-color: hex/rgb(a);  
 --card-text-color: hex/rgb(a);  
+--card-border-width: hex/rgb(a);  
+--card-border-style: hex/rgb(a);  
 --card-border-color: hex/rgb(a);  
 --card-progress-bar-color: hex/rgb(a);  
 --card-overlay-bg-color: hex/rgb(a);  
 --card-overlay-hover-bg-color: hex/rgb(a);  
+--card-progress-triangle-size: hex/rgb(a);  
 ```
 
 **Slider**  
 ```css
 --slider-text-color: hex/rgb(a);
+--input-range-color: hex/rgb(a);
+--input-range-active-color: hex/rgb(a);
 ```
 
 **Manga Reader**
@@ -312,7 +318,8 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 
 **Drawer**  
 ```css
---drawer-background-color: hex/rgb(a);
+--drawer-bg-color: hex/rgb(a);
+--drawer-text-color: hex/rgb(a);
 ```
 
 **Event Widget**
@@ -322,20 +329,21 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --event-widget-text-color: hex/rgb(a);  
 --event-widget-item-border-color: hex/rgb(a);  
 --event-widget-border-color: hex/rgb(a);  
+--event-widget-info-bg-color: hex/rgb(a);  
 ```
 
-**Search Results**  (v0.5.3)
+**Search Results** 
 ```css
 --search-result-text-lite-color: hex/rgb(a);
 ```
 
-**Bulk Selection**  (v0.5.3)
+**Bulk Selection** 
 ```css
 --bulk-selection-highlight-text-color: hex/rgb(a);
 --bulk-selection-text-color: hex/rgb(a);
 ```
 
-**Card List Item** (v0.5.4)
+**Card List Item** 
 ```css
 --card-list-item-bg-color: hex/rgb(a);
 ```
