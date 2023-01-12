@@ -35,7 +35,12 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 
 *This refers to the tab color in the browser. Modifies the meta tag. (v0.6.1.27+)*  
 ```
---theme-color: #000000;
+--theme-color: hex/rgb;
+```
+
+*This refers to the tile color for windows tile view. Modifies the meta tag. (v0.6.1.28+)*  
+```
+--tile-color: hex/rgb;
 ```
 
     
