@@ -50,6 +50,7 @@ So for instance, if we created `/config/themes/test-theme-123.css` then the CSS 
 --bs-body-bg: hex/rgb(a);  // Background color for pages  
 --body-text-color: hex/rgb(a);   
 --btn-icon-filter: invert(1) grayscale(%) brightness(%));  // Any filter chain. Useful mainly for dark themes
+--primary-color-scrollbar: hex/rgb(a); 
 ```
   
 **Navbar**
