@@ -4,6 +4,8 @@ visible: true
 ---
 
 ### Manga Structure
+! Make sure you understand the [folder requirements](https://wiki.kavitareader.com/en/guides/managing-your-files/scanner#file-layout) of Kavita
+
 A good structure would be:
 ```
 Library Root
