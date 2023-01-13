@@ -152,3 +152,5 @@ In-depth overview on how the scan loop works
 # Folder Watching
 
 Folder watching (v0.5.6+) lets Kavita know when a file has been added or modified in your library and update it in your Kavita instance. Folder watching is enabled by default and watches each folder of a given library for modifications. When files are added (loose leaf images or non supported extensions are ignored), renamed, deleted, etc, Kavita takes note and setups a Scan. Depending on your setup, Kavita will try to do a Scan folder, which is much lighter on resources. However, if you have multiple series within the same folder, a scan library will be used. This event is scheduled from the event time, 5 minutes into the future to allow for any other changes to get grouped in. 
+
+! Folder watching has limited results with Network Drives via Docker. Please comment on [this issue](https://github.com/Kareadita/Kavita/issues/1714) if you have a solution.
