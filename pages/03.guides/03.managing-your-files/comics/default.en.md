@@ -4,6 +4,7 @@ visible: true
 ---
 
 ### Comics Structure
+! Make sure you understand the [folder requirements](https://wiki.kavitareader.com/en/guides/managing-your-files/scanner#file-layout) of Kavita
 
 Kavita parses Comics just like it does Manga but uses additional keyword identifiers. If you are having trouble, you might want to look at the different cases we have in [our code](https://github.com/Kareadita/Kavita/blob/develop/API.Tests/Parser/ComicParserTests.cs) and what is supported. The following will give you a glimpse.
 
