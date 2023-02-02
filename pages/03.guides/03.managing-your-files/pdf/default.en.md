@@ -11,7 +11,18 @@ Kavita supports PDF files out of the box, but due to a lack of standards around 
 There are a few different configurations that users have PDF files for: Table Top RPGs, One off books, and Magazines.
 
 #### Table Top RGPs (TTRPGs)
-From user reports, they report using a folder name with .'s instead of spaces to get the best experience, so their series might be `DND.5E.RULES` and using Kavita's Special Marker (SP) to force each book as a special with a given order, ie) DND.5E.RULES/Monster Manual SP01.pdf, DND.5E.RULES/Starter Set SP02.pdf. 
+The best way to organize TTRPG's is to use a folder name with .'s (if it is a name that would normally require spaces) such as DnD.5e or Pathfinder.2e. The PDF files themselves should have no numbers in the filename, and if numbers are required replace them with roman numerals. An example of this structure would look like this:
+
+```
+Library Root
+  ┖── Pathfinder.2e
+      ┠── Player's Handbook.pdf
+      ┠── Bestiary I.pdf
+      ┠── Bestiary II.pdf
+      ┠── Bestiary III.pdf
+```
+
+And then inside Kavita itself you may rename the series from the folder name to the full name. The books will appear in the series entry in alphabetical order.
 
 #### One-off Books
 One off books are fairly simple to represent. Generally have the series name as the folder name and the book name as it is. Using SP markers will allow exact representation of the book's name by using the filename and will take the folder name as the Series. If no marker used, the Library type is used for parsing. Book defaults to Manga, Comic uses Comic parsing rules.
