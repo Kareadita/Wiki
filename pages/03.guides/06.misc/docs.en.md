@@ -38,7 +38,7 @@ Both MangaManager and ComicTagger work with comic files and manga files. They ha
 * Support for CLI usage
 * Webp Converter
 * Docker support for headless systems
-* 
+
 [Go to MangaManager repo](https://github.com/ThePromidius/Manga-Manager)
 
 <hr style="border:3px solid #4ac694"> </hr>
