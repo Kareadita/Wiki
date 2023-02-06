@@ -21,27 +21,27 @@ You can get your JWT by opening dev tools on a browser you have authenticated ag
 
 <hr style="border:5px solid #4ac694"> </hr>
 
-## External readers
-These are only the guides for some of them. 
-
-### OPDS
-
-[Access the list of external readers here](https://wiki.kavitareader.com/en/faq/external-readers)
-
-[Go to opds wiki page](../02.settings/01.opds)
-
-<hr style="border:2px solid #4ac694"> </hr>
-
-### Tachiyomi
-[Access the guide for Tachiyomi here](./tachiyomi)
-
-<hr style="border:5px solid #4ac694"> </hr>
-
 ## External tools
 
 <hr style="border:2px solid #4ac694"> </hr>
 
-Both ComicTagger and MangaManager work with comic files and manga files. They have different UI with different features
+Both MangaManager and ComicTagger work with comic files and manga files. They have different UI with different features
+### ✯ Kavita recommends
+#### Manga Manager
+* Actively developed.
+* Currently, only supports .cbz
+* Extremely fast editings
+* Bulk updates via GUI and CLI
+* Allows for metadata scraping (currently limited to AniList and MangaUpdates, but more coming soon)
+* Change covers and backcover (changes the first and last image of the file)
+* Metadata editor with clear UI (allows bulk selection)
+* Support for CLI usage
+* Webp Converter
+* Docker support for headless systems
+* 
+[Go to MangaManager repo](https://github.com/ThePromidius/Manga-Manager)
+
+<hr style="border:3px solid #4ac694"> </hr>
 
 ### Comic Tagger
 * Import metadata from online metadata sources for comics
@@ -50,20 +50,6 @@ Both ComicTagger and MangaManager work with comic files and manga files. They ha
 
 [Go to comic tagger repo](https://github.com/comictagger/comictagger)
 
-<hr style="border:2px solid #4ac694"> </hr>
-
-### Manga Manager
-* Actively developed.
-* Currently, only supports .cbz
-* Change covers for individual cbz (changes the first image of the file)
-* Rename files to include volume info
-* Metadata editor with clear UI (allows bulk selection)
-* Support for CLI usage
-* Webp Converter
-* Copy Metadata from different files
-* Epub to Cbz
-* Docker support for headless systems
-* [Site](https://github.com/ThePromidius/Manga-Manager)
 
 <hr style="border:2px solid #4ac694"> 
 
@@ -95,3 +81,19 @@ Next, use the Save to Disk option and import those files into your Kavita librar
 * Actively developed with support from the developer in Kavita discord
 * Supports writing directly to Kavita's DB via the API or saving to ComicInfo.xml inside files.
 * [Site](https://github.com/Snd-R/komf)
+
+## External readers
+These are only the guides for some of them. 
+
+### OPDS
+
+[Access the list of external readers here](https://wiki.kavitareader.com/en/faq/external-readers)
+
+[Go to opds wiki page](../02.settings/01.opds)
+
+<hr style="border:2px solid #4ac694"> </hr>
+
+### Tachiyomi
+[Access the guide for Tachiyomi here](./tachiyomi)
+
+<hr style="border:5px solid #4ac694"> </hr>
