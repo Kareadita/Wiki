@@ -15,7 +15,7 @@ You should download the one that fits your system
 
 ## 2. Install Kavita
 
-1. Unzip the archive to a writable directory with the command `tar -xzf kavita-linux-{arch}.tar.gz --no-same-owner`
+1. Unzip the archive to a writable directory with the command `tar -xzf kavita-linux-{arch}.tar.gz`
     * For unprivileged LXC containers it may be necessary to use `tar -xzf kavita-linux-{arch}.tar.gz --no-same-owner` instead to prevent permission errors while extracting
 3. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 4. Run Kavita executable. Usually `./Kavita`
