@@ -19,7 +19,7 @@ You should download the one that fits your system
 3. Use `chmod` and `chown` commands so Kavita can write to the directory you placed it in.
 4. Run Kavita executable. Usually `./Kavita`
 
-! Note:  For unprivileged LXC containers it may be necessary to use `tar -xzf kavita-linux-{arch}.tar.gz --no-same-owner` instead to prevent permission errors while extracting
+! **Note:**  For unprivileged LXC containers it may be necessary to use `tar -xzf kavita-linux-{arch}.tar.gz --no-same-owner` instead to prevent permission errors while extracting
 
 <hr style="border:2px solid #4ac694">
 
