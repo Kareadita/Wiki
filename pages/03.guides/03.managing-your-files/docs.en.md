@@ -176,7 +176,9 @@ The series will be M as that is the most mature rating in all Issues.
 #### Count
 Kavita will set the Publication Status on a series for you based on this tag
 
-- If you have at least one "Count" defined within any ComicInfo from the series, and it is not 0, then Kavita will assume the Series is Completed. Otherwise, it will be assumed Ongoing.
+- If you have at least one "Count" defined within any ComicInfo from the series, and it is not 0, then Kavita will assume the Series is Ended. Otherwise, it will be assumed Ongoing.
+
+- If the Count matches the Volume count or Chapter count, then Kavita will assume the Series is Completed (you own all items of the series)
 
 - Ideally, the value of this field should be the total number of volumes (manga) or issues (comics)
 
