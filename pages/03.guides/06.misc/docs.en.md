@@ -44,7 +44,7 @@ Both MangaManager and ComicTagger work with comic files and manga files. They ha
 <hr style="border:3px solid #4ac694"> </hr>
 
 ### Comic Tagger
-* Import metadata from online metadata sources for comics
+* Import metadata from online metadata sources for comics (ComicVine only)
 * Edit ComicInfo.xml for both cbz and cbr
 * Option to bulk edit using CLI
 
@@ -95,5 +95,11 @@ These are only the guides for some of them.
 
 ### Tachiyomi
 [Access the guide for Tachiyomi here](./tachiyomi)
+
+<hr style="border:5px solid #4ac694"> </hr>
+
+### CDisplayEx
+Guide coming soon, check out there site for now (requires v0.7+):
+https://www.cdisplayex.com/
 
 <hr style="border:5px solid #4ac694"> </hr>
