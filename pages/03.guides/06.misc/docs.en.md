@@ -12,6 +12,7 @@ taxonomy:
 
 ! v0.6.1.7+ no longer supports enabling swagger on Kavita installations. It can be used on dev builds or you can use our [API documentation](https://www.kavitareader.com/docs/api/#/).
 
+### Pre-v0.6.1.6
 To view the documentation you have to enable swagger in [settings](../02.settings/default.md) and head to `http://localhost:5000/swagger` or use [https://www.kavitareader.com/docs/api/#/](https://www.kavitareader.com/docs/api/#/)
 
 
@@ -19,7 +20,7 @@ Alternatively you can build Kavita on your local machine and then browse to the 
 
 You can get your JWT by opening dev tools on a browser you have authenticated against and getting this key "kavita-user" from local storage. This will have a token key within it. Use "Bearer TOKEN_KEY" to authenticate. This must be on all APIs for Kavita to respond.
 
-<hr style="border:5px solid #4ac694"> </hr>
+<hr style="border:2px solid #4ac694"> </hr>
 
 ## External tools
 
@@ -99,6 +100,6 @@ These are only the guides for some of them.
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### CDisplayEx
-[Access the guide for CDisplayEx here](./05.CDisplayEx)
+[Access the guide for CDisplayEx here](./CDisplayEx)
 
 <hr style="border:5px solid #4ac694"> </hr>
