@@ -100,6 +100,6 @@ These are only the guides for some of them.
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### CDisplayEx
-[Access the guide for CDisplayEx here](./CDisplayEx)
+[Access the guide for CDisplayEx here](./cdisplayex)
 
 <hr style="border:5px solid #4ac694"> </hr>
