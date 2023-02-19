@@ -102,4 +102,3 @@ These are only the guides for some of them.
 ### CDisplayEx
 [Access the guide for CDisplayEx here](./cdisplayex)
 
-<hr style="border:5px solid #4ac694"> </hr>
