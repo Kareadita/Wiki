@@ -20,11 +20,11 @@ Alternatively you can build Kavita on your local machine and then browse to the 
 
 You can get your JWT by opening dev tools on a browser you have authenticated against and getting this key "kavita-user" from local storage. This will have a token key within it. Use "Bearer TOKEN_KEY" to authenticate. This must be on all APIs for Kavita to respond.
 
-<hr style="border:2px solid #4ac694"> </hr>
+<hr style="border:3px solid #4ac694"> </hr>
 
 ## External tools
 
-<hr style="border:2px solid #4ac694"> </hr>
+<hr style="border:3px solid #4ac694"> </hr>
 
 Both MangaManager and ComicTagger work with comic files and manga files. They have different UI with different features
 ### ✯ Kavita recommends
