@@ -3,8 +3,6 @@ title: CDisplayEx
 visible: true
 ---
 
-# Read with CDisplayEx
-
 The premium version of [CDisplayEx](https://www.cdisplayex.com/mobile/) for Android allows you to connect
 to Kavita using the REST API.
 
