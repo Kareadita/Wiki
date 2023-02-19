@@ -96,10 +96,9 @@ These are only the guides for some of them.
 ### Tachiyomi
 [Access the guide for Tachiyomi here](./tachiyomi)
 
-<hr style="border:5px solid #4ac694"> </hr>
+<hr style="border:2px solid #4ac694"> </hr>
 
 ### CDisplayEx
-Guide coming soon, check out there site for now (requires v0.7+):
-https://www.cdisplayex.com/
+[Access the guide for CDisplayEx here](./05.CDisplayEx)
 
 <hr style="border:5px solid #4ac694"> </hr>
