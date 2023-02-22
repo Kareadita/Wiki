@@ -1,5 +1,6 @@
 ---
 title: Paperback
+media_order: 'Image_10.jpeg,Image_1.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,Image_6.jpeg,Image_7.jpeg,Image_8.jpeg,Image_9.jpeg'
 ---
 
 ### Guide Overview
@@ -22,7 +23,7 @@ That links to the plugin's GitHub. Please do not create issues on Kavita's GitHu
 **First of all make sure Kavita is updated**
 
 1. After that, go the to [app store and install Paperback](https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373).
-
+![Image](Image.jpeg "Image")
 3. Go to https://ack72.github.io/kavya-paperback/ and click "Add to Paperback"
 4. Now you can either scroll down until you find or hit the search icon and write Kavita in it.
 5. Once you find or search tap install.
