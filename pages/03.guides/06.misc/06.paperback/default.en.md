@@ -20,7 +20,7 @@ That links to the plugin's GitHub. Please do not create issues on Kavita's GitHu
 
 ## Installation
 
-!! **First of all make sure Kavita is updated**
+!! **Make sure Kavita is updated to the latest version**
 
 1. After that, go the to [app store and install Paperback](https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373).
 ![Image_11](Image_11.jpeg?resize=450,450 "Image_11")
