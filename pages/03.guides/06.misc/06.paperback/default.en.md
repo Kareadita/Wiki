@@ -22,7 +22,7 @@ That links to the plugin's GitHub. Please do not create issues on Kavita's GitHu
 1. After that, go the to [app store and install Paperback](https://apps.apple.com/us/app/paperback-a-komga-client/id1626613373).
 ![Image_11](Image_11.jpeg?resize=450,450 "Image_11")
 
-2. Go to https://ack72.github.io/kavya-paperback/ and tap "**Add to Paperback**"
+2. Go to [https://ack72.github.io/kavya-paperback/](https://ack72.github.io/kavya-paperback/) and tap "**Add to Paperback**"
 ![Image_10](Image_10.jpeg?resize=450,450 "Image_10")
 
 3. Tap "Open" when prompted to Open in "Paperback"?
