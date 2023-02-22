@@ -7,6 +7,7 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 * [Issues](#issues)
 * [Installation](#installation)
 * [Setup](#setup)
+!!! Big thanks to aitopu34 a.k.a ACK72 for developing this extension
 ! Note: Currently there's only official support for Paperback v0.7.<br/>
 ! Paperback only works on iOS 13.4+ or iPadOS 13.4+
 
