@@ -4,6 +4,7 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 ---
 
 ### Guide Overview
+* [Known Limitation](#known limitation)
 * [Issues](#issues)
 * [Installation](#installation)
 * [Setup](#setup)
@@ -12,6 +13,10 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 
 ! Note: Currently there's only official support for Paperback v0.7.<br/>
 ! Paperback only works on iOS 13.4+ or iPadOS 13.4+
+
+## Known Limitations
+* Recommendation and ReadingList feature of Kavita currently are not supported.
+* Unfortunately, as paperback uses image caching internally, it might be unable to support progress synchronization, even with OPDS-PS.
 
 ## Issues
 If you find any errors please report them [here](https://github.com/ACK72/kavya-paperback/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D). 
