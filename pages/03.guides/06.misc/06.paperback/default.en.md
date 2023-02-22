@@ -4,7 +4,7 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 ---
 
 ### Guide Overview
-* [Known Limitation](#known limitation)
+* [Known Limitation](#known)
 * [Issues](#issues)
 * [Installation](#installation)
 * [Setup](#setup)
