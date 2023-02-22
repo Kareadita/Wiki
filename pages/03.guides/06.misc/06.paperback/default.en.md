@@ -1,6 +1,6 @@
 ---
 title: Paperback
-media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,Image_6.jpeg,Image.jpeg,Image_11.jpeg,Image_6.jpeg,Image_7.jpeg,Image_8.jpeg,Image_9.jpeg,Image_1.jpeg'
+media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,Image_6.jpeg,Image.jpeg,Image_11.jpeg,Image_9.jpeg,Image_1.jpeg'
 ---
 
 ### Guide Overview
