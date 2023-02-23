@@ -1,6 +1,6 @@
 ---
 title: Paperback
-media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,Image_6.jpeg,Image.jpeg,Image_11.jpeg,Image_9.jpeg,Image_1.jpeg'
+media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,Image_6.jpeg,Image.jpeg,Image_11.jpeg,Image_9.jpeg,Image_1.jpeg,Image_7.jpeg,Image_8.jpeg,IMG_6211.PNG,IMG_6210.PNG,IMG_6215.PNG'
 ---
 
 ### Guide Overview
@@ -8,6 +8,7 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 * [Issues](#issues)
 * [Installation](#installation)
 * [Setup](#setup)
+* [Progress Syncing](#progress-syncing)
 
 !!! Big thanks to aitopu34 a.k.a ACK72 for developing this extension
 
@@ -16,7 +17,6 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 
 ## Known Limitations
 * Recommendation and ReadingList feature of Kavita currently are not supported.
-* Unfortunately, as paperback uses image caching internally, it might be unable to support progress synchronization, even with OPDS-PS.
 
 ## Issues
 If you find any errors please report them [here](https://github.com/ACK72/kavya-paperback/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D). 
@@ -74,3 +74,4 @@ Access your Kavita instance from your web browser and log in
 15. Browse your library 
 ![Image](Image.jpeg?resize=450,450 "Image")
 
+## Progress Syncing
