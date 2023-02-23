@@ -10,23 +10,23 @@ What you find below is not an exhaustive list, but rather what has been tested t
 
 ## Android
 
-| Name        | Opds | Opds-PS | Epub | Progress Sync |
+| Name        | Opds | Opds-PS | Epub | Progress Sync | API |
 |-------------|:----:|:---------:|:----:|:-------------:|
-| Librera     |  ✓   | ✗       |  ✓   |       ✗       |
-| Moon Reader |  ✓   | ✗       |  ✓   |       ✗       |
-| Kubo Reader |      | ✗       |  ✗   |       ✗       |
-| Tachiyomi   |  ✗*  | ✗       |  ✗   |      ✓**      |
+| Librera     |  ✓   | ✗       |  ✓   |       ✗       |      ✗       |
+| Moon Reader |  ✓   | ✗       |  ✓   |       ✗       |      ✗       |
+| Kubo Reader |      | ✗       |  ✗   |       ✗       |      ✗       |
+| Tachiyomi   |  ✗*  | ✗       |  ✗   |      ✓      |      ✓       |
 <br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
-<br/>** To be released soon
 
 ## iOS
 
-| Name      | Opds | Opds-PS | Epub | Progress Sync |
+| Name      | Opds | Opds-PS | Epub | Progress Sync | API |
 |-----------|:----:|:-------:|:----:|:-------------:|
-| Chunky    |  ✓   |    ✓    |  ✗   |       ✓       |
-| Panels    |  ✓   |    ✓    |  ✗   |       ✓       |
-| Yomu      |  ✓   |    ✗    |  ✓   |       ✗       |
-| Paperback | WIP  |         |      |               |
+| Chunky    |  ✓   |    ✓    |  ✗   |       ✓       |      ✗       |
+| Panels    |  ✓   |    ✓    |  ✗   |       ✓       |      ✗       |
+| Yomu      |  ✓   |    ✗    |  ✓   |       ✗       |      ✗       |
+| Paperback | ✗*  |         |      |               |     ✓       |
+<br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
 
 ! Have a suggestion for an app that we can connect with? Drop by the [Feature Requests](https://discord.gg/b52wT37kt7) page and suggest it or upvote existing requests.
 
