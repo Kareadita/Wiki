@@ -19,7 +19,10 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 * Recommendation and ReadingList feature of Kavita currently are not supported.
 
 ## Issues
-If you find any errors please report them [here](https://github.com/ACK72/kavya-paperback/issues/new?assignees=&labels=&template=bug_report.md&title=%5BBUG%5D). 
+Kavya Extension: please report any errors [here](https://github.com/ACK72/kavya-paperback/issues/new?assignees=ACK72&labels=&template=bug_report.md&title=%5BBUG%5D). 
+
+Kavya Tracker Extension: Please report any errors [here](https://github.com/ACK72/kavya-paperback-tracker/issues/new?assignees=ACK72&title=%5BBUG%5D)
+
 
 That links to the plugin's GitHub. Please do not create issues on Kavita's GitHub for extension-related issues.
 
