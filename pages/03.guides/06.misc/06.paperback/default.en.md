@@ -79,14 +79,14 @@ Access your Kavita instance from your web browser and log in
 
 1. Open Paperback and go to Settings
 2. Tap External Sources
-![IMG_6210](IMG_6210.PNG "IMG_6210")
+![IMG_6210](IMG_6210.PNG?resize=450,450 "IMG_6210")
 
 3. Tap Edit and "+"
-![IMG_6211](IMG_6211.PNG "IMG_6211")
+![IMG_6211](IMG_6211.PNG?resize=450,450 "IMG_6211")
 
 4. You can put whatever you would like in the name field. Add this to the URL field: `https://ACK72.github.io/kavya-paperback-tracker` and tap "Add to Paperback"
-![IMG_6214](IMG_6214.PNG "IMG_6214")
+![IMG_6214](IMG_6214.PNG?resize=450,450 "IMG_6214")
 
 5. Tap the source you just named.
 6. Tap Install next to the Tracker
-![IMG_6215](IMG_6215.PNG "IMG_6215")
+![IMG_6215](IMG_6215.PNG?resize=450,450 "IMG_6215")
