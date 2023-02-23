@@ -15,7 +15,7 @@ What you find below is not an exhaustive list, but rather what has been tested t
 | Librera     |  ✓   | ✗       |  ✓   |       ✗       |      ✗       |
 | Moon Reader |  ✓   | ✗       |  ✓   |       ✗       |      ✗       |
 | Kubo Reader |      | ✗       |  ✗   |       ✗       |      ✗       |
-| Tachiyomi   |  ✗*  | ✗       |  ✗   |      ✓      |      ✓       |
+| [Tachiyomi](https://wiki.kavitareader.com/en/guides/misc/tachiyomi)   |  ✗*  | ✗       |  ✗   |      ✓      |      ✓       |
 <br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
 
 ## iOS
@@ -25,7 +25,7 @@ What you find below is not an exhaustive list, but rather what has been tested t
 | Chunky    |  ✓   |    ✓    |  ✗   |       ✓       |      ✗       |
 | Panels    |  ✓   |    ✓    |  ✗   |       ✓       |      ✗       |
 | Yomu      |  ✓   |    ✗    |  ✓   |       ✗       |      ✗       |
-| Paperback | ✗*  |     ✗    |  ✗    |        ✗       |     ✓       |
+| [Paperback](https://wiki.kavitareader.com/en/guides/misc/paperback) | ✗*  |     ✗    |  ✗    |        ✗       |     ✓       |
 <br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
 
 ! Have a suggestion for an app that we can connect with? Drop by the [Feature Requests](https://discord.gg/b52wT37kt7) page and suggest it or upvote existing requests.
