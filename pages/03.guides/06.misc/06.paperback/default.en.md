@@ -47,7 +47,7 @@ That links to the plugin's GitHub. Please do not create issues on Kavita's GitHu
 
 ## Setup
 
-To make the extension link with your Kavita instance we need the API Ket.
+To make the extension link with your Kavita instance we need the API Key.
 The steps to get the API Key are:
 
 Access your Kavita instance from your web browser and log in
@@ -75,3 +75,18 @@ Access your Kavita instance from your web browser and log in
 ![Image](Image.jpeg?resize=450,450 "Image")
 
 ## Progress Syncing
+! Progress Syncing is handled at chapter/issue level, not page level. That means after a chapter/issue is finished completion is synced to Kavita.
+
+1. Open Paperback and go to Settings
+2. Tap External Sources
+![IMG_6210](IMG_6210.PNG "IMG_6210")
+
+3. Tap Edit and "+"
+![IMG_6211](IMG_6211.PNG "IMG_6211")
+
+4. You can put whatever you would like in the name field. Add this to the URL field: `https://ACK72.github.io/kavya-paperback-tracker` and tap "Add to Paperback"
+![IMG_6214](IMG_6214.PNG "IMG_6214")
+
+5. Tap the source you just named.
+6. Tap Install next to the Tracker
+![IMG_6215](IMG_6215.PNG "IMG_6215")
