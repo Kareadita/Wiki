@@ -16,6 +16,7 @@ What you find below is not an exhaustive list, but rather what has been tested t
 | Moon Reader |  ✓   | ✗       |  ✓   |       ✗       |      ✗       |
 | Kubo Reader |      | ✗       |  ✗   |       ✗       |      ✗       |
 | [Tachiyomi](https://wiki.kavitareader.com/en/guides/misc/tachiyomi)   |  ✗*  | ✗       |  ✗   |      ✓      |      ✓       |
+| [CDisplayEx](https://wiki.kavitareader.com/en/guides/misc/cdisplayex)   |  ✗*  | ✗       |  ✗   |      ✓      |      ✓       |
 <br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used
 
 ## iOS
