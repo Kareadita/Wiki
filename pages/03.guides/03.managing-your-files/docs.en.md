@@ -149,7 +149,7 @@ The XML schema of this file can be found in the [Anansi Project webpage](https:/
 EPUB files do not have a ComicInfo.xml, but they do have some limited metadata in the OPF file.
 See the table above to know what tags do kavita read from the OPF file
 
-!**Note:** OPF metadata files must be **inside** the `.epub` file, or it won't be read.  
+! **Note:** OPF metadata files must be **inside** the `.epub` file, or it won't be read.  
 
  
 
