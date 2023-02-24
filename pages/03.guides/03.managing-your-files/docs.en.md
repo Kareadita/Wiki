@@ -141,7 +141,7 @@ This file must be named ComicInfo.xml and be at the root of the archive.
 The XML schema of this file can be found in the [Anansi Project webpage](https://anansi-project.github.io/docs/comicinfo/schemas/v2.1). We support v2.1 (draft).
 
 ! **Note**: Kavita currently supports the following custom tags: 
-- `<LocalizedTitle>` : Contains optional localized series name. 
+- `<LocalizedSeries>` : Contains optional localized series name which will display in Kavita. Will allow searching for either series name. Will group files that have the localized name and the series name together as one series.
 
 <hr style="border:2px solid #4ac694">
 
