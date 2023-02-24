@@ -80,7 +80,7 @@ Access your Kavita instance from your web browser and log in
 ! Progress Syncing is handled at chapter/issue level, not page level. That means after a chapter/issue is finished completion is synced to Kavita.
 
 1. Open Paperback and go to Settings
-2. Tap External Sources
+2. Tap External Trackers
 ![IMG_6210](IMG_6210.PNG?resize=450,450 "IMG_6210")
 
 3. Tap Edit and "+"
