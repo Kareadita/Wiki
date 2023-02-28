@@ -35,3 +35,25 @@ Library Root
       ⋮
       ┖── Series Name 2 Vol.02 Ch.6.cbz
 ```
+
+## Example
+If you only want EPUB files to show in a Kavita library (e.g. "Fiction Books"), create this `.kavitaignore` file inside the library folder:
+```
+#*.epub
+*.mobi
+*.azw
+*.azw3
+*.pdf
+*.txt
+*.cbz
+*.cbr
+*.zip
+*.rar
+*.opf
+*.jpg
+*.png
+*.doc
+*.docx
+*.htm
+*.html
+```
