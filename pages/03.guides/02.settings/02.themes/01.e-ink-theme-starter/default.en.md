@@ -1,5 +1,6 @@
 ---
 title: 'E-Ink Theme Starter'
+published: false
 ---
 
 ! This theme is not maintained with the latest css variables. See [themes](https://wiki.kavitareader.com/en/guides/settings/themes) for all variables. 
