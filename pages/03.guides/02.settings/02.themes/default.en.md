@@ -4,6 +4,8 @@ title: Themes
 
 As of v0.5.2, Kavita now supports reading a .css file for custom theming.
 
+Community created custom themes can be found on our [Theme repo](https://github.com/Kareadita/Themes).
+
 There are a few things to note:
 - The file must be .css
 - The filename must only contain characters, numbers, and `-`
