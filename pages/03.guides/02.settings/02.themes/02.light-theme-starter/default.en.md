@@ -1,6 +1,6 @@
 ---
 title: 'Light Theme Starter'
-published: true
+published: false
 visible: true
 ---
 
