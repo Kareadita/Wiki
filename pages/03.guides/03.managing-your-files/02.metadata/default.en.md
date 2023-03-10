@@ -4,7 +4,7 @@ title: Metadata
 
 Kavita uses metadata to parse Series Name, Volumes, Chapters, Special Status, etc... 
 
-Kavita reads metadata from within your archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file**name**
+Kavita reads metadata from within your .c* archives (cbz, cbr, c7, cbt) and epub files. If your archives contain metadata, it will override any parsed information from the file**name**
 
 You can find multiple tools to add metadata under [Misc section](https://wiki.kavitareader.com/en/guides/misc#external-tools)
 
