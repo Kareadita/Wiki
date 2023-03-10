@@ -94,6 +94,12 @@ This logic will only run if the field is not [locked](../04.get-started-using-yo
 
 <hr style="border:1px solid #465176">
 
+#### SeriesGroup
+
+The SeriesGroup tag can contain comma delimited strings that will either create or update existing collections in Kavita if the Library has `Manage Collections` turned on (default is off). 
+
+<hr style="border:1px solid #465176">
+
 #### Format
 If a Format is specified, that issue or volume may be forced into being treated as a Special (v0.5.4+). 
 
