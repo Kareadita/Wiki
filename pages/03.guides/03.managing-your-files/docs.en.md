@@ -16,11 +16,8 @@ admin: {  }
 #### Page overview
 - [Naming convention / File Structure](#naming-convention--file-structure)<br/>
   - [Specials](#specials)
-- [Metadata](#metadata)
-  - [Metadata Tags Mapping](#general-overview-on-how-kavita-reads-certain-metadata-tags) (How kavita uses certain metadata tags)
-  - [Comics And Manga](#comics-and-manga)
-  - [eBooks](#ebooks)
-  - [ComicInfo](#comicinfo)
+  - [Volumes](#volumes)
+
  
 <hr style="border:5px solid #4ac694">
 
