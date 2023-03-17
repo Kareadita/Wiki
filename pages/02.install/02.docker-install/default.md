@@ -12,6 +12,7 @@ Running your Kavita server in docker is super easy! You can run the `:latest` st
 
 ! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/>Also change the volume bind path in the host<br/>
 ! **Note**: In the volume bind parameter `-v`, the text after "**`:`**" is the virtual directory that will be created inside the docker container. (mind the **`:`** in between)
+! **Note**: We now also offer an image on the GitHub Container Registry at the tag `ghcr.io/kareadita.kavita` it is identical to the image on DockerHub. Only available for nightly images at this time
 
 ```shell
 docker run --name kavita -p 5000:5000 \
@@ -61,7 +62,7 @@ You don't need to call it manga, you can name it anything that works for you. Ka
 ## Updating Kavita
 
 >>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db<br/>
->>>To do so use as image tag kizaing/kavita:<version_tag_here\><br/>
+>>>To do so use as image tag kizaing/kavita:<version_tag_here\> or ghcr.io/kareadita/kavita:<version_tag_hgere\> if using the GitHub registry<br/>
 >>>Check available tags in the [dockerhub tags page](https://hub.docker.com/r/kizaing/kavita/tags)<br/>
 >>>Look for stable tags would just be `x.y.z`
 
