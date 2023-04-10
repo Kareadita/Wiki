@@ -54,4 +54,4 @@ Comics also have a list of special filename keywords that will mark them as spec
 * HS
 * THS
 
-! **Note**: The "[Format metadata field](../default.en.md#format)" for the [ComicInfo metadata](../default.en.md#comicinfo) can also be used to mark the comic as a special.
+! **Note**: The "[Format metadata field](https://wiki.kavitareader.com/en/guides/managing-your-files/metadata#format)" for the [ComicInfo metadata](https://wiki.kavitareader.com/en/guides/managing-your-files/metadata#comicinfo) can also be used to mark the comic as a special.
