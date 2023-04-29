@@ -8,9 +8,8 @@ visible: true
 
 EPUB are primarily parsed by metadata within the epub file (opf). Filenames are used only for Volume and Series, but metadata overrides everything. eBooks do not fall back to folders for parsing.
 
-Kavita scans ebooks in a 2 pass process. The first pass tries to parse from the filename. If **volume** and **series** name can be parsed, then it is treated like a manga or comic.
-If not enough information is present, the internal epub metadata is used. Within the metadata, certain tags are used to group them into a collection, like "Expanse".
-Calibre eBook Management software can be used to edit epub metadata to include Series, Volume, and Title so that series with multiple books parse correctly into the same series. [Calibre](https://calibre-ebook.com/)
+Kavita scans epubs in a 2 pass process. The first pass pulls from the internal metadata. If the Series is missing, the epub will use the title and if title missing, then will fallback to the filename parser. The second pass will use filename to fill in the missing information to be included in Kavita. If **volume** and **series** name can be parsed, then the book is treated like a manga or comic and will how Volume X in the Series detail for the individual books. Within the metadata, certain tags are used to group them into a series, like "Expanse".
+Calibre eBook Management software can be used to edit epub metadata to include Series, Volume, and Title so that series with multiple books parse correctly into the same series. [Calibre](https://wiki.kavitareader.com/en/guides/misc/calibre)
 
 Any EPUB can use:
 ```  
