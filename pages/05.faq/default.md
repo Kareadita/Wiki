@@ -156,3 +156,5 @@ WHERE Id IN (
 #### Q. **Is there an app? I don't want to use the website.** 
 * Kavita does not yet offer mobile apps, however you can "Add to Home screen" our website, which will create an icon on your mobile device and launch the site in fullscreen mode. If that doesn't work for you, you can use a supported external reader, found [here](https://wiki.kavitareader.com/faq/external-readers).
 
+#### Q. **I'm seeing database is locked errors in my logs** 
+* This can happen on some configurations. An easy solution is to turn on WAL mode, which Kavita supports out of the box. To do this, open your sqlite file and run `PRAGMA journal_mode=WAL;` while Kavita is not running. An easy tool to do this is [DB Browser for SQLite](https://sqlitebrowser.org/)
