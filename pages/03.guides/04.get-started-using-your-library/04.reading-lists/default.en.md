@@ -14,7 +14,6 @@ The list order can be changed by using drag and drop or clicking Order Numbers a
 ![detail](detail.PNG "detail")
 
 ## Creating a Reading List via CBL
-! This is an upcoming feature in v0.7 and documentation is not laid out yet. 
 Kavita v0.7.2 supports creation of Reading Lists via CBL files. From the side menu or reading list page, click the ... menu and select import.
 
 This will bring up the initial screen showing the wizard like import. From here, the user can select multiple cbl files. 
