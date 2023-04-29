@@ -18,19 +18,20 @@ The list order can be changed by using drag and drop or clicking Order Numbers a
 Kavita v0.7.2 supports creation of Reading Lists via CBL files. From the side menu or reading list page, click the ... menu and select import.
 
 This will bring up the initial screen showing the wizard like import. From here, the user can select multiple cbl files. 
-<>
+![First%20Step](First%20Step.PNG "First%20Step")
 
-Here you see that I have uploaded mutliple files. I can remove which ones I might not want to move to the next step.
-<>
+Here you see that I have uploaded multiple files. I can remove which ones I might not want to move to the next step.
+![2nd%20Step](2nd%20Step.PNG "2nd%20Step")
 
 Upon hitting next, you can see that some of these failed the validation step. Validation is a light-weight step meant to quickly cull errors, like invalid CBL formats, missing access to series/libraries (via rating or library restrictions), etc. Those that have failed will not be moved to the next step. You do not need to manually remove them. 
 
-<> 
+![3rd%20Step](3rd%20Step.PNG "3rd%20Step")
 
 The next step is a dry run. Validation step can't catch everything that might happen during reading list creation, so the dry run pretends to create the Reading List without saving to the DB. Here you will see more errors around missing issues/volumes, etc. You will not be able to move forward unless there are at least partial or full success. Failures will prevent import as that implies everything in the list failed.
 
-<>
+![4th%20Step](4th%20Step.PNG "4th%20Step")
 
 Once you're done, your reading list should appear in your library and you can restart the flow from the UI or close it and view your reading list. 
-<>
+
+![Final%20Step](Final%20Step.PNG "Final%20Step")
 
