@@ -18,7 +18,7 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 
 # Installation
 
-!!! Note: If you use Gmail, you need to enable Insecure Apps or generate a password key for the account.
+!!! Note: If you use Gmail, you need to enable Insecure Apps or generate an app password.
 
 ### With Docker Run
 
