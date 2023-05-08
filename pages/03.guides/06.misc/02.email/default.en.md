@@ -66,7 +66,7 @@ services:
         restart: unless-stopped
 ```
 
-!! After the first run, shut down the container and edit the appsettings.json file inside the config folder. When the settings are to your liking, restart and it should apply your SMTP settings.
+!!! Note: After the first run, shut down the container and edit the appsettings.json file inside the config folder. When the settings are to your liking, restart and it should apply your SMTP settings.
 
 ### Non-Docker
 1. Open appsettings.json in config/
