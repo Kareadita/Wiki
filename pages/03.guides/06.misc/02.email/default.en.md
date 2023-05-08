@@ -42,6 +42,28 @@ services:
            - "5003:5003"
         restart: unless-stopped
 ```
+Example with both Kavita and Kavita-Email:
+```
+services:
+     kavita:
+        container_name: kavita
+        image: kizaing/kavita:nightly
+        ports:
+           - 5000:5000
+        volumes:
+           - [Your-media-path]:/media
+           - [Your-Kavita-config-path]:/kavita/config
+        restart: unless-stopped
+
+     kavita-email:
+        container_name: kavita-email
+        image: kizaing/kavitaemail:latest
+        ports:
+           - 5003:5003
+        volumes:
+           - [Your-Kavita-Email-config-path]:/app/config
+        restart: unless-stopped
+```
 
 After the first run, shut down the container and edit the appsettings.json file inside the config folder. When the settings are to your liking, restart and it should apply your SMTP settings.
 
