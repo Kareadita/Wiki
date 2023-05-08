@@ -37,7 +37,7 @@ services:
         image: kizaing/kavitaemail:latest
         container_name: kavita-email
         volumes:
-           - ./config:/app/config
+           - [Your-Kavita-Email-config-path]:/app/config
         ports:
            - "5003:5003"
         restart: unless-stopped
