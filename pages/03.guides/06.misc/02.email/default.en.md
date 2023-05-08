@@ -1,5 +1,5 @@
 ---
-title: pEmail
+title: Email
 media_order: Email-Service-Link.PNG
 published: true
 taxonomy:
