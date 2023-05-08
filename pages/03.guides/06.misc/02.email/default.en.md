@@ -1,5 +1,5 @@
 ---
-title: Email
+title: pEmail
 media_order: Email-Service-Link.PNG
 published: true
 taxonomy:
@@ -17,6 +17,8 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 <hr style="border:5px solid #4ac694"> </hr>
 
 # Installation
+
+!!! Note: If you use Gmail, you need to enable Insecure Apps or generate a password key for the account.
 
 ### With Docker Run
 
@@ -45,7 +47,7 @@ After the first run, shut down the container and edit the appsettings.json file 
 
 ### Non-Docker
 1. Open appsettings.json in config/
-2. Under SMTP, fill out the required settings that are blank. Note: If you use Gmail, you need to enable Insecure Apps or generate a password key for the account.
+2. Under SMTP, fill out the required settings that are blank.
 3. Start KavitaEmail.exe or ./KavitaEmail
 
 
