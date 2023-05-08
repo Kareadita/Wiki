@@ -44,6 +44,7 @@ services:
 ```
 Example with both Kavita and Kavita-Email:
 ```
+version: '3'
 services:
      kavita:
         container_name: kavita
