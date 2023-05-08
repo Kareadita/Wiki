@@ -22,7 +22,7 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 
 ### With Docker Run
 
-`docker run --name kavita-email -p 5003:5003 -v ${PWD}/config:/app/config -d kizaing/kavitaemail:latest`
+`docker run --name kavita-email -p 5003:5003 -v [Your-Kavita-Email-config-path]:/app/config -d kizaing/kavitaemail:latest`
 
 ### With Docker Compose
 
