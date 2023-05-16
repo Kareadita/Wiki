@@ -50,8 +50,8 @@ For libraries that are allowed to manage collections and reading lists (and Kavi
 
 In the following example, we have just a single title here and the meta tag to refine this title and indicate that it is used for a collection. With just this, Kavita will generate a `Collection` tag.
 ```
-< dc:title id="t1">A Dictionary of Modern English Usage</ dc:title>
-< meta refines="#t1" property="title-type">collection</ meta>
+<dc:title id="t1">A Dictionary of Modern English Usage</dc:title>
+<meta refines="#t1" property="title-type">collection</meta>
 ```
 
 If you add an additional tag of `display-seq` then Kavita will treat the collection as a reading list and generate the reading list with the following order. Note that if you have conflicts, Kavita will automatically reorder, so order may be skewed. 
