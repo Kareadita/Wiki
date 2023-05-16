@@ -41,6 +41,7 @@ In an epub (Kavita v0.7.3+), you can expand on people with not just author and p
 * clr/colorist
 
 In order to achieve this, you must refine the existing `dc:creator` tag with a `meta` tag. Both must exist otherwise the creator will be treated just as an author. See below, we are going to define that there is an editor:
+
 `
 <dc:creator id="id-1">Miya Kazuki</dc:creator>
 <meta refines="#id-1" property="role" scheme="marc:relators">editor</meta>
