@@ -42,8 +42,8 @@ In an epub (Kavita v0.7.3+), you can expand on people with not just author and p
 
 In order to achieve this, you must refine the existing `dc:creator` tag with a `meta` tag. Both must exist otherwise the creator will be treated just as an author. See below, we are going to define that there is an editor:
 ```
-< dc:creator id="id-1">Miya Kazuki</ dc:creator>
-< meta refines="#id-1" property="role" scheme="marc:relators">editor</ meta>
+<dc:creator id="id-1">Miya Kazuki</dc:creator>
+<meta refines="#id-1" property="role" scheme="marc:relators">editor</meta>
 ```
 ##### Expanding People Metadata
 For libraries that are allowed to manage collections and reading lists (and Kavita v0.7.3+), Kavita can utilize epub metadata fields for this.
@@ -55,23 +55,23 @@ In the following example, we have just a single title here and the meta tag to r
 ```
 
 If you add an additional tag of `display-seq` then Kavita will treat the collection as a reading list and generate the reading list with the following order. Note that if you have conflicts, Kavita will automatically reorder, so order may be skewed. 
-`
-< meta refined="#t1" property="display-seq">1</ meta>
-`
+```
+<meta refined="#t1" property="display-seq">1</meta>
+```
 
 ##### Legacy Information (This section is being rewritten)
 Some books belong together, like in the example, Harry Potter. Sure, we can have each book as it's own series, but sometimes it's better to group them under one series. The ideal way to perform this grouping is by using `calibre:series` and `calibre:series_index` or `belongs-to-collection` and `group-position` for Epub 3.2 files. In the following, we can have our 2 harry potter books grouped together as one single Harry Potter Series (I am using Epub 2 for the first and Epub 3+ for the second):
 
 ```
-< dc:title id="id">Harry Potter and the Philosopher's Stone</ dc:title>
-< meta name="calibre:series">Harry Potter</ meta>
-< meta name="calibre:series_index">1</ meta>
+<dc:title id="id">Harry Potter and the Philosopher's Stone</dc:title>
+<meta name="calibre:series">Harry Potter</meta>
+<meta name="calibre:series_index">1</meta>
 ```
 
 ```
-< dc:title id="id">Harry Potter and the Chamber of Secrets</ dc:title>
-< meta property="belongs-to-collection" id="id-5">Harry Potter</ meta>
-< meta refines="#id-5" property="group-position">2</ meta>
+<dc:title id="id">Harry Potter and the Chamber of Secrets</dc:title>
+<meta property="belongs-to-collection" id="id-5">Harry Potter</meta>
+<meta refines="#id-5" property="group-position">2</meta>
 ```
 
 Here you can see the Harry Potter series, as coded above. Each book is an individual series, but because of the collection metadata, they are ordered and grouped together as "Harry Potter"
