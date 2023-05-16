@@ -17,6 +17,7 @@ This will import the following fields from the Epub into Kavita:
 * `dc:subjects` elements as the _Genres_
 * `dc:language` elements as the _Language_ (Kavita will only take the first)
 * `dc:creator` elements as the _Writer_ (See Expanding People Metadata)
+* `dc:publisher` elements as the _Publisher_ (See Expanding People Metadata)
 * `dc:identifier opf:scheme="isbn"` element as the _ISBN_
 * `calibre:title_sort` element as _TitleSort_
 * `calibre:series` element as _Name_ and _SortName_ (for the series)
