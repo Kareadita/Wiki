@@ -41,10 +41,9 @@ In an epub (Kavita v0.7.3+), you can expand on people with not just author and p
 * clr/colorist
 
 In order to achieve this, you must refine the existing `dc:creator` tag with a `meta` tag. Both must exist otherwise the creator will be treated just as an author. See below, we are going to define that there is an editor:
-
 `
 <dc:creator id="id-1">Miya Kazuki</dc:creator>
-<meta refines="#id-1" property="role" scheme="marc:relators">editor</meta>
+< meta refines="#id-1" property="role" scheme="marc:relators">editor</ meta>
 `
 ##### Expanding People Metadata
 For libraries that are allowed to manage collections and reading lists (and Kavita v0.7.3+), Kavita can utilize epub metadata fields for this.
@@ -52,12 +51,12 @@ For libraries that are allowed to manage collections and reading lists (and Kavi
 In the following example, we have just a single title here and the meta tag to refine this title and indicate that it is used for a collection. With just this, Kavita will generate a `Collection` tag.
 `
 <dc:title id="t1">A Dictionary of Modern English Usage</dc:title>
-<meta refines="#t1" property="title-type">collection</meta>
+< meta refines="#t1" property="title-type">collection</ meta>
 `
 
 If you add an additional tag of `display-seq` then Kavita will treat the collection as a reading list and generate the reading list with the following order. Note that if you have conflicts, Kavita will automatically reorder, so order may be skewed. 
 `
-<meta refined="#t1" property="display-seq">1</meta>
+< meta refined="#t1" property="display-seq">1</ meta>
 `
 
 ##### Legacy Information (This section is being rewritten)
