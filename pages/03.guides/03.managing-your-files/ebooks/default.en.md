@@ -12,7 +12,7 @@ Kavita scans epubs in a 2 pass process. The first pass pulls from the internal m
 Calibre eBook Management software can be used to edit epub metadata to include Series, Volume, and Title so that series with multiple books parse correctly into the same series. [Calibre](https://wiki.kavitareader.com/en/guides/misc/calibre)
 
 #### Epub Metadata
-Thiw will import the following feilds from the Epub into Kavita:
+This will import the following feilds from the Epub into Kavita:
 * `dc:title` element as the _Title_ (this can be overridden by `calibre:series` or `belongs-to-collection` meta)
 * `dc:description` element as the _Summary_
 * `dc:subjects` elements as the _Genres_
