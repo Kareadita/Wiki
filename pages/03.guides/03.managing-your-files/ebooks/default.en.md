@@ -45,7 +45,7 @@ In order to achieve this, you must refine the existing `dc:creator` tag with a `
 <dc:creator id="id-1">Miya Kazuki</dc:creator>
 <meta refines="#id-1" property="role" scheme="marc:relators">editor</meta>
 ```
-##### Expanding People Metadata
+##### Reading Lists and Collections
 For libraries that are allowed to manage collections and reading lists (and Kavita v0.7.3+), Kavita can utilize epub metadata fields for this.
 
 In the following example, we have just a single title here and the meta tag to refine this title and indicate that it is used for a collection. With just this, Kavita will generate a `Collection` tag.
@@ -59,7 +59,7 @@ If you add an additional tag of `display-seq` then Kavita will treat the collect
 <meta refined="#t1" property="display-seq">1</meta>
 ```
 
-##### Legacy Information (This section is being rewritten)
+##### Grouping Series
 Some books belong together, like in the example, Harry Potter. Sure, we can have each book as it's own series, but sometimes it's better to group them under one series. The ideal way to perform this grouping is by using `calibre:series` and `calibre:series_index` or `belongs-to-collection` and `group-position` for Epub 3.2 files. In the following, we can have our 2 harry potter books grouped together as one single Harry Potter Series (I am using Epub 2 for the first and Epub 3+ for the second):
 
 ```
