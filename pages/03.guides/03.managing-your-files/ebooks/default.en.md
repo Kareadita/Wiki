@@ -29,6 +29,7 @@ The following meta properties will be imported into Kavita:
 * `role` with `marc:relators`as _Person_ (See Expanding People Metadata)
 * `title-type` with content of `collection` (See Collections/Reading List)
 * `display-seq` as Reading List position (See Collections/Reading List)
+* `file-as` with `title-type:main`as _SeriesSort_ (Note: This will override `belongs-to-collection` and `calibre:series` if defined)
 
 ##### Expanding People Metadata
 In an epub (Kavita v0.7.3+), you can expand on people with not just author and publisher mappings, but can support the following:
