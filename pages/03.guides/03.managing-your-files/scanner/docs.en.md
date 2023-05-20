@@ -16,6 +16,7 @@ visible: true
 - [The Scan Loop](#the-scan-loop)
 - [Notes](#notes)
 - [Folder Watching](#folder-watching)
+- [Media Errors](#media-errors)
 
 <hr style="border:5px solid #4ac694">
 
@@ -149,8 +150,21 @@ In-depth overview on how the scan loop works
 - For series scan, if the series folder is no longer on the disk, the scan will be aborted. A library scan should be run which will delete the series. 
 - Not every action you can perform on a folder will change its modification time, including renaming and moving it. Keep this in mind if library scans are not working as expected.
 
+<hr style="border:5px solid #4ac694">
+
 # Folder Watching
 
 Folder watching (v0.5.6+) lets Kavita know when a file has been added or modified in your library and update it in your Kavita instance. Folder watching is enabled by default and watches each folder of a given library for modifications. When files are added (loose leaf images or non supported extensions are ignored), renamed, deleted, etc, Kavita takes note and setups a Scan. Depending on your setup, Kavita will try to do a Scan folder, which is much lighter on resources. However, if you have multiple series within the same folder, a scan library will be used. This event is scheduled from the event time, 5 minutes into the future to allow for any other changes to get grouped in. 
 
 ! Folder watching has limited results with Network Drives via Docker. Please comment on [this issue](https://github.com/Kareadita/Kavita/issues/1714) if you have a solution.
+
+<hr style="border:5px solid #4ac694">
+
+# Media Errors
+Kavita v0.7.3+ will report any errors that arise during scan or opening of a book for reading. However, some of the errors are more technical and you may need help decoding the underlying issue. The following should help you map. If you have suggestions, raise a PR.
+
+* EPUB parsing error: 'nav' element in the navigation file does not contain a required 'ol' element. -> You have an invalid table of contents or multiple nav elements in your table of contents file
+* EPUB parsing error: 'li' element in the navigation file must contain either an 'a' element or a 'span' element. -> The table of contents is not following spec. Repack with Sigil or Calibre to fix.
+* End of central directory -> Bad archive
+* Bad header (different codes) -> Bad archive
+* Incorrect EPUB navigation point: point ID is missing. -> Bad internal metadata for the epub making it unable to be parsed. Use Sigil or Calibre to fix. 
