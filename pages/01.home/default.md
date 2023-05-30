@@ -13,7 +13,7 @@ Kavita is a full-fledged, fast, cross-platform, & open-source manga, comic, and 
 * Extensive File support
     * Manga/Comics: ZIP, RAR, RAR5, CBR, CBZ, CB7, CBT, TAR.GZ, 7ZIP/7Z
     * Books: EPUB2, EPUB3, PDF
-    * Raw Images: JPG/JPEG, PNG, WEBP, GIF
+    * Raw Images: JPG/JPEG, PNG, WEBP, GIF, AVIF
 * Manga/Comic Reader
     * Image Scaling to fit your device screen or override for what feels best to you
     * Image Splitting for those joined page spreads, don't scroll on your tablet, just split
