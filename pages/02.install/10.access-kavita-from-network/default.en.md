@@ -26,8 +26,6 @@ We will not cover how to achieve this here, but we will provide resources and ex
 
 If you would like to contribute your working Reverse Proxy config please join us in [Discord](https://discord.gg/b52wT37kt7) to discuss. 
 
-!! **Warning**: Kavita only supports subdomain at this time and not sub-directory. e.g https://kavita.example.com is supported whereas https://example.com/kavita is not supported.
-
 ### Config examples
 
 * [NGINX Example](reverse-proxy/01.nginx-example/default.md)
