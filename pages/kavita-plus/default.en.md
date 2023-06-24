@@ -1,5 +1,6 @@
 ---
 title: Kavita+
+media_order: 'Activate License.PNG'
 ---
 
 Kavita+ is a premium service offered by the Kavita Team which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application, think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product.
@@ -18,6 +19,13 @@ Planned:
 - Webhook Support
 - Kobo Progress Sync
 - Your ideas (you can submit your ideas on Feathub)
+
+## How to Buy
+Navigate to Admin Dashboard -> Kavita+ tab. From there, you can purchase a license via the Buy button. A new tab will open prompting you for your pay information. Kavita+ uses Stripe to handling payments. Kavita team does not have any access to your personal information. Please ensure you use a real email, otherwise you will not be able to receive your product key. Upon finishing subscription, you will receive an email from Kavita with your license key. Move to the Activate step.
+
+## How to Activate
+From the Admin Dashboard -> Kavita+ tab, press Activate button. This will prompt you for the email you used with Stripe and the License you received via the email. Enter the details and hit save. This will register your Kavita instance with Kavita+ and should reflect instantly. If you ever need to manage your subscription, like cancel it, you can do so via the Manage button. All management is locked around your email. If forever reason your license is showing invalid, use the Check button to re-validate the license.
+![Activate%20License](Activate%20License.PNG "Activate%20License")
 
 ### External Reviews
 
