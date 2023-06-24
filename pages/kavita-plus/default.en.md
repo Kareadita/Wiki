@@ -1,6 +1,6 @@
 ---
 title: Kavita+
-media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG'
+media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG'
 ---
 
 Kavita+ is a premium service offered by the Kavita Team which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application, think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product.
@@ -34,5 +34,5 @@ Kavita+ offers external reviews on the Series Detail page. These reviews are agg
 
 ### External Recommendations
 Kavita+ offers external recommendations on the Series Detail page. The recommendations are aggregated from multiple sources. If the logged in user is an admin with no age restriction, they will be able to see recommendations that are not on the server, otherwise, only series on the server will show (and the usual age restriction or library restriction will apply). 
-
+![recommendations](recommendations.PNG "recommendations")
 
