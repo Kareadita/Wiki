@@ -32,3 +32,7 @@ Kavita+ offers external reviews on the Series Detail page. These reviews are agg
 ![User-Reviews](User-Reviews.PNG "User-Reviews")
 ![individual-review](individual-review.PNG "individual-review")
 
+### External Recommendations
+Kavita+ offers external recommendations on the Series Detail page. The recommendations are aggregated from multiple sources. If the logged in user is an admin with no age restriction, they will be able to see recommendations that are not on the server, otherwise, only series on the server will show (and the usual age restriction or library restriction will apply). 
+
+
