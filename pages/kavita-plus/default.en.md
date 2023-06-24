@@ -7,7 +7,7 @@ Kavita+ is a premium service offered by the Kavita Team which unlocks a set of f
 
 Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit.
 
-Current Features:
+**Current Features:**
 - External Reviews
 - Recommendations
 - External Series for Admins
@@ -15,7 +15,7 @@ Current Features:
 - Scrobbling Support for AniList
 - External Ratings
 
-Planned:
+**Planned:**
 - Webhook Support
 - Kobo Progress Sync
 - Your ideas (you can submit your ideas on Feathub)
