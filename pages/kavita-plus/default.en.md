@@ -1,6 +1,6 @@
 ---
 title: Kavita+
-media_order: 'Activate License.PNG'
+media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG'
 ---
 
 Kavita+ is a premium service offered by the Kavita Team which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application, think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product.
@@ -28,4 +28,7 @@ From the Admin Dashboard -> Kavita+ tab, press Activate button. This will prompt
 ![Activate%20License](Activate%20License.PNG "Activate%20License")
 
 ### External Reviews
+Kavita+ offers external reviews on the Series Detail page. These reviews are aggregated from multiple sources and sorted. If users on your server have opted into sharing their reviews, they will always show first, then reviews from external sources. Clicking on any review will show you the external review.
+![User-Reviews](User-Reviews.PNG "User-Reviews")
+![individual-review](individual-review.PNG "individual-review")
 
