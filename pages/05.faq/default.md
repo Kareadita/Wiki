@@ -77,7 +77,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ===
 
 #### Q. **Is there a way to see what isn't being added to Kavita during a scan?**
-* A. As of now, there is no dedicated UI page. You can instead search the logs for this:
+* A. There are multiple ways to identify. If there are metadata/format issues, you can find them under Media tab in Admin Dashboard. If they are from improper setup, you can instead search the logs for this:
 ```
 There are multiple series that map to normalized key SERIESNAME. You can manually delete the entity via UI and rescan to fix it. This will be skipped
 ```
@@ -85,7 +85,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 #### Q. **Follow up, some of my epubs aren't being added, how come?**
-* A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. You can use Calibre to reexport, which usually fixes the malformed metadata.
+* A. If an epub isn't being added, it is likely due to a malformed file/metadata. Search for `[BookService] There was an exception when opening epub book:` in your logs to validate. You can use Calibre to reexport, which usually fixes the malformed metadata. Likewise, you can use the Media tab in the Admin dashboard to quickly find all series that failed to import due to improper metadata and can re-export or polish them with Calibre or Sigil. 
 
 ===
 
@@ -100,7 +100,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 #### Q. **v0.5.1 Introduced Email functionality, how does it work?**
-* A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails won't send, all email flows will write the link to your logs. This is the best way for you to confirm your email when doing the one-time migration or setting up accounts for your users. You do not need to have a valid email unless you plan to use the forgot password function. You can set up your users' accounts for them by doing the invite flow and using their invite link. We do not collect any email account information. It is deleted immediately after being dispatched by an automatic rule. You can run your own email service as well. 
+* A. The email functionality only works for servers that are publicly accessible from the web. For example, if you access your server on localhost or an internal IP, the email code will never execute. However, you still need to have an email confirmed. Since emails won't send, all email flows will write the link to your logs. This is the best way for you to confirm your email when doing the one-time migration or setting up accounts for your users. You do not need to have a valid email unless you plan to use the forgot password function. You can set up your users' accounts for them by doing the invite flow and using their invite link. We do not collect any email account information. It is deleted immediately after being dispatched by an automatic rule. You can run your own email service as well (and must to utilize Send to Device functionality). 
 
 ===
 
