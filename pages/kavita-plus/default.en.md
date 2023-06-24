@@ -3,9 +3,9 @@ title: Kavita+
 media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG'
 ---
 
-Kavita+ is a premium service offered by the Kavita Team which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application, think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product.
+Kavita+ is a premium service offered by the main developer of Kavita (Joe) which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application---think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product.
 
-Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit.
+Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit. You can cancel and resume at any time. 
 
 **Current Features:**
 - External Reviews
