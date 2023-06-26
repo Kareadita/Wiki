@@ -18,7 +18,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 **Planned:**
 - Webhook Support
 - Kobo Progress Sync
-- Find non-owned series by Person
+- Find non-owned series by Person (like Authors)
 - Community-Driven Proposed Features (you can submit your ideas on Feathub)
 
 ## How to Buy
