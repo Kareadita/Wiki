@@ -53,3 +53,6 @@ To setup Scrobbling, navigate to your User Settings -> Account tab and click Scr
 ![edit-scrobbling](edit-scrobbling.PNG "edit-scrobbling")
 ![scrobbling-set](scrobbling-set.PNG "scrobbling-set")
 
+
+### How to fix bad Matches
+As series can often have many names and users may put their own spin on each one, scrobbling might fail to match. In these cases, there are two options: Correct the Series name or Localized Series name to match AniList or add AniList or MAL weblink to the series. Once done, you can clear scrobble errors and wait. Scrobbling should take after this. 
