@@ -31,7 +31,7 @@ title: macOS
 If you see an error like the following, there are two options:  <i>`Unhandled exception. System.IO.IOException: Failed to bind to address http://[::]:5000: address already in use.`</i>
 1. Turn off Sharing to the Airplay Receiver
    - **MacOS Monterey:** System Preferences › Sharing and uncheck AirPlay Receiver
-   - **MacOS Ventura:** System Settings › General › AirDrop & Handoff
+   - **MacOS Ventura:** System Settings › General › AirDrop & Handoff and uncheck AirPlay Receiver
 
 2. Change the port by editing the file `config/appsettings.json` and changing the port, e.g. `"Port": 5555`. Then you can access Kavita with the new port e.g. http://localhost:5555/
 
