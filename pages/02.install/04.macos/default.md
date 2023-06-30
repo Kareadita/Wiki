@@ -28,8 +28,8 @@ title: macOS
 7. Open a browser window, at address: http://localhost:5000/
 
 ### Troubleshooting
-1. If you see an error like the following, there are two options:  <i>`Unhandled exception. System.IO.IOException: Failed to bind to address http://[::]:5000: address already in use.`</i>
-+ Turn off Sharing to the Airplay Receiver
+If you see an error like the following, there are two options:  <i>`Unhandled exception. System.IO.IOException: Failed to bind to address http://[::]:5000: address already in use.`</i>
+1. Turn off Sharing to the Airplay Receiver
    - **MacOS Monterey:** System Preferences › Sharing and uncheck AirPlay Receiver
    - **MacOS Ventura:** System Settings › General › AirDrop & Handoff
 
