@@ -27,7 +27,6 @@ TLDR:
 
 ##### My folder structure is compliant with new requirements
 If you are sure your files are compliant, then something is going on. Put your logging level on Debug and redo process.
-
 After that check the logs and take a look at [logs-errors](logs-errors) section.
 
 #### 2. My files are not being grouped correctly. What to do?
