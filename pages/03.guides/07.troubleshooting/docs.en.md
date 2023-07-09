@@ -25,13 +25,13 @@ TLDR:
 - Not every action you can perform on a folder will change its modification time, including renaming and moving it. Keep this in mind if library scans are not working as expected. Do a series scan instead.
 ** Does not apply for epub files
 
-#### My folder structure is compliant with new requirements
+##### My folder structure is compliant with new requirements
 If you are sure your files are compliant, then something is going on. Put your logging level on Debug and redo process.
 
 After that check the logs and take a look at [logs-errors](logs-errors) section.
 
-#### My files are not being grouped correctly. What to do?
+#### 2. My files are not being grouped correctly. What to do?
 Ensure you understand that pdfs, epubs and cb* do not stack in Kavita. Kavita separates by format -and series name due to different format having different readers
 
-#### Covers keep updating in the dashboard
+#### 3. Covers keep updating in the dashboard
 The root cause for this issue is that you probably have one series across multiple folders. Make sure [your folder structure is compliant with scanning requirements](/guides/managing-your-files)
