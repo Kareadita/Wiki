@@ -53,6 +53,8 @@ To setup Scrobbling, navigate to your User Settings -> Account tab and click Scr
 ![edit-scrobbling](edit-scrobbling.PNG "edit-scrobbling")
 ![scrobbling-set](scrobbling-set.PNG "scrobbling-set")
 
+If you do not want scrobbling on a library, as an admin, you can turn it off in Library Settings. If as a user, you want to exclude certain series, you can do that by pressing the scrobbling button on the Series detail page. If you had a series on the scrobble hold list (visible in User Settings -> Scrobbling) and turned it on again, you need to invoke a reading event or rating event, based on whatever you want to scrobble up. You can simply open the reader, go back a page and forward or re-mark an existing item as read.
+
 
 ### How to fix bad Matches
 As series can often have many names and users may put their own spin on each one, scrobbling might fail to match. In these cases, there are two options: Correct the Series name or Localized Series name to match AniList or add AniList or MAL weblink to the series. Once done, you can clear scrobble errors and wait. Scrobbling should take after this. 
