@@ -12,16 +12,14 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 
 !!! Big thanks to aitopu34 a.k.a ACK72 for developing this extension
 
-! Note: Currently there's only official support for Paperback v0.7.<br/>
-! Paperback only works on iOS 13.4+ or iPadOS 13.4+
+! Note: Currently there's only official support for Paperback v0.8.<br/>
 
 ## Known Limitations
 * Recommendation and ReadingList feature of Kavita currently are not supported.
+* Tracking is supported, but as of Paperback v0.8 you must add the series to a collection (press the bookmark icon), then setup tracking individually.
 
 ## Issues
 **Kavya Extension:** Please report any errors [here](https://github.com/ACK72/kavya-paperback/issues/new?assignees=ACK72&labels=&template=bug_report.md&title=%5BBUG%5D). 
-
-**Kavya Tracker Extension:** Please report any errors [here](https://github.com/ACK72/kavya-paperback-tracker/issues/new?assignees=ACK72&title=%5BBUG%5D)
 
 Those link to the plugin's GitHub. Please do not create issues on Kavita's GitHub for extension-related issues.
 
