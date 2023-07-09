@@ -17,7 +17,7 @@ Please follow the following generic steps to troubleshoot your issue.
 #### 1. Is my folder structure compliant with scanner requirements?
 As of v.0.5.6 file structure changed due to the scanner update please do read [how the new Scanner works](/guides/managing-your-files/scanner)
 
-TLDR:
+TL;DR:
 - Loose files can't be at the root of the library.
 - Kavita expects all series to be nested in it's own folder.**
 - Having multiple series in one folder is not supported but does work.
