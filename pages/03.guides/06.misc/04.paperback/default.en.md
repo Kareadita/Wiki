@@ -12,7 +12,7 @@ media_order: 'Image_10.jpeg,Image_2.jpeg,Image_3.jpeg,Image_4.jpeg,Image_5.jpeg,
 
 !!! Big thanks to aitopu34 a.k.a ACK72 for developing this extension
 
-! Note: Currently there's only official support for Paperback v0.8.<br/>
+! Note: As of v1.3.* the extension is only compatible with Paperback v0.8.<br/>
 
 ## Known Limitations
 * Recommendation and ReadingList feature of Kavita currently are not supported.
