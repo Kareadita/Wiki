@@ -61,3 +61,7 @@ If you do not want scrobbling on a library, as an admin, you can turn it off in 
 
 ### How to fix bad Matches
 As series can often have many names and users may put their own spin on each one, scrobbling might fail to match. In these cases, there are two options: Correct the Series name or Localized Series name to match AniList or add AniList or MAL weblink to the series. Once done, you can clear scrobble errors and wait. Scrobbling should take after this. 
+
+### FAQ
+#### Some reviews look broken
+This happens due to a bug in AniList's API. I have created an issue and will monitor. This should be rare and you can use Open Review button to read the review in AniList. MAL reviews do not seem affected.
