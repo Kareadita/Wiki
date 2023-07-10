@@ -21,6 +21,9 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 - Find non-owned series by Person (like Authors)
 - Community-Driven Proposed Features (you can submit your ideas on Feathub)
 
+## First time Subscribers
+If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 50% discount on the first month (2$).
+
 ## How to Buy
 Navigate to Admin Dashboard -> Kavita+ tab. From there, you can purchase a license via the Buy button. A new tab will open prompting you for your pay information. Kavita+ uses Stripe to handling payments. Kavita team does not have any access to your personal information. Please ensure you use a real email, otherwise you will not be able to receive your product key. Upon finishing subscription, you will receive an email from Kavita with your license key. Move to the Activate step.
 
