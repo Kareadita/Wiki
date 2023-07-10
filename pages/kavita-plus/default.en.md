@@ -65,3 +65,6 @@ As series can often have many names and users may put their own spin on each one
 ### FAQ
 #### Some reviews look broken
 This happens due to a bug in AniList's API. I have created an issue and will monitor. This should be rare and you can use Open Review button to read the review in AniList. MAL reviews do not seem affected.
+
+#### Some series cannot be found
+This can happen if AniList doesn't have the series (or you need to rename/add a weblink). If AniList doesn't have a series, you can work with them to add the series. 
