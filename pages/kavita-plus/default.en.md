@@ -1,6 +1,7 @@
 ---
 title: Kavita+
 media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG'
+visible: true
 ---
 
 Kavita+ is a premium service offered by the main developer of Kavita ([majora2007](https://github.com/majora2007)) which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application—think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product. The base Kavita application will continue to get frequent updates with new features. 
