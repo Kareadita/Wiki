@@ -5,7 +5,7 @@ visible: true
 published: true
 ---
 
-Kavita+ is a premium service offered by the main developer of Kavita ([majora2007](https://github.com/majora2007)) which unlocks a set of features for your Kavita application. Kavita+ is a way to gain some monetary support to further dedicate time into the Kavita application—think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product. The base Kavita application will continue to get frequent updates with new features. 
+Kavita+ is a premium service offered by the main developer of Kavita ([majora2007](https://github.com/majora2007)) which unlocks a set of features for your Kavita application. Kavita+ is a way for me to hopefully go full time on Kavita development—think of it as a way to support the development of Kavita while also getting some sweet features out of it. The goal is to not lock all features behind Kavita+, but add features that otherwise aren't feasible in the base product. The base Kavita application will continue to get frequent updates with new features. 
 
 Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit. You can cancel and resume at any time. 
 
@@ -70,3 +70,9 @@ This happens due to a bug in AniList's API. I have created an issue and will mon
 
 #### Some series cannot be found
 This can happen if AniList doesn't have the series (or you need to rename/add a weblink). If AniList doesn't have a series, you can work with them to add the series. 
+
+### I don't see any ratings, reviews, or recommendations
+As of Kavita v0.7.4, only series that exist on AniList will provide external data. I am actively scouting for Comic and Book providers (however it looks unlikely) to provide more information. If you think you have something I can integrate with, please raise it on the feature request site.
+
+### I have a cool idea
+Like all ideas with Kavita, please raise it on feats.kavitareader.com and allow me and the community to expand on it and prioritize it. 
