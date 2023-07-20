@@ -18,6 +18,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 - External Ratings
 
 **Planned:**
+- Non-manga Book Support (added: 7/20/23)
 - Webhook Support
 - Kobo Progress Sync
 - Find non-owned series by Person (like Authors)
