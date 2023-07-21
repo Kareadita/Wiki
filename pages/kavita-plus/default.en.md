@@ -82,5 +82,8 @@ This can happen if AniList doesn't have the series (or you need to rename/add a 
 ### I don't see any ratings, reviews, or recommendations
 As of Kavita v0.7.4, only series that exist on AniList will provide external data. I am actively scouting for Comic and Book providers (however it looks unlikely) to provide more information. If you think you have something I can integrate with, please raise it on the feature request site.
 
+#### AniList activity feed isn't showing my progress
+AniList currently doesn't show activity if only Volumes were read. You can read more about it [here](https://anilist.co/forum/thread/2586). You can validate that the Volumes do update in the Series on AniList. 
+
 ### I have a cool idea
 Like all ideas with Kavita, please raise it on feats.kavitareader.com and allow me and the community to expand on it and prioritize it. 
