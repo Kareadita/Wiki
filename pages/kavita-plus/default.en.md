@@ -10,19 +10,26 @@ Kavita+ is an **optional** premium service offered by the main developer of Kavi
 Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit. You can cancel and resume at any time. 
 
 **Current Features:**
-- External Reviews
-- Recommendations
 - External Series for Admins
 - Remove Donate Link
-- Scrobbling Support for AniList
+- Scrobbling Support
+  - AniList
+- External Reviews
+  - AniList
+  - MAL
+- Recommendations
+  - AniList
+  - MAL
 - External Ratings
+  - AniList
+  - MAL
 
 **Planned:**
 - Non-manga Book Support (added: 7/20/23)
 - Webhook Support
 - Kobo Progress Sync
 - Find non-owned series by Person (like Authors)
-- Community-Driven Proposed Features (you can submit your ideas on Feathub)
+- Community-Driven Proposed Features (you can submit your ideas on [FeatHub](https://feats.kavitareader.com))
 
 ## First time Subscribers
 If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 50% discount on the first month (2$).
