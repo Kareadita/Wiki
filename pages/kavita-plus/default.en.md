@@ -26,7 +26,10 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
   - Google Book (requires Kavita 0.7.6) (In trial to see if valuable for members)
 
 **Planned:**
-- Non-manga Book Support (added: 7/20/23)
+- Non-manga Book Support
+  -  Added: 7/20/23
+  - Google Books delivered for v0.7.6. In trial due to poor ratings
+  - OpenLibrary to be implemented
 - Webhook Support
 - Kobo Progress Sync
 - Find non-owned series by Person (like Authors)
