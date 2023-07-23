@@ -23,6 +23,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 - External Ratings
   - AniList
   - MAL
+  - Google Book (requires Kavita 0.7.6) (In trial to see if valuable for members)
 
 **Planned:**
 - Non-manga Book Support (added: 7/20/23)
