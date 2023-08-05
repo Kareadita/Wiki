@@ -49,7 +49,7 @@ Kavita is a full-fledged, fast, cross-platform, & open-source manga, comic, and 
 * Rich metadata
 * OPDS-PS Support
 * Accessibility first - audits for color contrast, screen reader, and keyboard only
-* Localization - [Help](https://hosted.weblate.org/engage/kavita/) translate Kavita into your favorite reader
+* Localization - [Help](https://hosted.weblate.org/engage/kavita/) translate Kavita into your favorite language
 * Frequent updates with new features
 
 ### Discord 
