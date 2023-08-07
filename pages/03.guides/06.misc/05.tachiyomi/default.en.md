@@ -75,6 +75,13 @@ This will hide or show filters appearing in the filter list.
 To hide one filter just uncheck the checkbox
 
 ## Sync Progress with Kavita
-Check the [Discord](https://discord.gg/b52wT37kt7) sever to access a preview of this feature. Kavita is waiting on Tachiyomi team to release the next version with our code in it.
+Kavita has progress sync with Tachiyomi. It will automatically mark completed volumes and chapters as read in both apps. It does not sync page progress, it only syncs when a volume (or chapter if they are split) is complete.
 
+To activate tracking go to settings > Tracking and click on Kavita at the bottom.
+
+![tachiyomi_tracking_settings](https://github.com/Kareadita/Wiki/assets/2068470/977e0426-a55a-48b4-940f-067c1ebdd707)
+
+After activating it will appear with the rest of the trackers on your manga page. Make sure it shows its active otherwise it will not sync.
+
+![tachiyomi_tracking](https://github.com/Kareadita/Wiki/assets/2068470/d52cdd42-18dd-4197-a598-c0ff4eeacff8)
 
