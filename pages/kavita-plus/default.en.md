@@ -90,4 +90,4 @@ As of Kavita v0.7.4, only series that exist on AniList will provide external dat
 AniList currently doesn't show activity if only Volumes were read. You can read more about it [here](https://anilist.co/forum/thread/2586). You can validate that the Volumes do update in the Series on AniList. 
 
 ### I have a cool idea
-Like all ideas with Kavita, please raise it on feats.kavitareader.com and allow me and the community to expand on it and prioritize it. 
+Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://feats.kavitareader.com) and allow me and the community to expand on it and prioritize it. 
