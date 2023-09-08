@@ -4,9 +4,8 @@ media_order: 'Kavita Context Action Menu.png,series_metadata_view.png,collection
 visible: true
 ---
 
-### Collections
-
 ![collections](collections.png "collections")
+### Collections
 
 A collection is a set of series grouped together manually. A collection can be promoted by the admin thus making the collection visible to all users. However, just because the collection is visible, does not mean the individual user can view series in it they are not privy to. If a user does not have access to a library or series are outside of their age restriction, those series will not be visible by said user. A collection can contain any series from any library and thus can be cross format. For example, a user may have a collection called "KonoSuba" and it may contain all Konosuba works including light novels, spin offs, manga, TTRPGs, etc. 
 
