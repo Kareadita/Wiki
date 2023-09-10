@@ -102,3 +102,13 @@ These are only the guides for some of them.
 ### CDisplayEx
 [Access the guide for CDisplayEx here](./cdisplayex)
 
+<hr style="border:2px solid #4ac694"> </hr>
+
+### Paperback
+[Access the guide for Paperback here](./paperback)
+
+<hr style="border:2px solid #4ac694"> </hr>
+
+### Aidoku
+[Access the guide for Aidoku here](./aidoku)
+
