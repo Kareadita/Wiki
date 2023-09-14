@@ -18,7 +18,8 @@ In order to customize your dashboard, click the actionable menu from the Home si
 - Disable Streams
 - Add Existing Smart Filters to the Dashboard 
 
-! Note: Smart Filter based streams will run the smart filter query, so you can edit the smart filter at any given time (via User Settings -> Smart Filter or Clicking on the stream title)
+! Note: Smart Filter based streams will run the smart filter query, so you can edit the smart filter at any given time (via User Settings -> Smart Filter or Clicking on the stream title). 
+! Note: The order of your dashboard will change your OPDS feed. A smart filter section will also be available if you have any.
 
 ![customize-dashboard](customize-dashboard.png "customize-dashboard")
 
