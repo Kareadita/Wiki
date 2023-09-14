@@ -23,20 +23,22 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 - External Ratings
   - AniList
   - MAL
-  - Google Book (requires Kavita 0.7.6) (In trial to see if valuable for members)
+  - Google Book (Kavita v0.7.6+) (In trial to see if valuable for members)
 
 **Planned:**
 - Non-manga Book Support
   -  Added: 7/20/23
   - Google Books delivered for v0.7.6. In trial due to poor ratings
-  - OpenLibrary to be implemented
+  - OpenLibrary to be implemented (in trial)
 - Webhook Support
 - Kobo Progress Sync
 - Find non-owned series by Person (like Authors)
 - Community-Driven Proposed Features (you can submit your ideas on [FeatHub](https://feats.kavitareader.com))
 
+! Note: Kavita+ does not download metadata for your files. This is already available for free via [Komf](https://github.com/Snd-R/komf). 
+
 ## First time Subscribers
-If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 50% discount on the first month (2$).
+If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 50% discount on the first month (2$). If you are an active OpenCollective donator, please contact majora2007 for provisioning. 
 
 ## How to Buy
 Navigate to Admin Dashboard -> Kavita+ tab. From there, you can purchase a license via the Buy button. A new tab will open prompting you for your pay information. Kavita+ uses Stripe to handling payments. Kavita team does not have any access to your personal information. Please ensure you use a real email, otherwise you will not be able to receive your product key. Upon finishing subscription, you will receive an email from Kavita with your license key. Move to the Activate step.
@@ -44,6 +46,9 @@ Navigate to Admin Dashboard -> Kavita+ tab. From there, you can purchase a licen
 ## How to Activate
 From the Admin Dashboard -> Kavita+ tab, press Activate button. This will prompt you for the email you used with Stripe and the License you received via the email. Enter the details and hit save. This will register your Kavita instance with Kavita+ and should reflect instantly. If you ever need to manage your subscription, like cancel it, you can do so via the Manage button. All management is locked around your email. If for whatever reason your license is showing invalid, use the Check button to re-validate the license.
 ![Activate%20License](Activate%20License.PNG "Activate%20License")
+
+## How to Unsubscribe
+If Kavita+ isn't bringing value to you, you can unsubscribe easily via the Kavita+ Tab. Click Manage which will open your Stripe portal and from there you can cancel your membership. You will receive an email stating your subscription has cancelled and until when your Kavita+ membership lasts until. You can use this Manage button at any time in the future to re-activate your subscription. If in doubt, please reach out to majora2007. 
 
 ### External Reviews
 Kavita+ offers external reviews on the Series Detail page. These reviews are aggregated from multiple sources and sorted. If users on your server have opted into sharing their reviews, they will always show first, then reviews from external sources. Clicking on any review will show you the external review.
