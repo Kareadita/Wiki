@@ -1,6 +1,6 @@
 ---
 title: 'Filtering & Customization'
-media_order: 'new-filtering.png,customize-dashboard.png'
+media_order: 'new-filtering.png,customize-dashboard.png,smart-filters.png'
 ---
 
 ! This is a WIP for the new metadata filtering screen and Dashboard/Side Nav Customization
@@ -21,3 +21,8 @@ In order to customize your dashboard, click the actionable menu from the Home si
 ! Note: Smart Filter based streams will run the smart filter query, so you can edit the smart filter at any given time (via User Settings -> Smart Filter or Clicking on the stream title)
 
 ![customize-dashboard](customize-dashboard.png "customize-dashboard")
+
+![smart-filters](smart-filters.png "smart-filters")
+
+## Customize Your Side Nav
+This is not yet implemented and placeholder
