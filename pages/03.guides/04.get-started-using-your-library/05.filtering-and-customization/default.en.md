@@ -10,6 +10,9 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 
 ![new-filtering](new-filtering.png "new-filtering")
 
+#### Filter Combination
+(Table here of the different comparisons and how they work)
+
 Starting in v0.7.9, users can save these filter schemes as a Smart Filter. By placing a name in the filter and pressing Save, a smart filter is created/updated. These are the basis of customization for the Dashboard and Side Nav. 
 
 ## Customize Your Dashboard
