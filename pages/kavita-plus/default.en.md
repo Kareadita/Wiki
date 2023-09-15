@@ -99,6 +99,7 @@ AniList currently doesn't show activity if only Volumes were read. You can read 
 Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://feats.kavitareader.com) and allow me and the community to expand on it and prioritize it. 
 
 ### Updates
+
 #### v0.7.8
 - Reviews are now mixed to show a better spectrum. You will always get the first and last 2 and a selection from the middle. This should help you get a fuller picture if the series is a good read for you.
 #### v0.7.7
