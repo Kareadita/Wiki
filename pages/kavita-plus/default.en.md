@@ -47,7 +47,7 @@ From the Admin Dashboard -> Kavita+ tab, press Activate button. This will prompt
 ![Activate%20License](Activate%20License.PNG "Activate%20License")
 
 ## How to Unsubscribe
-If Kavita+ isn't bringing value to you, you can unsubscribe easily via the Kavita+ Tab. Click Manage which will open your Stripe portal and from there you can cancel your membership. You will receive an email stating your subscription has cancelled and until when your Kavita+ membership lasts until. You can use this Manage button at any time in the future to re-activate your subscription. If in doubt, please reach out to majora2007. 
+If Kavita+ isn't bringing value to you, you can unsubscribe easily via the Kavita+ Tab. Click Manage which will open your Stripe portal and from there you can cancel your membership. You will receive an email stating your subscription has cancelled and until when your Kavita+ membership lasts until. You can use this Manage button at any time in the future to re-activate your subscription. If in doubt, please reach out to [majora2007](https://discord.com/invite/b52wT37kt7). 
 
 ### External Reviews
 Kavita+ offers external reviews on the Series Detail page. These reviews are aggregated from multiple sources and sorted to try and provide a spectrum of positive, mid and negative reviews. If users on your server have opted into sharing their reviews, they will always show first, then reviews from external sources. Clicking on any review will show you the external review.
