@@ -100,11 +100,11 @@ Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://
 
 ### Updates
 
-#### v0.7.8
+##### v0.7.8
 - Reviews are now mixed to show a better spectrum. You will always get the first and last 2 and a selection from the middle. This should help you get a fuller picture if the series is a good read for you.
-#### v0.7.7
+##### v0.7.7
 - Fixed a case where when setting up initial rates for scrobbling, Kavita could print as if a user had rate limit
-#### v0.7.6
+##### v0.7.6
 - Added Google Pay payment option
 - Added Google Play rating support 
 - When scrobbling, send the first and last times the series was read by the user. This will ensure a better completion and start data in AniList (this will not overwrite existing data)
