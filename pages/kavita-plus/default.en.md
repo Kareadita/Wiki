@@ -102,16 +102,20 @@ Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://
 
 ##### v0.7.8
 - Reviews are now mixed to show a better spectrum. You will always get the first and last 2 and a selection from the middle. This should help you get a fuller picture if the series is a good read for you.
+
 ##### v0.7.7
 - Fixed a case where when setting up initial rates for scrobbling, Kavita could print as if a user had rate limit
+
 ##### v0.7.6
 - Added Google Pay payment option
 - Added Google Play rating support 
 - When scrobbling, send the first and last times the series was read by the user. This will ensure a better completion and start data in AniList (this will not overwrite existing data)
 - If a chapter has a range 1-6 and is fully read, when calculating highest chapter for Scrobbling, use the 6.
 - Added the ability to see the Series the Rating is matched with. You will see an Entry in the tooltip of the rating.
+
 ##### v0.7.5
 - Added favorite count on AL and MAL ratings. Click them to see the favorite count from users.
 - Review cards will now show an icon to indicate where the review is from. 
+
 ##### v0.7.4
 - Kavita+ Launches
