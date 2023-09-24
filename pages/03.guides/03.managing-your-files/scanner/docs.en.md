@@ -28,7 +28,7 @@ Scanning a library makes Kavita check its folders and sub-folders for new or rem
 <hr style="border:2px solid #4ac694">
 
 ## File Layout
-Kavita expects all series to be nested in a folder and the same series must **not** be parallel from the library root.
+Kavita expects all series to be nested in a folder and the same series must **not** be parallel from the library root. (The library root refers to the folder that you choose for a library within Kavita)
 
 The ideal layout is:
 ```
