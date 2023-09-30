@@ -5,10 +5,10 @@ title: 'Docker Install'
 # Introduction
 
 The Kavita team offers multiple different ways to run with docker:
- [LinuxServer.io](https://hub.docker.com/r/linuxserver/kavita) - Only offers stable versions. Does not have a nightly branch.
- [Github Container Registry](https://github.com/kareadita/Kavita/pkgs/container/kavita) - Another option in case you don't want to use dockerhub. 
- [Kavita Stable](https://hub.docker.com/r/kizaing/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
- [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new addtions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
+* [LinuxServer.io](https://hub.docker.com/r/linuxserver/kavita) - Only offers stable versions. Does not have a nightly branch.
+* [Github Container Registry](https://github.com/kareadita/Kavita/pkgs/container/kavita) - Another option in case you don't want to use dockerhub. 
+* [Kavita Stable](https://hub.docker.com/r/kizaing/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
+* [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new addtions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
 
 # Docker run
 
@@ -46,7 +46,7 @@ Create a docker-compose.yml file with the following:
 ```yml
 services:
     kavita:
-        image: kizaing/kavita:latest    # Using the stable branch 
+        image: kizaing/kavita:latest    # Using the stable branch from the offical repo.
         container_name: kavita
         volumes:
             - ./manga:/manga            # Manga is just an example you can have the name you want. See the following
