@@ -4,11 +4,15 @@ title: 'Docker Install'
 
 # Introduction
 
-The Kavita team offers an official Docker image that is automatically updated based on changes to [GitHub](https://github.com/Kareadita/Kavita).
+The Kavita team offers multiple different ways to run with docker:
+ [LinuxServer.io](https://hub.docker.com/r/linuxserver/kavita) - Only offers stable versions. Does not have a nightly branch.
+ [Github Container Registry](https://github.com/kareadita/Kavita/pkgs/container/kavita) - Another option in case you don't want to use dockerhub. 
+ [Kavita Stable](https://hub.docker.com/r/kizaing/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
+ [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new addtions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
 
 # Docker run
 
-Running your Kavita server in docker is super easy! You can run the `:latest` stable version with bind mounts using this command:
+Running your Kavita server in docker is super easy! We have worked with LinuxServer to provide an official image that supports easy user mappings and S6 compatability. [See the instructions at DockerHub](https://hub.docker.com/r/linuxserver/kavita)
 
 ! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/>Also change the volume bind path in the host
 
@@ -35,17 +39,14 @@ Also makes it easier to update your container if you don't use a container manag
 Create a docker-compose.yml file with the following:
 ! **Important**: This command is just a template. Change the values to fit your needs
 
-!!!  **Note**: Kavita is under heavy development and is being updated all the time, so the tag for current builds is `:nightly`. The `:latest` tag will be the latest stable release.
-
 !!! **Note** The way volumes work is: `<path in your host>` **`:`** `<path inside the container>`   (mind the **`:`** in between)
 
 !!! **Note**: The value for TZ can be found via `timedatectl show` or find yours in a [list of timezones](https://timezonedb.com/time-zones) (locally: `timedatectl list-timezones`).
 
 ```yml
-version: '3.9'
 services:
     kavita:
-        image: kizaing/kavita:latest    # Change latest to nightly for latest develop builds (can't go back to stable)
+        image: kizaing/kavita:latest    # Using the stable branch 
         container_name: kavita
         volumes:
             - ./manga:/manga            # Manga is just an example you can have the name you want. See the following
