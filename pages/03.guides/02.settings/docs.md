@@ -20,7 +20,7 @@ taxonomy:
 - [User Settings](#user-settings)
   - [Account Tab](#Account)
   - [Preferences Tab](#preferences)
-  - [3rd Pary Clients Tab](#3rd-party-clients)
+  - [3rd Party Clients Tab](#3rd-party-clients)
   - [Themes Tab](#themes)
   - [Devices Tab](#Devices)
   - [Smart Filters Tab](#Smart-Filters)
@@ -38,15 +38,13 @@ Use this to if you want to host kavita in a sub-folder URL, ie) yourdomain.com/k
 Most commonly used in sub-folder reverse proxy setups. 
 
 #### Port and Logging level 
-There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect.
-
-<hr style="border:1px solid #465176">
+There are a multitude of settings that can be changed. The Port and Logging Level require a manual restart of the server to take effect. On docker these settings are not configurable from the web UI. 
 
 #### Days of Backup
 The number of backups to maintain. Default is 30, minimum is 1, maximum is 30.
 
 #### Cache Size
-Amount of RAM to allot for keeping heavily used API's in memory. Defaults to 75 MB. 
+Amount of RAM to allocate for keeping heavily used API's in memory. Defaults to 75 MB. 
 
 #### On Deck Last Progress (days)
 Adjustable number of days before removing a series from "On Deck". Setting this to a higher value will prevent series from falling off with inactivity. 
@@ -54,26 +52,15 @@ Adjustable number of days before removing a series from "On Deck". Setting this 
 #### On Deck Last Chapter Add (days)
 The number of days since last progress before kicking something off On Deck.
 
-
-#### Cache directory
-
-<hr style="border:1px solid #465176">
-
-The cache directory is where temporary files will be placed, for example, when a user reads a file, the file is usually cached or the output of processing is placed in this directory. Kavita will clear this out regularly.
-
-<hr style="border:1px solid #465176">
-
 #### Stats Collection
 
-By default, Kavita will collect stats on your installation.
+By default, Kavita will collect anonymous usage data on your installation. This includes information on certain features used, number of files, OS version, Kavita install version, CPU, and memory. Stats collection will run after 24 hours in order to give you time to opt out. 
 
-You can opt out at any time by turning off "Send Data" from the Admin Dashboard. 
-
-All data is anonymized and contains **no information about your filenames or IP**.
+You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains **no information about your filenames or IP**.
 
 The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can see exactly what data we collect [here](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs).
 
-<hr style="border:1px solid #465176">
+Check the [FAQ](https://wiki.kavitareader.com/en/faq#q-does-kavita-collect-any-data-on-me) to see an example of submitted data. 
 
 #### Enable OPDS support
 
@@ -96,7 +83,6 @@ An admin cannot use this screen to modify their own roles (admin role will alway
 
 An admin can use the user settings page to change their password.
 
-
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### Libraries Tab
@@ -105,11 +91,11 @@ Adding and Editing Libraries is covered [here](https://wiki.kavitareader.com/en/
 <hr style="border:2px solid #4ac694"> </hr>
 
 ### Media
-From the Media Tab, admins can set server-wide settings for saving meida formats. You can pick from PNG, AVIF or WebP.
+From the Media Tab, admins can set server-wide settings for saving media formats. You can pick from PNG, AVIF or WebP.
 
-You should check the compability of the devices and browsers your users have before picking a format:
-* https://caniuse.com/webp
-* https://caniuse.com/avif
+You should check the compatibility of the devices and browsers your users have before picking a format:
+* [Can I use WebP](https://caniuse.com/webp)
+* [Can I use AVIF](https://caniuse.com/avif)
 
 WebP offers impressive compression and performance with the only draw back of limited support on older iOS devices.
 
@@ -127,7 +113,7 @@ This setting allows you to pick a larger resolution than the default 320x455. Th
 
 #### Media issues
 
-If kavita has any problems reading the files as it scans them, the issues will show up here. This list doesn't not automatically clear. Once you fix the files, press the `Clear Alerts` button. If any issues are found on the next scan, they will be shown again here. 
+If kavita has any problems reading the files as it scans them, those issues will show up here. This list does not automatically clear. Once you fix the files, press the `Clear Alerts` button. If any issues are found on the next scan, they will be shown again here. 
 
 Some common issues are:
 
