@@ -8,8 +8,6 @@ A Reverse Proxy allows you to share web-based services, like Kavita, outside of 
 
 [https://en.wikipedia.org/wiki/Reverse_proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
 
-!! **Warning**: Kavita only supports subdomain at this time and not sub-directory. e.g https://kavita.example.com is supported whereas https://example.com/kavita is not supported.
-
 * [NGINX Example](https://wiki.kavitareader.com/en/install/access-kavita-from-network/reverse-proxy/nginx-example)
 * [HAPROXY Example](https://wiki.kavitareader.com/en/install/access-kavita-from-network/reverse-proxy/haproxy-example)
 * [Caddy Example](https://wiki.kavitareader.com/en/install/access-kavita-from-network/reverse-proxy/caddy-example)
