@@ -7,7 +7,9 @@ taxonomy:
         - filemanagement
 ---
 
-! Note: This guide was written for Mylar3 v0.7.0
+! Note:
+! - This guide was written for Mylar3 v0.7.0
+! - This setup does not work properly with [Tachiyomi](https://tachiyomi.org/) until new feature implemented (see [this issue](https://github.com/tachiyomiorg/tachiyomi/issues/7065)). Use [Komga](https://komga.org/) to organize your library instead.
 
 [Mylar](https://github.com/mylar3/mylar3) (aka Mylar3) is an automated Comic Book and Manga (cbr/cbz) management program. Kavita can watch and automatically import your Mylar managed files after setting up post processing to have the files tagged and renamed properly.
 
@@ -39,7 +41,7 @@ Access your Mylar instance from your web browser and complete the following:
   1. "Enable" Rename files
   2. Set "Folder Format" to `$Publisher/$Series ($Year)`
   3. Set "File Format" to `$Series $VolumeY $Annual #$Issue ($monthname $Year)`
-  4. "Enable" Iss Number Padding"
+  4. "Enable" Issue Number Padding
   5. Set "Issue Number Padding Format" to `00x`
 6. Under the "Miscellaneous" section:
   * "Enable" Place cover.jpg into Comic Directory for each comic
