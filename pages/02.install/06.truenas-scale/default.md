@@ -36,7 +36,7 @@ Modify the following sections:
 - Application Name
   - Set the application name to whatever you want.
 - Container Images
-  - Set the image repository to `kizaing/kavita`.
+  - Set the image repository to `jvmilazz0/kavita`.
   - Set the image tag to `nightly`.
 - Port Forwarding
   - Click "Add" to add a port forwarding configuration.
