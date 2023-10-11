@@ -1,6 +1,6 @@
 ---
 title: 'Adding & Editing Metadata'
-media_order: 'edit1.png,edit2.png,edit3.png,edit4.png'
+media_order: 'edit2.png,edit3.png,edit4.png'
 ---
 
 ### Metadata
