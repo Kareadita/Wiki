@@ -14,7 +14,7 @@ As of version 0.7.4 the `Name` field is no longer editable. It is used to direct
 When you edit a field, the field will show a locked icon next to it. This implies that if you add ComicInfo or change ComicInfo, it will not reflect within Kavita, as the field is locked. You can always unlock a field by clicking the lock. In addition, you can edit the item, like Name, and click unlock in the same go, which will allow a ComicInfo update to change it.
 
 ### Metadata
-![edit1](edit1.png "edit1")
+![edit1](seriesedit1.png "seriesedit1")
 ![edit2](edit2.png "edit2")
 ![edit3](edit3.png "edit3")
 ![edit4](edit4.png "edit4")
