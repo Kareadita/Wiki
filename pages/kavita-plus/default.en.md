@@ -1,6 +1,6 @@
 ---
 title: Kavita+
-media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG'
+media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG,preview-series.png'
 visible: true
 published: true
 ---
@@ -11,7 +11,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 
 **Current Features:**
 - External Series for Admins
-  - View Metadata within Kavita
+  - View Metadata within Kavita (Kavita v0.7.9)
 - Remove Donate Link
 - Scrobbling Support
   - AniList
@@ -58,6 +58,7 @@ Kavita+ offers external reviews on the Series Detail page. These reviews are agg
 ### External Recommendations
 Kavita+ offers external recommendations on the Series Detail page. The recommendations are aggregated from multiple sources. If the logged in user is an admin with no age restriction, they will be able to see recommendations that are not on the server, otherwise, only series on the server will show (and the usual age restriction or library restriction will apply). 
 ![recommendations](recommendations.PNG "recommendations")
+![preview-series](preview-series.png "preview-series")
 
 ### External Ratings
 Kavita+ offers external ratings. For now, they are just limited to viewing, but may be integrated into activity streams in the future. Here you can see the ratings displayed along side your own review (or lack thereof).
