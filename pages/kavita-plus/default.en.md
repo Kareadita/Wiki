@@ -11,6 +11,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 
 **Current Features:**
 - External Series for Admins
+  - View Metadata within Kavita
 - Remove Donate Link
 - Scrobbling Support
   - AniList
