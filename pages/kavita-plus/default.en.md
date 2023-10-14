@@ -102,6 +102,9 @@ Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://
 
 ### Updates
 
+##### v0.7.9
+- External Recommendations can now be clicked to preview the series metadata within Kavita. No longer do you have to open a new tab to get a gist of the Series. 
+
 ##### v0.7.8
 - Reviews are now mixed to show a better spectrum. You will always get the first and last 2 and a selection from the middle. This should help you get a fuller picture if the series is a good read for you.
 
