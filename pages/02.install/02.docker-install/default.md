@@ -8,11 +8,11 @@ The Kavita team offers multiple different ways to run with docker:
 * [LinuxServer.io](https://hub.docker.com/r/linuxserver/kavita) - Only offers stable versions. Does not have a nightly branch.
 * [Github Container Registry](https://github.com/kareadita/Kavita/pkgs/container/kavita) - Another option in case you don't want to use dockerhub. 
 * [Kavita Stable](https://hub.docker.com/r/kizaing/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
-* [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new addtions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
+* [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new additions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
 
 # Docker run
 
-Running your Kavita server in docker is super easy! We have worked with LinuxServer to provide an official image that supports easy user mappings and S6 compatability. [See the instructions at DockerHub](https://hub.docker.com/r/linuxserver/kavita)
+Running your Kavita server in docker is super easy! We have worked with LinuxServer to provide an official image that supports easy user mappings and S6 compatibility. [See the instructions at DockerHub](https://hub.docker.com/r/linuxserver/kavita)
 
 ! **Important**: This command is just a template. Change `/your/manga/directory` and `/kavita/data/directory`<br/>Also change the volume bind path in the host
 
@@ -35,7 +35,7 @@ docker run --name kavita -p 5000:5000 \
 
 Using docker compose lets you save your container config setup.
 
-Also makes it easier to update your container if you don't use a container manager (portainer,watchtower)
+Also makes it easier to update your container if you don't use a container manager (portainer, watchtower)
 Create a docker-compose.yml file with the following:
 ! **Important**: This command is just a template. Change the values to fit your needs
 
@@ -87,7 +87,7 @@ docker run ...
 If you used a docker-compose file, in your terminal head to where the file is allocated and run the command again
 ```shell
 docker-compose up -d
-# New docker versions have compose integrated as a subcommand.
+# New docker versions have compose integrated as a sub-command.
 docker compose up -d
 ```
 
