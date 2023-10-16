@@ -14,7 +14,7 @@ Kavita provides email functionality out of the box to invite users, send reset p
 For those that do use it, they must be aware that Kavita will not send emails for the above if the server is not accessible from a public IP. This is done by testing accessibility and having KavitaEmail (the one we run) ping your server during an attempt to send the email. However, if you have a reverse proxy setup, you can use `Host Name` field under Admin Settings to bypass the accessibility check and emails will always be sent. Note: Kavita will never use it's own implementation for sending files to devices. You will need to setup KavitaEmail for this functionality. 
 
 # Kavita Email
-To get started, head over to the KavitaEmail GitHub and download a release, or use our [Docker container](https://hub.docker.com/r/kizaing/kavitaemail).
+To get started, head over to the KavitaEmail GitHub and download a release, or use our [Docker container](https://hub.docker.com/r/jvmilazz0/kavitaemail).
 
 <hr style="border:5px solid #4ac694"> </hr>
 
@@ -24,7 +24,7 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 
 ### With Docker Run
 
-`docker run --name kavita-email -p 5003:5003 -v [Your-Kavita-Email-config-path]:/app/config -d kizaing/kavitaemail:latest`
+`docker run --name kavita-email -p 5003:5003 -v [Your-Kavita-Email-config-path]:/app/config -d jvmilazz0/kavitaemail:latest`
 
 ### With Docker Compose
 
@@ -36,7 +36,7 @@ To get started, head over to the KavitaEmail GitHub and download a release, or u
 version: '3'
 services:
      email:
-        image: kizaing/kavitaemail:latest
+        image: jvmilazz0/kavitaemail:latest
         container_name: kavita-email
         volumes:
            - [Your-Kavita-Email-config-path]:/app/config
@@ -50,7 +50,7 @@ version: '3'
 services:
      kavita:
         container_name: kavita
-        image: kizaing/kavita:nightly
+        image: jvmilazz0/kavita:nightly
         ports:
            - 5000:5000
         volumes:
@@ -60,7 +60,7 @@ services:
 
      kavita-email:
         container_name: kavita-email
-        image: kizaing/kavitaemail:latest
+        image: jvmilazz0/kavitaemail:latest
         ports:
            - 5003:5003
         volumes:
