@@ -67,10 +67,8 @@ For more instructions on how to make Kavita accessible from outside your home ne
 
 >>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db
 
-Kavita self-updating is down the road. Expected to be released in v0.6.0 per the [project page](https://github.com/Kareadita/Kavita/projects?type=classic)
-
 Before updating Kavita, stop the program/service from running.
-1. Follow the guide aguain but:
+1. Follow the guide install again but:
 2. Copy/paste all files __**EXCEPT**__ `config/` to your Kavita install directory.
 
 !!! **Warning**: If you replace `config/`, you will lose your data. 
