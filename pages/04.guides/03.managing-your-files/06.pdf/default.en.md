@@ -5,6 +5,7 @@ visible: true
 
 ### PDF
 ! This part of the wiki is in progress. If you have schemes that work, please raise a PR or reach out to Kavita team in discord. We would love to enhance our documentation.
+! Kavita v0.8.x plans to re-implement the PDF Scanner to improve it across the board. If you're interested, please reach out to majora2007 on discord. 
 
 Kavita supports PDF files out of the box, but due to a lack of standards around metadata, the support is limited to filenames and some hackery is needed to get things working correctly. 
 
