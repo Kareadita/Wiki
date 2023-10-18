@@ -19,13 +19,17 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 | `Equal`      |   | `String`              |   |                  Equals exactly                  |
 | `Not Equal`      |    | `String`              |    |                  Doesn't Equal                  |
 
-
+### Filter Fields
 | Field           ||       Field Type     ||          Description            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
 | Series Name 				  || String || The Name of the Series | 
 | Summary 				  || String || The Summary of the Series | 
 | Path 				 || String || The file path to the highest level of the Series | 
 | File Path 				  || String || The full file path for any file within the Series (note: this is slower than other fields) | 
+| Read Time 				  || Number || Number of hours to read the Series | 
+| Release Year 				  || Number || The Release year of the Series (minimum from all chapters) | 
+| Read Progress				  || Number  || Decimal percentage of Series that is read by user | 
+| User Rating 				  || Number || User Rating percentage of Series by user | 
 
 ### Smart Filters
 A Smart Filter is essentially a saved filter (best created on All Series page). The underlying filter can be loaded and changed and anything that is bound with the Smart Filter will automatically be reflected of the new filters. Once you have a Smart Filter created, check out [Customization](https://wiki.kavitareader.com/en/guides/customization) to learn about how you can utilize the filters.
