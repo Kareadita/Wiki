@@ -16,10 +16,12 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 | Filter Combination           |   | Applies on           |  |           Description            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
 | `Matches`      |    | `String`              |   |                  Applies a search-like match on the field                   |
-| `Equal`      |   | `Summary`              |   |                  Equals exactly                  |
-| `Not Equal`      |    | `Summary`              |    |                  Doesn't Equal                  |
+| `Equal`      |   | `String`              |   |                  Equals exactly                  |
+| `Not Equal`      |    | `String`              |    |                  Doesn't Equal                  |
+
 
 | Field Type           |   | Field           |  |           Description            |
+|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
 | String 				  |   | Series Name || The Name of the Series | 
 | String 				  |   | Summary || The Summary of the Series | 
 | String 				  |   | Path || The file path to the highest level of the Series | 
