@@ -13,11 +13,23 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 #### Filter Combination
 (Table here of the different comparisons and how they work)
 
-| Filter Combination           |   | Applies on           |  |           Description            |
+| Filter Combination           || Applies on          ||          Description            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
-| `Matches`      |    | `String`              |   |                  Applies a search-like match on the field                   |
-| `Equal`      |   | `String`              |   |                  Equals exactly                  |
-| `Not Equal`      |    | `String`              |    |                  Doesn't Equal                  |
+| `Equal`      |   | String/Number/Multi Select              ||                 Equals exactly                  |
+| `Not Equal`     || String/Number/Multi Select            ||                  Doesn't Equal                  |
+| `Begins With`     || String        ||                 Starts with string                 |
+| `Ends With`     || String        ||                 Ends with string                 |
+| `Matches`      || String             ||                 Applies a search-like match on the field                   |
+| `Is Before`     || Date        ||                Date is before X                 |
+| `Is After`     || Date        ||                Date is after X                 |
+| `Less Than`     || Number        ||                Less than X              |
+| `Less Than Equal`     || Number        ||                Less than or Equal to X              |
+| `Greater Than`     || Number        ||               Greater than X              |
+| `Greater Than Equal`     || Number        ||                Greater than or Equal to X              |
+| `Contains`     || Multi Select         ||                The Filter Field contains at least one entry of what is passed             |
+| `Must Contains`     || Multi Select         ||                The Filter Field contains all of what is passed             |
+| `Must Not Contains`     || Multi Select         ||                The Filter Field contains none of what is passed             |
+
 
 ### Filter Fields
 | Field           ||       Field Type     ||          Description            |
