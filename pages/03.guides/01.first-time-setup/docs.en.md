@@ -22,7 +22,7 @@ Kavita supports mixed media libraries. For example, your Light Novels (epub) and
 <hr style="border:4px solid #4ac694"> </hr>
 
 ### Setting up your Admin Account
-To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. Starting with v0.5.1, all accounts must have a valid email assigned to them. If you already have an account, a migration will prompt you at login to add an email. Email links can always be found in your logs in case the email is delayed or your server is not accessible. 
+To get started with Kavita, you must have an admin account created. There can be multiple admin accounts per server, but at least one must exist to manage the server. If you already have an account, a migration will prompt you at login to add an email. Email links can always be found in your logs in case the email is delayed or your server is not accessible. 
 
 
 
