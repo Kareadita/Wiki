@@ -13,6 +13,12 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 #### Filter Combination
 (Table here of the different comparisons and how they work)
 
+| Filter Combination           | Is  | Applies on           | Is  |           Description            |
+|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
+| `Matches`      |  →  | `Summary`              |  →  |                  Applies a search-like match on the field                   |
+| `Equal`      |  →  | `Summary`              |  →  |                  Equals exactly                  |
+| `Not Equal`      |  →  | `Summary`              |  →  |                  Doesn't Equal                  |
+
 ### Smart Filters
 A Smart Filter is essentially a saved filter (best created on All Series page). The underlying filter can be loaded and changed and anything that is bound with the Smart Filter will automatically be reflected of the new filters. Once you have a Smart Filter created, check out [Customization](https://wiki.kavitareader.com/en/guides/customization) to learn about how you can utilize the filters.
 
