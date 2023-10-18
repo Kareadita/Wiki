@@ -1,6 +1,6 @@
 ---
 title: Filtering
-media_order: 'new-filtering.png,customize-dashboard.png,smart-filters.png'
+media_order: 'new-filtering.png,customize-dashboard.png,smart-filters.png,create_smart_filter.png,smart filter list.png'
 ---
 
 ## Metadata Filtering
