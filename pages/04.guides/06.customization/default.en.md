@@ -3,7 +3,7 @@ title: Customization
 media_order: 'external_sources.png,external_sources_add.png,sidenav_more_than_10.png,create_smart_filter.png,customize_dashboard_final_config.png,customize_dashboard_results.png,customize_sidenav.png'
 ---
 
-Here you will find the major UI Customization recently released in Kavita v0.7.9. 
+As of Kavita v0.7.9, Kavita allows for any user to customize their Dashboard and Side Navs. Below you will find some basic information around these mechanisms.
 
 To access any customization in this section, you can click the actionable (...) from your side nav.
 ![access_customize](access_customize.png "access_customize")
