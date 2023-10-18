@@ -13,20 +13,9 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 #### Filter Combination
 (Table here of the different comparisons and how they work)
 
-Starting in v0.7.9, users can save these filter schemes as a Smart Filter. By placing a name in the filter and pressing Save, a smart filter is created/updated. These are the basis of customization for the Dashboard and Side Nav. 
+### Smart Filters
+A Smart Filter is essentially a saved filter (best created on All Series page). The underlying filter can be loaded and changed and anything that is bound with the Smart Filter will automatically be reflected of the new filters. Once you have a Smart Filter created, check out [Customization](https://wiki.kavitareader.com/en/guides/customization) to learn about how you can utilize the filters.
 
-## Customize Your Dashboard
-In order to customize your dashboard, click the actionable menu from the Home side nav and click Customize. From here you will see a list of Dashboard Streams (a stream is a flow of items within Kavita). Kavita comes out of the box with some custom coded streams, like On Deck or Recently Updated Series. However, not all users like the logic Kavita uses and may want their own. This is where Smart Filters and Dashboard customization plays a place. In this screen you can:
-- Reorder Streams
-- Disable Streams
-- Add Existing Smart Filters to the Dashboard 
-
-! Note: Smart Filter based streams will run the smart filter query, so you can edit the smart filter at any given time (via User Settings -> Smart Filter or Clicking on the stream title). 
-! Note: The order of your dashboard will change your OPDS feed. A smart filter section will also be available if you have any.
-
-![customize-dashboard](customize-dashboard.png "customize-dashboard")
-
-![smart-filters](smart-filters.png "smart-filters")
-
-## Customize Your Side Nav
-This is not yet implemented and placeholder
+To create a Smart Filter, just add a name in the Name field and hit Save. Smart Filter names must be unique per user. Smart Filters are user-bound. 
+![create_smart_filter](create_smart_filter.png "create_smart_filter")
+![smart%20filter%20list](smart%20filter%20list.png "smart%20filter%20list")
