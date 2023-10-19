@@ -10,7 +10,6 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 
 ### Filter Fields
 | Field           ||       Field Type     ||          Description            |
-|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
 | Series Name 				  || String || The Name of the Series | 
 | Summary 				  || String || The Summary of the Series | 
 | Path 				 || String || The file path to the highest level of the Series | 
