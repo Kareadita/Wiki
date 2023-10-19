@@ -35,7 +35,7 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 #### Filter Combination
 | Filter Combination           || Applies on          ||          Description            |
 |:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
-| `Equal`      |   | String/Number/Multi Select              ||                 Equals exactly                  |
+| `Equal`      || String/Number/Multi Select              ||                 Equals exactly                  |
 | `Not Equal`     || String/Number/Multi Select            ||                  Doesn't Equal                  |
 | `Begins With`     || String        ||                 Starts with string                 |
 | `Ends With`     || String        ||                 Ends with string                 |
