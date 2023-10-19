@@ -26,7 +26,7 @@ It's important to know how Kavita parses the info from the files, so you can see
 
 Kavita uses parsing (not folder structure) to determine what is a series and what belongs to each series. Kavita requires that each series be in its folder and that no files are at root level of the library.
 
-! Please Read [how the new scanner works](scanner/docs.en.md) prior to continuing with this article
+! Please Read [how the new scanner works](scanner/) prior to continuing with this article
 
 !! **Important**: When parsing filenames, anything between parenthesis and parenthesis themselves will be removed from the series name. <br/>If you wish to separate series using `Series Name (2019)`, it's advised to change parenthesis to brackets `{` `}` and change series name in the UI
 
