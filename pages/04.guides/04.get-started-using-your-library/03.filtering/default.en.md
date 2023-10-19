@@ -33,22 +33,22 @@ Kavita (v0.7.8+) has a rich metadata interface which allows you to build complex
 * People refers to fields such as Translator, Editor, Inker, etc
 
 #### Filter Combination
-| Filter Combination           || Applies on          ||          Description            |
-|:-------------------|:---:|:-----------------------|:---:|:------------------------------------------:|
-| `Equal`      || String/Number/Multi Select              ||                 Equals exactly                  |
-| `Not Equal`     || String/Number/Multi Select            ||                  Doesn't Equal                  |
-| `Begins With`     || String        ||                 Starts with string                 |
-| `Ends With`     || String        ||                 Ends with string                 |
-| `Matches`      || String             ||                 Applies a search-like match on the field                   |
-| `Is Before`     || Date        ||                Date is before X                 |
-| `Is After`     || Date        ||                Date is after X                 |
-| `Less Than`     || Number        ||                Less than X              |
-| `Less Than Equal`     || Number        ||                Less than or Equal to X              |
-| `Greater Than`     || Number        ||               Greater than X              |
-| `Greater Than Equal`     || Number        ||                Greater than or Equal to X              |
-| `Contains`     || Multi Select         ||                The Filter Field contains at least one entry of what is passed             |
-| `Must Contains`     || Multi Select         ||                The Filter Field contains all of what is passed             |
-| `Must Not Contains`     || Multi Select         ||                The Filter Field contains none of what is passed             |
+| Filter Combination           | Applies on          |          Description            |
+| ------ | ----------- |----------- |
+| `Equal`      | String/Number/Multi Select              |                 Equals exactly                  |
+| `Not Equal`     | String/Number/Multi Select            |                  Doesn't Equal                  |
+| `Begins With`     | String        |                 Starts with string                 |
+| `Ends With`     | String        |                 Ends with string                 |
+| `Matches`      | String             |                 Applies a search-like match on the field                   |
+| `Is Before`     | Date        |                Date is before X                 |
+| `Is After`     | Date        |                Date is after X                 |
+| `Less Than`     | Number        |                Less than X              |
+| `Less Than Equal`     | Number        |                Less than or Equal to X              |
+| `Greater Than`     | Number        |               Greater than X              |
+| `Greater Than Equal`     | Number        |                Greater than or Equal to X              |
+| `Contains`     | Multi Select         |                The Filter Field contains at least one entry of what is passed             |
+| `Must Contains`     | Multi Select         |                The Filter Field contains all of what is passed             |
+| `Must Not Contains`     | Multi Select         |                The Filter Field contains none of what is passed             |
 
 ### Smart Filters
 A Smart Filter is essentially a saved filter (best created on All Series page). The underlying filter can be loaded and changed and anything that is bound with the Smart Filter will automatically be reflected of the new filters. Once you have a Smart Filter created, check out [Customization](https://wiki.kavitareader.com/en/guides/customization) to learn about how you can utilize the filters.
