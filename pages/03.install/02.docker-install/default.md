@@ -7,7 +7,7 @@ title: 'Docker Install'
 The Kavita team offers multiple different ways to run with docker:
 * [LinuxServer.io](https://hub.docker.com/r/linuxserver/kavita) - Only offers stable versions. Does not have a nightly branch.
 * [Github Container Registry](https://github.com/kareadita/Kavita/pkgs/container/kavita) - Another option in case you don't want to use dockerhub. 
-* [Kavita Stable](https://hub.docker.com/r/kizaing/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
+* [Kavita Stable](https://hub.docker.com/r/jvmilazz0/kavita) - Only stable versions going forward. Do not use the :nightly tag here as it is not updated anymore.
 * [Kavita Nightly](https://hub.docker.com/r/jvmilazz0/kavita) - Nightly builds used to help test features and new additions. If your going to run this version please join the [Discord](https://discord.gg/b52wT37kt7). 
 
 # Docker run
@@ -28,7 +28,7 @@ docker run --name kavita -p 5000:5000 \
 -v /kavita/data/directory:/kavita/config \
 --restart unless-stopped \
 -e TZ=Your/Timezone \
--d kizaing/kavita:latest
+-d jvmilazz0/kavita:latest
 ```
 
 # Docker compose
@@ -46,7 +46,7 @@ Create a docker-compose.yml file with the following:
 ```yml
 services:
     kavita:
-        image: kizaing/kavita:latest    # Using the stable branch from the offical repo.
+        image: jvmilazz0/kavita:latest    # Using the stable branch from the offical repo.
         container_name: kavita
         volumes:
             - ./manga:/manga            # Manga is just an example you can have the name you want. See the following
@@ -70,14 +70,14 @@ You don't need to call it manga, you can name it anything that works for you. Ka
 ## Updating Kavita
 
 >>>**IMPORTANT**: If you are updating from a really old version you need to upgrade every 2 versions at a time. Doing otherwise you risk to having to restart with a fresh db<br/>
->>>To do so use as image tag kizaing/kavita:<version_tag_here\> or ghcr.io/kareadita/kavita:<version_tag_hgere\> if using the GitHub registry<br/>
->>>Check available tags in the [dockerhub tags page](https://hub.docker.com/r/kizaing/kavita/tags)<br/>
+>>>To do so use as image tag jvmilazz0/kavita:<version_tag_here\> or ghcr.io/kareadita/kavita:<version_tag_here\> if using the GitHub registry<br/>
+>>>Check available tags in the [dockerhub tags page](https://hub.docker.com/r/jvmilazz0/kavita/tags)<br/>
 >>>Look for stable tags would just be `x.y.z`
 
 
 You can run the following commands:
 ```shell
-docker pull kizaing/kavita:latest
+docker pull jvmilazz0/kavita:latest
 ```
 Then run the command you used to [first create docker](#docker-run).
 ```shell
