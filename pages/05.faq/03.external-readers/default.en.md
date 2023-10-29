@@ -2,11 +2,13 @@
 title: 'External Readers'
 ---
 
-If using Kavita's built-in readers is not your cup of tea, you can use external readers over OPDS.
+If using Kavita's built-in readers is not your cup of tea, you can use external readers over OPDS of dedicated apps that use our API.
 
 OPDS is an open protocol to allow downloading and reading content. OPDS by default does not allow for any progress tracking unless you use OPDS-PS with Kavita.
 
 What you find below is not an exhaustive list, but rather what has been tested to work with Kavita. 
+
+! Tip: Most users save the website to their phone/tablet's homescreen which will launch the app in fullscreen and emulate a native app. 
 
 ## Android
 
