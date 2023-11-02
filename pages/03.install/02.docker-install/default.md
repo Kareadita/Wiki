@@ -95,5 +95,5 @@ docker compose up -d
 ## Access Kavita
 Browse to [http://localhost:5000](http://localhost:5000) to start using Kavita from any device inside your network. (change localhost to the host IP where your docker instance is at)
 
-Please continue in [first time setup wiki page](../../03.guides/01.first-time-setup/docs.en.md)
+Please continue in [first time setup wiki page](https://wiki.kavitareader.com/en/guides/first-time-setup)
 
