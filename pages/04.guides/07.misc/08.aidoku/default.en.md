@@ -22,7 +22,7 @@ Those link to the plugin's GitHub. Please do not create issues on Kavita's GitHu
 
 ! **Make sure Kavita is updated to the latest version**
 
-1. Install Aidoku, either through Testflight or Sideload their compiled ipa through AltStore. Documentation on this can be found on Aidoku's website. https://aidoku.app/help/guides/getting-started/
+1. Install Aidoku, either through Testflight or Sideload their compiled ipa through AltStore. Documentation on this can be found on [Aidoku's website](https://aidoku.app/help/guides/getting-started/).
 
 2. Go to [https://github.com/ACK72/kavya-aidoku/](https://github.com/ACK72/kavya-aidoku/) and tap "**Add this source**" in the Readme section
 
