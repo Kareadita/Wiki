@@ -29,6 +29,7 @@ What you find below is not an exhaustive list, but rather what has been tested t
 | Panels    |  ✓   |    ✓    |  ✗   |       ✓       |      ✗       |
 | Yomu      |  ✓   |    ✗    |  ✓   |       ✗       |      ✗       |
 | [Paperback](https://wiki.kavitareader.com/en/guides/misc/paperback) | ✗  |     ✗    |  ✗    |        ✓**       |     ✓       |
+| [Aidoku](https://wiki.kavitareader.com/en/guides/misc/aidoku) | ✗  |     ✗    |  ✗    |        ✓**       |     ✓       |
 <br/>* Does not use opds. However, for ease of setup the same link retrieved from this setting is used<br/>
 ** Progress syncing is done per chapter, not per page
 
