@@ -18,11 +18,8 @@ Sometimes file types isn't enough, you need to ignore folders. You can do this w
 For example, in the image, any file within a folder named `One Piece` will be ignored. There are a few different special characters to power this, shown below.
 
 ## What is the basic syntax
-* Blank lines are ignored.
 * The `*` character is a wildcard.
-* Patterns without the forward-slash ' /' character (e.g. `*.cbz`) match filenames in the same directory as the **.kavitaignore** file, or anywhere in the tree if **.kavitaignore** is a root of the section.
-* Patterns with the forward-slash '/' character (e.g. `somedir/*`) match directory and file patterns relative to the directory containing the **.kavitaignore** file.
-
-
+* Patterns without the forward-slash ' /' character (e.g. `*.cbz`) match filenames
+* Patterns with the forward-slash '/' character (e.g. `somedir/*`) match directory and file patterns
 
 For advanced syntax please refer to the [library description](https://github.com/dazinator/DotNet.Glob/blob/develop/README.md#patterns)
