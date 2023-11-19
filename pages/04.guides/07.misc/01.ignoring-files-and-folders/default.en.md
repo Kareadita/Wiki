@@ -2,7 +2,7 @@
 title: 'Special Keyword File/Folder Exclusion'
 ---
 
->>> This functionality only works on v0.5.6+. 
+>>>This functionality is deprecated and replaced by Library Settings
 
 For advanced syntax please refer to the [library description](https://github.com/dazinator/DotNet.Glob/blob/develop/README.md#patterns)
 
