@@ -3,8 +3,6 @@ title: 'Excluding Files/Folders'
 media_order: 'library-file-types.png,exclude-patterns.png'
 ---
 
-! This is a WIP page for an upcoming change to Kavita
-
 ## Excluding File Types
 Kavita supports many different file types and by default will see them, but that might not be a good feature in some situations, where programs like Mylar may create sidecar image files. In order to ignore these, you can use the file types controls in Library Setting's Advanced tab. From here, you can turn on/off different types of files. For example, you can turn off all different images from the whole library. This includes what is supported now and in the future. 
 
