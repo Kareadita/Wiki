@@ -16,6 +16,7 @@ visible: true
 - [The Scan Loop](#the-scan-loop)
 - [Notes](#notes)
 - [Folder Watching](#folder-watching)
+- [Excluding Files/Folders](/guides/managing-your-files/scanner/excluding-files-folders)
 - [Media Errors](#media-errors)
 
 <hr style="border:5px solid #4ac694">
