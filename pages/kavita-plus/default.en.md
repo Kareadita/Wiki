@@ -100,6 +100,12 @@ AniList currently doesn't show activity if only Volumes were read. You can read 
 #### I have a cool idea
 Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://feats.kavitareader.com) and allow me and the community to expand on it and prioritize it. 
 
+### Discussion Items
+Kavita+ features are usually discussed in the discord, however I have some Github issues open and am looking forward to information from the community before moving forward. If you want to discuss, please leave a comment there.
+- [Paused/Dropped Scrobble status](https://github.com/Kareadita/Kavita/issues/2447)
+- [Remove Review Scrobbling](https://github.com/Kareadita/Kavita/issues/2451)
+- [Basic Metadata Matching](https://github.com/Kareadita/Kavita/issues/2452)
+
 ### Updates
 
 ##### v0.7.9
