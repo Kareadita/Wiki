@@ -38,7 +38,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 ! Note: Kavita+ does not download metadata for your files. This is already available for free via [Komf](https://github.com/Snd-R/komf). 
 
 ## First time Subscribers
-If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 50% discount on the first month (2$). If you are an active OpenCollective donator, please contact majora2007 for provisioning. 
+If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 2$ discount on the first month/year. If you are an active OpenCollective donator, please contact majora2007 for provisioning. 
 
 ## How to Buy
 Navigate to Admin Dashboard -> Kavita+ tab. From there, you can purchase a license via the Buy button. A new tab will open prompting you for your pay information. Kavita+ uses Stripe to handling payments. Kavita team does not have any access to your personal information. Please ensure you use a real email, otherwise you will not be able to receive your product key. Upon finishing subscription, you will receive an email from Kavita with your license key. Move to the Activate step.
@@ -70,7 +70,7 @@ Scrobbling is the act of synchronizing certain activities done on a Server, like
 - Reading Progress
 - Want to Read -> Adds a series to Planning
 - Rating a series -> Will map to your rating preferences
-- Reviews -> AniList requires reviews be 2200 characters with a tagline of 20-150 characters. If your review doesn't match this, it will not scrobble
+- Reviews -> AniList requires reviews be 2200 characters with a tagline of 20-150 characters. If your review doesn't match this, it will not scrobble.
 
 To setup Scrobbling, navigate to your User Settings -> Account tab and click Scrobbling. You can add a token for the scrobble provider. You should see a Generate button. This will generate a token for you. Copy and paste this into Kavita and hit save. Once your token is validated, Kavita will show it as set. Tokens are per-user and Kavita will automatically keep them fresh for you. 
 ![edit-scrobbling](edit-scrobbling.PNG "edit-scrobbling")
@@ -96,6 +96,9 @@ As of Kavita v0.7.4, only series that exist on AniList will provide external dat
 
 #### AniList activity feed isn't showing my progress
 AniList currently doesn't show activity if only Volumes were read. You can read more about it [here](https://anilist.co/forum/thread/2586). You can validate that the Volumes do update in the Series on AniList. 
+
+#### License already tied to another server
+This can happen when you change hardware, OS, or re-install Kavita. Just send an email to kavitareader or reach out directly to majora2007 in discord with your license key and it will be reset. 
 
 #### I have a cool idea
 Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://feats.kavitareader.com) and allow me and the community to expand on it and prioritize it. 
