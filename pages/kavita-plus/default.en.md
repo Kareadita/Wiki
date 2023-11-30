@@ -80,6 +80,7 @@ If you do not want scrobbling on a library, as an admin, you can turn it off in 
 
 Scrobbling will always ensure the highest between AniList and Kavita is taken. So if AniList has 10 volumes read and Kavita reports 5, nothing will change. This is to ensure users that use multiple services or has existing history not brought into Kavita do not have any issues with their history. 
 
+! Kavita will scrobble once every 4 hours to AniList
 
 ### How to fix bad Matches
 As series can often have many names and users may put their own spin on each one, scrobbling might fail to match. In these cases, there are two options: Correct the Series name or Localized Series name to match AniList or add AniList or MAL weblink to the series. Once done, you can clear scrobble errors and wait. Scrobbling should take after this. You may also want to bust cache in Admin -> Tasks, which will clear bad rating, recommendation, and review data for all your users. 
