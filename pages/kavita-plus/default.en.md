@@ -111,6 +111,8 @@ Kavita+ features are usually discussed in the discord, however I have some Githu
 - [Basic Metadata Matching](https://github.com/Kareadita/Kavita/issues/2452)
 
 ### Updates
+##### v0.7.11
+- Fixed Want to read not scrobbling from Kavita
 
 ##### v0.7.9
 - External Recommendations can now be clicked to preview the series metadata within Kavita. No longer do you have to open a new tab to get a gist of the Series. 
