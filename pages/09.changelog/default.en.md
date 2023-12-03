@@ -23,7 +23,7 @@ Out of the box, the book reader has a few cool functionalities.
 - Links that are external will open in a new tab. 
 - Like the manga reader, your book settings can be saved and applied to all books or overridden for the book you are reading.
 
-### Future updates
+#####  Future updates
 In addition, this update will see a change in how releases are done. Instead of major releases every month or so, I will be splitting up features into minor release (v0.4.1, v0.4.2) with a new feature in each one. This will let me deliver faster and get feedback quicker. Join the discord to be apart of feedback and discussion of new features.
 
 ##### Added
