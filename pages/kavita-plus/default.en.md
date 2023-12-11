@@ -109,6 +109,7 @@ Kavita+ features are usually discussed in the discord, however I have some Githu
 - [Paused/Dropped Scrobble status](https://github.com/Kareadita/Kavita/issues/2447)
 - [Remove Review Scrobbling](https://github.com/Kareadita/Kavita/issues/2451)
 - [Basic Metadata Matching](https://github.com/Kareadita/Kavita/issues/2452)
+- [Removal of GoogleBooks Ratings](https://github.com/Kareadita/Kavita/issues/2493)
 
 ### Updates
 ##### v0.7.11
