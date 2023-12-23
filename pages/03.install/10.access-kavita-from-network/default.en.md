@@ -29,7 +29,7 @@ If you would like to contribute your working Reverse Proxy config please join us
 ### Config examples
 
 * [NGINX Example](reverse-proxy/01.nginx-example/default.md)
-* [NGINX Proxy Manager Example](reverse-proxy/nginx-proxy-manger-example)
+* [NGINX Proxy Manager Example](reverse-proxy/nginx-proxy-manager-example)
 * [HAPROXY Example](reverse-proxy/02.haproxy-example/default.md)
 * [Caddy Example](reverse-proxy/03.caddy-example/default.md)
 * [Apache2 Example](reverse-proxy/04.apache2-example/default.md)
