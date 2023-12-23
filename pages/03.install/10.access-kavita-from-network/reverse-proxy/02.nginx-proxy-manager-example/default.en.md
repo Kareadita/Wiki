@@ -1,5 +1,5 @@
 ---
-title: 'NGINX Proxy Manger Example'
+title: 'NGINX Proxy Manager Example'
 media_order: 'customlocations.png,ssl.png,proxy.png'
 ---
 
