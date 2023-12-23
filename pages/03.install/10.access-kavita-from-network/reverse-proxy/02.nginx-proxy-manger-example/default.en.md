@@ -1,5 +1,6 @@
 ---
 title: 'NGINX Proxy Manger Example'
+media_order: 'customlocations.png,ssl.png,proxy.png'
 ---
 
  ### NGINX Proxy Manager with Let's Encrypt
