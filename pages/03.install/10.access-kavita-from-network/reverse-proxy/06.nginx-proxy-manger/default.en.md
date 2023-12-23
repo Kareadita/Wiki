@@ -1,5 +1,5 @@
 ---
-title: 'NGINX Proxy manger'
+title: 'NGINX Proxy Manger Example'
 ---
 
  ### NGINX Proxy Manager with Let's Encrypt
