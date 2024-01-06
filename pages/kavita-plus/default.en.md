@@ -25,6 +25,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
   - AniList
   - MAL
   - Google Book (Kavita v0.7.6+) (In trial to see if valuable for members)
+- Removal of Donate link on side nav
 
 **Planned:**
 - Non-manga Book Support
