@@ -49,7 +49,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ===
 
 #### Q. **Does Kavita collect any data on me?**
-* A. By default, Kavita will collect stats on your installation. This will run after 24 hours to give you time to opt-out (v0.7). You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats). Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
+* A. By default, Kavita will collect stats on your installation. This will run after 24 hours to give you time to opt-out. You can opt out at any time by turning off "Send Data" from the Admin Dashboard. All data is anonymized and contains no information about your filenames or IP. The Kavita team actively uses this data to help design the UX and plan enhancements. If you chose to remain opted-in, thank you. It really helps in the design and planning effort. You can view the code at any time [here](https://github.com/Kareadita/KavitaStats). Here is a [record](https://github.com/Kareadita/KavitaStats/blob/main/KavitaStats/Entities/StatRecord.cs) from our stats database:
 ```json
 {
     "InstallId":"0cf3ad15",
@@ -72,7 +72,7 @@ rclone mount [your mount name]: [local path to be mounted] \
 ===
 
 #### Q. **Is there a way to use Kavita without Authentication?**
-* A. No, this type of functionality is not supported and there are no plans. Kavita offers Refresh Tokens which should keep you authenticated without having to manually log in. 
+* A. No, this type of functionality is not supported and there are no plans. Kavita offers Refresh Tokens which should keep you authenticated without having to manually log in. You can also use your apiKey to auto-login to your account via url (url/login?apiKey=XXX). 
 
 ===
 
@@ -90,7 +90,7 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 #### Q. **Sometimes I add ComicInfo to the first archive, but Kavita doesn't show it at a series level. Is this a bug?**
-* A. There are 2 things to keep in mind. If the underlying file Created/LastModified isn't being changed since our last scan, we skip it to save on time and resources. In addition, if the file is not an archive starting with C, like cbz, cbr, etc, then it will not be checked for ComicInfo metadata. 
+* A. There are 2 things to keep in mind. If the underlying file Created/LastModified isn't being changed since our last scan, we skip it to save on time and resources. A series scan will always scan or a library forced scan will work. Sometimes it's best to rename the file once then back. In addition, if the file is not an archive starting with C, like cbz, cbr, etc, then it will not be checked for ComicInfo metadata. 
 
 ===
 
@@ -104,47 +104,12 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 
 ===
 
-#### Q. **I'm seeing duplicate chapters/issues. What's going on?**
-- A. This may happen if you've been a longtime user. Over the version iterations, the DB has changed pretty significantly. There are two options. In either case, **Backup your Database first**:
-    - 1. You can choose to start fresh, delete your current database and reconfigure the instance. This is not recommended or ideal.
-    - 2. You can use execute the following SQL commands on your DB using some tool like DB Browser.
+#### Q. **I want to donate, what are my options?**
+- Open Collective - Transparent donations, money is used on supplies for project (this includes coffee, panels subscriptions, devices when needed, etc)
+- Paypal - One off donation. 
+- Kavita+ - This brings benefit with your donation. See [Kavita+](https://wiki.kavitareader.com/en/kavita-plus) for benefits
 
-    2. Verify Duplicates
-```sql
-SELECT b.* FROM MangaFile b JOIN( 
-    SELECT *, MIN(Id) as low_ID, Count(*) FROM MangaFile
-    GROUP BY FilePath
-    HAVING COUNT(*) > 1 ) c
-ON b.FilePath = c.FilePath
-WHERE b.Id != c.low_ID
-ORDER BY b.FilePath
-```
-Delete Chapter Information first
-```sql
-DELETE FROM Chapter 
-WHERE Id IN (
-    SELECT b.ChapterId FROM MangaFile b JOIN( 
-        SELECT *, MIN(Id) as low_ID, Count(*) FROM MangaFile
-        GROUP BY FilePath
-        HAVING COUNT(*) > 1 ) c
-    ON b.FilePath = c.FilePath
-    WHERE b.Id != c.low_ID
-    ORDER BY b.FilePath
-)
-```
-Delete MangaFile Information
-```sql
-DELETE FROM MangaFile
-WHERE Id IN (
-    SELECT b.Id FROM MangaFile b JOIN( 
-        SELECT *, MIN(Id) as low_ID, Count(*) FROM MangaFile
-        GROUP BY FilePath
-        HAVING COUNT(*) > 1 ) c
-    ON b.FilePath = c.FilePath
-    WHERE b.Id != c.low_ID
-    ORDER BY b.FilePath
-)
-```
+Any donations are appreciated. Only Kavita+ removes the donate button on the sidenav. 
 
 ===
 
