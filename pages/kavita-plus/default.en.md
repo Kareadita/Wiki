@@ -107,11 +107,15 @@ Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://
 ### Discussion Items
 Kavita+ features are usually discussed in the discord, however I have some Github issues open and am looking forward to information from the community before moving forward. If you want to discuss, please leave a comment there.
 - [Paused/Dropped Scrobble status](https://github.com/Kareadita/Kavita/issues/2447)
-- [Remove Review Scrobbling](https://github.com/Kareadita/Kavita/issues/2451)
 - [Basic Metadata Matching](https://github.com/Kareadita/Kavita/issues/2452)
 - [Removal of GoogleBooks Ratings](https://github.com/Kareadita/Kavita/issues/2493)
 
 ### Updates
+##### v0.7.12
+- Removal of ability to scrobble Reviews to AniList [Issue](https://github.com/Kareadita/Kavita/issues/2451)
+- Ability to reset your license key via Kavita
+- Ability to tie your license with discord for upcoming hidden channels
+
 ##### v0.7.11
 - Fixed Want to read not scrobbling from Kavita
 
