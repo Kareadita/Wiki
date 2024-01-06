@@ -105,9 +105,9 @@ There are multiple series that map to normalized key SERIESNAME. You can manuall
 ===
 
 #### Q. **I want to donate, what are my options?**
-- Open Collective - Transparent donations, money is used on supplies for project (this includes coffee, panels subscriptions, devices when needed, etc)
-- Paypal - One off donation. 
-- Kavita+ - This brings benefit with your donation. See [Kavita+](https://wiki.kavitareader.com/en/kavita-plus) for benefits
+- [Open Collective](https://opencollective.com/kavita) - Transparent donations, money is used on supplies for project (this includes coffee, panels subscriptions, devices when needed, etc)
+- [Paypal](https://www.paypal.com/paypalme/majora2007) - One off donation. 
+- Kavita+ - This brings benefit with your donation. See [Kavita+](https://wiki.kavitareader.com/en/kavita-plus) for benefits. 
 
 Any donations are appreciated. Only Kavita+ removes the donate button on the sidenav. 
 
