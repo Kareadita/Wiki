@@ -1,6 +1,6 @@
 ---
 title: Kavita+
-media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG,preview-series.png'
+media_order: 'Activate License.PNG,User-Reviews.PNG,individual-review.PNG,recommendations.PNG,external-reviews.PNG,edit-scrobbling.PNG,scrobbling-set.PNG,preview-series.png,discord.png,discord_2.png'
 visible: true
 published: true
 ---
@@ -10,6 +10,7 @@ Kavita+ is an **optional** premium service offered by the main developer of Kavi
 Kavita+ is a monthly subscription for your individual instance and is node-locked. Once active, all users on your server gain the benefit. You can cancel and resume at any time. 
 
 **Current Features:**
+- Provide feedback on upcoming features (hidden channels)
 - External Series for Admins
   - View Metadata within Kavita (Kavita v0.7.9)
 - Remove Donate Link
@@ -27,8 +28,10 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
   - Google Book (Kavita v0.7.6+) (In trial to see if valuable for members)
 
 **Planned:**
+- Basic metadata support (Info [here](https://github.com/Kareadita/Kavita/issues/2452))
 - Non-manga Book Support
-  - OpenLibrary to be implemented (in trial)
+  - OpenLibrary to be implemented (may be replaced by Hardcover)
+  - Hardcover (planned for 2024)
 - Webhook Support
 - Find non-owned series by Person (like Authors)
 - Collection creation via Stack Monitoring (Stacks are collections on MAL and AniList) (This is being trialed as no API exists)
@@ -83,6 +86,15 @@ Scrobbling will always ensure the highest between AniList and Kavita is taken. S
 
 ### How to fix bad Matches
 As series can often have many names and users may put their own spin on each one, scrobbling might fail to match. In these cases, there are two options: Correct the Series name or Localized Series name to match AniList or add AniList or MAL weblink to the series. Once done, you can clear scrobble errors and wait. Scrobbling should take after this. You may also want to bust cache in Admin -> Tasks, which will clear bad rating, recommendation, and review data for all your users. 
+
+### Discord Id
+If you want access to channels in the discord server for Kavita+ users, you need to link your Discord user id with your Kavita+ license. Under the Kavita+ tab, you can do this. Note, this is your discord user id number, not your discord username. 
+
+To do this, go to Discord Settings > Advanced and turn Developer Mode ON.
+![discord](discord.png "discord")
+
+From your user profile on the bottom left, you can click and get your user id. It should be a list of numbers.
+![discord_2](discord_2.png "discord_2")
 
 ### FAQ
 #### Some reviews look broken
