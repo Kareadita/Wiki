@@ -14,7 +14,7 @@ Kavita scans epubs in a 2 pass process. The first pass pulls from the internal m
 This will import the following fields from the Epub into Kavita:
 * `dc:title` element as the _Title_ (this can be overridden by `calibre:series` or `belongs-to-collection` meta)
 * `dc:description` element as the _Summary_
-* `dc:subjects` elements as the _Genres_
+* `dc:subject` elements as the _Genres_
 * `dc:language` elements as the _Language_ (Kavita will only take the first)
 * `dc:creator` elements as the _Writer_ (See Expanding People Metadata)
 * `dc:publisher` elements as the _Publisher_ (See Expanding People Metadata)
