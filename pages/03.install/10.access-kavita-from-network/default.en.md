@@ -30,10 +30,10 @@ If you would like to contribute your working Reverse Proxy config please join us
 
 * [NGINX Example](reverse-proxy/01.nginx-example/default.md)
 * [NGINX Proxy Manager Example](reverse-proxy/nginx-proxy-manager-example)
-* [HAPROXY Example](reverse-proxy/02.haproxy-example/default.md)
-* [Caddy Example](reverse-proxy/03.caddy-example/default.md)
-* [Apache2 Example](reverse-proxy/04.apache2-example/default.md)
-* [SWAG Example](reverse-proxy/05.swag-example/default.md)
+* [HAPROXY Example](reverse-proxy/haproxy-example)
+* [Caddy Example](reverse-proxy/caddy-example)
+* [Apache2 Example](reverse-proxy/apache2-example)
+* [SWAG Example](reverse-proxy/swag-example)
 
 <hr style="border:5px solid #4ac694">
 
