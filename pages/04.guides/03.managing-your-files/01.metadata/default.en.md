@@ -34,6 +34,7 @@ The XML schema of this file can be found in the [Anansi Project webpage](https:/
 
 ! **Note**: Kavita currently supports the following custom tags: 
 - `<LocalizedSeries>` : Contains optional localized series name which will display in Kavita. Will allow searching for either series name. Will group files that have the localized name and the series name together as one series.
+- `<SeriesSort>` : The sort title to use for the Series. Kavita will prefer this over `<Series>`
 
 <hr style="border:2px solid #4ac694">
 
