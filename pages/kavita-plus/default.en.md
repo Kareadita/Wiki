@@ -110,10 +110,10 @@ As of Kavita v0.7.4, only series that exist on AniList will provide external dat
 AniList currently doesn't show activity if only Volumes were read. You can read more about it [here](https://anilist.co/forum/thread/2586). You can validate that the Volumes do update in the Series on AniList. 
 
 #### License already tied to another server
-This can happen when you change hardware, OS, or re-install Kavita. Just send an email to kavitareader or reach out directly to majora2007 in discord with your license key and it will be reset. 
+This can happen when you change hardware, OS, or re-install Kavita. You can use the Reset button under Kavita+ > Edit to untie then retie your instance. In case that doesn't work, you can reach out to majora2007 in discord or via the email you got your license from to manually reset the key. 
 
 #### I have a cool idea
-Like all ideas with Kavita, please raise it on [feats.kavitareader.com](https://feats.kavitareader.com) and allow me and the community to expand on it and prioritize it. 
+Like all ideas with Kavita, please raise it on [Github Discussions](https://github.com/Kareadita/Kavita/discussions) and allow me and the community to expand on it and prioritize it. 
 
 ### Discussion Items
 Kavita+ features are usually discussed in the discord, however I have some Github issues open and am looking forward to information from the community before moving forward. If you want to discuss, please leave a comment there.
