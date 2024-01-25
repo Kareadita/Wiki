@@ -37,7 +37,7 @@ Kavita+ is a monthly subscription for your individual instance and is node-locke
 - Collection creation via Stack Monitoring (Stacks are collections on MAL and AniList) (This is being trialed as no API exists)
 - Community-Driven Proposed Features (you can submit your ideas [here](https://github.com/Kareadita/Kavita/discussions/2529))
 
-! Note: Kavita+ does not download metadata for your files. This is already available for free via [Komf](https://github.com/Snd-R/komf). Note: A basic proposal has been created to support this, please add your feedback [here](https://github.com/Kareadita/Kavita/issues/2452)
+! Note: Kavita+ does not download metadata for your files. This is already available for free via [Komf](https://github.com/Snd-R/komf). A basic proposal has been created to support this, please add your feedback [here](https://github.com/Kareadita/Kavita/issues/2452)
 
 ## First time Subscribers
 If you are interested, you can use the promo code `FIRSTTIME` for your initial signup for a 2$ discount on the first month/year. If you are an active OpenCollective donator, please contact majora2007 for provisioning. 
