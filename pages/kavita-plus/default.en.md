@@ -122,6 +122,10 @@ Kavita+ features are usually discussed in the discord, however I have some Githu
 - [Removal of GoogleBooks Ratings](https://github.com/Kareadita/Kavita/issues/2493)
 
 ### Updates
+##### v0.7.14
+- Added the ability to cache external metadata in your Kavita database for faster retrieval 
+- Ability for Kavita to sort/filter on Average Rating (from external sources)
+
 ##### v0.7.12
 - Removal of ability to scrobble Reviews to AniList [Issue](https://github.com/Kareadita/Kavita/issues/2451)
 - Ability to reset your license key via Kavita
