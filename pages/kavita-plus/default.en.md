@@ -122,6 +122,10 @@ Kavita+ features are usually discussed in the discord, however I have some Githu
 - [Removal of GoogleBooks Ratings](https://github.com/Kareadita/Kavita/issues/2493)
 
 ### Updates
+##### v0.8.0 (upcoming)
+- Added a background task to build out external metadata over time
+- Added hooks to fill out external metadata for new series when added to Kavita
+
 ##### v0.7.14
 - Added the ability to cache external metadata in your Kavita database for faster retrieval 
 - Ability for Kavita to sort/filter on Average Rating (from external sources)
