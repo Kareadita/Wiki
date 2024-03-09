@@ -9,8 +9,7 @@ taxonomy:
         - Mail
 ---
 
-
-! This page is completely out of date, please see this page for Email instructions: https://wiki2.kavitareader.com/guides/admin-settings/email
+! This page is completely out of date, please see this page for Email instructions: [https://wiki2.kavitareader.com/guides/admin-settings/email](https://wiki2.kavitareader.com/guides/admin-settings/email)
 
 Kavita provides email functionality out of the box to invite users, send reset password links, and more. We currently use a Google account that sends the emails and then auto deletes them. However, not all users want to put trust in another party and for this, Kavita offers [KavitaEmail](https://github.com/Kareadita/KavitaEmail) microService, so you can use your own SMTP service.
 
