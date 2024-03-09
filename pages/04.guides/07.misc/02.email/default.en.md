@@ -9,6 +9,9 @@ taxonomy:
         - Mail
 ---
 
+
+! This page is completely out of date, please see this page for Email instructions: https://wiki2.kavitareader.com/guides/admin-settings/email
+
 Kavita provides email functionality out of the box to invite users, send reset password links, and more. We currently use a Google account that sends the emails and then auto deletes them. However, not all users want to put trust in another party and for this, Kavita offers [KavitaEmail](https://github.com/Kareadita/KavitaEmail) microService, so you can use your own SMTP service.
 
 For those that do use it, they must be aware that Kavita will not send emails for the above if the server is not accessible from a public IP. This is done by testing accessibility and having KavitaEmail (the one we run) ping your server during an attempt to send the email. However, if you have a reverse proxy setup, you can use `Host Name` field under Admin Settings to bypass the accessibility check and emails will always be sent. Note: Kavita will never use it's own implementation for sending files to devices. You will need to setup KavitaEmail for this functionality. 
